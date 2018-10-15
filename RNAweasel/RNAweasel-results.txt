@@ -1,0 +1,182 @@
+
+Identified RNA structure
+
+                                    Retained # 
+                                   of solution
+tRNAs without introns                       30
+tRNAs mt with intron                         0
+tRNAs cp with intron                         1
+rnpB (mito + plastid)                        0
+rnpB, derived (mito + plastid)               0
+5S RNA (complete)                            1
+5S RNA (only core region)                    0
+rns (complete)                               1
+rns (5' portion)                             0
+rns (3' portion)                             0
+intron IB (complete)                         0
+intron IB (extra insertion)                  0
+intron IB (5', partial)                      0
+intron IB (3', partial)                      0
+intron IA                                    0
+intron IA (5' partial)                       0
+intron I (derived, A)                        0
+intron I (derived, B1)                       0
+intron ID                                    0
+intron IB (extra group)                      0
+intron IC1                                   0
+intron IC2                                   0
+intron IA3                                   0
+intron I (derived, B2)                       0
+intron II (domainV)                         12
+intron II, derived                           1
+----------------------------------------------
+Total number of introns                     44
+
+******************************************************************************
+
+
+List of identified tRNAs without introns (positions including discriminator) :
+
+                                               tRNA   tRNA tRNA  Anti  
+Species name                   tRNA # Strand  Begin    End Type Codon  E-value
+------------------------------ ------ ------ ------ ------ ---- ----- --------
+WS77111_complete_chloroplast_g      1     FW  12365  12438  Pro   TGG 1.09e-12
+WS77111_complete_chloroplast_g      2     FW  12606  12679  Trp   CCA 5.92e-14
+WS77111_complete_chloroplast_g      3     FW  29784  29858  His   GTG 4.06e-11
+WS77111_complete_chloroplast_g      4     FW  31580  31667  Ser   GCT 8.55e-14
+WS77111_complete_chloroplast_g      5     FW  32157  32229  Glu   TTC 1.95e-08
+WS77111_complete_chloroplast_g      6     FW  32302  32385  Tyr   GTA 2.60e-08
+WS77111_complete_chloroplast_g      7     FW  32645  32718  Asp   GTC 2.08e-09
+WS77111_complete_chloroplast_g      8     FW  70531  70603  Thr   TGT 1.25e-11
+WS77111_complete_chloroplast_g      9     FW  80198  80271  Met   CAT 6.10e-13
+WS77111_complete_chloroplast_g     10     FW  81189  81275  Ser   TGA 1.64e-12
+WS77111_complete_chloroplast_g     11     FW  93184  93257  Arg   ACG 1.38e-09
+WS77111_complete_chloroplast_g     12     FW 108450 108523  Pro   GGG 1.76e-09
+WS77111_complete_chloroplast_g     13     FW 115487 115567  Leu   CAA 7.66e-14
+WS77111_complete_chloroplast_g     14     FW 123198 123271  Met   CAT 1.09e-12
+WS77111_complete_chloroplast_g     15     RC   6524   6453  Gln   TTG 4.29e-12
+WS77111_complete_chloroplast_g     16     RC   7823   7736  Ser   GCT 6.44e-14
+WS77111_complete_chloroplast_g     17     RC  22149  22076  Arg   CCG 1.41e-12
+WS77111_complete_chloroplast_g     18     RC  26686  26614  Met   CAT 5.51e-10
+WS77111_complete_chloroplast_g     19     RC  30053  29982  Thr   GGT 2.54e-11
+WS77111_complete_chloroplast_g     20     RC  35118  35048  Cys   GCA 5.69e-09
+WS77111_complete_chloroplast_g     21     RC  51584  51513  Arg   TCT 3.98e-11
+WS77111_complete_chloroplast_g     22     RC  67248  67175  Met   CAT 1.01e-12
+WS77111_complete_chloroplast_g     23     RC  69162  69090  Phe   GAA 3.26e-14
+WS77111_complete_chloroplast_g     24     RC  71853  71767  Ser   GGA 6.55e-13
+WS77111_complete_chloroplast_g     25     RC  80478  80408  Gly   GCC 2.30e-14
+WS77111_complete_chloroplast_g     26     RC  85276  85205  Thr   GGT 7.91e-07
+WS77111_complete_chloroplast_g     27     RC  94064  93993  Asn   GTT 3.29e-13
+WS77111_complete_chloroplast_g     28     RC 108293 108214  Leu   TAG 2.12e-14
+WS77111_complete_chloroplast_g     29     RC 111036 110965  Val   GAC 2.36e-10
+WS77111_complete_chloroplast_g     30     RC 122893 122819  His   GTG 2.27e-13
+
++ tRNAs cp with intron
+WS77111_complete_chloroplast_g      1     FW  88592  89448  Ala   TGC 3.54e-34
+
+List of identified rns (complete) prediction of complete structure :
+
+                                                RNA    RNA
+Species name                    RNA # Strand  Begin    End             E-value
+------------------------------ ------ ------ ------ ------ ---- ----- --------
+WS77111_complete_chloroplast_g      1     FW  85603  87092            5.94e-46
+
+
+
+*************************************************
+Condensed alignment for tRNA(s) (without discriminator position)
+*************************************************
+
+30 match(es) for tRNAs without introns
+
+Species name                       E-value   # of nt     Start..Stop      Str  #  Structure
+------------------------------  ---------- --------- -------------------- --- --- ------------------
+                                                                                 [[[[[[[    [[[[                   ]]]]     [[[[[            ]]]]]                                [[[[[         ]]]]] ]]]]]]] 
+WS77111_complete_chloroplast_g|   1.09e-12    123421     12365..12437     FW   1 AGGGATG TA GCGC AGC T- t  GGT a   GCGT a   TTTGT TT tgg  GT ACAAA atgtc                          GCAGG TTCAAAT CCTGT CATCCCT  
+WS77111_complete_chloroplast_g|   5.92e-14    123421     12606..12678     FW   2 GCGCTCT TA GTTC AGT T- c  GGT a   GAAC g   TAGGT CT cca  AA ACCTG atgcc                          GTAGG TTCAAAT CCTAC AGAGCGT  
+WS77111_complete_chloroplast_g|   4.06e-11    123421     29785..29857     FW   3 GCGGACG TA GTCA AGT       GGA cca AGGC a   GTGGA TT gtg  AA TCCAC cacgc                          GCGGG TTCAATT CCCGT CGTTCGC  
+WS77111_complete_chloroplast_g|   8.55e-14    123421     31580..31666     FW   4 GGAGAGA TG GCTG AGC       GGA cca AAGC g   GCGGA TT gct  AA TCCGT agt...(19)...acc               GAGGG TTCGAAT CCCTC TCTCTCC  
+WS77111_complete_chloroplast_g|   1.95e-08    123421     32157..32228     FW   5 GCCCCTA TC GTCT AGT       GGA tca GGAC a   TCTCT CT ttc  AA GGAGG caac                           GGGGA TTCGACT TCCCC TAGGGGT  
+WS77111_complete_chloroplast_g|   2.60e-08    123421     32302..32384     FW   6 GGGTCGA TG CCCG AGT       GGT taa TGAG g   ACGGA CT gta  AA TCCGT tggcaatatgcctac                GCTGG TTCAAAT CCAGC TCGACCC  
+WS77111_complete_chloroplast_g|   2.08e-09    123421     32645..32717     FW   7 GGGATTG TA GTTC AAT T-    GGT ta  GAGT a   CCGCC CT gtc  AA GACGG aagtt                          GCGGG TTCGAGC CCCGT CAGTCCC  
+WS77111_complete_chloroplast_g|   1.25e-11    123421     70531..70602     FW   8 GCCTGCT TA GCTC AGA       GGT ta  GAGC a   TCGCA CT tgt  AA TGCGA tggtc                          ATCGG TTCGATC CCGAT AGCTGGC  
+WS77111_complete_chloroplast_g|   6.10e-13    123421     80198..80270     FW   9 TGCGGAG TA GAGT AGT -C t  GGT a   GCTC g   CAAGG CT cat  AA CCTTG aggtc                          ACGGG TTCAAAT CCCGT CTCCGCC  
+WS77111_complete_chloroplast_g|   1.64e-12    123421     81189..81274     FW  10 GGAGAGA TG GCCG AGT       GGT tga TGGC t   CCGGT CT tga  AA ACCGG tat...(18)...atc               GAGGG TTCGAAT CCCTC TCTCTCC  
+WS77111_complete_chloroplast_g|   1.38e-09    123421     93184..93256     FW  11 GGGCCTG TA GCTC AGA       GGA tta GAGC a   CGTGG CT acg  AA CCACG gtgtc                          GGGGG TTCGAAT CCCTC CTCGCCC  
+WS77111_complete_chloroplast_g|   1.76e-09    123421    108450..108522    FW  12 CGGAGCA TG GCGC AGC T- t  GGT a   GCGT g   CCATC TT ggg  GT GATGG aggtc                          GTGGG TTCAGAT CCCGC TGCTCCG  
+WS77111_complete_chloroplast_g|   7.66e-14    123421    115487..115566    FW  13 GCCTTGA TG GTGA AAT       GGT ag  ACAC g   CGAGA CT caa  AA TCTCG tgcttaagagcgt                  GGAGG TTCGAGT CCTCT TCAAGGC  
+WS77111_complete_chloroplast_g|   1.09e-12    123421    123198..123270    FW  14 GCATCCA TG GCTG AAT       GGT ta  AAGC g   CCCAA CT cat  AA TTGGT gaactc                         GCGGG TTCAATT CCTGC TGGATGC  
+WS77111_complete_chloroplast_g|   4.29e-12    123421      6524..6454      RC  15 TGGGGCG TG GCCA AGC       GGT a   AGGC a   GCAGG TT ttg  AT CCTGT tattc                          GGAGG TTCGAAT CCTTC CGTCCCA  
+WS77111_complete_chloroplast_g|   6.44e-14    123421      7823..7737      RC  16 GGAGAGA TG GCTG AGC       GGA cca AAGC g   GCGGA TT gct  AA TCCGT agt...(19)...acc               GAGGG TTCGAAT CCCTC TCTCTCC  
+WS77111_complete_chloroplast_g|   1.41e-12    123421     22149..22077     RC  17 GGGTTGG TA GCTC AGT       GGA tca GAGC t   CATGG TT ccg  GA CCATG aagtc                          AAGGG TTCAAAT CCCTT CTAGCCC  
+WS77111_complete_chloroplast_g|   5.51e-10    123421     26686..26615     RC  18 ACCCACT TA ACTC AGT       GGT ta  GAGT a   TCGCT TT cat  AC GGCGA gagtc                          GTTGG TTCAAAT CCAAT AGTAGGT  
+WS77111_complete_chloroplast_g|   2.54e-11    123421     30053..29983     RC  19 GCCCTTT TA ACTC AGC       GGT a   GAGT a   ACGCC AT ggt  AA GGCGT aagtc                          ATCGG TTCAAGT CCGAT AAAGGGC  
+WS77111_complete_chloroplast_g|   5.69e-09    123421     35118..35049     RC  20 GGCGACA TA GCCA AGC       GGT a   AGGC a   GAGGA CT gca  AA TCCTC catc                           CCCAG TTCGAAT CCGGG TGTCGCC  
+WS77111_complete_chloroplast_g|   3.98e-11    123421     51584..51514     RC  21 GCGTCCA TT GTCT AAT       GGA ta  GGAC a   GAGGT CT tct  AA ACCTT tggt                           ATAGG TTCAAAT CCTAT TGGACGT  
+WS77111_complete_chloroplast_g|   1.01e-12    123421     67248..67176     RC  22 GCATCCA TG GCTG AAT       GGT ta  AAGC g   CCCAA CT cat  AA TTGGT gaactc                         GCGGG TTCAATT CCTGC TGGATGC  
+WS77111_complete_chloroplast_g|   3.26e-14    123421     69162..69091     RC  23 GCCGGGA TA GCTC AGT T-    GGT a   GAGC a   GAGGA CT gaa  AA TCCTC gtgcc                          ACCAG TTCAAAT CTGGT TCCTGGC  
+WS77111_complete_chloroplast_g|   6.55e-13    123421     71853..71768     RC  24 GGAAAGA TG GCCG AGC       GGT tca AGGC g   TAGCA TT gga  AC TGCTA tgt...(18)...acc               GAGGG TTCGAAT CCCTC TCTTTCC  
+WS77111_complete_chloroplast_g|   2.30e-14    123421     80478..80409     RC  25 GCGGGTA TG GTTG AAT       GGT a   AAAT t   TCTCT TT gcc  AA GGAGA agat                           GCGGG TTCGATC CCCGC TACCCGC  
+WS77111_complete_chloroplast_g|   7.91e-07    123421     85276..85206     RC  26 ACCCTTT CG ACTC AGT       AGT a   GAGT a   ACGCC AT ggt  AA GGCGT aagtc                          ATCGG TTCAAGT CCGGT AAAGGGC  
+WS77111_complete_chloroplast_g|   3.29e-13    123421     94064..93994     RC  27 TCCTCAA TA GCTC AGT       GGT a   GAGC g   GTCGG CT gtt  AA CTGAT tggtc                          GTAGG TTCGAAT CCTAC TTGGGGA  
+WS77111_complete_chloroplast_g|   2.12e-14    123421    108293..108215    RC  28 GCCGCCA TG GTGA AAT T-    GGT ag  ACAC g   CTGCT CT tag  GA AGCAG tgcgagagcat                    CTCGG TTCAAAT CCGAG TGGCGGC  
+WS77111_complete_chloroplast_g|   2.36e-10    123421    111036..110966    RC  29 AGGGATA TA ACTC AGC       GGT a   GAGT g   TCACC TT gac  AT GGTGG aagtc                          ATCAG TTCGAGC CTGAT TATCCCT  
+WS77111_complete_chloroplast_g|   2.27e-13    123421    122892..122820    RC  30 GCGGACG TA GCCA AGT       GGA cca AGGC a   GTGGA TT gtg  AA TCCAC cacgc                          GCGGG TTCAATT CCCGT CGTTCGC  
+
+1 match(es) for tRNAs cp with intron
+
+Species name                       E-value   # of nt     Start..Stop      Str  #  Structure
+------------------------------  ---------- --------- -------------------- --- --- ------------------
+                                                                                 [[[[[[[    [[[[               ]]]]   [[[[[                            [[[[[[[[[ [[[[[       ]]]]]    ]]]]]]]]]                  ]]]]]        [[[[[         ]]]]] ]]]]]]]
+WS77111_complete_chloroplast_g|   3.54e-34    123421     88592..89447     FW   1 GGGGATA TA GCTC  AGT t GGT  A GAGC t CCGCT CT tgc AA ttg..(672)...gga GAGCACAGT ACGAT GAAA  GTTGT GA GCTGTGTTC ggg...(78)...tgt GGCGG atgtc  AGCGG TTCGAGT CCGCT TATCTCC 
+
+*************************************************
+Condensed alignment for rrn5
+*************************************************
+
+1 match(es) for 5S RNA (complete)
+
+Species name                       E-value   # of nt     Start..Stop      Str  #  Structure
+------------------------------  ---------- --------- -------------------- --- --- ------------------
+                                                                                 [[[[[[[[          [[ [[[[[         [[[   [[[                ]]]          ]]]       ]]]]]   ]] [[[[[[ [[[[[[[[                 ]]]]]]]]  ]]]]]]            ]]]]]]]]
+WS77111_complete_chloroplast_g|   6.91e-08    123421     92858..92973     FW   1 TCTGGTGT cccag    GC GTAGA ggaac   CAC A CCA ACCCAT-CCCGAAC TTG gtg      GTT aaac  TCTAC t GC GGTGAC GATACTAT aggggaagccct    GCGGGAAA  ATAGCT cg         GTGCCAGG 
+
+*************************************************
+Condensed alignment for rns
+*************************************************
+
+1 match(es) for rns (complete)
+
+Species name                       E-value   # of nt     Start..Stop      Str  #  Structure
+------------------------------  ---------- --------- -------------------- --- --- ------------------
+                                                                                 [[[[[         ]]]]]                                                                                                                                     [[[[[[[[[[[    ]]]]]]]]]]]
+WS77111_complete_chloroplast_g|   5.94e-46    123421     85611..87079     FW   1 GAGTT TGATCCT GGCTC AGGATGAACGCTGGCGGCATGCT-TAACACATGCAAGTCG gac...(21)...cag TGGCGGACGGGTGAGTAA cgc..(1334)..gag                   TGAAGTCGTAACA---AGG TAGCCGTACTG GA AGGTGCGGCTG 
+
+*************************************************
+Condensed alignment for intronII
+*************************************************
+
+12 match(es) for intron II (domainV)
+
+Species name                       E-value   # of nt     Start..Stop      Str  #  Structure
+------------------------------  ---------- --------- -------------------- --- --- ------------------
+                                                                                 [[[[[[[[[ [[[[               ]]]]     ]]]]]]]]]                 
+WS77111_complete_chloroplast_g|   8.94e-03    123421     27379..27419     FW   1 GAGCCCAAT GCGA     TAAA      ATGC -AT GTTGGGTTC ttg       GAACAG 
+WS77111_complete_chloroplast_g|   2.02e-05    123421     39840..39882     FW   2 GAGCCGGAT GAGA g   GAAA c    TTTC -AT GTCCGATCC tga       GGGGGG 
+WS77111_complete_chloroplast_g|   8.85e-06    123421     49354..49395     FW   3 GAGCCGAAT GAAT c   GAAA g    ATTC -GT GTTCGGTTT gg        GAAGAG 
+WS77111_complete_chloroplast_g|   7.38e-09    123421     56803..56845     FW   4 AAGCCGTAT GAAG g   GAAA t    TCTC -AT GTACGGTTT tca       GAGGGG 
+WS77111_complete_chloroplast_g|   1.11e-08    123421     73343..73386     FW   5 GAGCCGTAT GAGG tg  GGAA      TCTC -AT GTACGGTTT tgaa      GCGGAG 
+WS77111_complete_chloroplast_g|   3.91e-11    123421     74283..74327     FW   6 GAGCCGTAT GAGG tag GAAA c    TCTC -AA GTACGGTTC tga       GGGAAG 
+WS77111_complete_chloroplast_g|   4.46e-04    123421     89302..89341     FW   7 GAGCACAGT ACGA t   GAAA g    TTGT -GA GCTGTGTTC           GGGGGG 
+WS77111_complete_chloroplast_g|   5.37e-08    123421    112521..112561    FW   8 AAGCCGTAT GAGG t   GCAA a    TCTC -AT GTACGGTTT t         GTAGAG 
+WS77111_complete_chloroplast_g|   5.24e-08    123421    113298..113337    FW   9 AAGCCGTAT TCGA c   GAAA g    TCGT -AT GTACGGTTT           GGAGGG 
+WS77111_complete_chloroplast_g|   7.18e-10    123421      1656..1615      RC  10 AAGCCGTGT GCGA t   GAGA a    TTGC -AA GCACGGTTT gg        GGAGAG 
+WS77111_complete_chloroplast_g|   7.67e-05    123421     51922..51877     RC  11 GAGCCGAAT GACA t   GAAA t    TTTC -AT GTTCGGTTC tgaatt    AGAGGC 
+WS77111_complete_chloroplast_g|   6.45e-08    123421     62707..62659     RC  12 GAGCCGGAT GAGA a   GAAA c    TTTC -AT GTCCGGTTC tggattaga GATGGG 
+
+1 match(es) for intron II, derived
+
+Species name                       E-value   # of nt     Start..Stop      Str  #  Structure
+------------------------------  ---------- --------- -------------------- --- --- ------------------
+                                                                                 [[[[[[[[[ [[[[[        ]]]]]     ]]]]]]]]]                   
+WS77111_complete_chloroplast_g|   8.23e-06    123421     65534..65491     RC   5 AAGCTGTAT GCCCT  GAGA  GAGGC -TT GTACAGTTT gg        GAAGGGAT 
