@@ -1,9 +1,9 @@
-LOCUS       Picea_glau            123421 bp    DNA     circular     26-SEP-2018
-DEFINITION  Picea_glau chloroplast
-ACCESSION   Picea_glau
-SOURCE      chloroplast Picea_glau
-  ORGANISM  Picea_glau
-            Picea_glau;
+LOCUS       Picea_glauca            123421 bp    DNA     circular     28-SEP-2018
+DEFINITION  Picea_glauca chloroplast
+ACCESSION   Picea_glauca
+SOURCE      chloroplast Picea_glauca
+  ORGANISM  Picea_glauca
+            Picea_glauca;
 REFERENCE   1  (bases 1 to 123421)
   AUTHORS   Tillich,M., Lehwark,P., Pellizzer,T., Ulbricht-Jones, E.S.,
             Fischer, A., Bock, R. and Greiner,S.
@@ -11,7 +11,7 @@ REFERENCE   1  (bases 1 to 123421)
   JOURNAL   Nucleic Acids Res. 45 (W1), W6-W11 (2017)
    PUBMED   28486635
 COMMENT     GeSeq Version 1.64
-            Job           GeSeqJob-20180903-111151
+            Job           WS77111-chloroplast-no-ARAGORN-tRNAscan
             Subjob
             Picea_glauca_chloroplast-Picea-glauca-genotype-WS77111-complete-chlo
             roplast-genome
@@ -23,22 +23,14 @@ COMMENT     GeSeq Version 1.64
                           ncbirefs=NC_028594.1, NC_032367.1, NC_029374.1,
                           NC_016069.1, NC_021456.1, NC_032366.1, NC_011152.3
             Program       HMMER disabled
-            Program       ARAGORN v1.2.38
-                          gcode=gcbact                   maxintronlen=3000
-                          intronoverlap=false            fixintron=false
-                          lowscoring=false               circular=true
+            Program       ARAGORN v1.2.38 disabled
             Program       ARWEN v1.2.3 disabled
             Program       tRNAscan-SE v1.3.1 disabled
-            Program       tRNAscan-SE v2.0
-                          seqsource=mitootherorganellar  searchmode=default
-                          gcode=universal                score=15
-                          nopseudo=true                  detail=false
-                          hitsrc=false                   breakdown=false
-                          circular=true
+            Program       tRNAscan-SE v2.0 disabled
             Program       RNA Editing disabled
-            Submitted     26 Sep 2018 18:12:07 GMT
-            Started       26 Sep 2018 18:12:09 GMT
-            Finished      26 Sep 2018 18:13:58 GMT
+            Submitted     28 Sep 2018 16:28:45 GMT
+            Started       28 Sep 2018 16:28:49 GMT
+            Finished      28 Sep 2018 16:28:51 GMT
 FEATURES             Location/Qualifiers
      gene            complement(1..1062)
                      /gene="psbA"
@@ -53,35 +45,8 @@ FEATURES             Location/Qualifiers
                      VTSSLIRETTENQSANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLA
                      AWPVAGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHER
                      NAHNFPLDLAAVESISIGG"
-     gene            complement(1533..4118)
-                     /gene="trnK-UUU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(join(1533..1568,4081..4118))
-                     /gene="trnK-UUU"
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            complement(1533..1568)
-                     /gene="trnK-UUU"
-                     /number=2
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          complement(1569..4080)
-                     /gene="trnK-UUU"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            complement(4081..4118)
-                     /gene="trnK-UUU"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(1534..4115)
-                     /gene="trnK"
-                     /note="blatN_hit trnK_NC_016069.1; position 1 - 70;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(join(1534..1568,4081..4115))
-                     /gene="trnK"
-     exon            complement(1534..1568)
-                     /gene="trnK"
-                     /number=2
      gene            complement(1534..4117)
-                     /gene="trnK-UUU"
+                     /gene="trnK-UUU”
                      /note="blatN_hit trnK-UUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(1534..1568,4081..4117))
@@ -90,13 +55,7 @@ FEATURES             Location/Qualifiers
                      /gene="trnK-UUU"
                      /number=2
      intron          complement(1569..4080)
-                     /gene="trnK"
-                     /number=1
-     intron          complement(1569..4080)
                      /gene="trnK-UUU"
-                     /number=1
-     exon            complement(4081..4115)
-                     /gene="trnK"
                      /number=1
      exon            complement(4081..4117)
                      /gene="trnK-UUU"
@@ -134,29 +93,11 @@ FEATURES             Location/Qualifiers
                      EITTKSLSTDMSPIWNPESRLELNKIPRFVRDEVKRNTEKFARRKGILNVTVEVMHAA
                      KEALS"
      gene            complement(6453..6524)
-                     /gene="trnQ"
-                     /note="blatN_hit trnQ_NC_016069.1; position 1 - 72;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(6453..6524)
-                     /gene="trnQ"
-     gene            complement(6453..6524)
                      /gene="trnQ-UUG"
                      /note="blatN_hit trnQ-UUG_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(6453..6524)
                      /gene="trnQ-UUG"
-     gene            complement(6453..6524)
-                     /gene="trnQ-UUG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(6453..6524)
-                     /gene="trnQ-UUG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(6453..6524)
-                     /gene="trnQ-UUG"
-                     /note="tRNAscan-SE v2.0 infernal score: 61.6"
-     gene            complement(6453..6524)
-                     /gene="trnQ-UUG"
-                     /note="tRNAscan-SE v2.0 infernal score: 61.6"
      gene            6881..7060
                      /gene="psbK"
                      /note="blatX_hit psbK_NC_032367.1; position 1 - 180;
@@ -172,30 +113,12 @@ FEATURES             Location/Qualifiers
      CDS             7549..7659
                      /gene="psbI"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
-     gene            complement(7735..7824)
-                     /gene="trnS-GCU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(7735..7824)
-                     /gene="trnS-GCU"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(7736..7823)
-                     /gene="trnS"
-                     /note="blatN_hit trnS_NC_016069.1; position 1 - 88;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(7736..7823)
-                     /gene="trnS"
      gene            complement(7736..7823)
                      /gene="trnS-GCU"
                      /note="blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(7736..7823)
                      /gene="trnS-GCU"
-     tRNA            complement(7736..7823)
-                     /gene="trnS-GCU"
-                     /note="tRNAscan-SE v2.0 infernal score: 76.5"
-     gene            complement(7736..7823)
-                     /gene="trnS-GCU"
-                     /note="tRNAscan-SE v2.0 infernal score: 76.5"
      gene            8289..8390
                      /gene="ycf12"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
@@ -213,19 +136,15 @@ FEATURES             Location/Qualifiers
                      NQLMGLMVYLSAEDANKDMFSFLNCPGGSVIPGVGLFDIMQIIVPDVHTICMGIAASM
                      GSFILIGGEITKRIALPHARVMIHQPASSYYDGPAADFHTESKHVTMLRDYITKCYIE
                      RTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
-     gene            9568..113395
+     gene            join(9568..9681,112596..113395)
                      /gene="rps12"
                      /note="blatX_hit rps12_NC_032367.1; position 1 - 372;
                      coverage 100.00%; match 99.73%"
-     CDS             join(9568..9681,112596..112828,113371..113395)
+                     /trans_splicing
+     CDS             join(9568..9681,112596..113395)
                      /gene="rps12"
-                     /translation="MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVYTITPKK
-                     PNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTL
-                     DAAEVKDRQQGRSRYGVKKPK"
+                     /trans_splicing
      exon            9568..9681
-                     /gene="rps12"
-                     /number=1
-     intron          9682..112595
                      /gene="rps12"
                      /number=1
      exon            112596..112828
@@ -235,6 +154,8 @@ FEATURES             Location/Qualifiers
                      /gene="rps12"
                      /number=2
      exon            113371..113395
+                     /gene="rps12"
+     CDS             113371..113395
                      /gene="rps12"
                      /number=3
      gene            10391..10750
@@ -270,53 +191,17 @@ FEATURES             Location/Qualifiers
                      /gene="psaJ"
                      /translation="MQDLKTYLSTAPVLAISSFIFLAGLLIEINRFFPDALTFAFF"
      gene            12365..12438
-                     /gene="trnP"
-                     /note="blatN_hit trnP_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            12365..12438
-                     /gene="trnP"
-     gene            12365..12438
                      /gene="trnP-UGG"
                      /note="blatN_hit trnP-UGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            12365..12438
                      /gene="trnP-UGG"
-     gene            12365..12440
-                     /gene="trnP-UGG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            12365..12440
-                     /gene="trnP-UGG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            12365..12438
-                     /gene="trnP-UGG"
-                     /note="tRNAscan-SE v2.0 infernal score: 65.6"
-     gene            12365..12438
-                     /gene="trnP-UGG"
-                     /note="tRNAscan-SE v2.0 infernal score: 65.6"
-     gene            12606..12679
-                     /gene="trnW"
-                     /note="blatN_hit trnW_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            12606..12679
-                     /gene="trnW"
      gene            12606..12679
                      /gene="trnW-CCA"
                      /note="blatN_hit trnW-CCA_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            12606..12679
                      /gene="trnW-CCA"
-     gene            12606..12679
-                     /gene="trnW-CCA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            12606..12679
-                     /gene="trnW-CCA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            12606..12679
-                     /gene="trnW-CCA"
-                     /note="tRNAscan-SE v2.0 infernal score: 69.8"
-     gene            12606..12679
-                     /gene="trnW-CCA"
-                     /note="tRNAscan-SE v2.0 infernal score: 69.8"
      gene            complement(12802..12915)
                      /gene="petG"
                      /note="blatX_hit petG_NC_032367.1; position 1 - 114;
@@ -414,29 +299,11 @@ FEATURES             Location/Qualifiers
                      SALYIHQKDKRLLYVSILTSPTTGGVTASFGMLGDIIIAEPKAYIAFAGKRVIEQTLG
                      QKVIEDFQVTEHLFGHGLFDLIVPRNLLKGVLSELFQLYSLPRKEKKMNV"
      gene            complement(22076..22149)
-                     /gene="trnR"
-                     /note="blatN_hit trnR_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(22076..22149)
-                     /gene="trnR"
-     gene            complement(22076..22149)
                      /gene="trnR-CCG"
                      /note="blatN_hit trnR-CCG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(22076..22149)
                      /gene="trnR-CCG"
-     gene            complement(22076..22149)
-                     /gene="trnR-CCG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(22076..22149)
-                     /gene="trnR-CCG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(22076..22149)
-                     /gene="trnR-CCG"
-                     /note="tRNAscan-SE v2.0 infernal score: 67.5"
-     gene            complement(22076..22149)
-                     /gene="trnR-CCG"
-                     /note="tRNAscan-SE v2.0 infernal score: 67.5"
      gene            complement(22469..23896)
                      /gene="rbcL"
                      /note="blatX_hit rbcL_NC_028594.1; position 1 - 1428;
@@ -477,38 +344,11 @@ FEATURES             Location/Qualifiers
                      DIGVMKIRLNGQWSTMALMGGFAKIDNDRITVLVNNAERDVDIDLKEAQETFKVAKAD
                      LARAEGKRQAIEADVAPKRARTRLEAISASPPVSN"
      gene            complement(26614..26686)
-                     /gene="trnM"
-                     /note="blatN_hit trnM_NC_016069.1; position 1 - 73;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(26614..26686)
-                     /gene="trnM"
-     gene            complement(26614..26686)
                      /gene="trnM-CAU"
                      /note="blatN_hit trnM-CAU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(26614..26686)
                      /gene="trnM-CAU"
-     gene            complement(26614..26686)
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(26614..26686)
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(26614..26686)
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 59.4"
-     gene            complement(26614..26686)
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 59.4"
-     gene            26876..27494
-                     /gene="trnV"
-                     /note="blatN_hit trnV_NC_016069.1; position 1 - 76;
-                     coverage 100.00%; match 100.00%"
-     tRNA            join(26876..26914,27458..27494)
-                     /gene="trnV"
-     exon            26876..26914
-                     /gene="trnV"
-                     /number=1
      gene            26876..27494
                      /gene="trnV-UAC"
                      /note="blatN_hit trnV-UAC_NC_032367.1; position 1 - 76;
@@ -518,129 +358,37 @@ FEATURES             Location/Qualifiers
      exon            26876..26914
                      /gene="trnV-UAC"
                      /number=1
-     gene            26876..27494
-                     /gene="trnY-AUA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            join(26876..26910,27434..27494)
-                     /gene="trnY-AUA"
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          26915..27457
-                     /gene="trnV"
-                     /number=1
      intron          26915..27457
                      /gene="trnV-UAC"
                      /number=1
      exon            27458..27494
-                     /gene="trnV"
-                     /number=2
-     exon            27458..27494
                      /gene="trnV-UAC"
                      /number=2
-     exon            26876..26910
-                     /gene="trnY-AUA"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          26911..27433
-                     /gene="trnY-AUA"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            27434..27494
-                     /gene="trnY-AUA"
-                     /number=2
-                     /note="annotated by ARAGORN v1.2.38"
      gene            29784..29858
-                     /gene="trnH-fragment"
-                     /note="blatN_hit trnH-fragment_NC_016069.1; position 1 -
-                     75; coverage 100.00%; match 98.67%; fragment match
+                     /gene="trnH-GUG"
+                     /note="blatN_hit trnH-GUG_NC_032367.1; position
+                     1 - 75; coverage 100.00%; match 98.67%; match
                      98.67%"
      tRNA            29784..29858
-                     /gene="trnH-fragment"
-     gene            29784..29858
-                     /gene="trnH-GUG-fragment"
-                     /note="blatN_hit trnH-GUG-fragment_NC_032367.1; position
-                     1 - 75; coverage 100.00%; match 98.67%; fragment match
-                     98.67%"
-     tRNA            29784..29858
-                     /gene="trnH-GUG-fragment"
-     gene            29785..29859
                      /gene="trnH-GUG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            29785..29859
-                     /gene="trnH-GUG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            29785..29858
-                     /gene="trnH-GUG"
-                     /note="tRNAscan-SE v2.0 infernal score: 56.5"
-     gene            29785..29858
-                     /gene="trnH-GUG"
-                     /note="tRNAscan-SE v2.0 infernal score: 56.5"
-     gene            complement(29981..30053)
-                     /gene="trnT-GGU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(29981..30053)
-                     /gene="trnT-GGU"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(29982..30053)
-                     /gene="trnT"
-                     /note="blatN_hit trnT_NC_016069.1; position 1 - 72;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(29982..30053)
-                     /gene="trnT"
      gene            complement(29982..30053)
                      /gene="trnT-GGU"
                      /note="blatN_hit trnT-GGU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(29982..30053)
                      /gene="trnT-GGU"
-     tRNA            complement(29982..30053)
-                     /gene="trnT-GGU"
-                     /note="tRNAscan-SE v2.0 infernal score: 64.3"
-     gene            complement(29982..30053)
-                     /gene="trnT-GGU"
-                     /note="tRNAscan-SE v2.0 infernal score: 64.3"
-     gene            30243..30493
-                     /gene="rps4-fragment"
-                     /note="blatX_hit rps4-fragment_NC_032367.1; position 176
-                     - 435; coverage 41.42%; match 37.95%; fragment match
-                     88.46%"
-     CDS             30243..30493
-                     /gene="rps4-fragment"
-     gene            complement(30903..30971)
-                     /gene="ycf12-fragment"
-                     /note="blatX_hit ycf12-fragment_NC_032367.1; position 1 -
-                     69; coverage 67.65%; match 57.84%; fragment match 85.51%"
-     CDS             complement(30903..30971)
-                     /gene="ycf12-fragment"
      gene            31275..31364
                      /gene="psaM"
                      /note="blatX_hit psaM_NC_032367.1; position 1 - 90;
                      coverage 100.00%; match 100.00%"
      CDS             31275..31364
                      /gene="psaM"
-     gene            31579..31668
-                     /gene="trnS-GCU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            31579..31668
-                     /gene="trnS-GCU"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            31580..31667
-                     /gene="trnS"
-                     /note="blatN_hit trnS_NC_016069.1; position 1 - 88;
-                     coverage 100.00%; match 100.00%"
-     tRNA            31580..31667
-                     /gene="trnS"
      gene            31580..31667
                      /gene="trnS-GCU"
                      /note="blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
                      coverage 100.00%; match 100.00%"
      tRNA            31580..31667
                      /gene="trnS-GCU"
-     tRNA            31580..31667
-                     /gene="trnS-GCU"
-                     /note="tRNAscan-SE v2.0 infernal score: 76.5"
-     gene            31580..31667
-                     /gene="trnS-GCU"
-                     /note="tRNAscan-SE v2.0 infernal score: 76.5"
      gene            complement(31744..31854)
                      /gene="psbI"
                      /note="blatX_hit psbI_NC_032367.1; position 1 - 111;
@@ -649,77 +397,23 @@ FEATURES             Location/Qualifiers
                      /gene="psbI"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
      gene            32157..32229
-                     /gene="trnE"
-                     /note="blatN_hit trnE_NC_016069.1; position 1 - 73;
-                     coverage 100.00%; match 100.00%"
-     tRNA            32157..32229
-                     /gene="trnE"
-     gene            32157..32229
                      /gene="trnE-UUC"
                      /note="blatN_hit trnE-UUC_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            32157..32229
                      /gene="trnE-UUC"
-     gene            32157..32232
-                     /gene="trnE-UUC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            32157..32232
-                     /gene="trnE-UUC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            32157..32232
-                     /gene="trnE-UUC"
-                     /note="tRNAscan-SE v2.0 infernal score: 50.4"
-     gene            32157..32232
-                     /gene="trnE-UUC"
-                     /note="tRNAscan-SE v2.0 infernal score: 50.4"
-     gene            32301..32388
-                     /gene="trnY-GUA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            32301..32388
-                     /gene="trnY-GUA"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            32302..32385
-                     /gene="trnY"
-                     /note="blatN_hit trnY_NC_016069.1; position 1 - 84;
-                     coverage 100.00%; match 100.00%"
-     tRNA            32302..32385
-                     /gene="trnY"
      gene            32302..32385
                      /gene="trnY-GUA"
                      /note="blatN_hit trnY-GUA_NC_032367.1; position 1 - 84;
                      coverage 100.00%; match 100.00%"
      tRNA            32302..32385
                      /gene="trnY-GUA"
-     tRNA            32302..32385
-                     /gene="trnY-GUA"
-                     /note="tRNAscan-SE v2.0 infernal score: 63.6"
-     gene            32302..32385
-                     /gene="trnY-GUA"
-                     /note="tRNAscan-SE v2.0 infernal score: 63.6"
-     gene            32644..32719
-                     /gene="trnD-GUC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            32644..32719
-                     /gene="trnD-GUC"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            32645..32718
-                     /gene="trnD"
-                     /note="blatN_hit trnD_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            32645..32718
-                     /gene="trnD"
      gene            32645..32718
                      /gene="trnD-GUC"
                      /note="blatN_hit trnD-GUC_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            32645..32718
                      /gene="trnD-GUC"
-     tRNA            32645..32718
-                     /gene="trnD-GUC"
-                     /note="tRNAscan-SE v2.0 infernal score: 55.5"
-     gene            32645..32718
-                     /gene="trnD-GUC"
-                     /note="tRNAscan-SE v2.0 infernal score: 55.5"
      gene            33632..33745
                      /gene="psbM"
                      /note="blatX_hit psbM_NC_032367.1; position 1 - 114;
@@ -735,29 +429,11 @@ FEATURES             Location/Qualifiers
                      /gene="petN"
                      /translation="MDIVGITWAALMVVFTFSLSLVVWGRSGL"
      gene            complement(35048..35118)
-                     /gene="trnC"
-                     /note="blatN_hit trnC_NC_016069.1; position 1 - 71;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(35048..35118)
-                     /gene="trnC"
-     gene            complement(35048..35118)
                      /gene="trnC-GCA"
                      /note="blatN_hit trnC-GCA_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(35048..35118)
                      /gene="trnC-GCA"
-     gene            complement(35048..35118)
-                     /gene="trnC-GCA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(35048..35118)
-                     /gene="trnC-GCA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(35048..35118)
-                     /gene="trnC-GCA"
-                     /note="tRNAscan-SE v2.0 infernal score: 63.9"
-     gene            complement(35048..35118)
-                     /gene="trnC-GCA"
-                     /note="tRNAscan-SE v2.0 infernal score: 63.9"
      gene            35542..38772
                      /gene="rpoB"
                      /note="blatX_hit rpoB_NC_028594.1; position 1 - 3231;
@@ -805,39 +481,11 @@ FEATURES             Location/Qualifiers
      exon            38795..39224
                      /gene="rpoC1"
                      /number=1
-     gene            38795..41567
-                     /gene="CLPGMS-5016"
-                     /note="blatX_hit CLPGMS-5016_NC_011152.3; position 1 -
-                     2091; coverage 100.00%; match 99.86%"
-     CDS             join(38795..39224,39907..41567)
-                     /gene="CLPGMS-5016"
-                     /translation="MIDQNKHQQLRIGLASPEQICAWSEKILPNGEIVGQVTKPYTLH
-                     YETNKPERDGSFCERIFGPIKSRVCSCGNSPGIGNEKIDSKFCTQCGVEFVDSRIRRY
-                     RMGYIKLACPVAHIWYLKRLPSYIANLLAKTRKELEGPVYCDLFIARPIANKPTLLRS
-                     RGTFNYEIQSWRDIIPHYLSARSHYLFARGSGTFQEREIATGGDAIREQLTGLDLQII
-                     IDRSHMEWKNLVELKWNRLEEDQESTVDGWEDETIRRRKDFLVGRMKLAKHFLRTNIE
-                     PKWMVLCLLPVLPPEPRPIVQLGEGGLITSSDLNELYRRVINRNNTLTNLLARSGSES
-                     FVICQKKLIQEAVDALLDNGICGQPMRDSHDRPYKSFSDVIEGKEGRSRENLLGKRVD
-                     YSGRSVIVVGPFLSLYQCGLPSEIAIELFQAFVIRSLIGRHIAPNLRAAKSMIRDKGP
-                     IVWEVLQEVMQGHPVLLNRAPTLHRLGIQAFQPILVEGRAIRSHPSVCGGFNADFDGD
-                     QMAVHVPLSLEARAEARLLMFSETNLLSPAIGDPISIPTQDMLLGLYISTVGNSQGIY
-                     GNRYHPYHSEKKSFSCKKPSFYSYDDVLRAYRQKRIDLYSPLWLRWGEVDLRIITSVN
-                     QEAPIEVQYESLGTFHEIHEHYRIRKGRMGEILNIYIRTTVGRTRFNREMEEAIQGFA
-                     RSEHPKKSLPALRI"
-     exon            38795..39224
-                     /gene="CLPGMS-5016"
-                     /number=1
      intron          39225..39906
                      /gene="rpoC1"
                      /number=1
-     intron          39225..39906
-                     /gene="CLPGMS-5016"
-                     /number=1
      exon            39907..41567
                      /gene="rpoC1"
-                     /number=2
-     exon            39907..41567
-                     /gene="CLPGMS-5016"
                      /number=2
      gene            41661..45317
                      /gene="rpoC2"
@@ -910,30 +558,11 @@ FEATURES             Location/Qualifiers
      exon            48529..48672
                      /gene="atpF"
                      /number=1
-     gene            48529..49848
-                     /gene="CLPGMS-5009"
-                     /note="blatX_hit CLPGMS-5009_NC_011152.3; position 1 -
-                     555; coverage 100.00%; match 99.64%"
-     CDS             join(48529..48672,49438..49848)
-                     /gene="CLPGMS-5009"
-                     /translation="MKNVIDPFISLSYWPSAGGFGSNTNILETNIINPSLVLSVLIYF
-                     GKGVLSNLLDNRKQKILNTIRNSEELCKGAIDQLEKARARLREVEMIAGEIRVNGDFQ
-                     IEREKEDLINAASENLEQLEDPKNETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRL
-                     NTELHLRTIDHNIGLLRTMMNTSD"
-     exon            48529..48672
-                     /gene="CLPGMS-5009"
-                     /number=1
      intron          48673..49437
                      /gene="atpF"
                      /number=1
-     intron          48673..49437
-                     /gene="CLPGMS-5009"
-                     /number=1
      exon            49438..49848
                      /gene="atpF"
-                     /number=2
-     exon            49438..49848
-                     /gene="CLPGMS-5009"
                      /number=2
      gene            49892..51415
                      /gene="atpA"
@@ -950,63 +579,12 @@ FEATURES             Location/Qualifiers
                      AISITDGQIFSSADLFNAGIRPAINVGISVSRVGSAAQIKAMKKVAGKLKLELAQFAE
                      LEAFAQFASDLDKATQDQLARGQRLRELLKQSQAAPLKVEEQIATIYTGTNGYLDILE
                      IAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
-     gene            complement(51513..51584)
-                     /gene="trnR"
-                     /note="blatN_hit trnR_NC_016069.1; position 1 - 72;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(51513..51584)
-                     /gene="trnR"
-     gene            complement(51513..51584)
-                     /gene="trnR-UCU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(51513..51584)
-                     /gene="trnR-UCU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(51513..51584)
-                     /gene="trnR-UCU"
-                     /note="tRNAscan-SE v2.0 infernal score: 63.7"
-     gene            complement(51513..51584)
-                     /gene="trnR-UCU"
-                     /note="tRNAscan-SE v2.0 infernal score: 63.7"
      gene            complement(51515..51584)
                      /gene="trnR-UCU"
                      /note="blatN_hit trnR-UCU_NC_032367.1; position 1 - 70;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(51515..51584)
                      /gene="trnR-UCU"
-     gene            complement(51802..52646)
-                     /gene="trnS-CGA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(join(51802..51861,52615..52646))
-                     /gene="trnS-CGA"
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            complement(51802..51861)
-                     /gene="trnS-CGA"
-                     /number=2
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          complement(51862..52614)
-                     /gene="trnS-CGA"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            complement(52615..52646)
-                     /gene="trnS-CGA"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(51803..52645)
-                     /gene="trnG"
-                     /note="blatN_hit trnG_NC_016069.1; position 1 - 71;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(join(51803..51850,52623..52645))
-                     /gene="trnG"
-     exon            complement(51803..51850)
-                     /gene="trnG"
-                     /number=2
-     intron          complement(51851..52622)
-                     /gene="trnG"
-                     /number=1
-     exon            complement(52623..52645)
-                     /gene="trnG"
-                     /number=1
      gene            complement(51804..52644)
                      /gene="trnG-GCC"
                      /note="blatN_hit trnG-GCC_NC_032367.1; position 1 - 59;
@@ -1071,14 +649,30 @@ FEATURES             Location/Qualifiers
                      /gene="petB"
                      /note="blatX_hit petB_NC_028594.1; position 5 - 648;
                      coverage 99.38%; match 99.23%"
-     CDS             56868..57511
-                     /gene="petB"
+     exon            56868..56873
+                     /gene=“petB”
+     CDS             56868..56873
+                     /gene=“petB”
+     intron          56874..57225
+                     /gene=“petB”
+     exon            57226..57511
+                     /gene=“petB”
+     CDS             57226..57511
+                     /gene=“petB”
      gene            58428..58960
                      /gene="petD"
                      /note="blatX_hit petD_NC_028594.1; position 5 - 537;
                      coverage 99.26%; match 98.88%"
-     CDS             58428..58960
-                     /gene="petD"
+     CDS             58428..58435
+                     /gene=“petD”
+     exon            58428..58435
+                     /gene=“petD”
+     intron          58436..58735
+                     /gene=“petD”
+     CDS             58736..58960
+                     /gene=“petD”
+     exon            58736..58960
+                     /gene=“petD”
      gene            complement(59069..60079)
                      /gene="rpoA"
                      /note="blatX_hit rpoA_NC_032367.1; position 1 - 1011;
@@ -1138,8 +732,16 @@ FEATURES             Location/Qualifiers
                      /gene="rpl16"
                      /note="blatX_hit rpl16_NC_032367.1; position 6 - 405;
                      coverage 98.77%; match 98.27%"
-     CDS             complement(62233..62632)
+     CDS             complement(62233..62355)
                      /gene="rpl16"
+     exon            complement(62233..62355)
+                     /gene=“rpl16”
+     intron          complement(62355..62623)
+                     /gene=“rpl16”
+     CDS             complement(62624..62632)
+                     /gene=“rpl16”
+     exon            complement(62624..62632)
+                     /gene=“rpl16”
      gene            complement(63598..64254)
                      /gene="rps3"
                      /note="blatX_hit rps3_NC_028594.1; position 1 - 657;
@@ -1198,80 +800,17 @@ FEATURES             Location/Qualifiers
                      /translation="MDEVKYPVLTEKSIRLLERNQYTFNVDSQLNKTKMKIWIEHFFD
                      VKVIAMNSYRLPEKGGKRGSMIGHPIRCKRMIITLKPSDSIPLFSEQ"
      gene            complement(67175..67248)
-                     /gene="trnI"
-                     /note="blatN_hit trnI_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(67175..67248)
-                     /gene="trnI"
-     gene            complement(67175..67248)
                      /gene="trnI-CAU"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(67175..67248)
                      /gene="trnI-CAU"
-     gene            complement(67175..67248)
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(67175..67248)
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(67175..67248)
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 64.6"
-     gene            complement(67175..67248)
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 64.6"
-     gene            complement(69090..69162)
-                     /gene="trnF"
-                     /note="blatN_hit trnF_NC_016069.1; position 1 - 73;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(69090..69162)
-                     /gene="trnF"
      gene            complement(69090..69162)
                      /gene="trnF-GAA"
                      /note="blatN_hit trnF-GAA_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(69090..69162)
                      /gene="trnF-GAA"
-     gene            complement(69090..69162)
-                     /gene="trnF-GAA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(69090..69162)
-                     /gene="trnF-GAA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(69090..69162)
-                     /gene="trnF-GAA"
-                     /note="tRNAscan-SE v2.0 infernal score: 74.7"
-     gene            complement(69090..69162)
-                     /gene="trnF-GAA"
-                     /note="tRNAscan-SE v2.0 infernal score: 74.7"
-     gene            complement(69541..70115)
-                     /gene="trnL-UAA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(join(69541..69592,70081..70115))
-                     /gene="trnL-UAA"
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            complement(69541..69592)
-                     /gene="trnL-UAA"
-                     /number=2
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          complement(69593..70080)
-                     /gene="trnL-UAA"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            complement(70081..70115)
-                     /gene="trnL-UAA"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(69543..70115)
-                     /gene="trnL"
-                     /note="blatN_hit trnL_NC_016069.1; position 1 - 85;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(join(69543..69592,70081..70115))
-                     /gene="trnL"
-     exon            complement(69543..69592)
-                     /gene="trnL"
-                     /number=2
      gene            complement(69543..70115)
                      /gene="trnL-UAA"
                      /note="blatN_hit trnL-UAA_NC_032367.1; position 1 - 85;
@@ -1282,41 +821,17 @@ FEATURES             Location/Qualifiers
                      /gene="trnL-UAA"
                      /number=2
      intron          complement(69593..70080)
-                     /gene="trnL"
-                     /number=1
-     intron          complement(69593..70080)
                      /gene="trnL-UAA"
-                     /number=1
-     exon            complement(70081..70115)
-                     /gene="trnL"
                      /number=1
      exon            complement(70081..70115)
                      /gene="trnL-UAA"
                      /number=1
-     gene            70531..70603
-                     /gene="trnT"
-                     /note="blatN_hit trnT_NC_016069.1; position 1 - 73;
-                     coverage 100.00%; match 100.00%"
-     tRNA            70531..70603
-                     /gene="trnT"
      gene            70531..70603
                      /gene="trnT-UGU"
                      /note="blatN_hit trnT-UGU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            70531..70603
                      /gene="trnT-UGU"
-     gene            70531..70604
-                     /gene="trnT-UGU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            70531..70604
-                     /gene="trnT-UGU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            70531..70603
-                     /gene="trnT-UGU"
-                     /note="tRNAscan-SE v2.0 infernal score: 67.5"
-     gene            70531..70603
-                     /gene="trnT-UGU"
-                     /note="tRNAscan-SE v2.0 infernal score: 67.5"
      gene            70861..71466
                      /gene="rps4"
                      /note="blatX_hit rps4_NC_032367.1; position 1 - 606;
@@ -1333,24 +848,6 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            71767..71853
                      /gene="trnS-GGA"
-     gene            complement(71767..71853)
-                     /gene="trnS"
-                     /note="blatN_hit trnS_NC_016069.1; position 1 - 87;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(71767..71853)
-                     /gene="trnS"
-     gene            complement(71767..71853)
-                     /gene="trnS-GGA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(71767..71853)
-                     /gene="trnS-GGA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(71767..71853)
-                     /gene="trnS-GGA"
-                     /note="tRNAscan-SE v2.0 infernal score: 72.2"
-     gene            complement(71767..71853)
-                     /gene="trnS-GGA"
-                     /note="tRNAscan-SE v2.0 infernal score: 72.2"
      gene            72576..74512
                      /gene="ycf3"
                      /note="blatX_hit ycf3_NC_032367.1; position 1 - 513;
@@ -1396,13 +893,6 @@ FEATURES             Location/Qualifiers
                      VVTHITGGNFAQSSITINGWLRDFLWAQASQVIQSYGSSLSAYGLLFLGAHFIWAFSL
                      MFLFSGRGYWQELIESIVWAHNKLKVAPAIQPRALSIVQGRAVGVAHYLLGGIVTTWA
                      FFLARIIAVG"
-     gene            75335..77239
-                     /gene="psaB-fragment"
-                     /note="blatX_hit psaB-fragment_NC_032367.1; position 133
-                     - 2046; coverage 37.01%; match 19.41%; fragment match
-                     22.36%"
-     CDS             join(75335..75466,75947..76108,76718..77239)
-                     /gene="psaB-fragment"
      gene            77409..79613
                      /gene="psaB"
                      /note="blatX_hit psaB_NC_032367.1; position 1 - 2205;
@@ -1422,13 +912,6 @@ FEATURES             Location/Qualifiers
                      TCDISAWDAFYLAVFWMLNTIGWVTFYWHWKHITLWQGNVAQFNESSTYLMGWLRDYL
                      WLNSSQLINGYNPFGMNSLSVWAWMFLFGHLVWATGFMFLISWRGYWQELIETLAWAH
                      ERTPLANLVRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
-     gene            77541..79454
-                     /gene="psaA-fragment"
-                     /note="blatX_hit psaA-fragment_NC_029374.1; position 205
-                     - 2109; coverage 43.14%; match 19.93%; fragment match
-                     23.57%"
-     CDS             join(77541..77672,78171..78332,78777..79454)
-                     /gene="psaA-fragment"
      gene            79763..80062
                      /gene="rps14"
                      /note="blatX_hit rps14_NC_032367.1; position 1 - 300;
@@ -1438,53 +921,17 @@ FEATURES             Location/Qualifiers
                      /translation="MARKSLIQREKKRQALERKYHLIRQSLEEESKVSSLDDKWEIHR
                      KLQSSPRNSAPTRLHRRCSSTGRPRANYRDFGLSGHILREMAHACLLPGITKSSW"
      gene            80198..80271
-                     /gene="trnfM"
-                     /note="blatN_hit trnfM_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            80198..80271
-                     /gene="trnfM"
-     gene            80198..80271
                      /gene="trnfM-CAU"
                      /note="blatN_hit trnfM-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            80198..80271
                      /gene="trnfM-CAU"
-     gene            80198..80271
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            80198..80271
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            80199..80270
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 62.1"
-     gene            80199..80270
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 62.1"
-     gene            complement(80408..80478)
-                     /gene="trnG"
-                     /note="blatN_hit trnG_NC_016069.1; position 1 - 71;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(80408..80478)
-                     /gene="trnG"
      gene            complement(80408..80478)
                      /gene="trnG-UCC"
                      /note="blatN_hit trnG-UCC_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(80408..80478)
                      /gene="trnG-UCC"
-     gene            complement(80408..80478)
-                     /gene="trnG-GCC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(80408..80478)
-                     /gene="trnG-GCC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(80408..80478)
-                     /gene="trnG-GCC"
-                     /note="tRNAscan-SE v2.0 infernal score: 65.5"
-     gene            complement(80408..80478)
-                     /gene="trnG-GCC"
-                     /note="tRNAscan-SE v2.0 infernal score: 65.5"
      gene            complement(80711..80899)
                      /gene="psbZ"
                      /note="blatX_hit psbZ_NC_021456.1; position 1 - 189;
@@ -1493,30 +940,12 @@ FEATURES             Location/Qualifiers
                      /gene="psbZ"
                      /translation="MTIAFQSAVFALIAISFLLVIGVPVALASPDGWSSSKNVVFSGV
                      SLWIGSVLFVGILNSFISQ"
-     gene            81188..81276
-                     /gene="trnS-UGA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            81188..81276
-                     /gene="trnS-UGA"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            81189..81275
-                     /gene="trnS"
-                     /note="blatN_hit trnS_NC_016069.1; position 1 - 87;
-                     coverage 100.00%; match 100.00%"
-     tRNA            81189..81275
-                     /gene="trnS"
      gene            81189..81275
                      /gene="trnS-UGA"
                      /note="blatN_hit trnS-UGA_NC_032367.1; position 1 - 87;
                      coverage 100.00%; match 100.00%"
      tRNA            81189..81275
                      /gene="trnS-UGA"
-     tRNA            81189..81275
-                     /gene="trnS-UGA"
-                     /note="tRNAscan-SE v2.0 infernal score: 79.4"
-     gene            81189..81275
-                     /gene="trnS-UGA"
-                     /note="tRNAscan-SE v2.0 infernal score: 79.4"
      gene            complement(81469..82890)
                      /gene="psbC"
                      /note="blatX_hit psbC_NC_032367.1; position 1 - 1422;
@@ -1551,52 +980,12 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(85205..85275)
                      /gene="trnT-GGU"
-     gene            complement(85205..85276)
-                     /gene="trnT-fragment"
-                     /note="blatN_hit trnT-fragment_NC_016069.1; position 1 -
-                     72; coverage 100.00%; match 98.61%; fragment match
-                     98.61%"
-     tRNA            complement(85205..85276)
-                     /gene="trnT-fragment"
-     tRNA            complement(85205..85276)
-                     /gene="trnT-GGU"
-                     /note="tRNAscan-SE v2.0 infernal score: 44.3"
-     gene            complement(85205..85276)
-                     /gene="trnT-GGU"
-                     /note="tRNAscan-SE v2.0 infernal score: 44.3"
      gene            85602..87092
                      /gene="rrn16"
                      /note="blatN_hit rrn16_NC_032367.1; position 1 - 1491;
                      coverage 100.00%; match 100.00%"
      rRNA            85602..87092
                      /gene="rrn16"
-     gene            87474..88521
-                     /gene="trnE-UUC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            join(87474..87506,88480..88521)
-                     /gene="trnE-UUC"
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            87474..87506
-                     /gene="trnE-UUC"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          87507..88479
-                     /gene="trnE-UUC"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            88480..88521
-                     /gene="trnE-UUC"
-                     /number=2
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            87475..88519
-                     /gene="trnI"
-                     /note="blatN_hit trnI_NC_016069.1; position 1 - 72;
-                     coverage 100.00%; match 100.00%"
-     tRNA            join(87475..87511,88485..88519)
-                     /gene="trnI"
-     exon            87475..87511
-                     /gene="trnI"
-                     /number=1
      gene            87475..88519
                      /gene="trnI-GAU"
                      /note="blatN_hit trnI-GAU_NC_032367.1; position 1 - 77;
@@ -1606,45 +995,12 @@ FEATURES             Location/Qualifiers
      exon            87475..87516
                      /gene="trnI-GAU"
                      /number=1
-     intron          87512..88484
-                     /gene="trnI"
-                     /number=1
      intron          87517..88484
                      /gene="trnI-GAU"
                      /number=1
      exon            88485..88519
-                     /gene="trnI"
-                     /number=2
-     exon            88485..88519
                      /gene="trnI-GAU"
                      /number=2
-     exon            87527..87562
-                     /gene="trnI-GAU"
-                     /number=2
-                     /note="annotated by tRNAscan-SE v2.0"
-     tRNA            87475..87562
-                     /gene="trnI-GAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 15.2"
-     gene            87475..87562
-                     /gene="trnI-GAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 15.2"
-     exon            87475..87510
-                     /gene="trnI-GAU"
-                     /number=1
-                     /note="annotated by tRNAscan-SE v2.0"
-     intron          87511..87526
-                     /gene="trnI-GAU"
-                     /number=1
-                     /note="annotated by tRNAscan-SE v2.0"
-     gene            88592..89448
-                     /gene="trnA"
-                     /note="blatN_hit trnA_NC_016069.1; position 1 - 73;
-                     coverage 100.00%; match 100.00%"
-     tRNA            join(88592..88629,89414..89448)
-                     /gene="trnA"
-     exon            88592..88629
-                     /gene="trnA"
-                     /number=1
      gene            88592..89448
                      /gene="trnA-UGC"
                      /note="blatN_hit trnA-UGC_NC_032367.1; position 1 - 73;
@@ -1654,54 +1010,12 @@ FEATURES             Location/Qualifiers
      exon            88592..88629
                      /gene="trnA-UGC"
                      /number=1
-     gene            88592..89448
-                     /gene="trnA-UGC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            join(88592..88628,89413..89448)
-                     /gene="trnA-UGC"
-                     /note="annotated by ARAGORN v1.2.38"
-     intron          88630..89413
-                     /gene="trnA"
-                     /number=1
      intron          88630..89413
                      /gene="trnA-UGC"
                      /number=1
      exon            89414..89448
-                     /gene="trnA"
-                     /number=2
-     exon            89414..89448
                      /gene="trnA-UGC"
                      /number=2
-     exon            88669..88696
-                     /gene="trnA-UGC"
-                     /number=2
-                     /note="annotated by tRNAscan-SE v2.0"
-     exon            88592..88628
-                     /gene="trnA-UGC"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            88592..88696
-                     /gene="trnA-UGC"
-                     /note="tRNAscan-SE v2.0 infernal score: 15.1"
-     gene            88592..88696
-                     /gene="trnA-UGC"
-                     /note="tRNAscan-SE v2.0 infernal score: 15.1"
-     exon            88592..88628
-                     /gene="trnA-UGC"
-                     /number=1
-                     /note="annotated by tRNAscan-SE v2.0"
-     intron          88629..88668
-                     /gene="trnA-UGC"
-                     /number=1
-                     /note="annotated by tRNAscan-SE v2.0"
-     intron          88629..89412
-                     /gene="trnA-UGC"
-                     /number=1
-                     /note="annotated by ARAGORN v1.2.38"
-     exon            89413..89448
-                     /gene="trnA-UGC"
-                     /number=2
-                     /note="annotated by ARAGORN v1.2.38"
      gene            89596..92402
                      /gene="rrn23"
                      /note="blatN_hit rrn23_NC_028594.1; position 1 - 2807;
@@ -1721,53 +1035,17 @@ FEATURES             Location/Qualifiers
      rRNA            92855..92975
                      /gene="rrn5"
      gene            93184..93257
-                     /gene="trnR"
-                     /note="blatN_hit trnR_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            93184..93257
-                     /gene="trnR"
-     gene            93184..93257
                      /gene="trnR-ACG"
                      /note="blatN_hit trnR-ACG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            93184..93257
                      /gene="trnR-ACG"
-     gene            93184..93259
-                     /gene="trnR-ACG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            93184..93259
-                     /gene="trnR-ACG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            93184..93257
-                     /gene="trnR-ACG"
-                     /note="tRNAscan-SE v2.0 infernal score: 57.7"
-     gene            93184..93257
-                     /gene="trnR-ACG"
-                     /note="tRNAscan-SE v2.0 infernal score: 57.7"
-     gene            complement(93992..94065)
-                     /gene="trnN-GUU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(93992..94065)
-                     /gene="trnN-GUU"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(93993..94064)
-                     /gene="trnN"
-                     /note="blatN_hit trnN_NC_016069.1; position 1 - 72;
-                     coverage 100.00%; match 98.61%"
-     tRNA            complement(93993..94064)
-                     /gene="trnN"
      gene            complement(93993..94064)
                      /gene="trnN-GUU"
                      /note="blatN_hit trnN-GUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 98.61%"
      tRNA            complement(93993..94064)
                      /gene="trnN-GUU"
-     tRNA            complement(93993..94064)
-                     /gene="trnN-GUU"
-                     /note="tRNAscan-SE v2.0 infernal score: 72.4"
-     gene            complement(93993..94064)
-                     /gene="trnN-GUU"
-                     /note="tRNAscan-SE v2.0 infernal score: 72.4"
      gene            94350..95225
                      /gene="chlL"
                      /note="blatX_hit chlL_NC_029374.1; position 1 - 876;
@@ -1860,24 +1138,6 @@ FEATURES             Location/Qualifiers
                      LVIMSGVNRQVLFGAMDNFFSRSILPNEKFYSHEKQKSDLQYTFDFSSTNYRKCQLIK
                      QLDHWSYRAIGPGFSLSTIGTLSGAIWANEAWGSYWSWDPKETWALITWTIFAIYLHT
                      RMNKGWQGEEPAIVASLGFSIVWIRYLGVDLLGIGLHSYGWLEP"
-     gene            complement(108214..108293)
-                     /gene="trnL"
-                     /note="blatN_hit trnL_NC_016069.1; position 1 - 80;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(108214..108293)
-                     /gene="trnL"
-     gene            complement(108214..108293)
-                     /gene="trnL-UAG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(108214..108293)
-                     /gene="trnL-UAG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(108214..108293)
-                     /gene="trnL-UAG"
-                     /note="tRNAscan-SE v2.0 infernal score: 59.0"
-     gene            complement(108214..108293)
-                     /gene="trnL-UAG"
-                     /note="tRNAscan-SE v2.0 infernal score: 59.0"
      gene            complement(108216..108293)
                      /gene="trnL-UAG"
                      /note="blatN_hit trnL-UAG_NC_032367.1; position 1 - 78;
@@ -1885,29 +1145,11 @@ FEATURES             Location/Qualifiers
      tRNA            complement(108216..108293)
                      /gene="trnL-UAG"
      gene            108450..108523
-                     /gene="trnP"
-                     /note="blatN_hit trnP_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            108450..108523
-                     /gene="trnP"
-     gene            108450..108523
                      /gene="trnP-GGG"
                      /note="blatN_hit trnP-GGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            108450..108523
                      /gene="trnP-GGG"
-     gene            108450..108523
-                     /gene="trnP-GGG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            108450..108523
-                     /gene="trnP-GGG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            108450..108523
-                     /gene="trnP-GGG"
-                     /note="tRNAscan-SE v2.0 infernal score: 55.3"
-     gene            108450..108523
-                     /gene="trnP-GGG"
-                     /note="tRNAscan-SE v2.0 infernal score: 55.3"
      gene            complement(109625..109837)
                      /gene="rpl32"
                      /note="blatX_hit rpl32_NC_032367.1; position 1 - 213;
@@ -1917,29 +1159,11 @@ FEATURES             Location/Qualifiers
                      /translation="MAVPKKRTSRSKKKIRKNVRKGKAYRAAIKAFSLAKSISTGHSK
                      SFYCIANDDSSGSSESKLTSIDLDDP"
      gene            complement(110965..111036)
-                     /gene="trnV"
-                     /note="blatN_hit trnV_NC_016069.1; position 1 - 72;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(110965..111036)
-                     /gene="trnV"
-     gene            complement(110965..111036)
                      /gene="trnV-GAC"
                      /note="blatN_hit trnV-GAC_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(110965..111036)
                      /gene="trnV-GAC"
-     gene            complement(110965..111036)
-                     /gene="trnV-GAC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(110965..111036)
-                     /gene="trnV-GAC"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(110965..111036)
-                     /gene="trnV-GAC"
-                     /note="tRNAscan-SE v2.0 infernal score: 60.5"
-     gene            complement(110965..111036)
-                     /gene="trnV-GAC"
-                     /note="tRNAscan-SE v2.0 infernal score: 60.5"
      gene            113444..113911
                      /gene="rps7"
                      /note="blatX_hit rps7_NC_028594.1; position 1 - 468;
@@ -1949,31 +1173,12 @@ FEATURES             Location/Qualifiers
                      /translation="MSRRSTAEKKTAKSDPIYHNRLVNMVVNRILKNGKKSLAYRILY
                      RAIKNIQQKTEKNPLSVLRQAIRRVTPNVTVKARRVGGSTYRVPIEIRSTQGKVLAIR
                      WLLGASRKRPGRNMNFKLSHELMDAARGNGNAIRKKEETHRMAEANRAFAHFR"
-     gene            115486..115568
-                     /gene="trnL-CAA"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            115486..115568
-                     /gene="trnL-CAA"
-                     /note="annotated by ARAGORN v1.2.38"
      gene            115487..115567
                      /gene="trnL-CAA"
                      /note="blatN_hit trnL-CAA_NC_032367.1; position 1 - 81;
                      coverage 100.00%; match 100.00%"
      tRNA            115487..115567
                      /gene="trnL-CAA"
-     gene            115487..115567
-                     /gene="trnL-fragment"
-                     /note="blatN_hit trnL-fragment_NC_016069.1; position 1 -
-                     81; coverage 100.00%; match 98.77%; fragment match
-                     98.77%"
-     tRNA            115487..115567
-                     /gene="trnL-fragment"
-     tRNA            115487..115567
-                     /gene="trnL-CAA"
-                     /note="tRNAscan-SE v2.0 infernal score: 67.0"
-     gene            115487..115567
-                     /gene="trnL-CAA"
-                     /note="tRNAscan-SE v2.0 infernal score: 67.0"
      gene            complement(116257..122637)
                      /gene="ycf2"
                      /note="blatX_hit ycf2_NC_028594.1; position 1 - 6381;
@@ -2017,54 +1222,18 @@ FEATURES             Location/Qualifiers
                      YGSMRRTSKYGFFPKKSYYHFFRRYNSKFINNSILFMNSWKQLGKEHFEDFKRIQALS
                      IRSERMELHYPIFAYQRWLIGNKREKFYRFESLIHRQKWLGTNSLLSNESFLYNTLSE
                      SYQYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
-     gene            complement(122818..122892)
-                     /gene="trnH-GUG"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            complement(122818..122892)
-                     /gene="trnH-GUG"
-                     /note="annotated by ARAGORN v1.2.38"
-     gene            complement(122819..122892)
-                     /gene="trnH"
-                     /note="blatN_hit trnH_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            complement(122819..122892)
-                     /gene="trnH"
      gene            complement(122819..122893)
                      /gene="trnH-GUG"
                      /note="blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(122819..122893)
                      /gene="trnH-GUG"
-     tRNA            complement(122819..122892)
-                     /gene="trnH-GUG"
-                     /note="tRNAscan-SE v2.0 infernal score: 61.7"
-     gene            complement(122819..122892)
-                     /gene="trnH-GUG"
-                     /note="tRNAscan-SE v2.0 infernal score: 61.7"
-     gene            123198..123271
-                     /gene="trnI"
-                     /note="blatN_hit trnI_NC_016069.1; position 1 - 74;
-                     coverage 100.00%; match 100.00%"
-     tRNA            123198..123271
-                     /gene="trnI"
      gene            123198..123271
                      /gene="trnI-CAU"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            123198..123271
                      /gene="trnI-CAU"
-     gene            123198..123271
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            123198..123271
-                     /gene="trnM-CAU"
-                     /note="annotated by ARAGORN v1.2.38"
-     tRNA            123198..123271
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 64.6"
-     gene            123198..123271
-                     /gene="trnM-CAU"
-                     /note="tRNAscan-SE v2.0 infernal score: 64.6"
 ORIGIN     
         1 TTATCCACCT ATTGAAATAG ATTCAACAGC AGCTAGATCC AGAGGAAAGT TATGAGCATT
        61 ACGTTCGTGC ATAACTTCCA TACCTAGGTT AGCACGATTA ATGATATCGG CCCAAGTGTT
