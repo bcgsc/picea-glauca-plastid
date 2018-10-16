@@ -32,7 +32,7 @@ GeSeq did not annotate some mRNAs as well as some exons, which were later manual
 * RNAweasel results: see RNAweasel-results.txt
 
 ### ARAGORN
-[ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN/) ARAGORN was ran independently of GeSeq to generate the ARAGORN text report with 2D tRNA structures. The tRNA in question tRNA-Ser is tRNA #17.
+[ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN/) was run independently of GeSeq to generate the ARAGORN text report with 2D tRNA structures. The tRNA in question tRNA-Ser is tRNA #17.
 * ARAGORN settings: see ARAGORN-settings.png
 * ARAGORN results: see ARAGORN-tRNA.txt
 
