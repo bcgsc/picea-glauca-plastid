@@ -1,0 +1,1821 @@
+------------------------------
+ARAGORN v1.2.38   Dean Laslett
+------------------------------
+
+Please reference the following paper if you use this
+program as part of any published research.
+
+Laslett, D. and Canback, B. (2004) ARAGORN, a
+program for the detection of transfer RNA and
+transfer-messenger RNA genes in nucleotide sequences.
+Nucleic Acids Research, 32;11-16.
+
+
+Searching for tRNA genes with introns in anticodon loop
+Intron length from 0 to 3000 bases
+Assuming circular topology, search wraps around ends
+Searching both strands
+Using standard genetic code
+
+
+WS77111_complete_chloroplast_genome
+123421 nucleotides in sequence
+Mean G+C content = 38.7%
+ 
+1.
+ 
+ 
+ 
+               g
+             t+g
+             g-c
+             g-c
+             g-c
+             t-a
+             t-a
+             g-c
+             c-g     tg
+            t   ggccc  a
+     aa    a    !!!!!  g
+    t  ctca     ccggg  c
+    g  !!!!    t     tt
+    g  gagt     c
+     ta    a     g
+            c cga
+            t-a
+            c-g
+            g-c
+            g-c
+           c   a
+           t   a
+            ttt
+ 
+ 
+    tRNA-Lys(ttt)
+    74 bases, %GC = 58.1
+    Sequence c[1533,4118]
+ 
+
+
+Primary sequence for tRNA-Lys(ttt)
+1   .   10    .   20    .   30    .   40    .   50
+tgggttgctaactcaatggtagagtactcggcttttaagtgcgactaagg
+tcttttacacatttgaatgaagtagaaaactcgtcgataccatcggtaaa
+gtttggaagactacgactgatcctcgaagtagaattaacggaaaaaacag
+catgtcgttccaacatatgatctttatgatacctgatatgatttttagga
+tacctgatattattcgatcaggaccggatctaattcaaggaatcaaatgg
+gtgggaaatgtctattatatacctaggtggatgtataatatgatcatcct
+ttcggatcaaatgtgataattgtgaataggatcgaatcaattcgcggtta
+agtcgaatgagtcaatggagaaagctatatgacttgaatcataagtagac
+ccagagaaacgagcttctgttcctcgttccaattaaacgagcgaggaatt
+ccctttactgatcagaagttaagagcattttagtacccgatatcgggagg
+ttttccctgagtagatcagggatttatacactcacaatgagtcctaagta
+ctcgagtacagatgtgtaagataaatagtgtactgaccaggtttatttat
+tccatgagtcaggagagcgatcggttgccaggataaaagattttcgttct
+tcctcatgacgaacgagatccttgggtagtaaatctgctgaatagaagat
+agaatctttatatcatctatctttttcctatcttgtcccgactagatcgc
+accatgtattgtattatctcagaatttaagaggttattctcatgaacgag
+ggccataactgaggtttgaaaatggatgagttccatagatacggaaagga
+agatagctcttggcaacaatgctttttatatccactcttttttcaggaag
+atctttacgcaatttctcatgatcattatttggatggatcgagttcctcc
+gaaccgatggaaaatttaagttccaatgatcagttcagtttcctaactgt
+aaaacgtttgattggtcaaatacgtcaacagaatcattcaattgttttat
+tcgtgaattgtgatccaaatccattagttgatcgcaagaagagttcctat
+tctgaatcggtactagaaggactgacattggtcctggaagttccgttctc
+tatacggtcaaaatattctgtggaagggatgaatgaatggaagagtttcc
+ggtcgatccattcaatatttcccttcttggaggataaattcccgcattca
+aattatgtatcagatacacgaataccctattctattcatccagaaatttt
+ggttcgaacctttcgtcgctggatcggagatgctccctccttgcacccat
+tacgatctattctctatgaatatcgaaatagttcagagagtttacaaaga
+tcgattattgtcgtcccgaaagtaaatacgagattcttcctgttcctgtg
+gaataattatgtctatgaatgcgaatccattttagtttcccttcttaaac
+gatcctctcattcacgatcgttatctcatgggtctttccctcagcgaact
+cattttcatcgaaaaataaaaaatatttttctattttctcgtcgaaattc
+atttcaaagtatctggtcgttgaaggatcctaacattcactatgttagat
+atggagaaagatctattatagctataaagggtactaatctcctagtgaaa
+aaatatagatattatcttccaatttttcggcaatgttatttccatctttg
+gaacgaaccatatagggtatgttctcatcaattatccaagaattgttctt
+cttctttaggttattttctgaggtttcggatgaaacctcttttggtcaag
+actaaaatgctagatgagttattcattgccgatcttattaccgatgaatt
+tgatccaatagttccgattgtaccaataattggattattgtctagagaaa
+aattctgtgatatatcagggcggccaattagtaaattgtcttggaccagt
+ctaacagatgatgatatcctggatcgattcgatcgaatttggagaaatct
+ttttcattactacagtggatcctttggtcgagatggtttatatcgtataa
+agtatatactttcattatcatgtgctaaaactttagcctgtaaacataaa
+agtacgatacgtgtagttcggaaggaattaggtccagaactctttaaaaa
+atcgttttcaaaagaacgagaattggattctccgcctttttcatcaaaag
+cggcggcccgttcacagagagaacgaatttggcattcagatattccccag
+ataaatcccctagcccattcctggcaaaagatacaggatctgaaaataga
+aaacttatttgaccaatgaaatgctctttgagtcattgcctcgattcaga
+atcatttttattttgccatccgagaactaaaatgattaggaaatagatac
+attacatggggaaagccgtgtgcgatgagaattgcaagcacggtttgggg
+agagatttctcgctcttactgatactgaaggagcagataatccactccat
+ccgacgagctccgggttcgagtcccgggcaacccgg
+
+
+Intron from tRNA-Lys(ttt)
+1   .   10    .   20    .   30    .   40    .   50
+gtgcgactaaggtcttttacacatttgaatgaagtagaaaactcgtcgat
+accatcggtaaagtttggaagactacgactgatcctcgaagtagaattaa
+cggaaaaaacagcatgtcgttccaacatatgatctttatgatacctgata
+tgatttttaggatacctgatattattcgatcaggaccggatctaattcaa
+ggaatcaaatgggtgggaaatgtctattatatacctaggtggatgtataa
+tatgatcatcctttcggatcaaatgtgataattgtgaataggatcgaatc
+aattcgcggttaagtcgaatgagtcaatggagaaagctatatgacttgaa
+tcataagtagacccagagaaacgagcttctgttcctcgttccaattaaac
+gagcgaggaattccctttactgatcagaagttaagagcattttagtaccc
+gatatcgggaggttttccctgagtagatcagggatttatacactcacaat
+gagtcctaagtactcgagtacagatgtgtaagataaatagtgtactgacc
+aggtttatttattccatgagtcaggagagcgatcggttgccaggataaaa
+gattttcgttcttcctcatgacgaacgagatccttgggtagtaaatctgc
+tgaatagaagatagaatctttatatcatctatctttttcctatcttgtcc
+cgactagatcgcaccatgtattgtattatctcagaatttaagaggttatt
+ctcatgaacgagggccataactgaggtttgaaaatggatgagttccatag
+atacggaaaggaagatagctcttggcaacaatgctttttatatccactct
+tttttcaggaagatctttacgcaatttctcatgatcattatttggatgga
+tcgagttcctccgaaccgatggaaaatttaagttccaatgatcagttcag
+tttcctaactgtaaaacgtttgattggtcaaatacgtcaacagaatcatt
+caattgttttattcgtgaattgtgatccaaatccattagttgatcgcaag
+aagagttcctattctgaatcggtactagaaggactgacattggtcctgga
+agttccgttctctatacggtcaaaatattctgtggaagggatgaatgaat
+ggaagagtttccggtcgatccattcaatatttcccttcttggaggataaa
+ttcccgcattcaaattatgtatcagatacacgaataccctattctattca
+tccagaaattttggttcgaacctttcgtcgctggatcggagatgctccct
+ccttgcacccattacgatctattctctatgaatatcgaaatagttcagag
+agtttacaaagatcgattattgtcgtcccgaaagtaaatacgagattctt
+cctgttcctgtggaataattatgtctatgaatgcgaatccattttagttt
+cccttcttaaacgatcctctcattcacgatcgttatctcatgggtctttc
+cctcagcgaactcattttcatcgaaaaataaaaaatatttttctattttc
+tcgtcgaaattcatttcaaagtatctggtcgttgaaggatcctaacattc
+actatgttagatatggagaaagatctattatagctataaagggtactaat
+ctcctagtgaaaaaatatagatattatcttccaatttttcggcaatgtta
+tttccatctttggaacgaaccatatagggtatgttctcatcaattatcca
+agaattgttcttcttctttaggttattttctgaggtttcggatgaaacct
+cttttggtcaagactaaaatgctagatgagttattcattgccgatcttat
+taccgatgaatttgatccaatagttccgattgtaccaataattggattat
+tgtctagagaaaaattctgtgatatatcagggcggccaattagtaaattg
+tcttggaccagtctaacagatgatgatatcctggatcgattcgatcgaat
+ttggagaaatctttttcattactacagtggatcctttggtcgagatggtt
+tatatcgtataaagtatatactttcattatcatgtgctaaaactttagcc
+tgtaaacataaaagtacgatacgtgtagttcggaaggaattaggtccaga
+actctttaaaaaatcgttttcaaaagaacgagaattggattctccgcctt
+tttcatcaaaagcggcggcccgttcacagagagaacgaatttggcattca
+gatattccccagataaatcccctagcccattcctggcaaaagatacagga
+tctgaaaatagaaaacttatttgaccaatgaaatgctctttgagtcattg
+cctcgattcagaatcatttttattttgccatccgagaactaaaatgatta
+ggaaatagatacattacatggggaaagccgtgtgcgatgagaattgcaag
+cacggtttggggagagatttctcgctcttactgatactgaaggagcagat
+aatccactccat
+
+Intron Length: 2512
+Intron Insertion Position(38-39): tttaa-Intron-ccgac
+
+ 
+2.
+ 
+ 
+ 
+               g
+             t-a
+             g-c
+             g-c
+             g-c
+             g+t
+             c-g
+             g-c     ta
+            t   cttcc  a
+     gaa   g    !+!!!  g
+    c   ccg     ggagg  c
+    g   !!!     c    tt
+    g   ggc     t
+     taa        t
+            a-ta
+            g+t
+            c-g
+            a-t
+            g-c
+            g-c
+           t   t
+           t   a
+            ttg
+ 
+ 
+    tRNA-Gln(ttg)
+    72 bases, %GC = 56.9
+    Sequence c[6453,6524]
+ 
+
+
+Primary sequence for tRNA-Gln(ttg)
+1   .   10    .   20    .   30    .   40    .   50
+tggggcgtggccaagcggtaaggcagcaggttttgatcctgttattcgga
+ggttcgaatccttccgtcccag
+
+
+ 
+3.
+ 
+ 
+ 
+               t
+             t+g
+             g-c
+             g-c
+             a-t
+             g-c
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    cgag   g    !!!!!  g
+   g    tcg     gaggg  c
+   g    !!!      c   tt
+   a    agc     g-c
+    ccaa   g   a t-a
+            g+t   a-t
+            c-g    c-g
+            g-c     g-c
+            g-c      g-c
+            a-t      a   t
+           t   a       tta
+           t   a
+            gct
+ 
+ 
+    tRNA-Ser(gct)
+    90 bases, %GC = 55.6
+    Sequence c[7735,7824]
+ 
+
+
+Primary sequence for tRNA-Ser(gct)
+1   .   10    .   20    .   30    .   40    .   50
+tggagagatggctgagcggaccaaagcggcggattgctaatccgtagtac
+ggattatccgtaccgagggttcgaatccctctctctccgt
+
+
+ 
+4.
+ 
+                 c
+                c
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             g-c     ta
+            t   tgtcc  a
+    cga    a    +!!!!  a
+   t   cgcg     gcagg  c
+   t   !!!+    c     tt
+   g   gcgt     t
+    gta    a     g
+            t-aat
+            t-a
+            t-a
+            g-c
+            t-a
+           t   t
+           t   g
+            tgg
+ 
+ 
+ 
+    tRNA-Pro(tgg)
+    76 bases, %GC = 47.4
+    Sequence [12365,12440]
+ 
+
+
+Primary sequence for tRNA-Pro(tgg)
+1   .   10    .   20    .   30    .   40    .   50
+agggatgtagcgcagcttggtagcgtatttgttttgggtacaaaatgtcg
+caggttcaaatcctgtcatccctacc
+
+
+ 
+5.
+ 
+ 
+ 
+               g
+             g+t
+             c-g
+             g-c
+             c-g
+             t-a
+             c-g
+             t-a     ta
+            t   catcc  a
+    tga    a    !!!!!  a
+   t   cttg     gtagg  c
+   c   !!!!    c     tt
+   g   gaac     c
+    gta    g     g
+            t+gat
+            a-t
+            g-c
+            g-c
+            t-a
+           c   a
+           t   a
+            cca
+ 
+ 
+ 
+    tRNA-Trp(cca)
+    74 bases, %GC = 50.0
+    Sequence [12606,12679]
+ 
+
+
+Primary sequence for tRNA-Trp(cca)
+1   .   10    .   20    .   30    .   40    .   50
+gcgctcttagttcagttcggtagaacgtaggtctccaaaacctgatgccg
+taggttcaaatcctacagagcgtg
+
+
+ 
+6.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g-c
+             t+g
+             t-a
+             g+t
+             g-c     ta
+            t   ttccc  a
+    tga    a    !!!!!  a
+   g   ctcg     aaggg  c
+   g   !!!!     c    tt
+   a   gagc     t
+    tca         g
+            t-aa
+            c-g
+            a-t
+            t-a
+            g-c
+            g-c
+           t   a
+           t   g
+            ccg
+ 
+ 
+    tRNA-Arg(ccg)
+    74 bases, %GC = 52.7
+    Sequence c[22076,22149]
+ 
+
+
+Primary sequence for tRNA-Arg(ccg)
+1   .   10    .   20    .   30    .   40    .   50
+gggttggtagctcagtggatcagagctcatggttccggaccatgaagtca
+agggttcaaatcccttctagccca
+
+
+ 
+7.
+ 
+ 
+ 
+               a
+             a-t
+             c-g
+             c-g
+             c a
+             a-t
+             c-g
+             t-a     ta
+            t   taacc  a
+     ga    a    +!!!!  a
+    t  ctca     gttgg  c
+   g   !!!!    c     tt
+   g   gagt     t
+    tta    a     g
+            t-aga
+            c-g
+            g-c
+            c-g
+            t+g
+           t   c
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    73 bases, %GC = 43.8
+    Sequence c[26614,26686]
+ 
+
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+acccacttaactcagtggttagagtatcgctttcatacggcgagagtcgt
+tggttcaaatccaatagtaggta
+
+
+ 
+8.
+ 
+ 
+ 
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             c-g
+             t-a
+             a-t     cg
+            t   atgcc  a
+    cga    a    !!!!!  g
+   a   ctcg     tacgg  c
+   a   !!!!      c   tt
+   g   gagc       t
+    gta   a        g
+           cc ac    g
+            t-a t    a
+            c-g  t    a
+            g.a   t    g
+            t-a    g    a
+           t   t    a    g
+           t   a     t    c
+            ata       c   c
+                       t   a
+                        g  t
+                         t c
+    tRNA-Tyr(ata)         t
+    96 bases, %GC = 46.9
+    Sequence [26876,27494]
+ 
+
+
+Primary sequence for tRNA-Tyr(ata)
+1   .   10    .   20    .   30    .   40    .   50
+agggctatagctcagcaaggtagagcacctcgtttacacgtgcgccaatg
+gttttcgggagagtttatcgattcgtccgatccacgaaatagattctatg
+tgaaaaagtcttactctatcaatgtgtttctctggggaacaatagcatga
+caaagatgaagttcgatccgattcgaattacgaatctaattgatatggtc
+aatcccagctccgttcaatgccaggcataatgagtataatacggggacct
+caaaatagattcttttcgctctatgacacttttaggtgtatgaagtgtca
+tattttctttttggagcgctagaggagactctatttgagtcaatctatgc
+ccgagcaaggcagacctacgtcaaggaaaccttttgaatcactttgggat
+tgcttccgaagggtaagaatttggagcacacggagccatattagtatctt
+tcctggaaagaggagaatggcagactaaccgatctttccatcagttaatg
+aaagagcccaatgcgataaaatgcatgttgggttcttggaacagttcaaa
+ttattttgataataagaactttgatctgttctaccgagaaggtctacggt
+tcgagcccgtatagcccta
+
+
+Intron from tRNA-Tyr(ata)
+1   .   10    .   20    .   30    .   40    .   50
+acacgtgcgccaatggttttcgggagagtttatcgattcgtccgatccac
+gaaatagattctatgtgaaaaagtcttactctatcaatgtgtttctctgg
+ggaacaatagcatgacaaagatgaagttcgatccgattcgaattacgaat
+ctaattgatatggtcaatcccagctccgttcaatgccaggcataatgagt
+ataatacggggacctcaaaatagattcttttcgctctatgacacttttag
+gtgtatgaagtgtcatattttctttttggagcgctagaggagactctatt
+tgagtcaatctatgcccgagcaaggcagacctacgtcaaggaaacctttt
+gaatcactttgggattgcttccgaagggtaagaatttggagcacacggag
+ccatattagtatctttcctggaaagaggagaatggcagactaaccgatct
+ttccatcagttaatgaaagagcccaatgcgataaaatgcatgttgggttc
+ttggaacagttcaaattattttg
+
+Intron Length: 523
+Intron Insertion Position(35-36): cgttt-Intron-ataat
+
+ 
+9.
+ 
+ 
+                c
+               c
+             g-c
+             c-g
+             g-c
+             g+t
+             a-t
+             c-g
+             g-c     tt
+            t   tgccc  a
+    tgaa   a    +!!!!  a
+   g    ctg     gcggg  c
+   g    !+!    c     tt
+   a    ggc     g
+    ccaa   a     c
+            g-cca
+            t-a
+            g-c
+            g-c
+            a-t
+           t   a
+           t   a
+            gtg
+ 
+ 
+ 
+    tRNA-His(gtg)
+    75 bases, %GC = 60.0
+    Sequence [29785,29859]
+ 
+
+
+Primary sequence for tRNA-His(gtg)
+1   .   10    .   20    .   30    .   40    .   50
+gcggacgtagtcaagtggaccaaggcagtggattgtgaatccaccacgcg
+cgggttcaattcccgtcgttcgccc
+
+
+ 
+10.
+ 
+ 
+                c
+               t
+             g-c
+             c-g
+             c-g
+             c-g
+             t-a
+             t-a
+             t-a     tg
+            t   tagcc  a
+     ga    a    !!!!!  a
+    c  ctca     atcgg  c
+    g  !!!!    c     tt
+    g  gagt     t
+     ta    a     g
+            a-taa
+            c-g
+            g-c
+            c-g
+            c-g
+           a   a
+           t   a
+            ggt
+ 
+ 
+ 
+    tRNA-Thr(ggt)
+    73 bases, %GC = 50.7
+    Sequence c[29981,30053]
+ 
+
+
+Primary sequence for tRNA-Thr(ggt)
+1   .   10    .   20    .   30    .   40    .   50
+gcccttttaactcagcggtagagtaacgccatggtaaggcgtaagtcatc
+ggttcaagtccgataaagggctc
+
+
+ 
+11.
+ 
+ 
+ 
+               t
+             t+g
+             g-c
+             g-c
+             a-t
+             g-c
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    cgag   g    !!!!!  g
+   g    tcg     gaggg  c
+   g    !!!      c   tt
+   a    agc     g-c
+    ccaa   g   a t-a
+            g+t   a-t
+            c-g    c-g
+            g-c     g-c
+            g-c      g-c
+            a-t      a   t
+           t   a       tta
+           t   a
+            gct
+ 
+ 
+    tRNA-Ser(gct)
+    90 bases, %GC = 55.6
+    Sequence [31579,31668]
+ 
+
+
+Primary sequence for tRNA-Ser(gct)
+1   .   10    .   20    .   30    .   40    .   50
+tggagagatggctgagcggaccaaagcggcggattgctaatccgtagtac
+ggattatccgtaccgagggttcgaatccctctctctccgt
+
+
+ 
+12.
+ 
+                 ca
+                c
+               a
+             g+t
+             c-g
+             c-g
+             c-g
+             c-g
+             t-a
+             a-t     tc
+            t   cccct  a
+    tga    c    !!!!!  g
+   g   tctg     gggga  c
+   g   +!!!     c    tt
+   a   ggac     a
+    tca    a    a
+            t+gc
+            c-g
+            t-a
+            c-g
+            t+g
+           c   a
+           t   a
+            ttc
+ 
+ 
+ 
+    tRNA-Glu(ttc)
+    76 bases, %GC = 55.3
+    Sequence [32157,32232]
+ 
+
+
+Primary sequence for tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+gcccctatcgtctagtggatcaggacatctctctttcaaggaggcaacgg
+ggattcgacttcccctaggggtacca
+
+
+ 
+13.
+ 
+                 c
+                c
+               a
+             t-a
+             g-c
+             g-c
+             g-c
+             t-a
+             c-g
+             g-c
+             a-t     ta
+            t   cgacc  a
+    tga    g    !!!!!  a
+   g   gccc    cgctgg  c
+   g   +! !    a     tt
+   t   tgag     t
+    taa        g-c
+            g+t g-c
+            a-t  c-g
+            c-g  a   t
+            g-c    ata
+            g-c
+            a-t
+           c   a
+           t   a
+            gta
+ 
+    tRNA-Tyr(gta)
+    88 bases, %GC = 53.4
+    Sequence [32301,32388]
+ 
+
+
+Primary sequence for tRNA-Tyr(gta)
+1   .   10    .   20    .   30    .   40    .   50
+tgggtcgatgcccgagtggttaatgaggacggactgtaaatccgttggca
+atatgcctacgctggttcaaatccagctcgacccaacc
+
+
+ 
+14.
+ 
+ 
+ 
+               a
+             t+g
+             g-c
+             g-c
+             g-c
+             a-t
+             t+g
+             t-a
+             g-c     cg
+            t   tgccc  a
+    taa    a    +!!!!  g
+   t   cttg     gcggg  c
+   g   !!++    t     tt
+   g   gagt     t
+    tta    a     g
+            c-gaa
+            c-g
+            g-c
+            c a
+            c-g
+           c   a
+           t   a
+            gtc
+ 
+ 
+    tRNA-Asp(gtc)
+    76 bases, %GC = 55.3
+    Sequence [32644,32719]
+ 
+
+
+Primary sequence for tRNA-Asp(gtc)
+1   .   10    .   20    .   30    .   40    .   50
+tgggattgtagttcaattggttagagtaccgccctgtcaagacggaagtt
+gcgggttcgagccccgtcagtcccga
+
+
+ 
+15.
+ 
+ 
+ 
+               t
+             g-c
+             g-c
+             c-g
+             g-c
+             a-t
+             c-g
+             a-t     ta
+            t   gggcc  a
+     gaa   a    !!! !  g
+    c   ccg     cccag  c
+    g   !!!     c    tt
+    g   ggc     t
+     taa   a    a
+            g-cc
+            a-t
+            g-c
+            g-c
+            a-t
+           c   a
+           t   a
+            gca
+ 
+ 
+ 
+    tRNA-Cys(gca)
+    71 bases, %GC = 59.2
+    Sequence c[35048,35118]
+ 
+
+
+Primary sequence for tRNA-Cys(gca)
+1   .   10    .   20    .   30    .   40    .   50
+ggcgacatagccaagcggtaaggcagaggactgcaaatcctccatcccca
+gttcgaatccgggtgtcgcct
+
+
+ 
+16.
+ 
+ 
+ 
+               a
+             g+t
+             c-g
+             g-c
+             t-a
+             c-g
+             c-g
+             a-t     ta
+            t   tatcc  a
+     aa    t    !!!!!  a
+    t  tctg     atagg  c
+   g   +!!!     t    tt
+   g   ggac    g
+    ata        g
+            a-t
+            g+t
+            a-t
+            g-c
+            g-c
+            t-a
+           c   a
+           t   a
+            tct
+ 
+ 
+    tRNA-Arg(tct)
+    72 bases, %GC = 41.7
+    Sequence c[51513,51584]
+ 
+
+
+Primary sequence for tRNA-Arg(tct)
+1   .   10    .   20    .   30    .   40    .   50
+gcgtccattgtctaatggataggacagaggtcttctaaacctttggtata
+ggttcaaatcctattggacgta
+
+
+ 
+17.
+ 
+ 
+ 
+               a
+             g+t
+             g-c
+             c-g
+             g-c
+             g-c
+             g-c
+             t-a
+             a-t     tt
+            t   cgccc  a
+     ga    a    !!!!!  g
+    t  tttg     gcggg  c
+   g   !!++      t   tt
+   g   aagt       a
+    taa            g
+            g-cc    c
+            t-a c    a
+            g.a  c    a
+            a-t   t    t
+            t-a    a    c
+           t   t    g   g
+           t   c     c   a
+            cga       c   a
+                       t  c
+                        tc
+    tRNA-Ser(cga)
+    92 bases, %GC = 50.0
+    Sequence c[51802,52646]
+ 
+
+
+Primary sequence for tRNA-Ser(cga)
+1   .   10    .   20    .   30    .   40    .   50
+ggcgggtatagtttagtggtaaaagtgtgattcgttacattatcaactca
+aatagttgaaggatcttttacatggatctttgatccatctaaagctctat
+ttccaaataggtgaaaaaccttccctataaatgctatggttcaggaatag
+cataccttctcgtaatctgggtctgaaatgatgaaagagaaacacatttt
+tggttccgagatagcgacacagaatattttcaaggttagagaaataacat
+atctatggagatccaaagatattttttcatcgtgactaaaccttcaactt
+atggaaggatccagttgaagccgaatagctatagaacgatgactttggtt
+tacttgggttatcagcatttcgttcgagctcggtggaatttgttctcctg
+gggatcggaatcagtagaaatagggaacgaagtaactagaaagatttgtg
+attattgaaaacttttcaaatttatctttctatagggatcatctagaaag
+tgagtaagtattctacgattcgggcccttctctaaaaaaaaaagagagaa
+gagaagaaaagagaataaactgacgtagatgctatgggtacgataagaaa
+ttagggttttattagaaaagagagaaaaaaaagaaagaagagaaagaatt
+gaaatctcctttcaaaaagatttgatataaatactccgcttcttccctca
+taccactctctatcccccatgaaggagccgaatgacatgaaattttcatg
+ttcggttctgaattagaggcattgaataatcaatgtcgactataacccct
+agccttccaagctaacgatgcgggttcgattcccgctacccgcta
+
+
+Intron from tRNA-Ser(cga)
+1   .   10    .   20    .   30    .   40    .   50
+cgttacattatcaactcaaatagttgaaggatcttttacatggatctttg
+atccatctaaagctctatttccaaataggtgaaaaaccttccctataaat
+gctatggttcaggaatagcataccttctcgtaatctgggtctgaaatgat
+gaaagagaaacacatttttggttccgagatagcgacacagaatattttca
+aggttagagaaataacatatctatggagatccaaagatattttttcatcg
+tgactaaaccttcaacttatggaaggatccagttgaagccgaatagctat
+agaacgatgactttggtttacttgggttatcagcatttcgttcgagctcg
+gtggaatttgttctcctggggatcggaatcagtagaaatagggaacgaag
+taactagaaagatttgtgattattgaaaacttttcaaatttatctttcta
+tagggatcatctagaaagtgagtaagtattctacgattcgggcccttctc
+taaaaaaaaaagagagaagagaagaaaagagaataaactgacgtagatgc
+tatgggtacgataagaaattagggttttattagaaaagagagaaaaaaaa
+gaaagaagagaaagaattgaaatctcctttcaaaaagatttgatataaat
+actccgcttcttccctcataccactctctatcccccatgaaggagccgaa
+tgacatgaaattttcatgttcggttctgaattagaggcattgaataatca
+atg
+
+Intron Length: 753
+Intron Insertion Position(32-33): tgatt-Intron-tcgac
+
+ 
+18.
+ 
+ 
+ 
+               a
+             g-c
+             c-g
+             a-t
+             t-a
+             c-g
+             c-g
+             a-t     tt
+            t   cgtcc  a
+    taag   g    !!+!!  a
+    g   tcg     gcggg  c
+    g   !!!     c    tt
+    t   agc      t
+     taa   g     c
+            c tg a
+            c-g a
+            c-g
+            a-t
+            a-t
+           c   a
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    74 bases, %GC = 50.0
+    Sequence c[67175,67248]
+ 
+
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+gcatccatggctgaatggttaaagcgcccaactcataattggtgaactcg
+cgggttcaattcctgctggatgca
+
+
+ 
+19.
+ 
+ 
+ 
+               a
+             g-c
+             c-g
+             c-g
+             g+t
+             g-c
+             g-c
+             a-t     ta
+            t   tggtc  a
+     ga    a    !!!!!  a
+    t  ctcg     accag  c
+   t   !!!!    c     tt
+   g   gagc     c
+    gta    a     g
+            g-cgt
+            a-t
+            g-c
+            g-c
+            a-t
+           c   a
+           t   a
+            gaa
+ 
+ 
+ 
+    tRNA-Phe(gaa)
+    73 bases, %GC = 53.4
+    Sequence c[69090,69162]
+ 
+
+
+Primary sequence for tRNA-Phe(gaa)
+1   .   10    .   20    .   30    .   40    .   50
+gccgggatagctcagttggtagagcagaggactgaaaatcctcgtgccac
+cagttcaaatctggttcctggca
+
+
+ 
+20.
+ 
+                 c
+                c
+               a
+             g-c
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             a-t     tg
+            t   ctccc  a
+    taag   g    !!!!!  a
+   t    gcg     gaggg  c
+   g    !!!     t    tt
+   g    cgc     g
+    taga   t     c
+            a-ttg-c
+            c-g  g.a
+            g-c   c-g
+            g-c    t-a
+            a-t    t   t
+           c   a     ta
+           t   a
+            taa
+ 
+ 
+ 
+    tRNA-Leu(taa)
+    87 bases, %GC = 51.7
+    Sequence c[69541,70115]
+ 
+
+
+Primary sequence for tRNA-Leu(taa)
+1   .   10    .   20    .   30    .   40    .   50
+ggggatatggcggaattggtagacgctacggacttgatcgaattgagcct
+tggtatggaaacctaccaagtgatagcttccaaatccagggaaccctggg
+atattttgaatgggtaatcctgagccaaatccggttcatggagacaatag
+tttcttcttttattctcctaagataggaaggggataggtgcagagactca
+atggaagctattctaacgaatgaatctcatttggtccaatactgtattta
+tagaacgctctatttacacctaaaaagtgggaatgtgatataacatcaga
+caaaactcgcgatcagaacttgaatcgttccaagcatctattcgtaagat
+agatgccagattcgagttgaagtactgattttacattaagtaatccaatt
+atgaacttctctactttagatagagaattgaatcagtttttggaataaat
+ggttggacgagaataaagatagagtccaattctacgtgtcaatgtcaact
+acaatgcaaattgcagtaggaggaaaatccgttggctttatagaccgtga
+gggttcaagtccctctatccccacc
+
+
+Intron from tRNA-Leu(taa)
+1   .   10    .   20    .   30    .   40    .   50
+gatcgaattgagccttggtatggaaacctaccaagtgatagcttccaaat
+ccagggaaccctgggatattttgaatgggtaatcctgagccaaatccggt
+tcatggagacaatagtttcttcttttattctcctaagataggaaggggat
+aggtgcagagactcaatggaagctattctaacgaatgaatctcatttggt
+ccaatactgtatttatagaacgctctatttacacctaaaaagtgggaatg
+tgatataacatcagacaaaactcgcgatcagaacttgaatcgttccaagc
+atctattcgtaagatagatgccagattcgagttgaagtactgattttaca
+ttaagtaatccaattatgaacttctctactttagatagagaattgaatca
+gtttttggaataaatggttggacgagaataaagatagagtccaattctac
+gtgtcaatgtcaactacaatgcaaattgcagtaggagg
+
+Intron Length: 488
+Intron Insertion Position(35-36): gactt-Intron-aaaat
+
+ 
+21.
+ 
+ 
+                c
+               t
+             g-c
+             c-g
+             c-g
+             t.t
+             g-c
+             c-g
+             t-a     ct
+            t   tagcc  a
+     ga    a    !!!!!  g
+    a  ctcg     atcgg  c
+   g   !!!!     c    tt
+   g   gagc     t
+    tta         g
+            a-tg
+            t-a
+            c-g
+            g-c
+            c-g
+            a-t
+           c   a
+           t   a
+            tgt
+ 
+ 
+    tRNA-Thr(tgt)
+    74 bases, %GC = 54.1
+    Sequence [70531,70604]
+ 
+
+
+Primary sequence for tRNA-Thr(tgt)
+1   .   10    .   20    .   30    .   40    .   50
+gcctgcttagctcagaggttagagcatcgcacttgtaatgcgatggtcat
+cggttcgatcccgatagctggctc
+
+
+ 
+22.
+ 
+ 
+ 
+               g
+             g-c
+             g-c
+             a-t
+             a-t
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    cgag   g    !!!!!  g
+   g    ccg     gaggg  c
+   g    !!!          tt
+   t    ggc     c
+    tcaa       g-c
+            g+t t-a
+            t-a  a-t
+            a-t   g+t
+            g-c    g-c
+            c-g     c-g
+            a-t     t   t
+           t   c      tc
+           t   a
+            gga
+ 
+ 
+    tRNA-Ser(gga)
+    87 bases, %GC = 54.0
+    Sequence c[71767,71853]
+ 
+
+
+Primary sequence for tRNA-Ser(gga)
+1   .   10    .   20    .   30    .   40    .   50
+ggaaagatggccgagcggttcaaggcgtagcattggaactgctatgtagg
+cttctgcttaccgagggttcgaatccctctctttccg
+
+
+ 
+23.
+ 
+ 
+ 
+               a
+             t c
+             g-c
+             c-g
+             g-c
+             g-c
+             a-t
+             g-c     ta
+            t   tgccc  a
+    tga    a    !!!!!  a
+   c   tgag     acggg  c
+   t   +!!!    c     tt
+   g   gctc     t
+    gta    g     g
+            c-gag
+            a-t
+            a-t
+            g-c
+            g-c
+           c   a
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    74 bases, %GC = 55.4
+    Sequence [80198,80271]
+ 
+
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+tgcggagtagagtagtctggtagctcgcaaggctcataaccttgaggtca
+cgggttcaaatcccgtctccgcca
+
+
+ 
+24.
+ 
+ 
+ 
+               c
+             g-c
+             c-g
+             g-c
+             g-c
+             g-c
+             t-a
+             a-t     ct
+            t   cgccc  a
+     aag   g    !!!!!  g
+    t   ttg     gcggg  c
+    g   !!+     t    tt
+    g   aat    a
+     taa       g
+            t-a
+            t-a
+            c-g
+            t-a
+            c-g
+            t+g
+           t   a
+           t   a
+            gcc
+ 
+ 
+    tRNA-Gly(gcc)
+    71 bases, %GC = 53.5
+    Sequence c[80408,80478]
+ 
+
+
+Primary sequence for tRNA-Gly(gcc)
+1   .   10    .   20    .   30    .   40    .   50
+gcgggtatggttgaatggtaaaatttctctttgccaaggagaagatgcgg
+gttcgatccccgctacccgcc
+
+
+ 
+25.
+ 
+ 
+ 
+               g
+             g+t
+             g-c
+             g-c
+             a-t
+             g-c
+             a-t
+             g-c
+             a-t     ta
+            t   ctccc  a
+    tga    g    !!!!!  g
+   g   gccg     gaggg  c
+   g   +!!!      c   tt
+   t   tggc     a-t
+    tga    t   t t-a
+            c-g   a-t
+            c-g    g-c
+            g-c     t-a
+            g-c      t-a
+            t-a      a   a
+           c   a       aa
+           t   a
+            tga
+ 
+ 
+    tRNA-Ser(tga)
+    89 bases, %GC = 50.6
+    Sequence [81188,81276]
+ 
+
+
+Primary sequence for tRNA-Ser(tga)
+1   .   10    .   20    .   30    .   40    .   50
+gggagagatggccgagtggttgatggctccggtcttgaaaaccggtatag
+ttaaaaaactatcgagggttcgaatccctctctctcctg
+
+
+ 
+26.
+ 
+ 
+                c
+               g
+             t-a
+             g-c
+             g-c
+             g-c
+             c-g
+             t-a
+             a-t
+             t-a     tg
+            t   ggacc  a
+     ga    a    +!!!!  a
+    t  ctcg     tctgg  c
+    g  !!!!    c     tt
+    g  gagc     t
+     ta    g     g
+            c-gag
+            g-c
+            c-g
+            c-g
+            c-g
+           c   c
+           t   a
+            ttc
+ 
+ 
+    tRNA-Glu(ttc)
+    75 bases, %GC = 60.0
+    Sequence [87474,88521]
+ 
+
+
+Primary sequence for tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+tgggctattagctcagtggtagagcgcgcccctgataatcgcgtcgttgt
+acctgggctgtgaaggctctcagtcacatggatagttcaatgtgctcatc
+aacgcctgacccggagatgtggatcatccaaggcacattagcatggcgta
+ctcctcctgtttgttcgaaccggggtttggaactgaacttatcctcagga
+ggatagatggggcgattcaggtgagatcgaatgcagatccaactttctat
+tcatttgtggatctgggcggtccgggggggccgatggttatccaccacgg
+atcctctcttctcgagaatccatacatcccttatcagtgtatggatggct
+atctctcgggcacaggttgaagttcagcctagatgtggaaaatggagcac
+ctaacaacgcatcttcacagaccaagaactacgggatcacccttttcatt
+ctaggtagggtgacggagggatcgtaccattcgagccttttcatgctttt
+cctggaggtccgtaggaaacagcaatcgataggatttcctcattattccc
+taaaggaataacgggaaaagaaaattctatcaattcattttctgcagggc
+ccagtagattggatctagtcataagaatagaagaatgcttggtgtaaatc
+aaaataactccttggtcttcgaccccccactacgaacggcccttggatca
+gtacaatggagatgtctttatccatctcctaacgatgggagcagagcagg
+ttcgaaaaaggatcttggagtgtcccggggttgggccaggagggtctttc
+aacgcctccttttcttataaaaagttatttcggctcgacgaggaaataaa
+aagaaaaggaaagggaacaagcacacttggagagcgcagtacaacggaga
+ggaagttgtatgctgcgttcgggaaggatgaatcgctcctgaaaaagaat
+ctattgattctcttccaattagtggattggatagtatcgcaggtgcgagg
+atttacttcacgggcgaggtctctggttcaagtccaggatagcccagc
+
+
+Intron from tRNA-Glu(ttc)
+1   .   10    .   20    .   30    .   40    .   50
+gataatcgcgtcgttgtacctgggctgtgaaggctctcagtcacatggat
+agttcaatgtgctcatcaacgcctgacccggagatgtggatcatccaagg
+cacattagcatggcgtactcctcctgtttgttcgaaccggggtttggaac
+tgaacttatcctcaggaggatagatggggcgattcaggtgagatcgaatg
+cagatccaactttctattcatttgtggatctgggcggtccgggggggccg
+atggttatccaccacggatcctctcttctcgagaatccatacatccctta
+tcagtgtatggatggctatctctcgggcacaggttgaagttcagcctaga
+tgtggaaaatggagcacctaacaacgcatcttcacagaccaagaactacg
+ggatcacccttttcattctaggtagggtgacggagggatcgtaccattcg
+agccttttcatgcttttcctggaggtccgtaggaaacagcaatcgatagg
+atttcctcattattccctaaaggaataacgggaaaagaaaattctatcaa
+ttcattttctgcagggcccagtagattggatctagtcataagaatagaag
+aatgcttggtgtaaatcaaaataactccttggtcttcgaccccccactac
+gaacggcccttggatcagtacaatggagatgtctttatccatctcctaac
+gatgggagcagagcaggttcgaaaaaggatcttggagtgtcccggggttg
+ggccaggagggtctttcaacgcctccttttcttataaaaagttatttcgg
+ctcgacgaggaaataaaaagaaaaggaaagggaacaagcacacttggaga
+gcgcagtacaacggagaggaagttgtatgctgcgttcgggaaggatgaat
+cgctcctgaaaaagaatctattgattctcttccaattagtggattggata
+gtatcgcaggtgcgaggatttac
+
+Intron Length: 973
+Intron Insertion Position(33-34): cccct-Intron-ttcac
+
+ 
+27.
+ 
+ 
+ 
+               a
+             g-c
+             g-c
+             g+t
+             g-c
+             a-t
+             t-a
+             a-t     tg
+            t   tcgcc  a
+     ga    a    !!!!!  g
+    t  ctcg     agcgg  c
+   t   !!!!    c     tt
+   g   gagc     t
+    gta    t     g
+            c-gat
+            c-g
+            g-c
+            c-g
+            t+g
+           c   t
+           t   a
+            tgc
+ 
+ 
+ 
+    tRNA-Ala(tgc)
+    73 bases, %GC = 56.2
+    Sequence [88592,89448]
+ 
+
+
+Primary sequence for tRNA-Ala(tgc)
+1   .   10    .   20    .   30    .   40    .   50
+ggggatatagctcagttggtagagctccgctcttgcaattgggtcgttgc
+gattacgggttggatgtctgatcgtctaggtggtaatgatagtatctttt
+acccaaaccggtggcttactttttctcagtaatggggaataggaccggaa
+catgccactgaaaaactctacagagacaaagaaagatgggctgtcaagaa
+cgtagagaaggtagagtgggtagttggttagatctagtatggatcgtaca
+tggccgatagttggagtcggcggctctcctagggttacctcatctgggat
+ccctggggaagaggatcaagttggcccttgcgaacagcttgatgtactat
+ctcccttcaacccttcgagcaaaatgtggtaaaaggaaaaaccatgccat
+ggaccgaccccatcgtctccaccccgtaggaactacgagatcgccccaag
+gatgccgaaggcatccaggggtcacagaccgaccatatacccaccttaat
+tcgaggagtggaacgcattagctgtccgctccggttggacaggaagggtc
+ggagaagagcaatcattcttaggaccaaaaagtcgggcggaaaaagggga
+gagctctccgttcctgtcctggttctcttgtagctggatagcccagaact
+acaagaatccccgaaatgggatttcaactcagcacctttttggaagagtt
+gctctttggagagcacagtacgatgaaagttgtgagctgtgttcgggggg
+gagttattgtctatcgttggcctctatggtagaatcagtcggggaggcct
+gagagacggtggtttaccctgtggcggatgtcagcggttcgagtccgctt
+atctcca
+
+
+Intron from tRNA-Ala(tgc)
+1   .   10    .   20    .   30    .   40    .   50
+attgggtcgttgcgattacgggttggatgtctgatcgtctaggtggtaat
+gatagtatcttttacccaaaccggtggcttactttttctcagtaatgggg
+aataggaccggaacatgccactgaaaaactctacagagacaaagaaagat
+gggctgtcaagaacgtagagaaggtagagtgggtagttggttagatctag
+tatggatcgtacatggccgatagttggagtcggcggctctcctagggtta
+cctcatctgggatccctggggaagaggatcaagttggcccttgcgaacag
+cttgatgtactatctcccttcaacccttcgagcaaaatgtggtaaaagga
+aaaaccatgccatggaccgaccccatcgtctccaccccgtaggaactacg
+agatcgccccaaggatgccgaaggcatccaggggtcacagaccgaccata
+tacccaccttaattcgaggagtggaacgcattagctgtccgctccggttg
+gacaggaagggtcggagaagagcaatcattcttaggaccaaaaagtcggg
+cggaaaaaggggagagctctccgttcctgtcctggttctcttgtagctgg
+atagcccagaactacaagaatccccgaaatgggatttcaactcagcacct
+ttttggaagagttgctctttggagagcacagtacgatgaaagttgtgagc
+tgtgttcgggggggagttattgtctatcgttggcctctatggtagaatca
+gtcggggaggcctgagagacggtggtttaccctg
+
+Intron Length: 784
+Intron Insertion Position(37-38): ttgca-Intron-tggcg
+
+ 
+28.
+ 
+                 c
+                c
+               a
+             g-c
+             g-c
+             g-c
+             c-g
+             c c
+             t.t
+             g-c     ta
+            t   ctccc  a
+    aga    a    !+!!!  g
+   g   ctcg     ggggg  c
+   g   !!!!    c     tt
+   a   gagc     t
+    tta    a     g
+            c-ggt
+            g-c
+            t-a
+            g-c
+            g-c
+           c   a
+           t   a
+            acg
+ 
+ 
+ 
+    tRNA-Arg(acg)
+    76 bases, %GC = 63.2
+    Sequence [93184,93259]
+ 
+
+
+Primary sequence for tRNA-Arg(acg)
+1   .   10    .   20    .   30    .   40    .   50
+gggcctgtagctcagaggattagagcacgtggctacgaaccacggtgtcg
+ggggttcgaatccctcctcgcccacc
+
+
+ 
+29.
+ 
+ 
+ 
+               a
+             t+g
+             t-a
+             c-g
+             c-g
+             t+g
+             c-g
+             a-t
+             a-t     ta
+            t   catcc  a
+     ga    a    !!!!!  g
+    t  ctcg     gtagg  c
+    g  !!!!     c    tt
+    g  gagc     t
+     ta         g
+            g+tg
+            g+t
+            t-a
+            c-g
+            g+t
+            g-c
+           c   a
+           t   a
+            gtt
+ 
+    tRNA-Asn(gtt)
+    74 bases, %GC = 50.0
+    Sequence c[93992,94065]
+ 
+
+
+Primary sequence for tRNA-Asn(gtt)
+1   .   10    .   20    .   30    .   40    .   50
+ttcctcaatagctcagtggtagagcggtcggctgttaactgattggtcgt
+aggttcgaatcctacttggggaga
+
+
+ 
+30.
+ 
+ 
+ 
+               a
+             g-c
+             c-g
+             c-g
+             g-c
+             c-g
+             c-g
+             a-t     ta
+            t   gagcc  a
+    taaa   g    !!!!!  a
+   t    gtg     ctcgg  c
+   g    !!!      t   tt
+   g    cac       a
+    taga          c
+            g+tg   g
+            c-g c  a
+            t-a  g g
+            g-c   a
+            c-g
+            t-a
+           c   a
+           t   g
+            tag
+ 
+ 
+    tRNA-Leu(tag)
+    80 bases, %GC = 56.2
+    Sequence c[108214,108293]
+ 
+
+
+Primary sequence for tRNA-Leu(tag)
+1   .   10    .   20    .   30    .   40    .   50
+gccgccatggtgaaattggtagacacgctgctcttaggaagcagtgcgag
+agcatctcggttcaaatccgagtggcggca
+
+
+ 
+31.
+ 
+ 
+ 
+               a
+             c-g
+             g-c
+             g-c
+             a-t
+             g-c
+             c-g
+             a-t     ta
+            t   cgccc  g
+    cga    g    !+!!!  a
+   t   cgcg     gtggg  c
+   t   !!!+    c     tt
+   g   gcgt     t
+    gta    g     g
+            c-gag
+            c-g
+            a-t
+            t-a
+            c-g
+           t   t
+           t   g
+            ggg
+ 
+ 
+ 
+    tRNA-Pro(ggg)
+    74 bases, %GC = 63.5
+    Sequence [108450,108523]
+ 
+
+
+Primary sequence for tRNA-Pro(ggg)
+1   .   10    .   20    .   30    .   40    .   50
+cggagcatggcgcagcttggtagcgtgccatcttggggtgatggaggtcg
+tgggttcagatcccgctgctccga
+
+
+ 
+32.
+ 
+ 
+ 
+               a
+             a-t
+             g-c
+             g-c
+             g-c
+             a-t
+             t-a
+             a-t     cg
+            t   tagtc  a
+     ga    a    !!!!!  g
+    c  ctca     atcag  c
+    g  !!!!    c     tt
+    g  gagt     t
+     ta    g     g
+            t+gaa
+            c-g
+            a-t
+            c-g
+            c-g
+           t   t
+           t   a
+            gac
+ 
+ 
+ 
+    tRNA-Val(gac)
+    72 bases, %GC = 47.2
+    Sequence c[110965,111036]
+ 
+
+
+Primary sequence for tRNA-Val(gac)
+1   .   10    .   20    .   30    .   40    .   50
+agggatataactcagcggtagagtgtcaccttgacatggtggaagtcatc
+agttcgagcctgattatcccta
+
+
+ 
+33.
+ 
+ 
+ 
+               t
+             t-a
+             g-c
+             c-g
+             c-g
+             t-a
+             t-a
+             g-c
+             a-t     tg
+            t   tctcc  a
+    taaa   g    +!!!!  g
+    g   gtg     ggagg  c
+    g   !!!      t   tt
+    t   cac       g
+     aga           c
+            g+tg   g
+            c-g c   a
+            g-c  t  g
+            a-t   t a
+            g-c    a
+            a-t
+           c   a
+           t   a
+            caa
+ 
+    tRNA-Leu(caa)
+    83 bases, %GC = 49.4
+    Sequence [115486,115568]
+ 
+
+
+Primary sequence for tRNA-Leu(caa)
+1   .   10    .   20    .   30    .   40    .   50
+tgccttgatggtgaaatggtagacacgcgagactcaaaatctcgtgctta
+agagcgtggaggttcgagtcctcttcaaggcat
+
+
+ 
+34.
+ 
+ 
+                c
+               c
+             g-c
+             c-g
+             g-c
+             g+t
+             a-t
+             c-g
+             g-c     tt
+            t   tgccc  a
+    tgaa   a    +!!!!  a
+   g    ccg     gcggg  c
+   g    !!!    c     tt
+   a    ggc     g
+    ccaa   a     c
+            g-cca
+            t-a
+            g-c
+            g-c
+            a-t
+           t   a
+           t   a
+            gtg
+ 
+ 
+ 
+    tRNA-His(gtg)
+    75 bases, %GC = 61.3
+    Sequence c[122818,122892]
+ 
+
+
+Primary sequence for tRNA-His(gtg)
+1   .   10    .   20    .   30    .   40    .   50
+gcggacgtagccaagtggaccaaggcagtggattgtgaatccaccacgcg
+cgggttcaattcccgtcgttcgccc
+
+
+ 
+35.
+ 
+ 
+ 
+               a
+             g-c
+             c-g
+             a-t
+             t-a
+             c-g
+             c-g
+             a-t     tt
+            t   cgtcc  a
+    taag   g    !!+!!  a
+    g   tcg     gcggg  c
+    g   !!!     c    tt
+    t   agc      t
+     taa   g     c
+            c tg a
+            c-g a
+            c-g
+            a-t
+            a-t
+           c   a
+           t   a
+            cat
+ 
+ 
+ 
+    tRNA-Met(cat)
+    74 bases, %GC = 50.0
+    Sequence [123198,123271]
+ 
+
+
+Primary sequence for tRNA-Met(cat)
+1   .   10    .   20    .   30    .   40    .   50
+gcatccatggctgaatggttaaagcgcccaactcataattggtgaactcg
+cgggttcaattcctgctggatgca
+
+
+
+
+tRNA anticodon frequency
+AAA Phe       AGA Ser       ATA Tyr  1    ACA Cys       
+GAA Phe  1    GGA Ser  1    GTA Tyr  1    GCA Cys  1    
+TAA Leu  1    TGA Ser  1    TTA Stop      TCA SeC       
+CAA Leu  1    CGA Ser  1    CTA Pyl       CCA Trp  1    
+
+AAG Leu       AGG Pro       ATG His       ACG Arg  1    
+GAG Leu       GGG Pro  1    GTG His  2    GCG Arg       
+TAG Leu  1    TGG Pro  1    TTG Gln  1    TCG Arg       
+CAG Leu       CGG Pro       CTG Gln       CCG Arg  1    
+
+AAT Ile       AGT Thr       ATT Asn       ACT Ser       
+GAT Ile       GGT Thr  1    GTT Asn  1    GCT Ser  2    
+TAT Ile       TGT Thr  1    TTT Lys  1    TCT Arg  1    
+CAT Met  4    CGT Thr       CTT Lys       CCT Arg       
+
+AAC Val       AGC Ala       ATC Asp       ACC Gly       
+GAC Val  1    GGC Ala       GTC Asp  1    GCC Gly  1    
+TAC Val       TGC Ala  1    TTC Glu  2    TCC Gly       
+CAC Val       CGC Ala       CTC Glu       CCC Gly       
+
+tRNA codon frequency
+TTT Phe       TCT Ser       TAT Tyr  1    TGT Cys       
+TTC Phe  1    TCC Ser  1    TAC Tyr  1    TGC Cys  1    
+TTA Leu  1    TCA Ser  1    TAA Stop      TGA SeC       
+TTG Leu  1    TCG Ser  1    TAG Pyl       TGG Trp  1    
+
+CTT Leu       CCT Pro       CAT His       CGT Arg  1    
+CTC Leu       CCC Pro  1    CAC His  2    CGC Arg       
+CTA Leu  1    CCA Pro  1    CAA Gln  1    CGA Arg       
+CTG Leu       CCG Pro       CAG Gln       CGG Arg  1    
+
+ATT Ile       ACT Thr       AAT Asn       AGT Ser       
+ATC Ile       ACC Thr  1    AAC Asn  1    AGC Ser  2    
+ATA Ile       ACA Thr  1    AAA Lys  1    AGA Arg  1    
+ATG Met  4    ACG Thr       AAG Lys       AGG Arg       
+
+GTT Val       GCT Ala       GAT Asp       GGT Gly       
+GTC Val  1    GCC Ala       GAC Asp  1    GGC Gly  1    
+GTA Val       GCA Ala  1    GAA Glu  2    GGA Gly       
+GTG Val       GCG Ala       GAG Glu       GGG Gly       
+
+Number of tRNA genes with no introns = 29
+Number of tRNA genes with C-loop introns = 6
+tRNA GC range = 41.7% to 63.5%
