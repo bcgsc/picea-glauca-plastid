@@ -1,0 +1,24 @@
+/projects/spruceup/pglauca/WS77111/assemblies/chloroplast/assembly/WS77111-chloroplast.fa /projects/spruceup/pglauca/WS77111/assemblies/chloroplast/assembly/WS77111-chloroplast.fa
+NUCMER
+
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+       1   123421  |        1   123421  |   123421   123421  |   100.00  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+       1       86  |    67024    66939  |       86       86  |   100.00  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+    7355     8006  |    32048    31396  |      652      653  |    98.32  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+    8164     8701  |    53056    52519  |      538      538  |    99.26  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   29633    29912  |   123044   122764  |      280      281  |    97.51  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   29932    30070  |    85155    85292  |      139      138  |    90.00  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   30267    30494  |    71060    71296  |      228      237  |    95.36  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   31396    32048  |     8006     7355  |      653      652  |    98.32  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   52519    53056  |     8701     8164  |      538      538  |    99.26  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   66939    67024  |       86        1  |       86       86  |   100.00  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   67025    67383  |   123421   123063  |      359      359  |    99.72  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   71060    71296  |    30267    30494  |      237      228  |    95.36  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   85155    85292  |    29932    30070  |      138      139  |    90.00  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   91332   111492  |    91332   111492  |    20161    20161  |    99.69  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+   91332   111492  |    91332   111492  |    20161    20161  |    99.69  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+  110103   110696  |   122133   122727  |      594      595  |    98.99  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+  122133   122727  |   110103   110696  |      595      594  |    98.99  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+  122764   123044  |    29912    29633  |      281      280  |    97.51  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
+  123063   123421  |    67383    67025  |      359      359  |    99.72  | WS77111_complete_chloroplast_genome	WS77111_complete_chloroplast_genome
