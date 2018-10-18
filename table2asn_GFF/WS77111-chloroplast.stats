@@ -1,11 +1,11 @@
-Total messages:		210
+Total messages:		176
 
 =================================================================
-194 WARNING-level messages exist
+159 WARNING-level messages exist
 
 SEQ_FEAT.ProtRefHasNoData:	75
 SEQ_FEAT.NoNameForProtein:	75
-SEQ_FEAT.MissingTrnaAA:	36
+SEQ_FEAT.MissingTrnaAA:	1
 SEQ_FEAT.rRNADoesNotHaveProduct:	4
 SEQ_FEAT.BadTranssplicedInterval:	4
 
@@ -17,5 +17,10 @@ SEQ_INST.BadProteinStart:	3
 SEQ_FEAT.StartCodon:	3
 SEQ_FEAT.InternalStop:	3
 SEQ_FEAT.NoStop:	4
+
+=================================================================
+1 CRITICAL-level messages exist
+
+SEQ_INST.BadSeqIdFormat:	1
 
 =================================================================

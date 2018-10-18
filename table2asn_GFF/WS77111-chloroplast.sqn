@@ -75,7 +75,7 @@ Seq-submit ::= {
       date std {
         year 2018,
         month 10,
-        day 17
+        day 18
       }
     },
     subtype new,
@@ -181,14 +181,14 @@ Seq-submit ::= {
         create-date std {
           year 2018,
           month 10,
-          day 17
+          day 18
         }
       },
       seq-set {
         seq {
           id {
             general {
-              db "WS77111.cmt",
+              db "WS77111-chloroplast.cmt",
               tag str "WS77111cp"
             }
           },
@@ -1029,7 +1029,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 1061,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1052,7 +1052,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 1061,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1077,7 +1077,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 4114,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1085,7 +1085,10 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 5,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 75
+                    }
                   },
                   location mix {
                     int {
@@ -1093,7 +1096,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 4114,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -1102,7 +1105,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 1567,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -1120,7 +1123,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 3296,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1143,7 +1146,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 3296,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1168,7 +1171,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 6247,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1191,7 +1194,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 6247,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1216,7 +1219,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 6523,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1224,14 +1227,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 13,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 81
+                    }
                   },
                   location int {
                     from 6452,
                     to 6523,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1248,7 +1254,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 7059,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1271,7 +1277,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 7059,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1296,7 +1302,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 7658,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1319,7 +1325,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 7658,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1344,7 +1350,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 7822,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1352,14 +1358,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 21,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 83
+                    }
                   },
                   location int {
                     from 7735,
                     to 7822,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1376,7 +1385,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 8389,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1399,7 +1408,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 8389,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1424,7 +1433,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 9399,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1447,7 +1456,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 9399,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1473,7 +1482,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 9680,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1498,7 +1507,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 113394,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1523,7 +1532,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 9680,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1549,7 +1558,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 112826,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -1558,7 +1567,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 113394,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -1585,7 +1594,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 10749,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1608,7 +1617,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 10749,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1633,7 +1642,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 11290,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1656,7 +1665,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 11290,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1681,7 +1690,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 11620,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1704,7 +1713,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 11620,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1729,7 +1738,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 12066,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1752,7 +1761,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 12066,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1777,7 +1786,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 12437,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1785,14 +1794,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 47,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 80
+                    }
                   },
                   location int {
                     from 12364,
                     to 12437,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1809,7 +1821,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 12678,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1817,14 +1829,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 49,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 87
+                    }
                   },
                   location int {
                     from 12605,
                     to 12678,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -1841,7 +1856,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 12914,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1864,7 +1879,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 12914,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1889,7 +1904,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 13207,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1912,7 +1927,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 13207,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1937,7 +1952,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 14690,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1960,7 +1975,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 14690,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -1985,7 +2000,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 14819,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2008,7 +2023,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 14819,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2033,7 +2048,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 14969,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2056,7 +2071,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 14969,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2081,7 +2096,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 15210,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2104,7 +2119,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 15210,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2129,7 +2144,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 17205,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2152,7 +2167,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 17205,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2177,7 +2192,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 18216,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2200,7 +2215,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 18216,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2225,7 +2240,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 19624,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2248,7 +2263,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 19624,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2273,7 +2288,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 20301,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2296,7 +2311,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 20301,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2321,7 +2336,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 21819,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2344,7 +2359,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 21819,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2369,7 +2384,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 22148,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2377,14 +2392,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 84,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 82
+                    }
                   },
                   location int {
                     from 22075,
                     to 22148,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2401,7 +2419,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 23895,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2424,7 +2442,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 23895,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2449,7 +2467,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 26082,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2472,7 +2490,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 26082,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2497,7 +2515,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 26504,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2520,7 +2538,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 26504,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2545,7 +2563,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 26685,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2553,14 +2571,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 95,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 77
+                    }
                   },
                   location int {
                     from 26613,
                     to 26685,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2577,7 +2598,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 27493,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2585,7 +2606,10 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 97,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 89
+                    }
                   },
                   location mix {
                     int {
@@ -2593,7 +2617,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 26913,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -2602,7 +2626,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 27493,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -2620,7 +2644,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 29857,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2628,14 +2652,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 99,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 72
+                    }
                   },
                   location int {
                     from 29783,
                     to 29857,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2652,7 +2679,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 30052,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2660,14 +2687,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 101,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 84
+                    }
                   },
                   location int {
                     from 29981,
                     to 30052,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2684,7 +2714,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 31363,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2707,7 +2737,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 31363,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2732,7 +2762,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 31666,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2740,14 +2770,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 106,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 83
+                    }
                   },
                   location int {
                     from 31579,
                     to 31666,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2764,7 +2797,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 31853,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2787,7 +2820,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 31853,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2812,7 +2845,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 32228,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2820,14 +2853,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 111,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 69
+                    }
                   },
                   location int {
                     from 32156,
                     to 32228,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2844,7 +2880,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 32384,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2852,14 +2888,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 113,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 89
+                    }
                   },
                   location int {
                     from 32301,
                     to 32384,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2876,7 +2915,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 32717,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2884,14 +2923,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 115,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 68
+                    }
                   },
                   location int {
                     from 32644,
                     to 32717,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -2908,7 +2950,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 33744,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2931,7 +2973,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 33744,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2956,7 +2998,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 34726,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -2979,7 +3021,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 34726,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3004,7 +3046,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 35117,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -3012,14 +3054,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 123,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 67
+                    }
                   },
                   location int {
                     from 35047,
                     to 35117,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -3036,7 +3081,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 38771,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3059,7 +3104,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 38771,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3084,7 +3129,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 41566,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3108,7 +3153,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 39223,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -3117,7 +3162,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 41566,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -3143,7 +3188,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 45316,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3166,7 +3211,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 45316,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3191,7 +3236,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 46223,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3214,7 +3259,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 46223,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3239,7 +3284,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 47262,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3262,7 +3307,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 47262,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3287,7 +3332,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 48197,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3310,7 +3355,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 48197,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3335,7 +3380,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 49847,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3359,7 +3404,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 48671,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -3368,7 +3413,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 49847,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -3394,7 +3439,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 51414,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3417,7 +3462,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 51414,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3442,7 +3487,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 51583,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -3450,14 +3495,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 149,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 82
+                    }
                   },
                   location int {
                     from 51514,
                     to 51583,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -3474,7 +3522,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 52643,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -3482,7 +3530,10 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 151,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 83
+                    }
                   },
                   location mix {
                     int {
@@ -3490,7 +3541,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 52643,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -3499,7 +3550,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 51839,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -3517,7 +3568,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 52930,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3540,7 +3591,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 52930,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3565,7 +3616,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55216,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3588,7 +3639,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55216,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3613,7 +3664,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55398,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3636,7 +3687,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55398,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3661,7 +3712,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55611,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3684,7 +3735,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55611,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3709,7 +3760,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55918,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3732,7 +3783,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 55918,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3757,7 +3808,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 57510,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3781,7 +3832,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 56872,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -3790,7 +3841,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 57510,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -3816,7 +3867,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 58959,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3840,7 +3891,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 58434,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -3849,7 +3900,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 58959,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -3875,7 +3926,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 60078,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3898,7 +3949,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 60078,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3923,7 +3974,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 60530,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3946,7 +3997,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 60530,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3971,7 +4022,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 60726,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -3994,7 +4045,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 60726,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4019,7 +4070,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 61065,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4042,7 +4093,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 61065,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4067,7 +4118,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 61601,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4090,7 +4141,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 61601,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4115,7 +4166,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 62115,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4138,7 +4189,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 62115,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4163,7 +4214,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 62631,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4187,7 +4238,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 62631,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -4196,7 +4247,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 62354,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -4222,7 +4273,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 64253,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4245,7 +4296,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 64253,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4270,7 +4321,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 64666,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4293,7 +4344,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 64666,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4318,7 +4369,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 64975,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4341,7 +4392,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 64975,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4366,7 +4417,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 66535,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4389,7 +4440,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 66535,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4414,7 +4465,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 66838,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4437,7 +4488,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 66838,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4462,7 +4513,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 67247,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4470,14 +4521,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 210,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 77
+                    }
                   },
                   location int {
                     from 67174,
                     to 67247,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4494,7 +4548,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 69161,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4502,14 +4556,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 212,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 70
+                    }
                   },
                   location int {
                     from 69089,
                     to 69161,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4526,7 +4583,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 70114,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4534,7 +4591,10 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 214,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 76
+                    }
                   },
                   location mix {
                     int {
@@ -4542,7 +4602,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 70114,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -4551,7 +4611,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 69591,
                       strand minus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -4569,7 +4629,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 70602,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4577,14 +4637,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 216,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 84
+                    }
                   },
                   location int {
                     from 70530,
                     to 70602,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4601,7 +4664,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 71465,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4624,7 +4687,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 71465,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4649,7 +4712,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 71852,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4657,14 +4720,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 221,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 83
+                    }
                   },
                   location int {
                     from 71766,
                     to 71852,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4681,7 +4747,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 74511,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4705,7 +4771,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 72705,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -4714,7 +4780,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 73644,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -4723,7 +4789,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 74511,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -4749,7 +4815,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 77382,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4772,7 +4838,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 77382,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4797,7 +4863,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 79612,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4820,7 +4886,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 79612,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4845,7 +4911,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 80061,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4868,7 +4934,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 80061,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4893,7 +4959,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 80270,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4901,14 +4967,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 235,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 77
+                    }
                   },
                   location int {
                     from 80197,
                     to 80270,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4925,7 +4994,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 80477,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4933,14 +5002,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 237,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 71
+                    }
                   },
                   location int {
                     from 80407,
                     to 80477,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -4957,7 +5029,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 80898,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -4980,7 +5052,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 80898,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5005,7 +5077,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 81274,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5013,14 +5085,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 242,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 83
+                    }
                   },
                   location int {
                     from 81188,
                     to 81274,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5037,7 +5112,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 82889,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5060,7 +5135,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 82889,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5085,7 +5160,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 83898,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5108,7 +5183,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 83898,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5133,7 +5208,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 85274,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5143,12 +5218,13 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   data rna {
                     type tRNA
                   },
+                  comment "tRNA-Thre",
                   location int {
                     from 85204,
                     to 85274,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5165,7 +5241,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 87091,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5180,7 +5256,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 87091,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5197,7 +5273,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 88518,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5205,7 +5281,10 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 254,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 69
+                    }
                   },
                   location mix {
                     int {
@@ -5213,7 +5292,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 87515,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -5222,7 +5301,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 88518,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -5240,7 +5319,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 89447,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5248,7 +5327,10 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 256,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 65
+                    }
                   },
                   location mix {
                     int {
@@ -5256,7 +5338,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 88628,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     },
@@ -5265,7 +5347,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       to 89447,
                       strand plus,
                       id general {
-                        db "WS77111.cmt",
+                        db "WS77111-chloroplast.cmt",
                         tag str "WS77111cp"
                       }
                     }
@@ -5283,7 +5365,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 92401,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5298,7 +5380,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 92401,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5315,7 +5397,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 92607,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5330,7 +5412,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 92607,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5347,7 +5429,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 92974,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5362,7 +5444,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 92974,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5379,7 +5461,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 93256,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5387,14 +5469,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 264,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 82
+                    }
                   },
                   location int {
                     from 93183,
                     to 93256,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5411,7 +5496,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 94063,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5419,14 +5504,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 266,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 78
+                    }
                   },
                   location int {
                     from 93992,
                     to 94063,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5443,7 +5531,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 95224,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5463,7 +5551,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 95224,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5485,7 +5573,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 96735,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5508,7 +5596,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 96735,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5533,7 +5621,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 102956,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5556,7 +5644,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 102956,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5581,7 +5669,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 103559,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5604,7 +5692,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 103559,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5629,7 +5717,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 105167,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5652,7 +5740,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 105167,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5677,7 +5765,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 108076,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5700,7 +5788,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 108076,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5725,7 +5813,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 108292,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5733,14 +5821,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 286,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 76
+                    }
                   },
                   location int {
                     from 108215,
                     to 108292,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5757,7 +5848,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 108522,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5765,14 +5856,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 288,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 80
+                    }
                   },
                   location int {
                     from 108449,
                     to 108522,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5789,7 +5883,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 109836,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5812,7 +5906,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 109836,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5837,7 +5931,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 111035,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5845,14 +5939,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 293,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 86
+                    }
                   },
                   location int {
                     from 110964,
                     to 111035,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5869,7 +5966,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 113910,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5892,7 +5989,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 113910,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5917,7 +6014,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 115566,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5925,14 +6022,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 298,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 76
+                    }
                   },
                   location int {
                     from 115486,
                     to 115566,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -5949,7 +6049,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 122636,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5972,7 +6072,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 122636,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   },
@@ -5997,7 +6097,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 122892,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -6005,14 +6105,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 303,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 72
+                    }
                   },
                   location int {
                     from 122818,
                     to 122892,
                     strand minus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -6029,7 +6132,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                     to 123270,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -6037,14 +6140,17 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 305,
                   data rna {
-                    type tRNA
+                    type tRNA,
+                    ext tRNA {
+                      aa ncbieaa 77
+                    }
                   },
                   location int {
                     from 123197,
                     to 123270,
                     strand plus,
                     id general {
-                      db "WS77111.cmt",
+                      db "WS77111-chloroplast.cmt",
                       tag str "WS77111cp"
                     }
                   }
@@ -9313,7 +9419,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 1061,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9343,7 +9449,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 3296,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9373,7 +9479,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 6247,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9403,7 +9509,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 7059,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9433,7 +9539,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 7658,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9463,7 +9569,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 8389,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9493,7 +9599,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 9399,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9524,7 +9630,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 9680,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9557,7 +9663,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 112826,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -9566,7 +9672,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 113394,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -9598,7 +9704,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 10749,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9628,7 +9734,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 11290,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9658,7 +9764,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 11620,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9688,7 +9794,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 12066,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9718,7 +9824,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 12914,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9748,7 +9854,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 13207,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9778,7 +9884,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 14690,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9808,7 +9914,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 14819,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9838,7 +9944,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 14969,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9868,7 +9974,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 15210,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9898,7 +10004,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 17205,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9928,7 +10034,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 18216,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9958,7 +10064,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 19624,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -9988,7 +10094,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 20301,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10018,7 +10124,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 21819,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10048,7 +10154,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 23895,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10078,7 +10184,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 26082,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10108,7 +10214,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 26504,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10138,7 +10244,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 31363,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10168,7 +10274,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 31853,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10198,7 +10304,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 33744,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10228,7 +10334,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 34726,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10258,7 +10364,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 38771,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10289,7 +10395,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 39223,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -10298,7 +10404,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 41566,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -10329,7 +10435,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 45316,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10359,7 +10465,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 46223,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10389,7 +10495,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 47262,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10419,7 +10525,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 48197,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10450,7 +10556,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 48671,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -10459,7 +10565,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 49847,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -10490,7 +10596,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 51414,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10520,7 +10626,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 52930,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10550,7 +10656,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 55216,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10580,7 +10686,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 55398,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10610,7 +10716,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 55611,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10640,7 +10746,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 55918,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10671,7 +10777,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 56872,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -10680,7 +10786,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 57510,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -10712,7 +10818,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 58434,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -10721,7 +10827,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 58959,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -10752,7 +10858,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 60078,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10782,7 +10888,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 60530,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10812,7 +10918,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 60726,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10842,7 +10948,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 61065,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10872,7 +10978,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 61601,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10902,7 +11008,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 62115,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -10933,7 +11039,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 62631,
                   strand minus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -10942,7 +11048,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 62354,
                   strand minus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -10973,7 +11079,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 64253,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11003,7 +11109,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 64666,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11033,7 +11139,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 64975,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11063,7 +11169,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 66535,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11093,7 +11199,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 66838,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11123,7 +11229,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 71465,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11154,7 +11260,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 72705,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -11163,7 +11269,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 73644,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 },
@@ -11172,7 +11278,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   to 74511,
                   strand plus,
                   id general {
-                    db "WS77111.cmt",
+                    db "WS77111-chloroplast.cmt",
                     tag str "WS77111cp"
                   }
                 }
@@ -11203,7 +11309,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 77382,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11233,7 +11339,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 79612,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11263,7 +11369,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 80061,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11293,7 +11399,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 80898,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11323,7 +11429,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 82889,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11353,7 +11459,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 83898,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11383,7 +11489,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 95224,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11413,7 +11519,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 96735,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11443,7 +11549,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 102956,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11473,7 +11579,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 103559,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11503,7 +11609,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 105167,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11533,7 +11639,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 108076,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11563,7 +11669,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 109836,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11593,7 +11699,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 113910,
                 strand plus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },
@@ -11623,7 +11729,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 to 122636,
                 strand minus,
                 id general {
-                  db "WS77111.cmt",
+                  db "WS77111-chloroplast.cmt",
                   tag str "WS77111cp"
                 }
               },

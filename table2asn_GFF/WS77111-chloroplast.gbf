@@ -1,4 +1,5 @@
-LOCUS       WS77111.cmt:WS77111cp 123421 bp    DNA     circular PLN 17-OCT-2018
+LOCUS       WS77111-chloroplast.cmt:WS77111cp 123421 bp    DNA     circular PLN
+            18-OCT-2018
 DEFINITION  Picea glauca isolate WS77111 chloroplast, complete genome.
 ACCESSION   
 VERSION
@@ -17,7 +18,7 @@ REFERENCE   1  (bases 1 to 123421)
 REFERENCE   2  (bases 1 to 123421)
   AUTHORS   Coombe,L., Lin,D., Warren,R.L., Jackman,S.D. and Birol,I.
   TITLE     Direct Submission
-  JOURNAL   Submitted (17-OCT-2018) Bioinformatics, BC Cancer Genome Sciences
+  JOURNAL   Submitted (18-OCT-2018) Bioinformatics, BC Cancer Genome Sciences
             Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
 COMMENT     Bankit Comment: ALT EMAIL:rwarren@bcgsc.ca
             Bankit Comment: Submission Title:None.
@@ -52,6 +53,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(1534..1568,4081..4115))
                      /locus_tag="WS77111cp_000002"
+                     /product="tRNA-Lys"
      gene            complement(1750..3297)
                      /locus_tag="WS77111cp_000003"
                      /note="blatX_hit matK_NC_028594.1; position 1 - 1548;
@@ -100,6 +102,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(6453..6524)
                      /locus_tag="WS77111cp_000005"
+                     /product="tRNA-Gln"
      gene            6881..7060
                      /locus_tag="WS77111cp_000006"
                      /note="blatX_hit psbK_NC_032367.1; position 1 - 180;
@@ -131,6 +134,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(7736..7823)
                      /locus_tag="WS77111cp_000008"
+                     /product="tRNA-Ser"
      gene            8289..8390
                      /locus_tag="WS77111cp_000009"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
@@ -231,12 +235,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            12365..12438
                      /locus_tag="WS77111cp_000017"
+                     /product="tRNA-Pro"
      gene            12606..12679
                      /locus_tag="WS77111cp_000018"
                      /note="blatN_hit trnW-CCA_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            12606..12679
                      /locus_tag="WS77111cp_000018"
+                     /product="tRNA-Trp"
      gene            complement(12802..12915)
                      /locus_tag="WS77111cp_000019"
                      /note="blatX_hit petG_NC_032367.1; position 1 - 114;
@@ -394,6 +400,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(22076..22149)
                      /locus_tag="WS77111cp_000030"
+                     /product="tRNA-Arg"
      gene            complement(22469..23896)
                      /locus_tag="WS77111cp_000031"
                      /note="blatX_hit rbcL_NC_028594.1; position 1 - 1428;
@@ -454,24 +461,28 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(26614..26686)
                      /locus_tag="WS77111cp_000034"
+                     /product="tRNA-Met"
      gene            26876..27494
                      /locus_tag="WS77111cp_000035"
                      /note="blatN_hit trnV-UAC_NC_032367.1; position 1 - 76;
                      coverage 100.00%; match 100.00%"
      tRNA            join(26876..26914,27458..27494)
                      /locus_tag="WS77111cp_000035"
+                     /product="tRNA-Tyr"
      gene            29784..29858
                      /locus_tag="WS77111cp_000036"
                      /note="blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
                      coverage 100.00%; match 98.67%; match 98.67%"
      tRNA            29784..29858
                      /locus_tag="WS77111cp_000036"
+                     /product="tRNA-His"
      gene            complement(29982..30053)
                      /locus_tag="WS77111cp_000037"
                      /note="blatN_hit trnT-GGU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(29982..30053)
                      /locus_tag="WS77111cp_000037"
+                     /product="tRNA-Thr"
      gene            31275..31364
                      /locus_tag="WS77111cp_000038"
                      /note="blatX_hit psaM_NC_032367.1; position 1 - 90;
@@ -490,6 +501,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            31580..31667
                      /locus_tag="WS77111cp_000039"
+                     /product="tRNA-Ser"
      gene            complement(31744..31854)
                      /locus_tag="WS77111cp_000040"
                      /note="blatX_hit psbI_NC_032367.1; position 1 - 111;
@@ -508,18 +520,21 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            32157..32229
                      /locus_tag="WS77111cp_000041"
+                     /product="tRNA-Glu"
      gene            32302..32385
                      /locus_tag="WS77111cp_000042"
                      /note="blatN_hit trnY-GUA_NC_032367.1; position 1 - 84;
                      coverage 100.00%; match 100.00%"
      tRNA            32302..32385
                      /locus_tag="WS77111cp_000042"
+                     /product="tRNA-Tyr"
      gene            32645..32718
                      /locus_tag="WS77111cp_000043"
                      /note="blatN_hit trnD-GUC_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            32645..32718
                      /locus_tag="WS77111cp_000043"
+                     /product="tRNA-Asp"
      gene            33632..33745
                      /locus_tag="WS77111cp_000044"
                      /note="blatX_hit psbM_NC_032367.1; position 1 - 114;
@@ -550,6 +565,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(35048..35118)
                      /locus_tag="WS77111cp_000046"
+                     /product="tRNA-Cys"
      gene            35542..38772
                      /locus_tag="WS77111cp_000047"
                      /note="blatX_hit rpoB_NC_028594.1; position 1 - 3231;
@@ -723,12 +739,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(51515..51584)
                      /locus_tag="WS77111cp_000055"
+                     /product="tRNA-Arg"
      gene            complement(51804..52644)
                      /locus_tag="WS77111cp_000056"
                      /note="blatN_hit trnG-GCC_NC_032367.1; position 1 - 59;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(51804..51840,52623..52644))
                      /locus_tag="WS77111cp_000056"
+                     /product="tRNA-Ser"
      gene            complement(52830..52931)
                      /locus_tag="WS77111cp_000057"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
@@ -1005,24 +1023,28 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(67175..67248)
                      /locus_tag="WS77111cp_000076"
+                     /product="tRNA-Met"
      gene            complement(69090..69162)
                      /locus_tag="WS77111cp_000077"
                      /note="blatN_hit trnF-GAA_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(69090..69162)
                      /locus_tag="WS77111cp_000077"
+                     /product="tRNA-Phe"
      gene            complement(69543..70115)
                      /locus_tag="WS77111cp_000078"
                      /note="blatN_hit trnL-UAA_NC_032367.1; position 1 - 85;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(69543..69592,70081..70115))
                      /locus_tag="WS77111cp_000078"
+                     /product="tRNA-Leu"
      gene            70531..70603
                      /locus_tag="WS77111cp_000079"
                      /note="blatN_hit trnT-UGU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            70531..70603
                      /locus_tag="WS77111cp_000079"
+                     /product="tRNA-Thr"
      gene            70861..71466
                      /locus_tag="WS77111cp_000080"
                      /note="blatX_hit rps4_NC_032367.1; position 1 - 606;
@@ -1044,6 +1066,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            71767..71853
                      /locus_tag="WS77111cp_000081"
+                     /product="tRNA-Ser"
      gene            72576..74512
                      /locus_tag="WS77111cp_000082"
                      /note="blatX_hit ycf3_NC_032367.1; position 1 - 513;
@@ -1127,12 +1150,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            80198..80271
                      /locus_tag="WS77111cp_000086"
+                     /product="tRNA-Met"
      gene            complement(80408..80478)
                      /locus_tag="WS77111cp_000087"
                      /note="blatN_hit trnG-UCC_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(80408..80478)
                      /locus_tag="WS77111cp_000087"
+                     /product="tRNA-Gly"
      gene            complement(80711..80899)
                      /locus_tag="WS77111cp_000088"
                      /note="blatX_hit psbZ_NC_021456.1; position 1 - 189;
@@ -1152,6 +1177,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            81189..81275
                      /locus_tag="WS77111cp_000089"
+                     /product="tRNA-Ser"
      gene            complement(81469..82890)
                      /locus_tag="WS77111cp_000090"
                      /note="blatX_hit psbC_NC_032367.1; position 1 - 1422;
@@ -1196,6 +1222,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(85205..85275)
                      /locus_tag="WS77111cp_000092"
+                     /note="tRNA-Thre"
      gene            85602..87092
                      /locus_tag="WS77111cp_000093"
                      /note="blatN_hit rrn16_NC_032367.1; position 1 - 1491;
@@ -1208,12 +1235,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            join(87475..87516,88485..88519)
                      /locus_tag="WS77111cp_000094"
+                     /product="tRNA-Glu"
      gene            88592..89448
                      /locus_tag="WS77111cp_000095"
                      /note="blatN_hit trnA-UGC_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            join(88592..88629,89414..89448)
                      /locus_tag="WS77111cp_000095"
+                     /product="tRNA-Ala"
      gene            89596..92402
                      /locus_tag="WS77111cp_000096"
                      /note="blatN_hit rrn23_NC_028594.1; position 1 - 2807;
@@ -1238,12 +1267,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            93184..93257
                      /locus_tag="WS77111cp_000099"
+                     /product="tRNA-Arg"
      gene            complement(93993..94064)
                      /locus_tag="WS77111cp_000100"
                      /note="blatN_hit trnN-GUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 98.61%"
      tRNA            complement(93993..94064)
                      /locus_tag="WS77111cp_000100"
+                     /product="tRNA-Asn"
      gene            94350..95225
                      /locus_tag="WS77111cp_000101"
                      /note="blatX_hit chlL_NC_029374.1; position 1 - 876;
@@ -1372,12 +1403,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(108216..108293)
                      /locus_tag="WS77111cp_000107"
+                     /product="tRNA-Leu"
      gene            108450..108523
                      /locus_tag="WS77111cp_000108"
                      /note="blatN_hit trnP-GGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            108450..108523
                      /locus_tag="WS77111cp_000108"
+                     /product="tRNA-Pro"
      gene            complement(109625..109837)
                      /locus_tag="WS77111cp_000109"
                      /note="blatX_hit rpl32_NC_032367.1; position 1 - 213;
@@ -1397,6 +1430,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(110965..111036)
                      /locus_tag="WS77111cp_000110"
+                     /product="tRNA-Val"
      gene            112596..113395
                      /locus_tag="WS77111cp_000012"
                      /trans_splicing
@@ -1432,6 +1466,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            115487..115567
                      /locus_tag="WS77111cp_000112"
+                     /product="tRNA-Leu"
      gene            complement(116257..122637)
                      /locus_tag="WS77111cp_000113"
                      /note="blatX_hit ycf2_NC_028594.1; position 1 - 6381;
@@ -1486,12 +1521,14 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      tRNA            complement(122819..122893)
                      /locus_tag="WS77111cp_000114"
+                     /product="tRNA-His"
      gene            123198..123271
                      /locus_tag="WS77111cp_000115"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            123198..123271
                      /locus_tag="WS77111cp_000115"
+                     /product="tRNA-Met"
 BASE COUNT    37950 a  23388 c  24430 g  37653 t
 ORIGIN      
         1 ttatccacct attgaaatag attcaacagc agctagatcc agaggaaagt tatgagcatt
