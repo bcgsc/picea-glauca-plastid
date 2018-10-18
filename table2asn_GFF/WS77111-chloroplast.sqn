@@ -5249,7 +5249,8 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 252,
                   data rna {
-                    type rRNA
+                    type rRNA,
+                    ext name "16S ribosomal RNA"
                   },
                   location int {
                     from 85601,
@@ -5373,7 +5374,8 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 258,
                   data rna {
-                    type rRNA
+                    type rRNA,
+                    ext name "23S ribosomal RNA"
                   },
                   location int {
                     from 89595,
@@ -5405,7 +5407,8 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 260,
                   data rna {
-                    type rRNA
+                    type rRNA,
+                    ext name "4.5S ribosomal RNA"
                   },
                   location int {
                     from 92505,
@@ -5437,7 +5440,8 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 262,
                   data rna {
-                    type rRNA
+                    type rRNA,
+                    ext name "5S ribosomal RNA"
                   },
                   location int {
                     from 92854,

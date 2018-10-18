@@ -1229,6 +1229,7 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      rRNA            85602..87092
                      /locus_tag="WS77111cp_000093"
+                     /product="16S ribosomal RNA"
      gene            87475..88519
                      /locus_tag="WS77111cp_000094"
                      /note="blatN_hit trnI-GAU_NC_032367.1; position 1 - 77;
@@ -1249,18 +1250,21 @@ FEATURES             Location/Qualifiers
                      coverage 100.00%; match 100.00%"
      rRNA            89596..92402
                      /locus_tag="WS77111cp_000096"
+                     /product="23S ribosomal RNA"
      gene            92506..92608
                      /locus_tag="WS77111cp_000097"
                      /note="blatN_hit rrn4.5_NC_032367.1; position 1 - 103;
                      coverage 100.00%; match 100.00%"
      rRNA            92506..92608
                      /locus_tag="WS77111cp_000097"
+                     /product="4.5S ribosomal RNA"
      gene            92855..92975
                      /locus_tag="WS77111cp_000098"
                      /note="blatN_hit rrn5_NC_032367.1; position 1 - 121;
                      coverage 100.00%; match 100.00%"
      rRNA            92855..92975
                      /locus_tag="WS77111cp_000098"
+                     /product="5S ribosomal RNA"
      gene            93184..93257
                      /locus_tag="WS77111cp_000099"
                      /note="blatN_hit trnR-ACG_NC_032367.1; position 1 - 74;

@@ -376,7 +376,7 @@ WS77111cp	GeSeq	gene	85205	85275	.	-	.	ID=gene92;Name=trnT-GGU;note=blatN_hit tr
 WS77111cp	GeSeq	tRNA	85205	85275	.	-	.	ID=tRNA26;Parent=gene92l;product=tRNA-Thre
 WS77111cp	manual	exon	85205	85275	.	-	.	Parent=tRNA26
 WS77111cp	GeSeq	gene	85602	87092	.	+	.	ID=gene93;Name=rrn16;note=blatN_hit rrn16_NC_032367.1%3B position 1 - 1491%3B coverage 100.00%25%3B match 100.00%25
-WS77111cp	GeSeq	rRNA	85602	87092	.	+	.	ID=rRNA1;Parent=gene93
+WS77111cp	GeSeq	rRNA	85602	87092	.	+	.	ID=rRNA1;Parent=gene93;product=16S ribosomal RNA
 WS77111cp	manual	exon	85602	87092	.	+	.	Parent=rRNA1
 WS77111cp	GeSeq	gene	87475	88519	.	+	.	ID=gene94;Name=trnI-GAU;note=blatN_hit trnI-GAU_NC_032367.1%3B position 1 - 77%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	tRNA	87475	88519	.	+	.	ID=tRNA27;Parent=gene94;product=tRNA-Glu
@@ -389,13 +389,13 @@ WS77111cp	GeSeq	exon	88592	88629	.	+	.	Parent=tRNA28;number=1
 WS77111cp	GeSeq	intron	88630	89413	.	+	.	Parent=tRNA28;number=1
 WS77111cp	GeSeq	exon	89414	89448	.	+	.	Parent=tRNA28;number=2
 WS77111cp	GeSeq	gene	89596	92402	.	+	.	ID=gene96;Name=rrn23;note=blatN_hit rrn23_NC_028594.1%3B position 1 - 2807%3B coverage 100.00%25%3B match 100.00%25
-WS77111cp	GeSeq	rRNA	89596	92402	.	+	.	ID=rRNA2;Parent=gene96
+WS77111cp	GeSeq	rRNA	89596	92402	.	+	.	ID=rRNA2;Parent=gene96;product=23S ribosomal RNA
 WS77111cp	manual	exon	89596	92402	.	+	.	Parent=rRNA2
 WS77111cp	GeSeq	gene	92506	92608	.	+	.	ID=gene97;Name=rrn4.5;note=blatN_hit rrn4.5_NC_032367.1%3B position 1 - 103%3B coverage 100.00%25%3B match 100.00%25
-WS77111cp	GeSeq	rRNA	92506	92608	.	+	.	ID=rRNA3;Parent=gene97
+WS77111cp	GeSeq	rRNA	92506	92608	.	+	.	ID=rRNA3;Parent=gene97;product=4.5S ribosomal RNA
 WS77111cp	manual	exon	92506	92608	.	+	.	Parent=rRNA3
 WS77111cp	GeSeq	gene	92855	92975	.	+	.	ID=gene98;Name=rrn5;note=blatN_hit rrn5_NC_032367.1%3B position 1 - 121%3B coverage 100.00%25%3B match 100.00%25
-WS77111cp	GeSeq	rRNA	92855	92975	.	+	.	ID=rRNA4;Parent=gene98
+WS77111cp	GeSeq	rRNA	92855	92975	.	+	.	ID=rRNA4;Parent=gene98;product=5S ribosomal RNA
 WS77111cp	manual	exon	92855	92975	.	+	.	Parent=rRNA4
 WS77111cp	GeSeq	gene	93184	93257	.	+	.	ID=gene99;Name=trnR-ACG;note=blatN_hit trnR-ACG_NC_032367.1%3B position 1 - 74%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	GeSeq	tRNA	93184	93257	.	+	.	ID=tRNA29;Parent=gene99;product=tRNA-Arg
