@@ -1553,7 +1553,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   location mix {
                     int {
                       from 112595,
-                      to 112826,
+                      to 112827,
                       strand plus,
                       id general {
                         db "WS77111-chloroplast.cmt",
@@ -1561,7 +1561,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       }
                     },
                     int {
-                      from 113368,
+                      from 113370,
                       to 113394,
                       strand plus,
                       id general {
@@ -6604,9 +6604,9 @@ QPASSYYDGPAADFHTESKHVTMLRDYITKCYIERTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
           inst {
             repr raw,
             mol aa,
-            length 86,
+            length 85,
             seq-data ncbieaa "-ITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGR
-VKDLPGVRYHIVRGTLDAAEVKDRQQGRSTIWSQKAKI"
+VKDLPGVRYHIVRGTLDAAEVKDRQQGRSRYGVKKPK"
           },
           annot {
             {
@@ -6619,7 +6619,7 @@ VKDLPGVRYHIVRGTLDAAEVKDRQQGRSTIWSQKAKI"
                   },
                   location int {
                     from 0,
-                    to 85,
+                    to 84,
                     id general {
                       db "WS77111cp",
                       tag str "cds.mRNA9"
@@ -9861,6 +9861,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   id 11
                 }
               },
+              except TRUE,
               product whole general {
                 db "WS77111cp",
                 tag str "cds.mRNA8"
@@ -9881,7 +9882,8 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 {
                   id local id 29
                 }
-              }
+              },
+              except-text "trans-splicing"
             },
             {
               id local id 32,
@@ -9891,6 +9893,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   id 11
                 }
               },
+              except TRUE,
               product whole general {
                 db "WS77111cp",
                 tag str "cds.mRNA9"
@@ -9898,7 +9901,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
               location mix {
                 int {
                   from 112595,
-                  to 112826,
+                  to 112827,
                   strand plus,
                   id general {
                     db "WS77111-chloroplast.cmt",
@@ -9906,7 +9909,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   }
                 },
                 int {
-                  from 113368,
+                  from 113370,
                   to 113394,
                   strand plus,
                   id general {
@@ -9922,7 +9925,8 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 {
                   id local id 30
                 }
-              }
+              },
+              except-text "trans-splicing"
             },
             {
               id local id 35,

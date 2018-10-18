@@ -40,15 +40,15 @@ WS77111cp	manual	exon	8810	9400	.	+	.	Parent=mRNA7
 WS77111cp	GeSeq	CDS	8810	9400	.	+	0	Parent=mRNA7;Name=CDS-clpP;translation=MPVGVPKVPFRAPGDEDANWVDLYNRLYRERLLFLAQDINHEIANQLMGLMVYLSAEDANKDMFSFLNCPGGSVIPGVGLFDIMQIIVPDVHTICMGIAASMGSFILIGGEITKRIALPHARVMIHQPASSYYDGPAADFHTESKHVTMLRDYITKCYIERTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG;product=ATP-dependent Clp protease proteolytic subunit
 WS77111cp	manual	gene	9568	9681	.	+	.	ID=gene11;Name=rps12;note=blatX_hit rps12_NC_032367.1%3B position 1 - 372%3B coverage 100.00%25%3B match 99.73%25;exception=trans-splicing;part=1/2
 WS77111cp	manual	gene	112596	113395	.	+	.	ID=gene11;Name=rps12;exception=trans-splicing;part=2/2
-WS77111cp	manual	mRNA	9568	9681	.	+	.	ID=mRNA8;Parent=gene11;translation=MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVY;
-WS77111cp	manual	mRNA	112596	113395	.	+	.	ID=mRNA9;Parent=gene11;translation=TITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAAEVKDRQQGRSRYGVKKPK;
-WS77111cp	manual	CDS	9568	9681	.	+	0	Parent=mRNA8;Name=CDS-rps12;product=ribosomal protein S12
-WS77111cp	manual	CDS	112596	112827	.	+	0	Parent=mRNA9;Name=CDS-rps12;product=ribosomal protein S12
-WS77111cp	manual	CDS	113369	113395	.	+	2	Parent=mRNA9;Name=CDS-rps12;product=ribosomal protein S12
+WS77111cp	manual	mRNA	9568	9681	.	+	.	ID=mRNA8;Parent=gene11;translation=MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVY;part=1/2
+WS77111cp	manual	mRNA	112596	113395	.	+	.	ID=mRNA9;Parent=gene11;translation=TITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAAEVKDRQQGRSRYGVKKPK;part=2/2
+WS77111cp	manual	CDS	9568	9681	.	+	0	Parent=mRNA8;Name=CDS-rps12;product=ribosomal protein S12;transl_table=11;exception=trans-splicing
+WS77111cp	manual	CDS	112596	112828	.	+	0	Parent=mRNA9;Name=CDS-rps12;product=ribosomal protein S12;transl_table=11;exception=trans-splicing
+WS77111cp	manual	CDS	113371	113395	.	+	2	Parent=mRNA9;Name=CDS-rps12;product=ribosomal protein S12;transl_table=11;exception=trans-splicing
 WS77111cp	manual	exon	9568	9681	.	+	.	Parent=mRNA8;number=1
-WS77111cp	manual	exon	112596	112827	.	+	.	Parent=mRNA9;number=2
-WS77111cp	manual	intron	112828	113369	.	+	.	Parent=mRNA9
-WS77111cp	manual	exon	113369	113395	.	+	.	Parent=mRNA9;number=3
+WS77111cp	manual	exon	112596	112828	.	+	.	Parent=mRNA9;number=2
+WS77111cp	manual	intron	112829	113370	.	+	.	Parent=mRNA9
+WS77111cp	manual	exon	113371	113395	.	+	.	Parent=mRNA9;number=3
 WS77111cp	GeSeq	gene	10391	10750	.	+	.	ID=gene13;Name=rpl20;note=blatX_hit rpl20_NC_032367.1%3B position 1 - 360%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	mRNA	10391	10750	.	+	.	ID=mRNA10;Parent=gene13
 WS77111cp	manual	exon	10391	10750	.	+	.	Parent=mRNA10

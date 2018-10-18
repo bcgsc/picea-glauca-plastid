@@ -186,6 +186,7 @@ FEATURES             Location/Qualifiers
                      /product="ribosomal protein S12"
      CDS             9568..9681
                      /locus_tag="WS77111cp_000011"
+                     /trans_splicing
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S12"
@@ -1581,18 +1582,19 @@ FEATURES             Location/Qualifiers
      tRNA            complement(110965..111036)
                      /locus_tag="WS77111cp_000109"
                      /product="tRNA-Val"
-     mRNA            join(112596..112827,113369..113395)
+     mRNA            join(112596..112828,113371..113395)
                      /locus_tag="WS77111cp_000011"
                      /product="ribosomal protein S12"
-     CDS             join(112596..112827,113369..113395)
+     CDS             join(112596..112828,113371..113395)
                      /locus_tag="WS77111cp_000011"
+                     /trans_splicing
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S12"
                      /protein_id="WS77111cp:cds.mRNA9"
                      /translation="-
                      ITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHI
-                     VRGTLDAAEVKDRQQGRSTIWSQKAKI"
+                     VRGTLDAAEVKDRQQGRSRYGVKKPK"
      gene            113444..113911
                      /locus_tag="WS77111cp_000110"
                      /note="blatX_hit rps7_NC_028594.1; position 1 - 468;

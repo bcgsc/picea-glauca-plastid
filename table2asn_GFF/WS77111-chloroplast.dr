@@ -40,12 +40,12 @@ FEATURE_LOCATION_CONFLICT: Coding region location does not match gene location
 ../WS77111-chloroplast.fa:CDS	ribosomal protein S12	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
 ../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
 FEATURE_LOCATION_CONFLICT: Coding region location does not match gene location
-../WS77111-chloroplast.fa:CDS	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113369-113395]	WS77111cp_000011
+../WS77111-chloroplast.fa:CDS	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112828, 113371-113395]	WS77111cp_000011
 ../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
 FEATURE_LOCATION_CONFLICT: RNA feature location does not match gene location
 ../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
 ../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
 FEATURE_LOCATION_CONFLICT: RNA feature location does not match gene location
-../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113369-113395]	WS77111cp_000011
+../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112828, 113371-113395]	WS77111cp_000011
 ../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
 ALL_SEQS_CIRCULAR: All (1) sequences are circular

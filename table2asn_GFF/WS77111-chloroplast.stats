@@ -1,13 +1,18 @@
 Total messages:		17
 
 =================================================================
-16 ERROR-level messages exist
+1 WARNING-level messages exist
+
+SEQ_FEAT.BadTranssplicedInterval:	1
+
+=================================================================
+15 ERROR-level messages exist
 
 SEQ_INST.StopInProtein:	3
 SEQ_INST.BadProteinStart:	3
 SEQ_FEAT.StartCodon:	3
 SEQ_FEAT.InternalStop:	3
-SEQ_FEAT.NoStop:	4
+SEQ_FEAT.NoStop:	3
 
 =================================================================
 1 CRITICAL-level messages exist
