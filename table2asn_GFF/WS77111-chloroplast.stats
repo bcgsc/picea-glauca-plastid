@@ -1,12 +1,4 @@
-Total messages:		172
-
-=================================================================
-155 WARNING-level messages exist
-
-SEQ_FEAT.ProtRefHasNoData:	75
-SEQ_FEAT.NoNameForProtein:	75
-SEQ_FEAT.MissingTrnaAA:	1
-SEQ_FEAT.BadTranssplicedInterval:	4
+Total messages:		17
 
 =================================================================
 16 ERROR-level messages exist

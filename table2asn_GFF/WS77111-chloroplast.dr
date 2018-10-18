@@ -7,11 +7,14 @@ SOURCE_QUALS: taxname (all present, all unique)
 SOURCE_QUALS: taxid (all present, all unique)
 SOURCE_QUALS: location (all present, all unique)
 FEATURE_COUNT: CDS: 75 present
-FEATURE_COUNT: gene: 115 present
+FEATURE_COUNT: gene: 114 present
 FEATURE_COUNT: mRNA: 75 present
 FEATURE_COUNT: rRNA: 4 present
 FEATURE_COUNT: tRNA: 36 present
-RNA_NO_PRODUCT: 76 RNA features have no product and are not pseudo
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+	May contain database identifier more appropriate in note; remove from product name
+		2 features contains three or more numbers together that may be identifiers more appropriate in note
+FEATURE_LOCATION_CONFLICT: 4 features have inconsistent gene locations.
 ALL_SEQS_CIRCULAR: All (1) sequences are circular
 
 Detailed Report
@@ -23,85 +26,26 @@ SOURCE_QUALS: taxname (all present, all unique)
 SOURCE_QUALS: taxid (all present, all unique)
 SOURCE_QUALS: location (all present, all unique)
 FEATURE_COUNT: CDS: 75 present
-FEATURE_COUNT: gene: 115 present
+FEATURE_COUNT: gene: 114 present
 FEATURE_COUNT: mRNA: 75 present
 FEATURE_COUNT: rRNA: 4 present
 FEATURE_COUNT: tRNA: 36 present
-RNA_NO_PRODUCT: 76 RNA features have no product and are not pseudo
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c1062-1	WS77111cp_000001
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c3297-1750	WS77111cp_000003
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c6248-4707	WS77111cp_000004
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:6881-7060	WS77111cp_000006
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:7549-7659	WS77111cp_000007
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:8289-8390	WS77111cp_000009
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:8810-9400	WS77111cp_000010
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113369-113395]	WS77111cp_000012
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:10391-10750	WS77111cp_000013
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c11291-11010	WS77111cp_000014
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c11621-11415	WS77111cp_000015
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c12067-11939	WS77111cp_000016
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c12915-12802	WS77111cp_000019
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c13208-13020	WS77111cp_000020
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:14440-14691	WS77111cp_000021
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:14701-14820	WS77111cp_000022
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:14854-14970	WS77111cp_000023
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:15089-15211	WS77111cp_000024
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c17206-16211	WS77111cp_000025
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c18217-17432	WS77111cp_000026
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c19625-19071	WS77111cp_000027
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c20302-20192	WS77111cp_000028
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c21820-20840	WS77111cp_000029
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c23896-22469	WS77111cp_000031
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:24605-26083	WS77111cp_000032
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:26092-26505	WS77111cp_000033
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:31275-31364	WS77111cp_000038
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c31854-31744	WS77111cp_000040
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:33632-33745	WS77111cp_000044
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c34727-34638	WS77111cp_000045
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:35542-38772	WS77111cp_000047
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:38795-39224, 39907-41567]	WS77111cp_000048
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:41661-45317	WS77111cp_000049
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:45520-46224	WS77111cp_000050
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:46517-47263	WS77111cp_000051
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:47953-48198	WS77111cp_000052
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:48529-48672, 49438-49848]	WS77111cp_000053
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:49892-51415	WS77111cp_000054
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c52931-52830	WS77111cp_000057
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:53691-55217	WS77111cp_000058
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:55292-55399	WS77111cp_000059
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c55612-55481	WS77111cp_000060
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:55692-55919	WS77111cp_000061
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:56868-56873, 57226-57511]	WS77111cp_000062
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:58428-58435, 58736-58960]	WS77111cp_000063
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c60079-59069	WS77111cp_000064
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c60531-60139	WS77111cp_000065
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c60727-60614	WS77111cp_000066
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c61066-60830	WS77111cp_000067
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c61602-61204	WS77111cp_000068
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c62116-61748	WS77111cp_000069
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:c62632-62624, c62355-62233]	WS77111cp_000070
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c64254-63598	WS77111cp_000071
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c64667-64239	WS77111cp_000072
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c64976-64698	WS77111cp_000073
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c66536-65029	WS77111cp_000074
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c66839-66564	WS77111cp_000075
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:70861-71466	WS77111cp_000080
-../WS77111-chloroplast.fa:mRNA	mRNA	[gnl|WS77111-chloroplast.cmt|WS77111cp:72576-72706, 73420-73645, 74357-74512]	WS77111cp_000082
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:75131-77383	WS77111cp_000083
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:77409-79613	WS77111cp_000084
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:79763-80062	WS77111cp_000085
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c80899-80711	WS77111cp_000088
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c82890-81469	WS77111cp_000090
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c83899-82838	WS77111cp_000091
-../WS77111-chloroplast.fa:tRNA	Thre	gnl|WS77111-chloroplast.cmt|WS77111cp:c85275-85205	WS77111cp_000092
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:94350-95225	WS77111cp_000101
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:95330-96736	WS77111cp_000102
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:97714-102957	WS77111cp_000103
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:103294-103560	WS77111cp_000104
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:104923-105168	WS77111cp_000105
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c108077-107115	WS77111cp_000106
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c109837-109625	WS77111cp_000109
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:113444-113911	WS77111cp_000111
-../WS77111-chloroplast.fa:mRNA	mRNA	gnl|WS77111-chloroplast.cmt|WS77111cp:c122637-116257	WS77111cp_000113
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
+SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
+../WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A1	gnl|WS77111-chloroplast.cmt|WS77111cp:75131-77383	WS77111cp_000082
+../WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A2	gnl|WS77111-chloroplast.cmt|WS77111cp:77409-79613	WS77111cp_000083
+FEATURE_LOCATION_CONFLICT: 4 features have inconsistent gene locations.
+FEATURE_LOCATION_CONFLICT: Coding region location does not match gene location
+../WS77111-chloroplast.fa:CDS	ribosomal protein S12	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
+../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
+FEATURE_LOCATION_CONFLICT: Coding region location does not match gene location
+../WS77111-chloroplast.fa:CDS	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113369-113395]	WS77111cp_000011
+../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
+FEATURE_LOCATION_CONFLICT: RNA feature location does not match gene location
+../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
+../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
+FEATURE_LOCATION_CONFLICT: RNA feature location does not match gene location
+../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113369-113395]	WS77111cp_000011
+../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
 ALL_SEQS_CIRCULAR: All (1) sequences are circular
