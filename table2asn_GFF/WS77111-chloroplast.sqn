@@ -75,7 +75,7 @@ Seq-submit ::= {
       date std {
         year 2018,
         month 10,
-        day 19
+        day 26
       }
     },
     subtype new,
@@ -181,7 +181,7 @@ Seq-submit ::= {
         create-date std {
           year 2018,
           month 10,
-          day 19
+          day 26
         }
       },
       seq-set {
@@ -1553,7 +1553,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   location mix {
                     int {
                       from 112595,
-                      to 112827,
+                      to 112826,
                       strand plus,
                       id general {
                         db "WS77111-chloroplast.cmt",
@@ -1561,7 +1561,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       }
                     },
                     int {
-                      from 113370,
+                      from 113369,
                       to 113394,
                       strand plus,
                       id general {
@@ -3837,7 +3837,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   comment "blatX_hit petB_NC_028594.1; position 5 - 648;
  coverage 99.38%; match 99.23%",
                   location int {
-                    from 56867,
+                    from 56073,
                     to 57510,
                     strand plus,
                     id general {
@@ -3862,8 +3862,8 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   },
                   location mix {
                     int {
-                      from 56867,
-                      to 56872,
+                      from 56073,
+                      to 56078,
                       strand plus,
                       id general {
                         db "WS77111-chloroplast.cmt",
@@ -3871,7 +3871,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       }
                     },
                     int {
-                      from 57225,
+                      from 56869,
                       to 57510,
                       strand plus,
                       id general {
@@ -3897,7 +3897,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   comment "blatX_hit petD_NC_028594.1; position 5 - 537;
  coverage 99.26%; match 98.88%",
                   location int {
-                    from 58427,
+                    from 57720,
                     to 58959,
                     strand plus,
                     id general {
@@ -3922,8 +3922,8 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   },
                   location mix {
                     int {
-                      from 58427,
-                      to 58434,
+                      from 57720,
+                      to 57727,
                       strand plus,
                       id general {
                         db "WS77111-chloroplast.cmt",
@@ -3931,7 +3931,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                       }
                     },
                     int {
-                      from 58735,
+                      from 58431,
                       to 58959,
                       strand plus,
                       id general {
@@ -6606,7 +6606,7 @@ QPASSYYDGPAADFHTESKHVTMLRDYITKCYIERTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
             mol aa,
             length 85,
             seq-data ncbieaa "-ITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGR
-VKDLPGVRYHIVRGTLDAAEVKDRQQGRSRYGVKKPK"
+VKDLPGVRYHIVRGTLDAAEVKDRQQGRSKYGVKKPK"
           },
           annot {
             {
@@ -8221,9 +8221,11 @@ LFAVFLSIILEIYNSSVLLDGIPVSWG"
           inst {
             repr raw,
             mol aa,
-            length 97,
-            seq-data ncbieaa "MKCNFGCADRIFRCNWLFFALGSNWLLGSENCDWCA*GYSCNRISFGR
-VITRKC*RGSIYLDPFL*FTHFHITPSYCCIYANALSNDP*AGYSRSFI"
+            length 215,
+            seq-data iupacaa "MGKVYDRFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTSFLVQV
+ATGSAMTFYYRPTVTEAFASVQYLMTEVNFGWLIRSIHRWSASMMVLMMILHVFRVYLTGGFKKPRELTWVTGVILGV
+LTVSFGVTGYSLPWDQIGYWAVKIVTGVPEAIPVIGSPLVELLRGSVSVGQSTLTRFYSLHTFILPLLTAVFMPMHFL
+MIRKQGIPGPL"
           },
           annot {
             {
@@ -8236,7 +8238,7 @@ VITRKC*RGSIYLDPFL*FTHFHITPSYCCIYANALSNDP*AGYSRSFI"
                   },
                   location int {
                     from 0,
-                    to 96,
+                    to 214,
                     id general {
                       db "WS77111cp",
                       tag str "cds.mRNA45"
@@ -8265,9 +8267,10 @@ VITRKC*RGSIYLDPFL*FTHFHITPSYCCIYANALSNDP*AGYSRSFI"
           inst {
             repr raw,
             mol aa,
-            length 77,
-            seq-data ncbieaa "-*HPRDH*QCLF*RM*INFRIHFVVQ*LQQYP*SVLQ*PFG*ALGQRY
-LLMNL*L*VFSNLIQLSNIKIFQFFIHIS"
+            length 178,
+            seq-data iupacaa "MGVTKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLSYIFPVVILGTI
+ACTVGLAVLEPSMIGEPANPFATPLEILPEWYLFPVFQILRTVPNKLLGVLLMASVPAGSLTVPFLENVNQFQNPFRR
+PVATTVSLIGTAVALWLGIGAALPIDESLTLGLFQFDPTVEYKNLSIFYSYI"
           },
           annot {
             {
@@ -8280,7 +8283,7 @@ LLMNL*L*VFSNLIQLSNIKIFQFFIHIS"
                   },
                   location int {
                     from 0,
-                    to 76,
+                    to 177,
                     id general {
                       db "WS77111cp",
                       tag str "cds.mRNA46"
@@ -9901,7 +9904,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
               location mix {
                 int {
                   from 112595,
-                  to 112827,
+                  to 112826,
                   strand plus,
                   id general {
                     db "WS77111-chloroplast.cmt",
@@ -9909,7 +9912,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   }
                 },
                 int {
-                  from 113370,
+                  from 113369,
                   to 113394,
                   strand plus,
                   id general {
@@ -11014,8 +11017,8 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
               },
               location mix {
                 int {
-                  from 56867,
-                  to 56872,
+                  from 56073,
+                  to 56078,
                   strand plus,
                   id general {
                     db "WS77111-chloroplast.cmt",
@@ -11023,7 +11026,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   }
                 },
                 int {
-                  from 57225,
+                  from 56869,
                   to 57510,
                   strand plus,
                   id general {
@@ -11055,8 +11058,8 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
               },
               location mix {
                 int {
-                  from 58427,
-                  to 58434,
+                  from 57720,
+                  to 57727,
                   strand plus,
                   id general {
                     db "WS77111-chloroplast.cmt",
@@ -11064,7 +11067,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                   }
                 },
                 int {
-                  from 58735,
+                  from 58431,
                   to 58959,
                   strand plus,
                   id general {
