@@ -6,15 +6,14 @@ SOURCE_QUALS: isolate (all present, all unique)
 SOURCE_QUALS: taxname (all present, all unique)
 SOURCE_QUALS: taxid (all present, all unique)
 SOURCE_QUALS: location (all present, all unique)
-FEATURE_COUNT: CDS: 75 present
+FEATURE_COUNT: CDS: 74 present
 FEATURE_COUNT: gene: 114 present
-FEATURE_COUNT: mRNA: 75 present
+FEATURE_COUNT: mRNA: 74 present
 FEATURE_COUNT: rRNA: 4 present
 FEATURE_COUNT: tRNA: 36 present
 SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
 	May contain database identifier more appropriate in note; remove from product name
 		2 features contains three or more numbers together that may be identifiers more appropriate in note
-FEATURE_LOCATION_CONFLICT: 4 features have inconsistent gene locations.
 ALL_SEQS_CIRCULAR: All (1) sequences are circular
 
 Detailed Report
@@ -25,9 +24,9 @@ SOURCE_QUALS: isolate (all present, all unique)
 SOURCE_QUALS: taxname (all present, all unique)
 SOURCE_QUALS: taxid (all present, all unique)
 SOURCE_QUALS: location (all present, all unique)
-FEATURE_COUNT: CDS: 75 present
+FEATURE_COUNT: CDS: 74 present
 FEATURE_COUNT: gene: 114 present
-FEATURE_COUNT: mRNA: 75 present
+FEATURE_COUNT: mRNA: 74 present
 FEATURE_COUNT: rRNA: 4 present
 FEATURE_COUNT: tRNA: 36 present
 SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
@@ -35,17 +34,4 @@ SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note;
 SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
 ../WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A1	gnl|WS77111-chloroplast.cmt|WS77111cp:75131-77383	WS77111cp_000082
 ../WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A2	gnl|WS77111-chloroplast.cmt|WS77111cp:77409-79613	WS77111cp_000083
-FEATURE_LOCATION_CONFLICT: 4 features have inconsistent gene locations.
-FEATURE_LOCATION_CONFLICT: Coding region location does not match gene location
-../WS77111-chloroplast.fa:CDS	ribosomal protein S12	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
-../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
-FEATURE_LOCATION_CONFLICT: Coding region location does not match gene location
-../WS77111-chloroplast.fa:CDS	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113370-113395]	WS77111cp_000011
-../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
-FEATURE_LOCATION_CONFLICT: RNA feature location does not match gene location
-../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681	WS77111cp_000011
-../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
-FEATURE_LOCATION_CONFLICT: RNA feature location does not match gene location
-../WS77111-chloroplast.fa:mRNA	ribosomal protein S12	[gnl|WS77111-chloroplast.cmt|WS77111cp:112596-112827, 113370-113395]	WS77111cp_000011
-../WS77111-chloroplast.fa:Gene	WS77111cp_000011	[gnl|WS77111-chloroplast.cmt|WS77111cp:9568-9681, 112596-113395]	WS77111cp_000011
 ALL_SEQS_CIRCULAR: All (1) sequences are circular
