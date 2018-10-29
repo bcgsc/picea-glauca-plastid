@@ -1,5 +1,4 @@
-LOCUS       WS77111-chloroplast.cmt:WS77111cp 123421 bp    DNA     circular PLN
-            29-OCT-2018
+LOCUS       WS77111cp             123421 bp    DNA     circular PLN 29-OCT-2018
 DEFINITION  Picea glauca isolate WS77111 chloroplast, complete genome.
 ACCESSION   
 VERSION
@@ -206,7 +205,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L20"
-                     /protein_id="WS77111cp:cds.mRNA10"
+                     /protein_id="WS77111cp:cds.mRNA9"
                      /translation="MTRVKRGYIARKRRKKILAFVSGSRGAHSKLFRTANQRKARALV
                      SAHRDRGKRKRDLRRLWITRINAAARANGVSYNRFIQYLYKRQLLPNRKTLAQIAVLD
                      SNCFSTILKNLSCDEIG"
@@ -222,7 +221,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S18"
-                     /protein_id="WS77111cp:cds.mRNA11"
+                     /protein_id="WS77111cp:cds.mRNA10"
                      /translation="MKQTMDKPKRYFRRHLTPIRRHLTPIRRHLSPIRSGDRIDYKNM
                      SLISRFISEQGKILSGRVNRLTSKQQRLITNAIKRARIPSLLPFLYNEN"
      gene            complement(11415..11621)
@@ -237,7 +236,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L33"
-                     /protein_id="WS77111cp:cds.mRNA12"
+                     /protein_id="WS77111cp:cds.mRNA11"
                      /translation="MAKSGDVRVTITLECTSCTQDSVYKRFPGISRYTTRKNRRNTPI
                      RLESNKFCPYCYKHTIHGEIKKRD"
      gene            complement(11939..12067)
@@ -252,7 +251,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit IX"
-                     /protein_id="WS77111cp:cds.mRNA13"
+                     /protein_id="WS77111cp:cds.mRNA12"
                      /translation="MQDLKTYLSTAPVLAISSFIFLAGLLIEINRFFPDALTFAFF"
      gene            12365..12438
                      /locus_tag="WS77111cp_000016"
@@ -280,7 +279,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit V"
-                     /protein_id="WS77111cp:cds.mRNA14"
+                     /protein_id="WS77111cp:cds.mRNA13"
                      /translation="MIEALPSGIVLGLIPITLAGLSVTAYSQYRRGDQLDI"
      gene            complement(13020..13208)
                      /locus_tag="WS77111cp_000019"
@@ -294,7 +293,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b/f complex 3.5 kDa subunit"
-                     /protein_id="WS77111cp:cds.mRNA15"
+                     /protein_id="WS77111cp:cds.mRNA14"
                      /translation="MKICINHISFSPSTPTITIISYFGFLLASIIFTLVLFISSSKIQ
                      LIRNEGRGNPLSSLYQFQ"
      gene            14440..14691
@@ -309,7 +308,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b559 alpha chain"
-                     /protein_id="WS77111cp:cds.mRNA16"
+                     /protein_id="WS77111cp:cds.mRNA15"
                      /translation="MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAY
                      DVFGSPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
      gene            14701..14820
@@ -324,7 +323,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II cytochrome b559 beta subunit"
-                     /protein_id="WS77111cp:cds.mRNA17"
+                     /protein_id="WS77111cp:cds.mRNA16"
                      /translation="MTIDRTYPIFTVRWLAIHGLAVPTVFFSGSISAMQFIQR"
      gene            14854..14970
                      /locus_tag="WS77111cp_000022"
@@ -338,7 +337,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein L"
-                     /protein_id="WS77111cp:cds.mRNA18"
+                     /protein_id="WS77111cp:cds.mRNA17"
                      /translation="MTQLNPNNQNVELNRTSLYWGLLLIFVLAVLFSNYLFN"
      gene            15089..15211
                      /locus_tag="WS77111cp_000023"
@@ -352,7 +351,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein J"
-                     /protein_id="WS77111cp:cds.mRNA19"
+                     /protein_id="WS77111cp:cds.mRNA18"
                      /translation="MADTTGRIPLWLIGTVTGIIVIGLLGIFFYGSYSGSGSSL"
      gene            complement(16211..17206)
                      /locus_tag="WS77111cp_000024"
@@ -366,7 +365,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome f"
-                     /protein_id="WS77111cp:cds.mRNA20"
+                     /protein_id="WS77111cp:cds.mRNA19"
                      /translation="MQNRNTYDLKKKMTRLISVLVMIHIITRTSISNAYPIFAQQGYE
                      NPREATGRIVCANCHLAKKPVDIEVPQSVLPNTVFEAVVKIPYDTQMKQVLANGKKGA
                      LNVGAVLILPEGFELAPPDRISPEIRQKMGNLYFQNYRPNQKNIIVIGPVPGQKYSEL
@@ -385,7 +384,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="chloroplast envelope membrane protein"
-                     /protein_id="WS77111cp:cds.mRNA21"
+                     /protein_id="WS77111cp:cds.mRNA20"
                      /translation="MDPIPHSITRTLSRFRTELTSESGSLAIHELEVAEYKASASLRY
                      LACLVVLPWVIPISLRKGLEPWVTNWWNTGQSQKIFDYLQEENVLGRFEKIEELFLLE
                      RMVEDSSGTDSKDLRIEIHKETIQLVEMYNEDCIKIISHLLTNLIGFAFISAYLILGK
@@ -403,7 +402,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I assembly protein Ycf4"
-                     /protein_id="WS77111cp:cds.mRNA22"
+                     /protein_id="WS77111cp:cds.mRNA21"
                      /translation="MNNRSKWLWIEPITGSRKRSNFFWACILFLGSLGFFLVGISSYF
                      GENLIPLLSSQEILFVPQGIVMCFYGIAGLFISSYLWCTILFDVGSGYNKFDKRKGIV
                      CLFRWGFPGKNRRIFPRFLMKDIQMIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDN
@@ -420,7 +419,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit VIII"
-                     /protein_id="WS77111cp:cds.mRNA23"
+                     /protein_id="WS77111cp:cds.mRNA22"
                      /translation="MIIPNLPSFFVPLVGLLLPAITMVLFHLYIQNDDIF"
      gene            complement(20840..21820)
                      /locus_tag="WS77111cp_000028"
@@ -434,7 +433,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="acetyl-CoA carboxylase beta subunit"
-                     /protein_id="WS77111cp:cds.mRNA24"
+                     /protein_id="WS77111cp:cds.mRNA23"
                      /translation="MSIREWFEDRRKITGLLKNSVERDSKDVNEMERNKNLSIDYVKI
                      NRLWVQCDNCESLLYIRFLRENKSVCEECGYYLQMNSSDRIELPIDRGTRHPMDEDMY
                      TLDVLQFHSENEPAHSDPLHSEDESYKDHITFCQIETGLTDAIQTGIGQLNGLPIALG
@@ -462,7 +461,7 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
                      /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
                      large subunit"
-                     /protein_id="WS77111cp:cds.mRNA25"
+                     /protein_id="WS77111cp:cds.mRNA24"
                      /translation="MSPKTETKASVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTP
                      QPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEETQFIAYVA
                      YPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERD
@@ -484,7 +483,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 beta chain"
-                     /protein_id="WS77111cp:cds.mRNA26"
+                     /protein_id="WS77111cp:cds.mRNA25"
                      /translation="MRTNPLVLGVSALVEKNVGRIAQIIGPVLDVSFPPGNMPNIYNS
                      LIVKGQGTAGQEIQVTCEVQQLLGNHKVRAVAMSATDGLTRGMRVIDTGAPLSVPVGG
                      ATLGRIFNVLGEPVDNLGPVDARITSPIHRSAPAFTELDTKLSIFETGIKVVDLLAPY
@@ -506,7 +505,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 epsilon chain"
-                     /protein_id="WS77111cp:cds.mRNA27"
+                     /protein_id="WS77111cp:cds.mRNA26"
                      /translation="MTLNLRVLSPNRVIWDSEVQEIILSTNSGQIGVLPNHASLVAAV
                      DIGVMKIRLNGQWSTMALMGGFAKIDNDRITVLVNNAERDVDIDLKEAQETFKVAKAD
                      LARAEGKRQAIEADVAPKRARTRLEAISASPPVSN"
@@ -550,7 +549,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I protein M"
-                     /protein_id="WS77111cp:cds.mRNA28"
+                     /protein_id="WS77111cp:cds.mRNA27"
                      /translation="MIEVQFFIAFVLAFATINLAIKLGKALYD"
      gene            31580..31667
                      /locus_tag="WS77111cp_000038"
@@ -571,7 +570,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein I"
-                     /protein_id="WS77111cp:cds.mRNA29"
+                     /protein_id="WS77111cp:cds.mRNA28"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
      gene            32157..32229
                      /locus_tag="WS77111cp_000040"
@@ -606,7 +605,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II M protein"
-                     /protein_id="WS77111cp:cds.mRNA30"
+                     /protein_id="WS77111cp:cds.mRNA29"
                      /translation="MEVNTLAFIAVLLFLAISTAFLFIPYVKTASASSGNN"
      gene            complement(34638..34727)
                      /locus_tag="WS77111cp_000044"
@@ -620,7 +619,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit VIII"
-                     /protein_id="WS77111cp:cds.mRNA31"
+                     /protein_id="WS77111cp:cds.mRNA30"
                      /translation="MDIVGITWAALMVVFTFSLSLVVWGRSGL"
      gene            complement(35048..35118)
                      /locus_tag="WS77111cp_000045"
@@ -641,7 +640,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit"
-                     /protein_id="WS77111cp:cds.mRNA32"
+                     /protein_id="WS77111cp:cds.mRNA31"
                      /translation="MRLDENEGAFTIPEFGKIQFEGFCRFIDQGLMEELHNFPKIEDT
                      DKEIESRLFGNEYELAEPFIKERDAVYQSLTYYSELYVPARSIRRNSSKIQKQTVFLG
                      NIPLMNSHGTFVVNGIYRIVVNQILISPGIYYRSELDHNRINYIYTGTLISDWGRRSK
@@ -673,7 +672,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit-1"
-                     /protein_id="WS77111cp:cds.mRNA33"
+                     /protein_id="WS77111cp:cds.mRNA32"
                      /translation="MIDQNKHQQLRIGLASPEQICAWSEKILPNGEIVGQVTKPYTLH
                      YETNKPERDGSFCERIFGPIKSRVCSCGNSPGIGNEKIDSKFCTQCGVEFVDSRIRRY
                      RMGYIKLACPVAHIWYLKRLPSYIANLLAKTRKELEGPVYCDLFIARPIANKPTLLRS
@@ -699,7 +698,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit-2"
-                     /protein_id="WS77111cp:cds.mRNA34"
+                     /protein_id="WS77111cp:cds.mRNA33"
                      /translation="MKIWRFFLMKERTRLPFDNLPFYNKVMDKTAIKKLISRLIDHFG
                      MTYTSHILDQLKTSGFQQATDTAISLGIDDLLTAPSKAWLVQDAEQQGSVSEKQNHYG
                      NVHAVEKLRQSIEIWYATSEYLRKEMNPNFSMTDPLNPVHVMSFSGARGSTSQVHQLV
@@ -734,7 +733,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S2"
-                     /protein_id="WS77111cp:cds.mRNA35"
+                     /protein_id="WS77111cp:cds.mRNA34"
                      /translation="MSKRYWNMDLEEMMEARVHLGHKTRKWNPKMAPYIFTERKDTHI
                      LNLAKTARSLSEACDLAFDIAGRGKQFLIVGTKYQAADLVASAATEARCHYVNRKWLG
                      GMLTNWSTTETRPQKFKDLKKEQDTGRFNRPPKKEAAMLKRQLDQLQKYLGGIRYMTS
@@ -752,7 +751,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 A chain"
-                     /protein_id="WS77111cp:cds.mRNA36"
+                     /protein_id="WS77111cp:cds.mRNA35"
                      /translation="MDIVRSPISTLNHIYEISGVEVGQHFYWQIGGFQVHAQVLITSW
                      VVIAVLLGSATIAVRDPQTIPTGGQNFVEYILEFFRDLTRTQIGEEEYGPWVPFIGTL
                      FLFIFVSNWSGALLPWGIIKLPHGELAAPTNDINTTVALALLTSVAYFYAGLAKKGLG
@@ -770,7 +769,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 subunit III"
-                     /protein_id="WS77111cp:cds.mRNA37"
+                     /protein_id="WS77111cp:cds.mRNA36"
                      /translation="MDPLISAASVIAAGLSVGLASIGPGVGQGTAAGQAVEGIARQPE
                      AEGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
      gene            48529..49848
@@ -785,7 +784,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 subunit I"
-                     /protein_id="WS77111cp:cds.mRNA38"
+                     /protein_id="WS77111cp:cds.mRNA37"
                      /translation="MKNVIDPFISLSYWPSAGGFGSNTNILETNIINPSLVLSVLIYF
                      GKGVLSNLLDNRKQKILNTIRNSEELCKGAIDQLEKARARLREVEMIAGEIRVNGDFQ
                      IEREKEDLINAASENLEQLEDPKNETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRL
@@ -802,7 +801,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 alpha chain"
-                     /protein_id="WS77111cp:cds.mRNA39"
+                     /protein_id="WS77111cp:cds.mRNA38"
                      /translation="MGNIRLDEISSIIRKQIEQYNNEVRVGNLGTVLQVGDGIARIHG
                      LDEVMAGELVEFGDGTIGIALNLGSDNVGAVLMGDGLMIQEGSSVRATGKIAQIPVSD
                      AYLGRVVNALAQPIDGKGQISASEFRLIESPAPGIISRRSVYEPLQTGLIAIDSMIPI
@@ -838,7 +837,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II reaction center protein ycf12"
-                     /protein_id="WS77111cp:cds.mRNA40"
+                     /protein_id="WS77111cp:cds.mRNA39"
                      /translation="MNLEVIAQLTVLTLTVVSGPLVIVLLAVRKGNL"
      gene            53691..55217
                      /locus_tag="WS77111cp_000057"
@@ -852,7 +851,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II CP47 chlorophyll apoprotein"
-                     /protein_id="WS77111cp:cds.mRNA41"
+                     /protein_id="WS77111cp:cds.mRNA40"
                      /translation="MGLPWYRVHTVVLNDPGRLISVHIMHTALVAGWAGSMTLYELAV
                      FDPSDPVLDPMWRQGMFVIPFMTRLGIKDSWTGWNITGETVINPGIWSYEGVAGAHIM
                      FSGLCFLAAIWHWVYWDLEIFCDERTGKLCLDLPKVFGIHLFLSGVACFGFGAFHVTG
@@ -875,7 +874,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein T"
-                     /protein_id="WS77111cp:cds.mRNA42"
+                     /protein_id="WS77111cp:cds.mRNA41"
                      /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKIPNKGGK"
      gene            complement(55481..55612)
                      /locus_tag="WS77111cp_000059"
@@ -889,7 +888,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein N"
-                     /protein_id="WS77111cp:cds.mRNA43"
+                     /protein_id="WS77111cp:cds.mRNA42"
                      /translation="METATLVTISISCLLVSFTGYALYTAFGQPSEQLRDPFEDHED"
      gene            55692..55919
                      /locus_tag="WS77111cp_000060"
@@ -903,7 +902,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II 10 kDa phosphoprotein"
-                     /protein_id="WS77111cp:cds.mRNA44"
+                     /protein_id="WS77111cp:cds.mRNA43"
                      /translation="MATQTIDDTSKTTPRATGVGTSLKPLNSEYGKVAPGWGTTPLMG
                      LTMALFAVFLSIILEIYNSSVLLDGIPVSWG"
      gene            56074..57511
@@ -918,7 +917,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6"
-                     /protein_id="WS77111cp:cds.mRNA45"
+                     /protein_id="WS77111cp:cds.mRNA44"
                      /translation="MGKVYDRFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTSF
                      LVQVATGSAMTFYYRPTVTEAFASVQYLMTEVNFGWLIRSIHRWSASMMVLMMILHVF
                      RVYLTGGFKKPRELTWVTGVILGVLTVSFGVTGYSLPWDQIGYWAVKIVTGVPEAIPV
@@ -935,7 +934,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit IV"
-                     /protein_id="WS77111cp:cds.mRNA46"
+                     /protein_id="WS77111cp:cds.mRNA45"
                      /translation="MGVTKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLSYIFPVVI
                      LGTIACTVGLAVLEPSMIGEPANPFATPLEILPEWYLFPVFQILRTVPNKLLGVLLMA
                      SVPAGSLTVPFLENVNQFQNPFRRPVATTVSLIGTAVALWLGIGAALPIDESLTLGLF
@@ -952,7 +951,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase alpha subunit"
-                     /protein_id="WS77111cp:cds.mRNA47"
+                     /protein_id="WS77111cp:cds.mRNA46"
                      /translation="MIRDEISVSIQTLRWKCIESRAYSERLHYGRFALSPLRKGRADT
                      IGIAMRRVLLGEVEGTCITHVKLENIKHEYSAIIGIEESVHDILMNLKEIVLRSDSYG
                      IRGASICIVGPRNVTAQDIILPPSVKIIDTTQHIARLTKSITSDIRLQIEKNRGYIIH
@@ -972,7 +971,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S11"
-                     /protein_id="WS77111cp:cds.mRNA48"
+                     /protein_id="WS77111cp:cds.mRNA47"
                      /translation="MSKTKRRIGSRRNENRVLKGVIYVQASFNNTIVTVTDVRGQVLC
                      WSSAGACGFKGTRRGTPFAAQTAAENVIRTLMDRGMERVEVMISGPGRGRDTALRTIR
                      RSGILLSFVRDVTPMPHNGCRPPKKRRV"
@@ -988,7 +987,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L36"
-                     /protein_id="WS77111cp:cds.mRNA49"
+                     /protein_id="WS77111cp:cds.mRNA48"
                      /translation="MKIRASIRRICGKCRPIRRRKRVMIICSNPRHKQKQG"
      gene            complement(60830..61066)
                      /locus_tag="WS77111cp_000066"
@@ -1002,7 +1001,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="translation initiation factor 1"
-                     /protein_id="WS77111cp:cds.mRNA50"
+                     /protein_id="WS77111cp:cds.mRNA49"
                      /translation="MNKQNLIHAEGLVTESLPNGMFRVLTDNGCQILTHISGRIRRNS
                      VRILPGDRVKVELSAYDLTKGRIIYRLSNKSSNN"
      gene            complement(61204..61602)
@@ -1017,7 +1016,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S8"
-                     /protein_id="WS77111cp:cds.mRNA51"
+                     /protein_id="WS77111cp:cds.mRNA50"
                      /translation="MGNDTIANLITSIRNADMVEKRTVRVTATNITKNIGRILLREGF
                      IEDVREHQEGQKSFFISTLKYRRRKKRTYMTTSKRTSKSGLRIYSNYREIPKVLGGMG
                      IVILSTSQGILTDREARQKKIGGEILCYVW"
@@ -1033,7 +1032,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L14"
-                     /protein_id="WS77111cp:cds.mRNA52"
+                     /protein_id="WS77111cp:cds.mRNA51"
                      /translation="MIQSQTYLNIADNSGARKIMCIRVLGASNRKCAHIGDVIIAIIK
                      EAVPNMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPV
                      AQELRQLNFTKIVSLAPEVL"
@@ -1049,7 +1048,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L16"
-                     /protein_id="WS77111cp:cds.mRNA53"
+                     /protein_id="WS77111cp:cds.mRNA52"
                      /translation="MLSPKRTKFRKQHRGRMKGVSYRGNRICFGRFALQALEPAWITS
                      GQIEAGRRTITRYARRGGKIWVRIFPDKPITMRPAETRMGSGKGSPEYWVSVIRPGRI
                      LYEMGGVSETVARAAARIAAYKMPIRTQFVTT"
@@ -1065,7 +1064,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S3"
-                     /protein_id="WS77111cp:cds.mRNA54"
+                     /protein_id="WS77111cp:cds.mRNA53"
                      /translation="MAQKINPLGFRLGVTQNDRSHWFAQQRNYSKDLREDQKIRTCIE
                      NYVRTHIKSSSNYGGIARVEISRKIDLIQVKIYIGFPNLLLIEGRGFQGIEKLKNDVL
                      NMLDSVDRKLHIAIEKVAKPYRKPNILAEYIALQLEKRVPFRKTMKKAIELAEREEVE
@@ -1083,7 +1082,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L22"
-                     /protein_id="WS77111cp:cds.mRNA55"
+                     /protein_id="WS77111cp:cds.mRNA54"
                      /translation="MESMGNNSPGPEIRALARNIRMSAHKARRVINQIRGCSYGQALM
                      ILELMPYGACYPISQLIHSAAANANHNMGLNKANLLVSRVEVNEGAVFKRVQPRAQGR
                      GYPIQKPTCHITIVLEEISRSNDPIMSIESRKRGYVWRRK"
@@ -1099,7 +1098,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S19"
-                     /protein_id="WS77111cp:cds.mRNA56"
+                     /protein_id="WS77111cp:cds.mRNA55"
                      /translation="MARSLKKNPFVANHSLRKIKNLNIKEEKKIIVTWSRASVIVPAM
                      IGHTIAVHNGREHLPIYVTDRMVDHKLGEFAPTLLFQGHARNDKKSRR"
      gene            complement(65029..66536)
@@ -1114,7 +1113,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L2"
-                     /protein_id="WS77111cp:cds.mRNA57"
+                     /protein_id="WS77111cp:cds.mRNA56"
                      /translation="MAIRSYRILTPDTRNRSVSGFDGRVQLDPQKKLTSGQHHCGKGR
                      NGRGIITARHRGGGHKRLYRQIDFRRDKEHISGKIVTIEYDPNRSAYICKVHYKNGDK
                      MYILHPRGVMIGDTILSGPKAPISIGNALPLTNMPLGTAIHNIEITLGKGGQLARAAG
@@ -1133,7 +1132,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L23"
-                     /protein_id="WS77111cp:cds.mRNA58"
+                     /protein_id="WS77111cp:cds.mRNA57"
                      /translation="MDEVKYPVLTEKSIRLLERNQYTFNVDSQLNKTKMKIWIEHFFD
                      VKVIAMNSYRLPEKGGKRGSMIGHPIRCKRMIITLKPSDSIPLFSEQ"
      gene            complement(67175..67248)
@@ -1176,7 +1175,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S4"
-                     /protein_id="WS77111cp:cds.mRNA59"
+                     /protein_id="WS77111cp:cds.mRNA58"
                      /translation="MSRYRGPRLKIIRRLKTLPGLTSKRPKNRKDSMNRSSSRKISQY
                      RIRPEEKQKLRFHYGLTERQLLKYVRIARRAKGSTGQVLLQLLEMRSDNIIFQLGMAP
                      TIPGARQLVNHGHIRVNDHMVDIPSYPCKPQDVITIRDQQRLRDIIRKNLDLFQRDKL
@@ -1200,7 +1199,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I assembly protein Ycf3"
-                     /protein_id="WS77111cp:cds.mRNA60"
+                     /protein_id="WS77111cp:cds.mRNA59"
                      /translation="MPRSQRNDNFIDKTFTIVADILLRIIPMAPEEKEAFTYYRDGVM
                      SAQSEGEYAEALQNYYEAMRLETDPYDRSYILYNIGLVHTSNGEHTKALEYYFQALER
                      NPSLPQALNNTALICHYRGEQAIRQGDPETAEAWFDQAAEYWEQAIALAPGNYIEAQN
@@ -1217,7 +1216,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I P700 apoprotein A1"
-                     /protein_id="WS77111cp:cds.mRNA61"
+                     /protein_id="WS77111cp:cds.mRNA60"
                      /translation="MIIRSPEPEVKVVVERDPVKTSFEKWAKPGHFSKTLAKGPDTTT
                      WIWNLHADAHDFDSHTDDLEDISRKVFSAHFGQLAIIFIWLSGMYFHGARFSNYEAWL
                      GDPTHIKPSAQVVWPIVGQEILNGDVGGGFRGIQITSGFFQLWRASGITSELQLYCTA
@@ -1244,7 +1243,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I P700 apoprotein A2"
-                     /protein_id="WS77111cp:cds.mRNA62"
+                     /protein_id="WS77111cp:cds.mRNA61"
                      /translation="MASRFPKFSQGLAQDPTTRRIWFGIATAHDFESHDDITEERLYH
                      KIFASHFGQLAIIFLWTSGNLFHVAWQGNFEAWVRDPLHVRPIAHAIWDPHFGQPAIE
                      AFTRGGAPGPVNIAYSGVYQWWYTIGLRTNEDLYAGALFLLFVSAIFLIAGRLHLQPK
@@ -1270,7 +1269,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S14"
-                     /protein_id="WS77111cp:cds.mRNA63"
+                     /protein_id="WS77111cp:cds.mRNA62"
                      /translation="MARKSLIQREKKRQALERKYHLIRQSLEEESKVSSLDDKWEIHR
                      KLQSSPRNSAPTRLHRRCSSTGRPRANYRDFGLSGHILREMAHACLLPGITKSSW"
      gene            80198..80271
@@ -1299,7 +1298,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein Z"
-                     /protein_id="WS77111cp:cds.mRNA64"
+                     /protein_id="WS77111cp:cds.mRNA63"
                      /translation="MTIAFQSAVFALIAISFLLVIGVPVALASPDGWSSSKNVVFSGV
                      SLWIGSVLFVGILNSFISQICSRCFRLKLPPPLPEGFIALLKGLFLQVQGGGVFRN"
      gene            81189..81275
@@ -1321,7 +1320,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II 44 kDa protein"
-                     /protein_id="WS77111cp:cds.mRNA65"
+                     /protein_id="WS77111cp:cds.mRNA64"
                      /translation="MKTLYSLRRSYPVETLFNGTIALAGRDQETTGFAWWAGNARLIN
                      LSGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVPEKPMYEQGLILLPHLATLGWGVGPG
                      GEIVDTFPYFVSGVLHLISSAVLGFGGIYHALIGPETLEESFPFFGYVWKDRNKMTTI
@@ -1343,7 +1342,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein D2"
-                     /protein_id="WS77111cp:cds.mRNA66"
+                     /protein_id="WS77111cp:cds.mRNA65"
                      /translation="MTVALGKSSKEEKTLFDTVDDWLRRDRFVFVGWSGLLLFPCAYF
                      ALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDF
                      TRWCQLGGLWTFVALHGAFGLIGFMLRQFELARSVQLRPYNAIAFSAPIAVFVPVFLI
@@ -1428,7 +1427,7 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
                      /product="protochlorophyllide reductase ATP-binding
                      subunit"
-                     /protein_id="WS77111cp:cds.mRNA67"
+                     /protein_id="WS77111cp:cds.mRNA66"
                      /translation="MKIAVYGKGGIGKSTTSCNISVALARRGQKVLQIGCDPKHDSTF
                      TLTGFLIPTIIDTLQSKDYHYEDIWPEDVIHKGYGGVDCVEAGGPPAGAGCGGYVVGE
                      TVKLLKELNAFYEYDIILFDVLGDVVCGGFAAPLNYADYCVIITDNGFDALFAANRIT
@@ -1447,7 +1446,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photochlorophyllide reductase subunit N"
-                     /protein_id="WS77111cp:cds.mRNA68"
+                     /protein_id="WS77111cp:cds.mRNA67"
                      /translation="MSAKIDETITFECETGNYHTFCPISCVSWLYQKIEDSFFLVVGT
                      KTCGYFLQNALGVMIFAEPRYAMAELEEGDISAHLNDYEELKTLCIRIRKDRDPSVII
                      WIGTCTTEIIKMDLEGMAPKLEYEIGIPILVARANGLDYAFTQGEDTVLAVMAHRCPE
@@ -1469,7 +1468,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="Ycf1"
-                     /protein_id="WS77111cp:cds.mRNA69"
+                     /protein_id="WS77111cp:cds.mRNA68"
                      /translation="MARDEDDRSVTMVRDEDDRSVVMTRDEDDSFVAMVRDEDDRSVA
                      MARDKDVAMAIDENENESSVAMAIDENDSFAAMAIDPKKLKGLPKEEPLSWFKQPWPI
                      MLFDHNRAYRPIRYIGNSPFTRLGPVRTEVSQYFFGTYSSDGKQRISFTFLPSVLVLG
@@ -1513,7 +1512,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S15"
-                     /protein_id="WS77111cp:cds.mRNA70"
+                     /protein_id="WS77111cp:cds.mRNA69"
                      /translation="MIKNLSISSSLIPNKQRGSVESQVFYLTNRVLRLTQHLQLHGRD
                      YSSQRGLWKILGKRKQLLIYLSKRDKLRYDDLIGQLGIRGLKTR"
      gene            104923..105168
@@ -1528,7 +1527,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit VII"
-                     /protein_id="WS77111cp:cds.mRNA71"
+                     /protein_id="WS77111cp:cds.mRNA70"
                      /translation="MAHSVKIYDTCIGCTQCVRACPTDVLEMIPWEGCKAKQIASAPR
                      TEDCAGCKRCESACPTDFLSVRVYLWHETTRSMGLAY"
      gene            complement(107115..108077)
@@ -1543,7 +1542,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome c biogenesis protein"
-                     /protein_id="WS77111cp:cds.mRNA72"
+                     /protein_id="WS77111cp:cds.mRNA71"
                      /translation="MIFITLEHILAHISFSLILVVTLIYWGTLVYRIEGLSSSGGKGM
                      IVTFLCTTGLLITRWLYSGHLPLSNLYESFMFLSWSSSVLHIVLEVRNRDDRWLGAIT
                      APSAMLTHGFATLGLPEEMQRSGMLVPALQSHWSMMHVSMILFSYATLLCGSLASIAL
@@ -1576,7 +1575,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L32"
-                     /protein_id="WS77111cp:cds.mRNA73"
+                     /protein_id="WS77111cp:cds.mRNA72"
                      /translation="MAVPKKRTSRSKKKIRKNVRKGKAYRAAIKAFSLAKSISTGHSK
                      SFYCIANDDSSGSSESKLTSIDLDDP"
      gene            complement(110965..111036)
@@ -1598,7 +1597,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S7"
-                     /protein_id="WS77111cp:cds.mRNA74"
+                     /protein_id="WS77111cp:cds.mRNA73"
                      /translation="MSRRSTAEKKTAKSDPIYHNRLVNMVVNRILKNGKKSLAYRILY
                      RAIKNIQQKTEKNPLSVLRQAIRRVTPNVTVKARRVGGSTYRVPIEIRSTQGKVLAIR
                      WLLGASRKRPGRNMNFKLSHELMDAARGNGNAIRKKEETHRMAEANRAFAHFR"
@@ -1621,7 +1620,7 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=11
                      /product="Ycf2"
-                     /protein_id="WS77111cp:cds.mRNA75"
+                     /protein_id="WS77111cp:cds.mRNA74"
                      /translation="MKKRRSWIVKLEEIKSYQFLYNPWTESNLVRFLIQILSHRERLI
                      KLFDLRILSTLLLRDLRKSNPYFLVKGIVVLTLSVLTYHFNYKSSMIDRKNFYLMKLF
                      PIHINVMELGNETSEEYLKPFTQNWLILPHLFLSFQLKRSYNQSIEHSDPINFNSEYD
