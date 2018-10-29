@@ -1,0 +1,14 @@
+###RNAweasel intron gff
+WS77111cp	RNAweasel	intron	27379	27419	.	+	.	ID=intron1
+WS77111cp	RNAweasel	intron	39840	39882	.	+	.	ID=intron2
+WS77111cp	RNAweasel	intron	49354	49395	.	+	.	ID=intron3
+WS77111cp	RNAweasel	intron	56803	56845	.	+	.	ID=intron4
+WS77111cp	RNAweasel	intron	73343	73386	.	+	.	ID=intron5
+WS77111cp	RNAweasel	intron	74283	74327	.	+	.	ID=intron6
+WS77111cp	RNAweasel	intron	89302	89341	.	+	.	ID=intron7
+WS77111cp	RNAweasel	intron	112521	112561	.	+	.	ID=intron8
+WS77111cp	RNAweasel	intron	113298	113337	.	+	.	ID=intron9
+WS77111cp	RNAweasel	intron	1615	1656	.	-	.	ID=intron10
+WS77111cp	RNAweasel	intron	51877	51922	.	-	.	ID=intron11
+WS77111cp	RNAweasel	intron	62659	62707	.	-	.	ID=intron12
+WS77111cp	RNAweasel	intron	65491	65534	.	-	.	ID=intron13

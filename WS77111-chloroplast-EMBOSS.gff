@@ -6,9 +6,9 @@ WS77111cp	manual	exon	1	1062	.	-	.	Parent=mRNA1
 WS77111cp	GeSeq	CDS	1	1062	.	-	0	Parent=mRNA1;Name=CDS-psbA;translation=MTAIIERRESANLWGRFCDWITSTENRLYIGWFGVLMIPTLLTATSVFIIAFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASVDEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAASAVFLIYPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSLVTSSLIRETTENQSANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLAAWPVAGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLAAVESISIGG;product=photosystem II protein D1
 WS77111cp	GeSeq	gene	1534	4115	.	-	.	ID=gene2;Name=trnK-UUU;note=blatN_hit trnK-UUU_NC_032367.1%3B position 1 - 72%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	tRNA	1534	4115	.	-	.	ID=tRNA1;Parent=gene2;product=tRNA-Lys
-WS77111cp	GeSeq	exon	1534	1568	.	-	.	Parent=tRNA1;number=2
-WS77111cp	GeSeq	intron	1569	4080	.	-	.	Parent=tRNA1;number=1
-WS77111cp	GeSeq	exon	4081	4115	.	-	.	Parent=tRNA1;number=1
+WS77111cp	GeSeq	exon	1534	1568	.	-	.	Parent=tRNA1
+WS77111cp	GeSeq	intron	1569	4080	.	-	.	Parent=tRNA1
+WS77111cp	GeSeq	exon	4081	4115	.	-	.	Parent=tRNA1
 WS77111cp	GeSeq	gene	1750	3297	.	-	.	ID=gene3;Name=matK;note=blatX_hit matK_NC_028594.1%3B position 1 - 1548%3B coverage 100.00%25%3B match 99.94%25
 WS77111cp	manual	mRNA	1750	3297	.	-	.	ID=mRNA2;Parent=gene3
 WS77111cp	manual	exon	1750	3297	.	-	.	Parent=mRNA2
@@ -134,9 +134,9 @@ WS77111cp	GeSeq	tRNA	26614	26686	.	-	.	ID=tRNA7;Parent=gene34;product=tRNA-Met
 WS77111cp	manual	exon	26614	26686	.	-	.	Parent=tRNA7
 WS77111cp	GeSeq	gene	26876	27494	.	+	.	ID=gene35;Name=trnV-UAC;note=blatN_hit trnV-UAC_NC_032367.1%3B position 1 - 76%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	tRNA	26876	27494	.	+	.	ID=tRNA8;Parent=gene35;product=tRNA-Tyr
-WS77111cp	GeSeq	exon	26876	26914	.	+	.	Parent=tRNA8;number=1
-WS77111cp	GeSeq	intron	26915	27457	.	+	.	Parent=tRNA8;number=1
-WS77111cp	GeSeq	exon	27458	27494	.	+	.	Parent=tRNA8;number=2
+WS77111cp	GeSeq	exon	26876	26914	.	+	.	Parent=tRNA8
+WS77111cp	GeSeq	intron	26915	27457	.	+	.	Parent=tRNA8
+WS77111cp	GeSeq	exon	27458	27494	.	+	.	Parent=tRNA8
 WS77111cp	GeSeq	gene	29784	29858	.	+	.	ID=gene36;Name=trnH-GUG;note=blatN_hit trnH-GUG_NC_032367.1%3B position 1 - 75%3B coverage 100.00%25%3B match 98.67%25%3B match 98.67%25
 WS77111cp	GeSeq	tRNA	29784	29858	.	+	.	ID=tRNA9;Parent=gene36;product=tRNA-His
 WS77111cp	manual	exon	29784	29858	.	+	.	Parent=tRNA9
@@ -182,9 +182,9 @@ WS77111cp	GeSeq	gene	38795	41567	.	+	.	ID=gene48;Name=rpoC1;note=blatX_hit rpoC1
 WS77111cp	GeSeq	mRNA	38795	41567	.	+	0	ID=mRNA32;;Parent=gene48;translation=MIDQNKHQQLRIGLASPEQICAWSEKILPNGEIVGQVTKPYTLHYETNKPERDGSFCERIFGPIKSRVCSCGNSPGIGNEKIDSKFCTQCGVEFVDSRIRRYRMGYIKLACPVAHIWYLKRLPSYIANLLAKTRKELEGPVYCDLFIARPIANKPTLLRSRGTFNYEIQSWRDIIPHYLSARSHYLFARGSGTFQEREIATGGDAIREQLTGLDLQIIIDRSHMEWKNLVELKWNRLEEDQESTVDGWEDETIRRRKDFLVGRMKLAKHFLRTNIEPKWMVLCLLPVLPPEPRPIVQLGEGGLITSSDLNELYRRVINRNNTLTNLLARSGSESFVICQKKLIQEAVDALLDNGICGQPMRDSHDRPYKSFSDVIEGKEGRSRENLLGKRVDYSGRSVIVVGPFLSLYQCGLPSEIAIELFQAFVIRSLIGRHIAPNLRAAKSMIRDKGPIVWEVLQEVMQGHPVLLNRAPTLHRLGIQAFQPILVEGRAIRSHPSVCGGFNADFDGDQMAVHVPLSLEARAEARLLMFSETNLLSPAIGDPISIPTQDMLLGLYISTVGNSQGIYGNRYHPYHSEKKSFSCKKPSFYSYDDVLRAYRQKRIDLYSPLWLRWGEVDLRIITSVNQEAPIEVQYESLGTFHEIHEHYRIRKGRMGEILNIYIRTTVGRTRFNREMEEAIQGFARSEHPKKSLPALRI
 WS77111cp	GeSeq	CDS	38795	39224	.	+	0	Parent=mRNA32;Name=CDS-rpoC1;product=RNA polymerase beta subunit-1
 WS77111cp	GeSeq	CDS	39907	41567	.	+	2	Parent=mRNA32;Name=CDS-rpoC1;product=RNA polymerase beta subunit-1
-WS77111cp	GeSeq	exon	38795	39224	.	+	.	Parent=mRNA32;number=1
-WS77111cp	GeSeq	intron	39225	39906	.	+	.	Parent=mRNA32;number=1
-WS77111cp	GeSeq	exon	39907	41567	.	+	.	Parent=mRNA32;number=2
+WS77111cp	GeSeq	exon	38795	39224	.	+	.	Parent=mRNA32
+WS77111cp	GeSeq	intron	39225	39906	.	+	.	Parent=mRNA32
+WS77111cp	GeSeq	exon	39907	41567	.	+	.	Parent=mRNA32
 WS77111cp	GeSeq	gene	41661	45317	.	+	.	ID=gene49;Name=rpoC2;note=blatX_hit rpoC2_NC_028594.1%3B position 1 - 3657%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	mRNA	41661	45317	.	+	.	ID=mRNA33;Parent=gene49
 WS77111cp	manual	exon	41661	45317	.	+	.	Parent=mRNA33
@@ -205,9 +205,9 @@ WS77111cp	GeSeq	gene	48529	49848	.	+	.	ID=gene53;Name=atpF;note=blatX_hit atpF_N
 WS77111cp	GeSeq	mRNA	48529	49848	.	+	0	ID=mRNA37;Parent=gene53;translation=MKNVIDPFISLSYWPSAGGFGSNTNILETNIINPSLVLSVLIYFGKGVLSNLLDNRKQKILNTIRNSEELCKGAIDQLEKARARLREVEMIAGEIRVNGDFQIEREKEDLINAASENLEQLEDPKNETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRLNTELHLRTIDHNIGLLRTMMNTSD
 WS77111cp	GeSeq	CDS	48529	48672	.	+	0	Parent=mRNA37;Name=CDS-atpF;product=ATP synthase CF0 subunit I
 WS77111cp	GeSeq	CDS	49438	49848	.	+	0	Parent=mRNA37;Name=CDS-atpF;product=ATP synthase CF0 subunit I
-WS77111cp	GeSeq	exon	48529	48672	.	+	.	Parent=mRNA37;number=1
-WS77111cp	GeSeq	intron	48673	49437	.	+	.	Parent=mRNA37;number=1
-WS77111cp	GeSeq	exon	49438	49848	.	+	.	Parent=mRNA37;number=2
+WS77111cp	GeSeq	exon	48529	48672	.	+	.	Parent=mRNA37
+WS77111cp	GeSeq	intron	48673	49437	.	+	.	Parent=mRNA37
+WS77111cp	GeSeq	exon	49438	49848	.	+	.	Parent=mRNA37
 WS77111cp	GeSeq	gene	49892	51415	.	+	.	ID=gene54;Name=atpA;note=blatX_hit atpA_NC_032367.1%3B position 1 - 1524%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	mRNA	49892	51415	.	+	.	ID=mRNA38;Parent=gene54
 WS77111cp	manual	exon	49892	51415	.	+	.	Parent=mRNA38
@@ -217,9 +217,9 @@ WS77111cp	GeSeq	tRNA	51515	51584	.	-	.	ID=tRNA16;Parent=gene55;product=tRNA-Arg
 WS77111cp	manual	exon	51515	51584	.	-	.	Parent=tRNA16
 WS77111cp	GeSeq	gene	51804	52644	.	-	.	ID=gene56;Name=trnG-GCC;note=blatN_hit trnG-GCC_NC_032367.1%3B position 1 - 59%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	tRNA	51804	52644	.	-	.	ID=tRNA17;Parent=gene56;product=tRNA-Ser
-WS77111cp	GeSeq	exon	51804	51840	.	-	.	Parent=tRNA17;number=2
-WS77111cp	GeSeq	intron	51841	52622	.	-	.	Parent=tRNA17;number=1
-WS77111cp	GeSeq	exon	52623	52644	.	-	.	Parent=tRNA17;number=1
+WS77111cp	GeSeq	exon	51804	51840	.	-	.	Parent=tRNA17
+WS77111cp	GeSeq	intron	51841	52622	.	-	.	Parent=tRNA17
+WS77111cp	GeSeq	exon	52623	52644	.	-	.	Parent=tRNA17
 WS77111cp	GeSeq	gene	52830	52931	.	-	.	ID=gene57;Name=ycf12;note=blatX_hit ycf12_NC_032367.1%3B position 1 - 102%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	mRNA	52830	52931	.	-	.	ID=mRNA39;Parent=gene57
 WS77111cp	manual	exon	52830	52931	.	-	.	Parent=mRNA39
@@ -334,11 +334,11 @@ WS77111cp	GeSeq	mRNA	72576	74512	.	+	0	ID=mRNA59;Parent=gene82;translation=MPRSQ
 WS77111cp	GeSeq	CDS	72576	72706	.	+	0	Parent=mRNA59;Name=CDS-ycf3;product=photosystem I assembly protein Ycf3
 WS77111cp	GeSeq	CDS	73420	73645	.	+	1	Parent=mRNA59;Name=CDS-ycf3;product=photosystem I assembly protein Ycf3
 WS77111cp	GeSeq	CDS	74357	74512	.	+	0	Parent=mRNA59;Name=CDS-ycf3;product=photosystem I assembly protein Ycf3
-WS77111cp	GeSeq	exon	72576	72706	.	+	.	Parent=mRNA59;number=1
-WS77111cp	GeSeq	intron	72707	73419	.	+	.	Parent=mRNA59;number=1
-WS77111cp	GeSeq	exon	73420	73645	.	+	.	Parent=mRNA59;number=2
-WS77111cp	GeSeq	intron	73646	74356	.	+	.	Parent=mRNA59;number=2
-WS77111cp	GeSeq	exon	74357	74512	.	+	.	Parent=mRNA59;number=3
+WS77111cp	GeSeq	exon	72576	72706	.	+	.	Parent=mRNA59
+WS77111cp	GeSeq	intron	72707	73419	.	+	.	Parent=mRNA59
+WS77111cp	GeSeq	exon	73420	73645	.	+	.	Parent=mRNA59
+WS77111cp	GeSeq	intron	73646	74356	.	+	.	Parent=mRNA59
+WS77111cp	GeSeq	exon	74357	74512	.	+	.	Parent=mRNA59
 WS77111cp	GeSeq	gene	75131	77383	.	+	.	ID=gene83;Name=psaA;note=blatX_hit psaA_NC_029374.1%3B position 1 - 2253%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	mRNA	75131	77383	.	+	.	ID=mRNA60;Parent=gene83
 WS77111cp	manual	exon	75131	77383	.	+	.	Parent=mRNA60
@@ -380,14 +380,14 @@ WS77111cp	GeSeq	rRNA	85602	87092	.	+	.	ID=rRNA1;Parent=gene93;product=16S riboso
 WS77111cp	manual	exon	85602	87092	.	+	.	Parent=rRNA1
 WS77111cp	GeSeq	gene	87475	88519	.	+	.	ID=gene94;Name=trnI-GAU;note=blatN_hit trnI-GAU_NC_032367.1%3B position 1 - 77%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	tRNA	87475	88519	.	+	.	ID=tRNA27;Parent=gene94;product=tRNA-Glu
-WS77111cp	GeSeq	exon	87475	87516	.	+	.	Parent=tRNA27;number=1
-WS77111cp	GeSeq	exon	88485	88519	.	+	.	Parent=tRNA27;number=2
-WS77111cp	GeSeq	intron	87517	88484	.	+	.	Parent=tRNA27;number=1
+WS77111cp	GeSeq	exon	87475	87516	.	+	.	Parent=tRNA27
+WS77111cp	GeSeq	exon	88485	88519	.	+	.	Parent=tRNA27
+WS77111cp	GeSeq	intron	87517	88484	.	+	.	Parent=tRNA27
 WS77111cp	GeSeq	gene	88592	89448	.	+	.	ID=gene95;Name=trnA-UGC;note=blatN_hit trnA-UGC_NC_032367.1%3B position 1 - 73%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	manual	tRNA	88592	89448	.	+	.	ID=tRNA28;Parent=gene95;product=tRNA-Ala
-WS77111cp	GeSeq	exon	88592	88629	.	+	.	Parent=tRNA28;number=1
-WS77111cp	GeSeq	intron	88630	89413	.	+	.	Parent=tRNA28;number=1
-WS77111cp	GeSeq	exon	89414	89448	.	+	.	Parent=tRNA28;number=2
+WS77111cp	GeSeq	exon	88592	88629	.	+	.	Parent=tRNA28
+WS77111cp	GeSeq	intron	88630	89413	.	+	.	Parent=tRNA28
+WS77111cp	GeSeq	exon	89414	89448	.	+	.	Parent=tRNA28
 WS77111cp	GeSeq	gene	89596	92402	.	+	.	ID=gene96;Name=rrn23;note=blatN_hit rrn23_NC_028594.1%3B position 1 - 2807%3B coverage 100.00%25%3B match 100.00%25
 WS77111cp	GeSeq	rRNA	89596	92402	.	+	.	ID=rRNA2;Parent=gene96;product=23S ribosomal RNA
 WS77111cp	manual	exon	89596	92402	.	+	.	Parent=rRNA2
