@@ -1,0 +1,334 @@
+##gff-version 3
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3332
+##sequence-region   KU215903.2 1 124049
+KU215903.2	Genbank	gene	1	1062	.	-	.	ID=gene-Q903CP_gene1;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=protein_coding;locus_tag=Q903CP_gene1
+KU215903.2	Genbank	CDS	1	1062	.	-	0	ID=cds-AOG75863.1;Parent=gene-Q903CP_gene1;Dbxref=NCBI_GP:AOG75863.1;Name=AOG75863.1;gbkey=CDS;gene=psbA;inference=similar to AA sequence:RefSeq:YP_008082796.1;product=photosystem II protein D1;protein_id=AOG75863.1;transl_table=11
+KU215903.2	Genbank	region	1	124049	.	+	.	ID=KU215903.2:1..124049;Dbxref=taxon:3332;Is_circular=true;Name=Pltd;country=Canada: Queen Charlotte Islands;dev-stage=Mature tree;gbkey=Src;genome=chloroplast;isolate=Q903;lat-lon=53.55 N 132.05 W;mol_type=genomic DNA;tissue-type=flushing needles
+KU215903.2	Genbank	exon	1586	1620	.	-	.	ID=exon-Q903CP_gene2-2;Parent=rna-Q903CP_gene2;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+KU215903.2	Genbank	gene	1586	4172	.	-	.	ID=gene-Q903CP_gene2;Name=trnK-UUU;gbkey=Gene;gene=trnK-UUU;gene_biotype=tRNA;locus_tag=Q903CP_gene2
+KU215903.2	Genbank	tRNA	1586	4172	.	-	.	ID=rna-Q903CP_gene2;Parent=gene-Q903CP_gene2;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+KU215903.2	Genbank	intron	1621	4137	.	-	.	ID=id-Q903CP_gene2;gbkey=intron;gene=trnK-UUU
+KU215903.2	Genbank	gene	1802	3349	.	-	.	ID=gene-Q903CP_gene3;Name=matK;gbkey=Gene;gene=matK;gene_biotype=protein_coding;locus_tag=Q903CP_gene3
+KU215903.2	Genbank	CDS	1802	3349	.	-	0	ID=cds-AOG75864.1;Parent=gene-Q903CP_gene3;Dbxref=NCBI_GP:AOG75864.1;Name=AOG75864.1;gbkey=CDS;gene=matK;inference=similar to AA sequence:RefSeq:YP_008082797.1;product=maturase;protein_id=AOG75864.1;transl_table=11
+KU215903.2	Genbank	exon	4138	4172	.	-	.	ID=exon-Q903CP_gene2-1;Parent=rna-Q903CP_gene2;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+KU215903.2	Genbank	gene	4398	4523	.	+	.	ID=gene-Q903CP_gene4;Name=Q903CP_gene4;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene4
+KU215903.2	Genbank	CDS	4398	4523	.	+	0	ID=cds-AOG75865.1;Parent=gene-Q903CP_gene4;Dbxref=NCBI_GP:AOG75865.1;Name=AOG75865.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75865.1;transl_table=11
+KU215903.2	Genbank	CDS	4954	6495	.	-	0	ID=cds-AOG75866.1;Parent=gene-Q903CP_gene5;Dbxref=NCBI_GP:AOG75866.1;Name=AOG75866.1;gbkey=CDS;gene=chlB;inference=similar to AA sequence:RefSeq:YP_008082798.1;product=photochlorophyllide reductase subunit B;protein_id=AOG75866.1;transl_table=11
+KU215903.2	Genbank	gene	4954	6495	.	-	.	ID=gene-Q903CP_gene5;Name=chlB;gbkey=Gene;gene=chlB;gene_biotype=protein_coding;locus_tag=Q903CP_gene5
+KU215903.2	Genbank	tRNA	6700	6771	.	-	.	ID=rna-Q903CP_gene6;Parent=gene-Q903CP_gene6;Note=anticodon:UUG;gbkey=tRNA;gene=trnQ-UUG;product=tRNA-Gln
+KU215903.2	Genbank	exon	6700	6771	.	-	.	ID=exon-Q903CP_gene6-1;Parent=rna-Q903CP_gene6;Note=anticodon:UUG;gbkey=tRNA;gene=trnQ-UUG;product=tRNA-Gln
+KU215903.2	Genbank	gene	6700	6771	.	-	.	ID=gene-Q903CP_gene6;Name=trnQ-UUG;gbkey=Gene;gene=trnQ-UUG;gene_biotype=tRNA;locus_tag=Q903CP_gene6
+KU215903.2	Genbank	CDS	7128	7307	.	+	0	ID=cds-AOG75867.1;Parent=gene-Q903CP_gene7;Dbxref=NCBI_GP:AOG75867.1;Name=AOG75867.1;gbkey=CDS;gene=psbK;inference=similar to AA sequence:RefSeq:YP_008082799.1;product=photosystem II protein K;protein_id=AOG75867.1;transl_table=11
+KU215903.2	Genbank	gene	7128	7307	.	+	.	ID=gene-Q903CP_gene7;Name=psbK;gbkey=Gene;gene=psbK;gene_biotype=protein_coding;locus_tag=Q903CP_gene7
+KU215903.2	Genbank	gene	7791	7901	.	+	.	ID=gene-Q903CP_gene8;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding;locus_tag=Q903CP_gene8
+KU215903.2	Genbank	CDS	7791	7901	.	+	0	ID=cds-AOG75868.1;Parent=gene-Q903CP_gene8;Dbxref=NCBI_GP:AOG75868.1;Name=AOG75868.1;gbkey=CDS;gene=psbI;inference=similar to AA sequence:RefSeq:YP_008082800.1;product=photosystem II protein I;protein_id=AOG75868.1;transl_table=11
+KU215903.2	Genbank	tRNA	7978	8065	.	-	.	ID=rna-Q903CP_gene9;Parent=gene-Q903CP_gene9;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+KU215903.2	Genbank	exon	7978	8065	.	-	.	ID=exon-Q903CP_gene9-1;Parent=rna-Q903CP_gene9;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+KU215903.2	Genbank	gene	7978	8065	.	-	.	ID=gene-Q903CP_gene9;Name=trnS-GCU;gbkey=Gene;gene=trnS-GCU;gene_biotype=tRNA;locus_tag=Q903CP_gene9
+KU215903.2	Genbank	CDS	8513	8614	.	+	0	ID=cds-AOG75869.1;Parent=gene-Q903CP_gene10;Dbxref=NCBI_GP:AOG75869.1;Name=AOG75869.1;gbkey=CDS;gene=ycf12;inference=similar to AA sequence:RefSeq:YP_008082834.1;product=photosystem II reaction center protein ycf12;protein_id=AOG75869.1;transl_table=11
+KU215903.2	Genbank	gene	8513	8614	.	+	.	ID=gene-Q903CP_gene10;Name=ycf12;gbkey=Gene;gene=ycf12;gene_biotype=protein_coding;locus_tag=Q903CP_gene10
+KU215903.2	Genbank	gene	9034	9624	.	+	.	ID=gene-Q903CP_gene11;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=Q903CP_gene11
+KU215903.2	Genbank	CDS	9034	9624	.	+	0	ID=cds-AOG75870.1;Parent=gene-Q903CP_gene11;Dbxref=NCBI_GP:AOG75870.1;Name=AOG75870.1;gbkey=CDS;gene=clpP;inference=similar to AA sequence:RefSeq:YP_008082802.1;product=ATP-dependent Clp protease proteolytic subunit;protein_id=AOG75870.1;transl_table=11
+KU215903.2	Genbank	gene	9802	9915	.	+	.	ID=gene-Q903CP_gene12;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=Q903CP_gene12;part=1/2
+KU215903.2	Genbank	CDS	9802	9915	.	+	0	ID=cds-AOG75871.1;Parent=gene-Q903CP_gene12;Dbxref=NCBI_GP:AOG75871.1;Name=AOG75871.1;exception=trans-splicing;gbkey=CDS;gene=rps12;inference=similar to AA sequence:RefSeq:YP_008082803.1;product=ribosomal protein S12;protein_id=AOG75871.1;transl_table=11
+KU215903.2	Genbank	gene	10625	10984	.	+	.	ID=gene-Q903CP_gene14;Name=rpl20;gbkey=Gene;gene=rpl20;gene_biotype=protein_coding;locus_tag=Q903CP_gene14
+KU215903.2	Genbank	CDS	10625	10984	.	+	0	ID=cds-AOG75872.1;Parent=gene-Q903CP_gene14;Dbxref=NCBI_GP:AOG75872.1;Name=AOG75872.1;gbkey=CDS;gene=rpl20;inference=similar to AA sequence:RefSeq:YP_008082804.1;product=ribosomal protein L20;protein_id=AOG75872.1;transl_table=11
+KU215903.2	Genbank	CDS	11244	11525	.	-	0	ID=cds-AOG75873.1;Parent=gene-Q903CP_gene15;Dbxref=NCBI_GP:AOG75873.1;Name=AOG75873.1;gbkey=CDS;gene=rps18;inference=similar to AA sequence:RefSeq:YP_008082805.1;product=ribosomal protein S18;protein_id=AOG75873.1;transl_table=11
+KU215903.2	Genbank	gene	11244	11525	.	-	.	ID=gene-Q903CP_gene15;Name=rps18;gbkey=Gene;gene=rps18;gene_biotype=protein_coding;locus_tag=Q903CP_gene15
+KU215903.2	Genbank	CDS	11649	11855	.	-	0	ID=cds-AOG75874.1;Parent=gene-Q903CP_gene16;Dbxref=NCBI_GP:AOG75874.1;Name=AOG75874.1;gbkey=CDS;gene=rpl33;inference=similar to AA sequence:RefSeq:YP_008082806.1;product=ribosomal protein L33;protein_id=AOG75874.1;transl_table=11
+KU215903.2	Genbank	gene	11649	11855	.	-	.	ID=gene-Q903CP_gene16;Name=rpl33;gbkey=Gene;gene=rpl33;gene_biotype=protein_coding;locus_tag=Q903CP_gene16
+KU215903.2	Genbank	CDS	12174	12302	.	-	0	ID=cds-AOG75875.1;Parent=gene-Q903CP_gene17;Dbxref=NCBI_GP:AOG75875.1;Name=AOG75875.1;gbkey=CDS;gene=psaJ;inference=similar to AA sequence:RefSeq:YP_008082807.1;product=photosystem I subunit IX;protein_id=AOG75875.1;transl_table=11
+KU215903.2	Genbank	gene	12174	12302	.	-	.	ID=gene-Q903CP_gene17;Name=psaJ;gbkey=Gene;gene=psaJ;gene_biotype=protein_coding;locus_tag=Q903CP_gene17
+KU215903.2	Genbank	tRNA	12600	12673	.	+	.	ID=rna-Q903CP_gene18;Parent=gene-Q903CP_gene18;Note=anticodon:UGG;gbkey=tRNA;gene=trnP-UGG;product=tRNA-Pro
+KU215903.2	Genbank	gene	12600	12673	.	+	.	ID=gene-Q903CP_gene18;Name=trnP-UGG;gbkey=Gene;gene=trnP-UGG;gene_biotype=tRNA;locus_tag=Q903CP_gene18
+KU215903.2	Genbank	exon	12600	12673	.	+	.	ID=exon-Q903CP_gene18-1;Parent=rna-Q903CP_gene18;Note=anticodon:UGG;gbkey=tRNA;gene=trnP-UGG;product=tRNA-Pro
+KU215903.2	Genbank	exon	12841	12914	.	+	.	ID=exon-Q903CP_gene19-1;Parent=rna-Q903CP_gene19;Note=anticodon:CCA;gbkey=tRNA;gene=trnW-CCA;product=tRNA-Trp
+KU215903.2	Genbank	gene	12841	12914	.	+	.	ID=gene-Q903CP_gene19;Name=trnW-CCA;gbkey=Gene;gene=trnW-CCA;gene_biotype=tRNA;locus_tag=Q903CP_gene19
+KU215903.2	Genbank	tRNA	12841	12914	.	+	.	ID=rna-Q903CP_gene19;Parent=gene-Q903CP_gene19;Note=anticodon:CCA;gbkey=tRNA;gene=trnW-CCA;product=tRNA-Trp
+KU215903.2	Genbank	gene	13037	13150	.	-	.	ID=gene-Q903CP_gene20;Name=petG;gbkey=Gene;gene=petG;gene_biotype=protein_coding;locus_tag=Q903CP_gene20
+KU215903.2	Genbank	CDS	13037	13150	.	-	0	ID=cds-AOG75876.1;Parent=gene-Q903CP_gene20;Dbxref=NCBI_GP:AOG75876.1;Name=AOG75876.1;gbkey=CDS;gene=petG;inference=similar to AA sequence:RefSeq:YP_008082808.1;product=cytochrome b6/f complex subunit V;protein_id=AOG75876.1;transl_table=11
+KU215903.2	Genbank	gene	13255	13443	.	-	.	ID=gene-Q903CP_gene21;Name=petL;gbkey=Gene;gene=petL;gene_biotype=protein_coding;locus_tag=Q903CP_gene21
+KU215903.2	Genbank	CDS	13255	13443	.	-	0	ID=cds-AOG75877.1;Parent=gene-Q903CP_gene21;Dbxref=NCBI_GP:AOG75877.1;Name=AOG75877.1;gbkey=CDS;gene=petL;inference=similar to AA sequence:RefSeq:YP_008082809.1;product=cytochrome b/f complex 3.5 kDa subunit;protein_id=AOG75877.1;transl_table=11
+KU215903.2	Genbank	gene	14197	14526	.	+	.	ID=gene-Q903CP_gene22;Name=Q903CP_gene22;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene22
+KU215903.2	Genbank	CDS	14197	14526	.	+	0	ID=cds-AOG75878.1;Parent=gene-Q903CP_gene22;Dbxref=NCBI_GP:AOG75878.1;Name=AOG75878.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75878.1;transl_table=11
+KU215903.2	Genbank	gene	14685	14936	.	+	.	ID=gene-Q903CP_gene23;Name=psbE;gbkey=Gene;gene=psbE;gene_biotype=protein_coding;locus_tag=Q903CP_gene23
+KU215903.2	Genbank	CDS	14685	14936	.	+	0	ID=cds-AOG75879.1;Parent=gene-Q903CP_gene23;Dbxref=NCBI_GP:AOG75879.1;Name=AOG75879.1;gbkey=CDS;gene=psbE;inference=similar to AA sequence:RefSeq:YP_008082810.1;product=cytochrome b559 alpha chain;protein_id=AOG75879.1;transl_table=11
+KU215903.2	Genbank	gene	14946	15065	.	+	.	ID=gene-Q903CP_gene24;Name=psbF;gbkey=Gene;gene=psbF;gene_biotype=protein_coding;locus_tag=Q903CP_gene24
+KU215903.2	Genbank	CDS	14946	15065	.	+	0	ID=cds-AOG75880.1;Parent=gene-Q903CP_gene24;Dbxref=NCBI_GP:AOG75880.1;Name=AOG75880.1;gbkey=CDS;gene=psbF;inference=similar to AA sequence:RefSeq:YP_008082811.1;product=photosystem II cytochrome b559 beta subunit;protein_id=AOG75880.1;transl_table=11
+KU215903.2	Genbank	gene	15099	15215	.	+	.	ID=gene-Q903CP_gene25;Name=psbL;gbkey=Gene;gene=psbL;gene_biotype=protein_coding;locus_tag=Q903CP_gene25
+KU215903.2	Genbank	CDS	15099	15215	.	+	0	ID=cds-AOG75881.1;Parent=gene-Q903CP_gene25;Dbxref=NCBI_GP:AOG75881.1;Name=AOG75881.1;gbkey=CDS;gene=psbL;inference=similar to AA sequence:RefSeq:YP_008082812.1;product=photosystem II protein L;protein_id=AOG75881.1;transl_table=11
+KU215903.2	Genbank	CDS	15334	15456	.	+	0	ID=cds-AOG75882.1;Parent=gene-Q903CP_gene26;Dbxref=NCBI_GP:AOG75882.1;Name=AOG75882.1;gbkey=CDS;gene=psbJ;inference=similar to AA sequence:RefSeq:YP_008082813.1;product=photosystem II protein J;protein_id=AOG75882.1;transl_table=11
+KU215903.2	Genbank	gene	15334	15456	.	+	.	ID=gene-Q903CP_gene26;Name=psbJ;gbkey=Gene;gene=psbJ;gene_biotype=protein_coding;locus_tag=Q903CP_gene26
+KU215903.2	Genbank	CDS	16466	17461	.	-	0	ID=cds-AOG75883.1;Parent=gene-Q903CP_gene27;Dbxref=NCBI_GP:AOG75883.1;Name=AOG75883.1;gbkey=CDS;gene=petA;inference=similar to AA sequence:RefSeq:YP_008082814.1;product=cytochrome f;protein_id=AOG75883.1;transl_table=11
+KU215903.2	Genbank	gene	16466	17461	.	-	.	ID=gene-Q903CP_gene27;Name=petA;gbkey=Gene;gene=petA;gene_biotype=protein_coding;locus_tag=Q903CP_gene27
+KU215903.2	Genbank	gene	17691	18476	.	-	.	ID=gene-Q903CP_gene28;Name=cemA;gbkey=Gene;gene=cemA;gene_biotype=protein_coding;locus_tag=Q903CP_gene28
+KU215903.2	Genbank	CDS	17691	18476	.	-	0	ID=cds-AOG75884.1;Parent=gene-Q903CP_gene28;Dbxref=NCBI_GP:AOG75884.1;Name=AOG75884.1;gbkey=CDS;gene=cemA;inference=similar to AA sequence:RefSeq:YP_008082815.1;product=chloroplast envelope membrane protein;protein_id=AOG75884.1;transl_table=11
+KU215903.2	Genbank	gene	19296	19850	.	-	.	ID=gene-Q903CP_gene29;Name=ycf4;gbkey=Gene;gene=ycf4;gene_biotype=protein_coding;locus_tag=Q903CP_gene29
+KU215903.2	Genbank	CDS	19296	19850	.	-	0	ID=cds-AOG75885.1;Parent=gene-Q903CP_gene29;Dbxref=NCBI_GP:AOG75885.1;Name=AOG75885.1;gbkey=CDS;gene=ycf4;inference=similar to AA sequence:RefSeq:YP_008082816.1;product=photosystem I assembly protein Ycf4;protein_id=AOG75885.1;transl_table=11
+KU215903.2	Genbank	gene	20416	20526	.	-	.	ID=gene-Q903CP_gene30;Name=psaI;gbkey=Gene;gene=psaI;gene_biotype=protein_coding;locus_tag=Q903CP_gene30
+KU215903.2	Genbank	CDS	20416	20526	.	-	0	ID=cds-AOG75886.1;Parent=gene-Q903CP_gene30;Dbxref=NCBI_GP:AOG75886.1;Name=AOG75886.1;gbkey=CDS;gene=psaI;inference=similar to AA sequence:RefSeq:YP_008082817.1;product=photosystem I subunit VIII;protein_id=AOG75886.1;transl_table=11
+KU215903.2	Genbank	gene	20645	20848	.	+	.	ID=gene-Q903CP_gene31;Name=Q903CP_gene31;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene31
+KU215903.2	Genbank	CDS	20645	20848	.	+	0	ID=cds-AOG75887.1;Parent=gene-Q903CP_gene31;Dbxref=NCBI_GP:AOG75887.1;Name=AOG75887.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75887.1;transl_table=11
+KU215903.2	Genbank	CDS	21045	22028	.	-	0	ID=cds-AOG75888.1;Parent=gene-Q903CP_gene32;Dbxref=NCBI_GP:AOG75888.1;Name=AOG75888.1;gbkey=CDS;gene=accD;inference=similar to AA sequence:RefSeq:YP_008082818.1;product=acetyl-CoA carboxylase beta subunit;protein_id=AOG75888.1;transl_table=11
+KU215903.2	Genbank	gene	21045	22028	.	-	.	ID=gene-Q903CP_gene32;Name=accD;gbkey=Gene;gene=accD;gene_biotype=protein_coding;locus_tag=Q903CP_gene32
+KU215903.2	Genbank	gene	22284	22357	.	-	.	ID=gene-Q903CP_gene33;Name=trnR-CCG;gbkey=Gene;gene=trnR-CCG;gene_biotype=tRNA;locus_tag=Q903CP_gene33
+KU215903.2	Genbank	tRNA	22284	22357	.	-	.	ID=rna-Q903CP_gene33;Parent=gene-Q903CP_gene33;Note=anticodon:CCG;gbkey=tRNA;gene=trnR-CCG;product=tRNA-Arg
+KU215903.2	Genbank	exon	22284	22357	.	-	.	ID=exon-Q903CP_gene33-1;Parent=rna-Q903CP_gene33;Note=anticodon:CCG;gbkey=tRNA;gene=trnR-CCG;product=tRNA-Arg
+KU215903.2	Genbank	CDS	22654	24081	.	-	0	ID=cds-AOG75889.1;Parent=gene-Q903CP_gene34;Dbxref=NCBI_GP:AOG75889.1;Name=AOG75889.1;gbkey=CDS;gene=rbcL;inference=similar to AA sequence:RefSeq:YP_008082819.1;product=ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit;protein_id=AOG75889.1;transl_table=11
+KU215903.2	Genbank	gene	22654	24081	.	-	.	ID=gene-Q903CP_gene34;Name=rbcL;gbkey=Gene;gene=rbcL;gene_biotype=protein_coding;locus_tag=Q903CP_gene34
+KU215903.2	Genbank	CDS	24798	26276	.	+	0	ID=cds-AOG75890.1;Parent=gene-Q903CP_gene35;Dbxref=NCBI_GP:AOG75890.1;Name=AOG75890.1;gbkey=CDS;gene=atpB;inference=similar to AA sequence:RefSeq:YP_008082820.1;product=ATP synthase CF1 beta chain;protein_id=AOG75890.1;transl_table=11
+KU215903.2	Genbank	gene	24798	26276	.	+	.	ID=gene-Q903CP_gene35;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding;locus_tag=Q903CP_gene35
+KU215903.2	Genbank	gene	26285	26698	.	+	.	ID=gene-Q903CP_gene36;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding;locus_tag=Q903CP_gene36
+KU215903.2	Genbank	CDS	26285	26698	.	+	0	ID=cds-AOG75891.1;Parent=gene-Q903CP_gene36;Dbxref=NCBI_GP:AOG75891.1;Name=AOG75891.1;gbkey=CDS;gene=atpE;inference=similar to AA sequence:RefSeq:YP_008082821.1;product=ATP synthase CF1 epsilon chain;protein_id=AOG75891.1;transl_table=11
+KU215903.2	Genbank	tRNA	26807	26879	.	-	.	ID=rna-Q903CP_gene37;Parent=gene-Q903CP_gene37;Note=anticodon:CAU;gbkey=tRNA;gene=trnM-CAU;product=tRNA-Met
+KU215903.2	Genbank	gene	26807	26879	.	-	.	ID=gene-Q903CP_gene37;Name=trnM-CAU;gbkey=Gene;gene=trnM-CAU;gene_biotype=tRNA;locus_tag=Q903CP_gene37
+KU215903.2	Genbank	exon	26807	26879	.	-	.	ID=exon-Q903CP_gene37-1;Parent=rna-Q903CP_gene37;Note=anticodon:CAU;gbkey=tRNA;gene=trnM-CAU;product=tRNA-Met
+KU215903.2	Genbank	exon	27069	27107	.	+	.	ID=exon-Q903CP_gene38-1;Parent=rna-Q903CP_gene38;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+KU215903.2	Genbank	gene	27069	27687	.	+	.	ID=gene-Q903CP_gene38;Name=trnV-UAC;gbkey=Gene;gene=trnV-UAC;gene_biotype=tRNA;locus_tag=Q903CP_gene38
+KU215903.2	Genbank	tRNA	27069	27687	.	+	.	ID=rna-Q903CP_gene38;Parent=gene-Q903CP_gene38;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+KU215903.2	Genbank	intron	27108	27650	.	+	.	ID=id-Q903CP_gene38;gbkey=intron;gene=trnV-UAC
+KU215903.2	Genbank	exon	27651	27687	.	+	.	ID=exon-Q903CP_gene38-2;Parent=rna-Q903CP_gene38;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+KU215903.2	Genbank	gene	28478	28681	.	+	.	ID=gene-Q903CP_gene39;Name=Q903CP_gene39;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene39
+KU215903.2	Genbank	CDS	28478	28681	.	+	0	ID=cds-AOG75892.1;Parent=gene-Q903CP_gene39;Dbxref=NCBI_GP:AOG75892.1;Name=AOG75892.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75892.1;transl_table=11
+KU215903.2	Genbank	gene	30370	30444	.	+	.	ID=gene-Q903CP_gene40;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA;locus_tag=Q903CP_gene40
+KU215903.2	Genbank	tRNA	30370	30444	.	+	.	ID=rna-Q903CP_gene40;Parent=gene-Q903CP_gene40;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+KU215903.2	Genbank	exon	30370	30444	.	+	.	ID=exon-Q903CP_gene40-1;Parent=rna-Q903CP_gene40;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+KU215903.2	Genbank	tRNA	30568	30638	.	-	.	ID=rna-Q903CP_gene41;Parent=gene-Q903CP_gene41;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+KU215903.2	Genbank	exon	30568	30638	.	-	.	ID=exon-Q903CP_gene41-1;Parent=rna-Q903CP_gene41;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+KU215903.2	Genbank	gene	30568	30638	.	-	.	ID=gene-Q903CP_gene41;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=Q903CP_gene41
+KU215903.2	Genbank	CDS	30837	31148	.	+	0	ID=cds-AOG75893.1;Parent=gene-Q903CP_gene42;Dbxref=NCBI_GP:AOG75893.1;Name=AOG75893.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75893.1;transl_table=11
+KU215903.2	Genbank	gene	30837	31148	.	+	.	ID=gene-Q903CP_gene42;Name=Q903CP_gene42;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene42
+KU215903.2	Genbank	CDS	31875	31967	.	+	0	ID=cds-AOG75894.1;Parent=gene-Q903CP_gene43;Dbxref=NCBI_GP:AOG75894.1;Name=AOG75894.1;gbkey=CDS;gene=psaM;inference=similar to AA sequence:RefSeq:YP_008082822.1;product=photosystem I protein M;protein_id=AOG75894.1;transl_table=11
+KU215903.2	Genbank	gene	31875	31967	.	+	.	ID=gene-Q903CP_gene43;Name=psaM;gbkey=Gene;gene=psaM;gene_biotype=protein_coding;locus_tag=Q903CP_gene43
+KU215903.2	Genbank	tRNA	32183	32270	.	+	.	ID=rna-Q903CP_gene44;Parent=gene-Q903CP_gene44;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+KU215903.2	Genbank	exon	32183	32270	.	+	.	ID=exon-Q903CP_gene44-1;Parent=rna-Q903CP_gene44;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+KU215903.2	Genbank	gene	32183	32270	.	+	.	ID=gene-Q903CP_gene44;Name=trnS-GCU;gbkey=Gene;gene=trnS-GCU;gene_biotype=tRNA;locus_tag=Q903CP_gene44
+KU215903.2	Genbank	CDS	32347	32457	.	-	0	ID=cds-AOG75895.1;Parent=gene-Q903CP_gene45;Dbxref=NCBI_GP:AOG75895.1;Name=AOG75895.1;gbkey=CDS;gene=psbI;inference=similar to AA sequence:RefSeq:YP_008082800.1;product=photosystem II protein I;protein_id=AOG75895.1;transl_table=11
+KU215903.2	Genbank	gene	32347	32457	.	-	.	ID=gene-Q903CP_gene45;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding;locus_tag=Q903CP_gene45
+KU215903.2	Genbank	exon	32760	32832	.	+	.	ID=exon-Q903CP_gene46-1;Parent=rna-Q903CP_gene46;Note=anticodon:UUC;gbkey=tRNA;gene=trnE-UUC;product=tRNA-Glu
+KU215903.2	Genbank	tRNA	32760	32832	.	+	.	ID=rna-Q903CP_gene46;Parent=gene-Q903CP_gene46;Note=anticodon:UUC;gbkey=tRNA;gene=trnE-UUC;product=tRNA-Glu
+KU215903.2	Genbank	gene	32760	32832	.	+	.	ID=gene-Q903CP_gene46;Name=trnE-UUC;gbkey=Gene;gene=trnE-UUC;gene_biotype=tRNA;locus_tag=Q903CP_gene46
+KU215903.2	Genbank	tRNA	32905	32988	.	+	.	ID=rna-Q903CP_gene47;Parent=gene-Q903CP_gene47;Note=anticodon:GUA;gbkey=tRNA;gene=trnY-GUA;product=tRNA-Tyr
+KU215903.2	Genbank	gene	32905	32988	.	+	.	ID=gene-Q903CP_gene47;Name=trnY-GUA;gbkey=Gene;gene=trnY-GUA;gene_biotype=tRNA;locus_tag=Q903CP_gene47
+KU215903.2	Genbank	exon	32905	32988	.	+	.	ID=exon-Q903CP_gene47-1;Parent=rna-Q903CP_gene47;Note=anticodon:GUA;gbkey=tRNA;gene=trnY-GUA;product=tRNA-Tyr
+KU215903.2	Genbank	gene	33248	33321	.	+	.	ID=gene-Q903CP_gene48;Name=trnD-GUC;gbkey=Gene;gene=trnD-GUC;gene_biotype=tRNA;locus_tag=Q903CP_gene48
+KU215903.2	Genbank	tRNA	33248	33321	.	+	.	ID=rna-Q903CP_gene48;Parent=gene-Q903CP_gene48;Note=anticodon:GUC;gbkey=tRNA;gene=trnD-GUC;product=tRNA-Asp
+KU215903.2	Genbank	exon	33248	33321	.	+	.	ID=exon-Q903CP_gene48-1;Parent=rna-Q903CP_gene48;Note=anticodon:GUC;gbkey=tRNA;gene=trnD-GUC;product=tRNA-Asp
+KU215903.2	Genbank	gene	34224	34337	.	+	.	ID=gene-Q903CP_gene49;Name=psbM;gbkey=Gene;gene=psbM;gene_biotype=protein_coding;locus_tag=Q903CP_gene49
+KU215903.2	Genbank	CDS	34224	34337	.	+	0	ID=cds-AOG75896.1;Parent=gene-Q903CP_gene49;Dbxref=NCBI_GP:AOG75896.1;Name=AOG75896.1;gbkey=CDS;gene=psbM;inference=similar to AA sequence:RefSeq:YP_008082824.1;product=photosystem II M protein;protein_id=AOG75896.1;transl_table=11
+KU215903.2	Genbank	gene	35225	35314	.	-	.	ID=gene-Q903CP_gene50;Name=petN;gbkey=Gene;gene=petN;gene_biotype=protein_coding;locus_tag=Q903CP_gene50
+KU215903.2	Genbank	CDS	35225	35314	.	-	0	ID=cds-AOG75897.1;Parent=gene-Q903CP_gene50;Dbxref=NCBI_GP:AOG75897.1;Name=AOG75897.1;gbkey=CDS;gene=petN;inference=similar to AA sequence:RefSeq:YP_008082825.1;product=cytochrome b6/f complex subunit VIII;protein_id=AOG75897.1;transl_table=11
+KU215903.2	Genbank	exon	35636	35706	.	-	.	ID=exon-Q903CP_gene51-1;Parent=rna-Q903CP_gene51;Note=anticodon:GCA;gbkey=tRNA;gene=trnC-GCA;product=tRNA-Cys
+KU215903.2	Genbank	gene	35636	35706	.	-	.	ID=gene-Q903CP_gene51;Name=trnC-GCA;gbkey=Gene;gene=trnC-GCA;gene_biotype=tRNA;locus_tag=Q903CP_gene51
+KU215903.2	Genbank	tRNA	35636	35706	.	-	.	ID=rna-Q903CP_gene51;Parent=gene-Q903CP_gene51;Note=anticodon:GCA;gbkey=tRNA;gene=trnC-GCA;product=tRNA-Cys
+KU215903.2	Genbank	gene	35749	35904	.	-	.	ID=gene-Q903CP_gene52;Name=Q903CP_gene52;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene52
+KU215903.2	Genbank	CDS	35749	35904	.	-	0	ID=cds-AOG75898.1;Parent=gene-Q903CP_gene52;Dbxref=NCBI_GP:AOG75898.1;Name=AOG75898.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75898.1;transl_table=11
+KU215903.2	Genbank	CDS	36130	39360	.	+	0	ID=cds-AOG75899.1;Parent=gene-Q903CP_gene53;Dbxref=NCBI_GP:AOG75899.1;Name=AOG75899.1;gbkey=CDS;gene=rpoB;inference=similar to AA sequence:RefSeq:YP_008082826.1;product=RNA polymerase beta subunit;protein_id=AOG75899.1;transl_table=11
+KU215903.2	Genbank	gene	36130	39360	.	+	.	ID=gene-Q903CP_gene53;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=Q903CP_gene53
+KU215903.2	Genbank	CDS	39383	39814	.	+	0	ID=cds-AOG75900.1;Parent=gene-Q903CP_gene54;Dbxref=NCBI_GP:AOG75900.1;Name=AOG75900.1;gbkey=CDS;gene=rpoC1;inference=similar to AA sequence:RefSeq:YP_008082827.1;product=RNA polymerase beta subunit-1;protein_id=AOG75900.1;transl_table=11
+KU215903.2	Genbank	gene	39383	42161	.	+	.	ID=gene-Q903CP_gene54;Name=rpoC1;gbkey=Gene;gene=rpoC1;gene_biotype=protein_coding;locus_tag=Q903CP_gene54
+KU215903.2	Genbank	intron	39815	40502	.	+	.	ID=id-Q903CP_gene54;gbkey=intron;gene=rpoC1
+KU215903.2	Genbank	CDS	40503	42161	.	+	0	ID=cds-AOG75900.1;Parent=gene-Q903CP_gene54;Dbxref=NCBI_GP:AOG75900.1;Name=AOG75900.1;gbkey=CDS;gene=rpoC1;inference=similar to AA sequence:RefSeq:YP_008082827.1;product=RNA polymerase beta subunit-1;protein_id=AOG75900.1;transl_table=11
+KU215903.2	Genbank	gene	42255	45911	.	+	.	ID=gene-Q903CP_gene55;Name=rpoC2;gbkey=Gene;gene=rpoC2;gene_biotype=protein_coding;locus_tag=Q903CP_gene55
+KU215903.2	Genbank	CDS	42255	45911	.	+	0	ID=cds-AOG75901.1;Parent=gene-Q903CP_gene55;Dbxref=NCBI_GP:AOG75901.1;Name=AOG75901.1;gbkey=CDS;gene=rpoC2;inference=similar to AA sequence:RefSeq:YP_008082828.1;product=RNA polymerase beta subunit-2;protein_id=AOG75901.1;transl_table=11
+KU215903.2	Genbank	gene	46114	46818	.	+	.	ID=gene-Q903CP_gene56;Name=rps2;gbkey=Gene;gene=rps2;gene_biotype=protein_coding;locus_tag=Q903CP_gene56
+KU215903.2	Genbank	CDS	46114	46818	.	+	0	ID=cds-AOG75902.1;Parent=gene-Q903CP_gene56;Dbxref=NCBI_GP:AOG75902.1;Name=AOG75902.1;gbkey=CDS;gene=rps2;inference=similar to AA sequence:RefSeq:YP_008082829.1;product=ribosomal protein S2;protein_id=AOG75902.1;transl_table=11
+KU215903.2	Genbank	CDS	47111	47857	.	+	0	ID=cds-AOG75903.1;Parent=gene-Q903CP_gene57;Dbxref=NCBI_GP:AOG75903.1;Name=AOG75903.1;gbkey=CDS;gene=atpI;inference=similar to AA sequence:RefSeq:YP_008082830.1;product=ATP synthase CF0 A chain;protein_id=AOG75903.1;transl_table=11
+KU215903.2	Genbank	gene	47111	47857	.	+	.	ID=gene-Q903CP_gene57;Name=atpI;gbkey=Gene;gene=atpI;gene_biotype=protein_coding;locus_tag=Q903CP_gene57
+KU215903.2	Genbank	gene	48539	48784	.	+	.	ID=gene-Q903CP_gene58;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding;locus_tag=Q903CP_gene58
+KU215903.2	Genbank	CDS	48539	48784	.	+	0	ID=cds-AOG75904.1;Parent=gene-Q903CP_gene58;Dbxref=NCBI_GP:AOG75904.1;Name=AOG75904.1;gbkey=CDS;gene=atpH;inference=similar to AA sequence:RefSeq:YP_008082831.1;product=ATP synthase CF0 subunit III;protein_id=AOG75904.1;transl_table=11
+KU215903.2	Genbank	CDS	49114	49258	.	+	0	ID=cds-AOG75905.1;Parent=gene-Q903CP_gene59;Dbxref=NCBI_GP:AOG75905.1;Name=AOG75905.1;gbkey=CDS;gene=atpF;inference=similar to AA sequence:RefSeq:YP_008082832.1;product=ATP synthase CF0 subunit I;protein_id=AOG75905.1;transl_table=11
+KU215903.2	Genbank	gene	49114	50439	.	+	.	ID=gene-Q903CP_gene59;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding;locus_tag=Q903CP_gene59
+KU215903.2	Genbank	intron	49259	50029	.	+	.	ID=id-Q903CP_gene59;gbkey=intron;gene=atpF
+KU215903.2	Genbank	CDS	50030	50439	.	+	2	ID=cds-AOG75905.1;Parent=gene-Q903CP_gene59;Dbxref=NCBI_GP:AOG75905.1;Name=AOG75905.1;gbkey=CDS;gene=atpF;inference=similar to AA sequence:RefSeq:YP_008082832.1;product=ATP synthase CF0 subunit I;protein_id=AOG75905.1;transl_table=11
+KU215903.2	Genbank	gene	50483	52006	.	+	.	ID=gene-Q903CP_gene60;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding;locus_tag=Q903CP_gene60
+KU215903.2	Genbank	CDS	50483	52006	.	+	0	ID=cds-AOG75906.1;Parent=gene-Q903CP_gene60;Dbxref=NCBI_GP:AOG75906.1;Name=AOG75906.1;gbkey=CDS;gene=atpA;inference=similar to AA sequence:RefSeq:YP_008082833.1;product=ATP synthase CF1 alpha chain;protein_id=AOG75906.1;transl_table=11
+KU215903.2	Genbank	gene	52106	52175	.	-	.	ID=gene-Q903CP_gene61;Name=trnR-UCU;gbkey=Gene;gene=trnR-UCU;gene_biotype=tRNA;locus_tag=Q903CP_gene61
+KU215903.2	Genbank	tRNA	52106	52175	.	-	.	ID=rna-Q903CP_gene61;Parent=gene-Q903CP_gene61;Note=anticodon:UCU;gbkey=tRNA;gene=trnR-UCU;product=tRNA-Arg
+KU215903.2	Genbank	exon	52106	52175	.	-	.	ID=exon-Q903CP_gene61-1;Parent=rna-Q903CP_gene61;Note=anticodon:UCU;gbkey=tRNA;gene=trnR-UCU;product=tRNA-Arg
+KU215903.2	Genbank	exon	52392	52440	.	-	.	ID=exon-Q903CP_gene62-2;Parent=rna-Q903CP_gene62;Note=anticodon:GCC;gbkey=tRNA;gene=trnG-GCC;product=tRNA-Gly
+KU215903.2	Genbank	tRNA	52392	53236	.	-	.	ID=rna-Q903CP_gene62;Parent=gene-Q903CP_gene62;Note=anticodon:GCC;gbkey=tRNA;gene=trnG-GCC;product=tRNA-Gly
+KU215903.2	Genbank	gene	52392	53236	.	-	.	ID=gene-Q903CP_gene62;Name=trnG-GCC;gbkey=Gene;gene=trnG-GCC;gene_biotype=tRNA;locus_tag=Q903CP_gene62
+KU215903.2	Genbank	intron	52441	53214	.	-	.	ID=id-Q903CP_gene62;gbkey=intron;gene=trnG-GCC
+KU215903.2	Genbank	exon	53215	53236	.	-	.	ID=exon-Q903CP_gene62-1;Parent=rna-Q903CP_gene62;Note=anticodon:GCC;gbkey=tRNA;gene=trnG-GCC;product=tRNA-Gly
+KU215903.2	Genbank	gene	53422	53523	.	-	.	ID=gene-Q903CP_gene63;Name=ycf12;gbkey=Gene;gene=ycf12;gene_biotype=protein_coding;locus_tag=Q903CP_gene63
+KU215903.2	Genbank	CDS	53422	53523	.	-	0	ID=cds-AOG75907.1;Parent=gene-Q903CP_gene63;Dbxref=NCBI_GP:AOG75907.1;Name=AOG75907.1;gbkey=CDS;gene=ycf12;inference=similar to AA sequence:RefSeq:YP_008082834.1;product=photosystem II reaction center protein ycf12;protein_id=AOG75907.1;transl_table=11
+KU215903.2	Genbank	gene	53589	53807	.	-	.	ID=gene-Q903CP_gene64;Name=Q903CP_gene64;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene64
+KU215903.2	Genbank	CDS	53589	53807	.	-	0	ID=cds-AOG75908.1;Parent=gene-Q903CP_gene64;Dbxref=NCBI_GP:AOG75908.1;Name=AOG75908.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75908.1;transl_table=11
+KU215903.2	Genbank	gene	54245	55771	.	+	.	ID=gene-Q903CP_gene65;Name=psbB;gbkey=Gene;gene=psbB;gene_biotype=protein_coding;locus_tag=Q903CP_gene65
+KU215903.2	Genbank	CDS	54245	55771	.	+	0	ID=cds-AOG75909.1;Parent=gene-Q903CP_gene65;Dbxref=NCBI_GP:AOG75909.1;Name=AOG75909.1;gbkey=CDS;gene=psbB;inference=similar to AA sequence:RefSeq:YP_008082835.1;product=photosystem II CP47 chlorophyll apoprotein;protein_id=AOG75909.1;transl_table=11
+KU215903.2	Genbank	CDS	55846	55953	.	+	0	ID=cds-AOG75910.1;Parent=gene-Q903CP_gene66;Dbxref=NCBI_GP:AOG75910.1;Name=AOG75910.1;gbkey=CDS;gene=psbT;inference=similar to AA sequence:RefSeq:YP_008082836.1;product=photosystem II protein T;protein_id=AOG75910.1;transl_table=11
+KU215903.2	Genbank	gene	55846	55953	.	+	.	ID=gene-Q903CP_gene66;Name=psbT;gbkey=Gene;gene=psbT;gene_biotype=protein_coding;locus_tag=Q903CP_gene66
+KU215903.2	Genbank	CDS	56035	56166	.	-	0	ID=cds-AOG75911.1;Parent=gene-Q903CP_gene67;Dbxref=NCBI_GP:AOG75911.1;Name=AOG75911.1;gbkey=CDS;gene=psbN;inference=similar to AA sequence:RefSeq:YP_008082837.1;product=photosystem II protein N;protein_id=AOG75911.1;transl_table=11
+KU215903.2	Genbank	gene	56035	56166	.	-	.	ID=gene-Q903CP_gene67;Name=psbN;gbkey=Gene;gene=psbN;gene_biotype=protein_coding;locus_tag=Q903CP_gene67
+KU215903.2	Genbank	gene	56246	56473	.	+	.	ID=gene-Q903CP_gene68;Name=psbH;gbkey=Gene;gene=psbH;gene_biotype=protein_coding;locus_tag=Q903CP_gene68
+KU215903.2	Genbank	CDS	56246	56473	.	+	0	ID=cds-AOG75912.1;Parent=gene-Q903CP_gene68;Dbxref=NCBI_GP:AOG75912.1;Name=AOG75912.1;gbkey=CDS;gene=psbH;inference=similar to AA sequence:RefSeq:YP_008082838.1;product=photosystem II 10 kDa phosphoprotein;protein_id=AOG75912.1;transl_table=11
+KU215903.2	Genbank	CDS	56629	56634	.	+	0	ID=cds-AOG75913.1;Parent=gene-Q903CP_gene69;Dbxref=NCBI_GP:AOG75913.1;Name=AOG75913.1;gbkey=CDS;gene=petB;inference=similar to AA sequence:RefSeq:YP_008082839.1;product=cytochrome b6;protein_id=AOG75913.1;transl_table=11
+KU215903.2	Genbank	gene	56629	58066	.	+	.	ID=gene-Q903CP_gene69;Name=petB;gbkey=Gene;gene=petB;gene_biotype=protein_coding;locus_tag=Q903CP_gene69
+KU215903.2	Genbank	intron	56635	57424	.	+	.	ID=id-Q903CP_gene69;gbkey=intron;gene=petB
+KU215903.2	Genbank	CDS	57425	58066	.	+	0	ID=cds-AOG75913.1;Parent=gene-Q903CP_gene69;Dbxref=NCBI_GP:AOG75913.1;Name=AOG75913.1;gbkey=CDS;gene=petB;inference=similar to AA sequence:RefSeq:YP_008082839.1;product=cytochrome b6;protein_id=AOG75913.1;transl_table=11
+KU215903.2	Genbank	CDS	58276	58283	.	+	0	ID=cds-AOG75914.1;Parent=gene-Q903CP_gene70;Dbxref=NCBI_GP:AOG75914.1;Name=AOG75914.1;gbkey=CDS;gene=petD;inference=similar to AA sequence:RefSeq:YP_008082840.1;product=cytochrome b6/f complex subunit IV;protein_id=AOG75914.1;transl_table=11
+KU215903.2	Genbank	gene	58276	59515	.	+	.	ID=gene-Q903CP_gene70;Name=petD;gbkey=Gene;gene=petD;gene_biotype=protein_coding;locus_tag=Q903CP_gene70
+KU215903.2	Genbank	intron	58284	58986	.	+	.	ID=id-Q903CP_gene70;gbkey=intron;gene=petD
+KU215903.2	Genbank	CDS	58987	59515	.	+	1	ID=cds-AOG75914.1;Parent=gene-Q903CP_gene70;Dbxref=NCBI_GP:AOG75914.1;Name=AOG75914.1;gbkey=CDS;gene=petD;inference=similar to AA sequence:RefSeq:YP_008082840.1;product=cytochrome b6/f complex subunit IV;protein_id=AOG75914.1;transl_table=11
+KU215903.2	Genbank	gene	59624	60634	.	-	.	ID=gene-Q903CP_gene71;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding;locus_tag=Q903CP_gene71
+KU215903.2	Genbank	CDS	59624	60634	.	-	0	ID=cds-AOG75915.1;Parent=gene-Q903CP_gene71;Dbxref=NCBI_GP:AOG75915.1;Name=AOG75915.1;gbkey=CDS;gene=rpoA;inference=similar to AA sequence:RefSeq:YP_008082841.1;product=RNA polymerase alpha subunit;protein_id=AOG75915.1;transl_table=11
+KU215903.2	Genbank	gene	60694	61086	.	-	.	ID=gene-Q903CP_gene72;Name=rps11;gbkey=Gene;gene=rps11;gene_biotype=protein_coding;locus_tag=Q903CP_gene72
+KU215903.2	Genbank	CDS	60694	61086	.	-	0	ID=cds-AOG75916.1;Parent=gene-Q903CP_gene72;Dbxref=NCBI_GP:AOG75916.1;Name=AOG75916.1;gbkey=CDS;gene=rps11;inference=similar to AA sequence:RefSeq:YP_008082842.1;product=ribosomal protein S11;protein_id=AOG75916.1;transl_table=11
+KU215903.2	Genbank	CDS	61169	61282	.	-	0	ID=cds-AOG75917.1;Parent=gene-Q903CP_gene73;Dbxref=NCBI_GP:AOG75917.1;Name=AOG75917.1;gbkey=CDS;gene=rpl36;inference=similar to AA sequence:RefSeq:YP_008082843.1;product=ribosomal protein L36;protein_id=AOG75917.1;transl_table=11
+KU215903.2	Genbank	gene	61169	61282	.	-	.	ID=gene-Q903CP_gene73;Name=rpl36;gbkey=Gene;gene=rpl36;gene_biotype=protein_coding;locus_tag=Q903CP_gene73
+KU215903.2	Genbank	CDS	61385	61621	.	-	0	ID=cds-AOG75918.1;Parent=gene-Q903CP_gene74;Dbxref=NCBI_GP:AOG75918.1;Name=AOG75918.1;gbkey=CDS;gene=infA;inference=similar to AA sequence:RefSeq:YP_008082844.1;product=translation initiation factor 1;protein_id=AOG75918.1;transl_table=11
+KU215903.2	Genbank	gene	61385	61621	.	-	.	ID=gene-Q903CP_gene74;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding;locus_tag=Q903CP_gene74
+KU215903.2	Genbank	gene	61765	62163	.	-	.	ID=gene-Q903CP_gene75;Name=rps8;gbkey=Gene;gene=rps8;gene_biotype=protein_coding;locus_tag=Q903CP_gene75
+KU215903.2	Genbank	CDS	61765	62163	.	-	0	ID=cds-AOG75919.1;Parent=gene-Q903CP_gene75;Dbxref=NCBI_GP:AOG75919.1;Name=AOG75919.1;gbkey=CDS;gene=rps8;inference=similar to AA sequence:RefSeq:YP_008082845.1;product=ribosomal protein S8;protein_id=AOG75919.1;transl_table=11
+KU215903.2	Genbank	CDS	62309	62677	.	-	0	ID=cds-AOG75920.1;Parent=gene-Q903CP_gene76;Dbxref=NCBI_GP:AOG75920.1;Name=AOG75920.1;gbkey=CDS;gene=rpl14;inference=similar to AA sequence:RefSeq:YP_008082846.1;product=ribosomal protein L14;protein_id=AOG75920.1;transl_table=11
+KU215903.2	Genbank	gene	62309	62677	.	-	.	ID=gene-Q903CP_gene76;Name=rpl14;gbkey=Gene;gene=rpl14;gene_biotype=protein_coding;locus_tag=Q903CP_gene76
+KU215903.2	Genbank	CDS	62794	63189	.	-	0	ID=cds-AOG75921.1;Parent=gene-Q903CP_gene77;Dbxref=NCBI_GP:AOG75921.1;Name=AOG75921.1;gbkey=CDS;gene=rpl16;inference=similar to AA sequence:RefSeq:YP_008082847.1;product=ribosomal protein L16;protein_id=AOG75921.1;transl_table=11
+KU215903.2	Genbank	gene	62794	64068	.	-	.	ID=gene-Q903CP_gene77;Name=rpl16;gbkey=Gene;gene=rpl16;gene_biotype=protein_coding;locus_tag=Q903CP_gene77
+KU215903.2	Genbank	intron	63190	64059	.	-	.	ID=id-Q903CP_gene77;gbkey=intron;gene=rpl16
+KU215903.2	Genbank	CDS	64060	64068	.	-	0	ID=cds-AOG75921.1;Parent=gene-Q903CP_gene77;Dbxref=NCBI_GP:AOG75921.1;Name=AOG75921.1;gbkey=CDS;gene=rpl16;inference=similar to AA sequence:RefSeq:YP_008082847.1;product=ribosomal protein L16;protein_id=AOG75921.1;transl_table=11
+KU215903.2	Genbank	CDS	64162	64818	.	-	0	ID=cds-AOG75922.1;Parent=gene-Q903CP_gene78;Dbxref=NCBI_GP:AOG75922.1;Name=AOG75922.1;gbkey=CDS;gene=rps3;inference=similar to AA sequence:RefSeq:YP_008082848.1;product=ribosomal protein S3;protein_id=AOG75922.1;transl_table=11
+KU215903.2	Genbank	gene	64162	64818	.	-	.	ID=gene-Q903CP_gene78;Name=rps3;gbkey=Gene;gene=rps3;gene_biotype=protein_coding;locus_tag=Q903CP_gene78
+KU215903.2	Genbank	gene	64803	65231	.	-	.	ID=gene-Q903CP_gene79;Name=rpl22;gbkey=Gene;gene=rpl22;gene_biotype=protein_coding;locus_tag=Q903CP_gene79
+KU215903.2	Genbank	CDS	64803	65231	.	-	0	ID=cds-AOG75923.1;Parent=gene-Q903CP_gene79;Dbxref=NCBI_GP:AOG75923.1;Name=AOG75923.1;gbkey=CDS;gene=rpl22;inference=similar to AA sequence:RefSeq:YP_008082849.1;product=ribosomal protein L22;protein_id=AOG75923.1;transl_table=11
+KU215903.2	Genbank	gene	65262	65540	.	-	.	ID=gene-Q903CP_gene80;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding;locus_tag=Q903CP_gene80
+KU215903.2	Genbank	CDS	65262	65540	.	-	0	ID=cds-AOG75924.1;Parent=gene-Q903CP_gene80;Dbxref=NCBI_GP:AOG75924.1;Name=AOG75924.1;gbkey=CDS;gene=rps19;inference=similar to AA sequence:RefSeq:YP_008082850.1;product=ribosomal protein S19;protein_id=AOG75924.1;transl_table=11
+KU215903.2	Genbank	CDS	65592	66022	.	-	2	ID=cds-AOG75925.1;Parent=gene-Q903CP_gene81;Dbxref=NCBI_GP:AOG75925.1;Name=AOG75925.1;gbkey=CDS;gene=rpl2;inference=similar to AA sequence:RefSeq:YP_008082851.1;product=ribosomal protein L2;protein_id=AOG75925.1;transl_table=11
+KU215903.2	Genbank	gene	65592	67099	.	-	.	ID=gene-Q903CP_gene81;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding;locus_tag=Q903CP_gene81
+KU215903.2	Genbank	intron	66023	66699	.	-	.	ID=id-Q903CP_gene81;gbkey=intron;gene=rpl2
+KU215903.2	Genbank	CDS	66700	67099	.	-	0	ID=cds-AOG75925.1;Parent=gene-Q903CP_gene81;Dbxref=NCBI_GP:AOG75925.1;Name=AOG75925.1;gbkey=CDS;gene=rpl2;inference=similar to AA sequence:RefSeq:YP_008082851.1;product=ribosomal protein L2;protein_id=AOG75925.1;transl_table=11
+KU215903.2	Genbank	gene	67124	67399	.	-	.	ID=gene-Q903CP_gene82;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding;locus_tag=Q903CP_gene82
+KU215903.2	Genbank	CDS	67124	67399	.	-	0	ID=cds-AOG75926.1;Parent=gene-Q903CP_gene82;Dbxref=NCBI_GP:AOG75926.1;Name=AOG75926.1;gbkey=CDS;gene=rpl23;inference=similar to AA sequence:RefSeq:YP_008082852.1;product=ribosomal protein L23;protein_id=AOG75926.1;transl_table=11
+KU215903.2	Genbank	pseudogene	67497	67583	.	+	.	ID=gene-Q903CP_gene83;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=pseudogene;locus_tag=Q903CP_gene83;pseudo=true
+KU215903.2	Genbank	gene	67734	67807	.	-	.	ID=gene-Q903CP_gene84;Name=trnI-CAU;gbkey=Gene;gene=trnI-CAU;gene_biotype=tRNA;locus_tag=Q903CP_gene84
+KU215903.2	Genbank	tRNA	67734	67807	.	-	.	ID=rna-Q903CP_gene84;Parent=gene-Q903CP_gene84;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+KU215903.2	Genbank	exon	67734	67807	.	-	.	ID=exon-Q903CP_gene84-1;Parent=rna-Q903CP_gene84;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+KU215903.2	Genbank	CDS	68781	69188	.	+	0	ID=cds-AOG75927.1;Parent=gene-Q903CP_gene85;Dbxref=NCBI_GP:AOG75927.1;Name=AOG75927.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75927.1;transl_table=11
+KU215903.2	Genbank	gene	68781	69188	.	+	.	ID=gene-Q903CP_gene85;Name=Q903CP_gene85;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene85
+KU215903.2	Genbank	tRNA	69636	69708	.	-	.	ID=rna-Q903CP_gene86;Parent=gene-Q903CP_gene86;Note=anticodon:GAA;gbkey=tRNA;gene=trnF-GAA;product=tRNA-Phe
+KU215903.2	Genbank	exon	69636	69708	.	-	.	ID=exon-Q903CP_gene86-1;Parent=rna-Q903CP_gene86;Note=anticodon:GAA;gbkey=tRNA;gene=trnF-GAA;product=tRNA-Phe
+KU215903.2	Genbank	gene	69636	69708	.	-	.	ID=gene-Q903CP_gene86;Name=trnF-GAA;gbkey=Gene;gene=trnF-GAA;gene_biotype=tRNA;locus_tag=Q903CP_gene86
+KU215903.2	Genbank	exon	70090	70128	.	-	.	ID=exon-Q903CP_gene87-2;Parent=rna-Q903CP_gene87;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;product=tRNA-Leu
+KU215903.2	Genbank	gene	70090	70662	.	-	.	ID=gene-Q903CP_gene87;Name=trnL-UAA;gbkey=Gene;gene=trnL-UAA;gene_biotype=tRNA;locus_tag=Q903CP_gene87
+KU215903.2	Genbank	tRNA	70090	70662	.	-	.	ID=rna-Q903CP_gene87;Parent=gene-Q903CP_gene87;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;product=tRNA-Leu
+KU215903.2	Genbank	intron	70129	70610	.	-	.	ID=id-Q903CP_gene87;gbkey=intron;gene=trnL-UAA
+KU215903.2	Genbank	exon	70611	70662	.	-	.	ID=exon-Q903CP_gene87-1;Parent=rna-Q903CP_gene87;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;product=tRNA-Leu
+KU215903.2	Genbank	exon	71077	71149	.	+	.	ID=exon-Q903CP_gene88-1;Parent=rna-Q903CP_gene88;Note=anticodon:UGU;gbkey=tRNA;gene=trnT-UGU;product=tRNA-Thr
+KU215903.2	Genbank	gene	71077	71149	.	+	.	ID=gene-Q903CP_gene88;Name=trnT-UGU;gbkey=Gene;gene=trnT-UGU;gene_biotype=tRNA;locus_tag=Q903CP_gene88
+KU215903.2	Genbank	tRNA	71077	71149	.	+	.	ID=rna-Q903CP_gene88;Parent=gene-Q903CP_gene88;Note=anticodon:UGU;gbkey=tRNA;gene=trnT-UGU;product=tRNA-Thr
+KU215903.2	Genbank	CDS	71418	72023	.	+	0	ID=cds-AOG75928.1;Parent=gene-Q903CP_gene89;Dbxref=NCBI_GP:AOG75928.1;Name=AOG75928.1;gbkey=CDS;gene=rps4;inference=similar to AA sequence:RefSeq:YP_008082853.1;product=ribosomal protein S4;protein_id=AOG75928.1;transl_table=11
+KU215903.2	Genbank	gene	71418	72023	.	+	.	ID=gene-Q903CP_gene89;Name=rps4;gbkey=Gene;gene=rps4;gene_biotype=protein_coding;locus_tag=Q903CP_gene89
+KU215903.2	Genbank	exon	72324	72410	.	+	.	ID=exon-Q903CP_gene90-1;Parent=rna-Q903CP_gene90;Note=anticodon:GGA;gbkey=tRNA;gene=trnS-GGA;product=tRNA-Ser
+KU215903.2	Genbank	tRNA	72324	72410	.	+	.	ID=rna-Q903CP_gene90;Parent=gene-Q903CP_gene90;Note=anticodon:GGA;gbkey=tRNA;gene=trnS-GGA;product=tRNA-Ser
+KU215903.2	Genbank	gene	72324	72410	.	+	.	ID=gene-Q903CP_gene90;Name=trnS-GGA;gbkey=Gene;gene=trnS-GGA;gene_biotype=tRNA;locus_tag=Q903CP_gene90
+KU215903.2	Genbank	CDS	73116	73241	.	+	0	ID=cds-AOG75929.1;Parent=gene-Q903CP_gene91;Dbxref=NCBI_GP:AOG75929.1;Name=AOG75929.1;gbkey=CDS;gene=ycf3;inference=similar to AA sequence:RefSeq:YP_008082854.1;product=photosystem I assembly protein Ycf3;protein_id=AOG75929.1;transl_table=11
+KU215903.2	Genbank	gene	73116	75054	.	+	.	ID=gene-Q903CP_gene91;Name=ycf3;gbkey=Gene;gene=ycf3;gene_biotype=protein_coding;locus_tag=Q903CP_gene91
+KU215903.2	Genbank	intron	73242	73956	.	+	.	ID=id-Q903CP_gene91;gbkey=intron;gene=ycf3
+KU215903.2	Genbank	CDS	73957	74187	.	+	0	ID=cds-AOG75929.1;Parent=gene-Q903CP_gene91;Dbxref=NCBI_GP:AOG75929.1;Name=AOG75929.1;gbkey=CDS;gene=ycf3;inference=similar to AA sequence:RefSeq:YP_008082854.1;product=photosystem I assembly protein Ycf3;protein_id=AOG75929.1;transl_table=11
+KU215903.2	Genbank	intron	74188	74898	.	+	.	ID=id-Q903CP_gene91-2;gbkey=intron;gene=ycf3
+KU215903.2	Genbank	CDS	74899	75054	.	+	0	ID=cds-AOG75929.1;Parent=gene-Q903CP_gene91;Dbxref=NCBI_GP:AOG75929.1;Name=AOG75929.1;gbkey=CDS;gene=ycf3;inference=similar to AA sequence:RefSeq:YP_008082854.1;product=photosystem I assembly protein Ycf3;protein_id=AOG75929.1;transl_table=11
+KU215903.2	Genbank	CDS	75679	77931	.	+	0	ID=cds-AOG75930.1;Parent=gene-Q903CP_gene92;Dbxref=NCBI_GP:AOG75930.1;Name=AOG75930.1;gbkey=CDS;gene=psaA;inference=similar to AA sequence:RefSeq:YP_008082855.1;product=photosystem I P700 apoprotein A1;protein_id=AOG75930.1;transl_table=11
+KU215903.2	Genbank	gene	75679	77931	.	+	.	ID=gene-Q903CP_gene92;Name=psaA;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;locus_tag=Q903CP_gene92
+KU215903.2	Genbank	CDS	77957	80161	.	+	0	ID=cds-AOG75931.1;Parent=gene-Q903CP_gene93;Dbxref=NCBI_GP:AOG75931.1;Name=AOG75931.1;gbkey=CDS;gene=psaB;inference=similar to AA sequence:RefSeq:YP_008082856.1;product=photosystem I P700 apoprotein A2;protein_id=AOG75931.1;transl_table=11
+KU215903.2	Genbank	gene	77957	80161	.	+	.	ID=gene-Q903CP_gene93;Name=psaB;gbkey=Gene;gene=psaB;gene_biotype=protein_coding;locus_tag=Q903CP_gene93
+KU215903.2	Genbank	CDS	80311	80610	.	+	0	ID=cds-AOG75932.1;Parent=gene-Q903CP_gene94;Dbxref=NCBI_GP:AOG75932.1;Name=AOG75932.1;gbkey=CDS;gene=rps14;inference=similar to AA sequence:RefSeq:YP_008082857.1;product=ribosomal protein S14;protein_id=AOG75932.1;transl_table=11
+KU215903.2	Genbank	gene	80311	80610	.	+	.	ID=gene-Q903CP_gene94;Name=rps14;gbkey=Gene;gene=rps14;gene_biotype=protein_coding;locus_tag=Q903CP_gene94
+KU215903.2	Genbank	exon	80739	80812	.	+	.	ID=exon-Q903CP_gene95-1;Parent=rna-Q903CP_gene95;Note=anticodon:CAU;gbkey=tRNA;gene=trnfM-CAU;product=tRNA-Met
+KU215903.2	Genbank	tRNA	80739	80812	.	+	.	ID=rna-Q903CP_gene95;Parent=gene-Q903CP_gene95;Note=anticodon:CAU;gbkey=tRNA;gene=trnfM-CAU;product=tRNA-Met
+KU215903.2	Genbank	gene	80739	80812	.	+	.	ID=gene-Q903CP_gene95;Name=trnfM-CAU;gbkey=Gene;gene=trnfM-CAU;gene_biotype=tRNA;locus_tag=Q903CP_gene95
+KU215903.2	Genbank	gene	80949	81019	.	-	.	ID=gene-Q903CP_gene96;Name=trnG-UCC;gbkey=Gene;gene=trnG-UCC;gene_biotype=tRNA;locus_tag=Q903CP_gene96
+KU215903.2	Genbank	tRNA	80949	81019	.	-	.	ID=rna-Q903CP_gene96;Parent=gene-Q903CP_gene96;Note=anticodon:UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+KU215903.2	Genbank	exon	80949	81019	.	-	.	ID=exon-Q903CP_gene96-1;Parent=rna-Q903CP_gene96;Note=anticodon:UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+KU215903.2	Genbank	CDS	81138	81437	.	-	0	ID=cds-AOG75933.1;Parent=gene-Q903CP_gene97;Dbxref=NCBI_GP:AOG75933.1;Name=AOG75933.1;gbkey=CDS;gene=psbZ;inference=similar to AA sequence:RefSeq:YP_008082858.1;product=photosystem II protein Z;protein_id=AOG75933.1;transl_table=11
+KU215903.2	Genbank	gene	81138	81437	.	-	.	ID=gene-Q903CP_gene97;Name=psbZ;gbkey=Gene;gene=psbZ;gene_biotype=protein_coding;locus_tag=Q903CP_gene97
+KU215903.2	Genbank	tRNA	81727	81813	.	+	.	ID=rna-Q903CP_gene98;Parent=gene-Q903CP_gene98;Note=anticodon:UGA;gbkey=tRNA;gene=trnS-UGA;product=tRNA-Ser
+KU215903.2	Genbank	gene	81727	81813	.	+	.	ID=gene-Q903CP_gene98;Name=trnS-UGA;gbkey=Gene;gene=trnS-UGA;gene_biotype=tRNA;locus_tag=Q903CP_gene98
+KU215903.2	Genbank	exon	81727	81813	.	+	.	ID=exon-Q903CP_gene98-1;Parent=rna-Q903CP_gene98;Note=anticodon:UGA;gbkey=tRNA;gene=trnS-UGA;product=tRNA-Ser
+KU215903.2	Genbank	CDS	82007	83428	.	-	0	ID=cds-AOG75934.1;Parent=gene-Q903CP_gene99;Dbxref=NCBI_GP:AOG75934.1;Name=AOG75934.1;gbkey=CDS;gene=psbC;inference=similar to AA sequence:RefSeq:YP_008082859.1;product=photosystem II 44 kDa protein;protein_id=AOG75934.1;transl_table=11
+KU215903.2	Genbank	gene	82007	83428	.	-	.	ID=gene-Q903CP_gene99;Name=psbC;gbkey=Gene;gene=psbC;gene_biotype=protein_coding;locus_tag=Q903CP_gene99
+KU215903.2	Genbank	CDS	83376	84437	.	-	0	ID=cds-AOG75935.1;Parent=gene-Q903CP_gene100;Dbxref=NCBI_GP:AOG75935.1;Name=AOG75935.1;gbkey=CDS;gene=psbD;inference=similar to AA sequence:RefSeq:YP_008082860.1;product=photosystem II protein D2;protein_id=AOG75935.1;transl_table=11
+KU215903.2	Genbank	gene	83376	84437	.	-	.	ID=gene-Q903CP_gene100;Name=psbD;gbkey=Gene;gene=psbD;gene_biotype=protein_coding;locus_tag=Q903CP_gene100
+KU215903.2	Genbank	CDS	85089	85292	.	-	0	ID=cds-AOG75936.1;Parent=gene-Q903CP_gene101;Dbxref=NCBI_GP:AOG75936.1;Name=AOG75936.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75936.1;transl_table=11
+KU215903.2	Genbank	gene	85089	85292	.	-	.	ID=gene-Q903CP_gene101;Name=Q903CP_gene101;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene101
+KU215903.2	Genbank	tRNA	85760	85830	.	-	.	ID=rna-Q903CP_gene102;Parent=gene-Q903CP_gene102;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+KU215903.2	Genbank	gene	85760	85830	.	-	.	ID=gene-Q903CP_gene102;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=Q903CP_gene102
+KU215903.2	Genbank	exon	85760	85830	.	-	.	ID=exon-Q903CP_gene102-1;Parent=rna-Q903CP_gene102;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+KU215903.2	Genbank	exon	86161	87651	.	+	.	ID=exon-Q903CP_gene103-1;Parent=rna-Q903CP_gene103;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+KU215903.2	Genbank	rRNA	86161	87651	.	+	.	ID=rna-Q903CP_gene103;Parent=gene-Q903CP_gene103;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+KU215903.2	Genbank	gene	86161	87651	.	+	.	ID=gene-Q903CP_gene103;Name=rrn16;gbkey=Gene;gene=rrn16;gene_biotype=rRNA;locus_tag=Q903CP_gene103
+KU215903.2	Genbank	exon	88034	88075	.	-	.	ID=exon-Q903CP_gene104-2;Parent=rna-Q903CP_gene104;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+KU215903.2	Genbank	gene	88034	89093	.	-	.	ID=gene-Q903CP_gene104;Name=trnI-GAU;gbkey=Gene;gene=trnI-GAU;gene_biotype=tRNA;locus_tag=Q903CP_gene104
+KU215903.2	Genbank	tRNA	88034	89093	.	-	.	ID=rna-Q903CP_gene104;Parent=gene-Q903CP_gene104;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+KU215903.2	Genbank	intron	88076	89058	.	-	.	ID=id-Q903CP_gene104;gbkey=intron;gene=trnI-GAU
+KU215903.2	Genbank	exon	89059	89093	.	-	.	ID=exon-Q903CP_gene104-1;Parent=rna-Q903CP_gene104;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+KU215903.2	Genbank	exon	89166	89203	.	+	.	ID=exon-Q903CP_gene105-1;Parent=rna-Q903CP_gene105;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+KU215903.2	Genbank	gene	89166	90022	.	+	.	ID=gene-Q903CP_gene105;Name=trnA-UGC;gbkey=Gene;gene=trnA-UGC;gene_biotype=tRNA;locus_tag=Q903CP_gene105
+KU215903.2	Genbank	tRNA	89166	90022	.	+	.	ID=rna-Q903CP_gene105;Parent=gene-Q903CP_gene105;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+KU215903.2	Genbank	intron	89204	89987	.	+	.	ID=id-Q903CP_gene105;gbkey=intron;gene=trnA-UGC
+KU215903.2	Genbank	exon	89988	90022	.	+	.	ID=exon-Q903CP_gene105-2;Parent=rna-Q903CP_gene105;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+KU215903.2	Genbank	gene	90170	92976	.	+	.	ID=gene-Q903CP_gene106;Name=rrn23;gbkey=Gene;gene=rrn23;gene_biotype=rRNA;locus_tag=Q903CP_gene106
+KU215903.2	Genbank	exon	90170	92976	.	+	.	ID=exon-Q903CP_gene106-1;Parent=rna-Q903CP_gene106;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+KU215903.2	Genbank	rRNA	90170	92976	.	+	.	ID=rna-Q903CP_gene106;Parent=gene-Q903CP_gene106;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+KU215903.2	Genbank	exon	93080	93182	.	+	.	ID=exon-Q903CP_gene107-1;Parent=rna-Q903CP_gene107;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+KU215903.2	Genbank	gene	93080	93182	.	+	.	ID=gene-Q903CP_gene107;Name=rrn4.5;gbkey=Gene;gene=rrn4.5;gene_biotype=rRNA;locus_tag=Q903CP_gene107
+KU215903.2	Genbank	rRNA	93080	93182	.	+	.	ID=rna-Q903CP_gene107;Parent=gene-Q903CP_gene107;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+KU215903.2	Genbank	rRNA	93429	93549	.	+	.	ID=rna-Q903CP_gene108;Parent=gene-Q903CP_gene108;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+KU215903.2	Genbank	gene	93429	93549	.	+	.	ID=gene-Q903CP_gene108;Name=rrn5;gbkey=Gene;gene=rrn5;gene_biotype=rRNA;locus_tag=Q903CP_gene108
+KU215903.2	Genbank	exon	93429	93549	.	+	.	ID=exon-Q903CP_gene108-1;Parent=rna-Q903CP_gene108;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+KU215903.2	Genbank	tRNA	93761	93834	.	+	.	ID=rna-Q903CP_gene109;Parent=gene-Q903CP_gene109;Note=anticodon:ACG;gbkey=tRNA;gene=trnR-ACG;product=tRNA-Arg
+KU215903.2	Genbank	gene	93761	93834	.	+	.	ID=gene-Q903CP_gene109;Name=trnR-ACG;gbkey=Gene;gene=trnR-ACG;gene_biotype=tRNA;locus_tag=Q903CP_gene109
+KU215903.2	Genbank	exon	93761	93834	.	+	.	ID=exon-Q903CP_gene109-1;Parent=rna-Q903CP_gene109;Note=anticodon:ACG;gbkey=tRNA;gene=trnR-ACG;product=tRNA-Arg
+KU215903.2	Genbank	tRNA	94570	94641	.	-	.	ID=rna-Q903CP_gene110;Parent=gene-Q903CP_gene110;Note=anticodon:GUU;gbkey=tRNA;gene=trnN-GUU;product=tRNA-Asn
+KU215903.2	Genbank	gene	94570	94641	.	-	.	ID=gene-Q903CP_gene110;Name=trnN-GUU;gbkey=Gene;gene=trnN-GUU;gene_biotype=tRNA;locus_tag=Q903CP_gene110
+KU215903.2	Genbank	exon	94570	94641	.	-	.	ID=exon-Q903CP_gene110-1;Parent=rna-Q903CP_gene110;Note=anticodon:GUU;gbkey=tRNA;gene=trnN-GUU;product=tRNA-Asn
+KU215903.2	Genbank	CDS	94927	95802	.	+	0	ID=cds-AOG75937.1;Parent=gene-Q903CP_gene111;Dbxref=NCBI_GP:AOG75937.1;Name=AOG75937.1;gbkey=CDS;gene=chlL;inference=similar to AA sequence:RefSeq:YP_008082861.1;product=protochlorophyllide reductase ATP-binding subunit;protein_id=AOG75937.1;transl_table=11
+KU215903.2	Genbank	gene	94927	95802	.	+	.	ID=gene-Q903CP_gene111;Name=chlL;gbkey=Gene;gene=chlL;gene_biotype=protein_coding;locus_tag=Q903CP_gene111
+KU215903.2	Genbank	CDS	95919	97331	.	+	0	ID=cds-AOG75938.1;Parent=gene-Q903CP_gene112;Dbxref=NCBI_GP:AOG75938.1;Name=AOG75938.1;gbkey=CDS;gene=chlN;inference=similar to AA sequence:RefSeq:YP_008082862.1;product=photochlorophyllide reductase subunit N;protein_id=AOG75938.1;transl_table=11
+KU215903.2	Genbank	gene	95919	97331	.	+	.	ID=gene-Q903CP_gene112;Name=chlN;gbkey=Gene;gene=chlN;gene_biotype=protein_coding;locus_tag=Q903CP_gene112
+KU215903.2	Genbank	gene	98309	103486	.	+	.	ID=gene-Q903CP_gene113;Name=ycf1;gbkey=Gene;gene=ycf1;gene_biotype=protein_coding;locus_tag=Q903CP_gene113
+KU215903.2	Genbank	CDS	98309	103486	.	+	0	ID=cds-AOG75939.1;Parent=gene-Q903CP_gene113;Dbxref=NCBI_GP:AOG75939.1;Name=AOG75939.1;gbkey=CDS;gene=ycf1;inference=similar to AA sequence:RefSeq:YP_008082863.1;product=hypothetical chloroplast protein;protein_id=AOG75939.1;transl_table=11
+KU215903.2	Genbank	CDS	103821	104087	.	+	0	ID=cds-AOG75940.1;Parent=gene-Q903CP_gene114;Dbxref=NCBI_GP:AOG75940.1;Name=AOG75940.1;gbkey=CDS;gene=rps15;inference=similar to AA sequence:RefSeq:YP_008082864.1;product=ribosomal protein S15;protein_id=AOG75940.1;transl_table=11
+KU215903.2	Genbank	gene	103821	104087	.	+	.	ID=gene-Q903CP_gene114;Name=rps15;gbkey=Gene;gene=rps15;gene_biotype=protein_coding;locus_tag=Q903CP_gene114
+KU215903.2	Genbank	CDS	105451	105696	.	+	0	ID=cds-AOG75941.1;Parent=gene-Q903CP_gene115;Dbxref=NCBI_GP:AOG75941.1;Name=AOG75941.1;gbkey=CDS;gene=psaC;inference=similar to AA sequence:RefSeq:YP_008082865.1;product=photosystem I subunit VII;protein_id=AOG75941.1;transl_table=11
+KU215903.2	Genbank	gene	105451	105696	.	+	.	ID=gene-Q903CP_gene115;Name=psaC;gbkey=Gene;gene=psaC;gene_biotype=protein_coding;locus_tag=Q903CP_gene115
+KU215903.2	Genbank	CDS	107630	108592	.	-	0	ID=cds-AOG75942.1;Parent=gene-Q903CP_gene116;Dbxref=NCBI_GP:AOG75942.1;Name=AOG75942.1;gbkey=CDS;gene=ccsA;inference=similar to AA sequence:RefSeq:YP_008082866.1;product=cytochrome c biogenesis protein;protein_id=AOG75942.1;transl_table=11
+KU215903.2	Genbank	gene	107630	108592	.	-	.	ID=gene-Q903CP_gene116;Name=ccsA;gbkey=Gene;gene=ccsA;gene_biotype=protein_coding;locus_tag=Q903CP_gene116
+KU215903.2	Genbank	exon	108731	108808	.	-	.	ID=exon-Q903CP_gene117-1;Parent=rna-Q903CP_gene117;Note=anticodon:UAG;gbkey=tRNA;gene=trnL-UAG;product=tRNA-Leu
+KU215903.2	Genbank	gene	108731	108808	.	-	.	ID=gene-Q903CP_gene117;Name=trnL-UAG;gbkey=Gene;gene=trnL-UAG;gene_biotype=tRNA;locus_tag=Q903CP_gene117
+KU215903.2	Genbank	tRNA	108731	108808	.	-	.	ID=rna-Q903CP_gene117;Parent=gene-Q903CP_gene117;Note=anticodon:UAG;gbkey=tRNA;gene=trnL-UAG;product=tRNA-Leu
+KU215903.2	Genbank	gene	108965	109038	.	+	.	ID=gene-Q903CP_gene118;Name=trnP-GGG;gbkey=Gene;gene=trnP-GGG;gene_biotype=tRNA;locus_tag=Q903CP_gene118
+KU215903.2	Genbank	exon	108965	109038	.	+	.	ID=exon-Q903CP_gene118-1;Parent=rna-Q903CP_gene118;Note=anticodon:GGG;gbkey=tRNA;gene=trnP-GGG;product=tRNA-Pro
+KU215903.2	Genbank	tRNA	108965	109038	.	+	.	ID=rna-Q903CP_gene118;Parent=gene-Q903CP_gene118;Note=anticodon:GGG;gbkey=tRNA;gene=trnP-GGG;product=tRNA-Pro
+KU215903.2	Genbank	CDS	110132	110344	.	-	0	ID=cds-AOG75943.1;Parent=gene-Q903CP_gene119;Dbxref=NCBI_GP:AOG75943.1;Name=AOG75943.1;gbkey=CDS;gene=rpl32;inference=similar to AA sequence:RefSeq:YP_008082867.1;product=ribosomal protein L32;protein_id=AOG75943.1;transl_table=11
+KU215903.2	Genbank	gene	110132	110344	.	-	.	ID=gene-Q903CP_gene119;Name=rpl32;gbkey=Gene;gene=rpl32;gene_biotype=protein_coding;locus_tag=Q903CP_gene119
+KU215903.2	Genbank	gene	110595	111131	.	-	.	ID=gene-Q903CP_gene120;Name=Q903CP_gene120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene120
+KU215903.2	Genbank	CDS	110595	111131	.	-	0	ID=cds-AOG75944.1;Parent=gene-Q903CP_gene120;Dbxref=NCBI_GP:AOG75944.1;Name=AOG75944.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75944.1;transl_table=11
+KU215903.2	Genbank	gene	111489	111560	.	-	.	ID=gene-Q903CP_gene121;Name=trnV-GAC;gbkey=Gene;gene=trnV-GAC;gene_biotype=tRNA;locus_tag=Q903CP_gene121
+KU215903.2	Genbank	exon	111489	111560	.	-	.	ID=exon-Q903CP_gene121-1;Parent=rna-Q903CP_gene121;Note=anticodon:GAC;gbkey=tRNA;gene=trnV-GAC;product=tRNA-Val
+KU215903.2	Genbank	tRNA	111489	111560	.	-	.	ID=rna-Q903CP_gene121;Parent=gene-Q903CP_gene121;Note=anticodon:GAC;gbkey=tRNA;gene=trnV-GAC;product=tRNA-Val
+KU215903.2	Genbank	CDS	112748	112930	.	+	0	ID=cds-AOG75945.1;Parent=gene-Q903CP_gene122;Dbxref=NCBI_GP:AOG75945.1;Name=AOG75945.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75945.1;transl_table=11
+KU215903.2	Genbank	gene	112748	112930	.	+	.	ID=gene-Q903CP_gene122;Name=Q903CP_gene122;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene122
+KU215903.2	Genbank	CDS	113225	113456	.	+	0	ID=cds-AOG75871.1;Parent=gene-Q903CP_gene12;Dbxref=NCBI_GP:AOG75871.1;Name=AOG75871.1;exception=trans-splicing;gbkey=CDS;gene=rps12;inference=similar to AA sequence:RefSeq:YP_008082803.1;product=ribosomal protein S12;protein_id=AOG75871.1;transl_table=11
+KU215903.2	Genbank	gene	113225	114024	.	+	.	ID=gene-Q903CP_gene12;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=Q903CP_gene12;part=2/2
+KU215903.2	Genbank	intron	113457	113998	.	+	.	ID=id-Q903CP_gene12;gbkey=intron;gene=rps12
+KU215903.2	Genbank	CDS	113999	114024	.	+	2	ID=cds-AOG75871.1;Parent=gene-Q903CP_gene12;Dbxref=NCBI_GP:AOG75871.1;Name=AOG75871.1;exception=trans-splicing;gbkey=CDS;gene=rps12;inference=similar to AA sequence:RefSeq:YP_008082803.1;product=ribosomal protein S12;protein_id=AOG75871.1;transl_table=11
+KU215903.2	Genbank	CDS	114073	114540	.	+	0	ID=cds-AOG75946.1;Parent=gene-Q903CP_gene123;Dbxref=NCBI_GP:AOG75946.1;Name=AOG75946.1;gbkey=CDS;gene=rps7;inference=similar to AA sequence:RefSeq:YP_008082868.1;product=ribosomal protein S7;protein_id=AOG75946.1;transl_table=11
+KU215903.2	Genbank	gene	114073	114540	.	+	.	ID=gene-Q903CP_gene123;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding;locus_tag=Q903CP_gene123
+KU215903.2	Genbank	gene	115029	115187	.	+	.	ID=gene-Q903CP_gene124;Name=Q903CP_gene124;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene124
+KU215903.2	Genbank	CDS	115029	115187	.	+	0	ID=cds-AOG75947.1;Parent=gene-Q903CP_gene124;Dbxref=NCBI_GP:AOG75947.1;Name=AOG75947.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75947.1;transl_table=11
+KU215903.2	Genbank	CDS	115241	115528	.	+	0	ID=cds-AOG75948.1;Parent=gene-Q903CP_gene125;Dbxref=NCBI_GP:AOG75948.1;Name=AOG75948.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75948.1;transl_table=11
+KU215903.2	Genbank	gene	115241	115528	.	+	.	ID=gene-Q903CP_gene125;Name=Q903CP_gene125;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene125
+KU215903.2	Genbank	gene	116107	116187	.	+	.	ID=gene-Q903CP_gene126;Name=trnL-CAA;gbkey=Gene;gene=trnL-CAA;gene_biotype=tRNA;locus_tag=Q903CP_gene126
+KU215903.2	Genbank	tRNA	116107	116187	.	+	.	ID=rna-Q903CP_gene126;Parent=gene-Q903CP_gene126;Note=anticodon:CAA;gbkey=tRNA;gene=trnL-CAA;product=tRNA-Leu
+KU215903.2	Genbank	exon	116107	116187	.	+	.	ID=exon-Q903CP_gene126-1;Parent=rna-Q903CP_gene126;Note=anticodon:CAA;gbkey=tRNA;gene=trnL-CAA;product=tRNA-Leu
+KU215903.2	Genbank	CDS	116390	116575	.	+	0	ID=cds-AOG75949.1;Parent=gene-Q903CP_gene127;Dbxref=NCBI_GP:AOG75949.1;Name=AOG75949.1;gbkey=CDS;product=hypothetical protein;protein_id=AOG75949.1;transl_table=11
+KU215903.2	Genbank	gene	116390	116575	.	+	.	ID=gene-Q903CP_gene127;Name=Q903CP_gene127;gbkey=Gene;gene_biotype=protein_coding;locus_tag=Q903CP_gene127
+KU215903.2	Genbank	CDS	116890	123270	.	-	0	ID=cds-AOG75950.1;Parent=gene-Q903CP_gene128;Dbxref=NCBI_GP:AOG75950.1;Name=AOG75950.1;gbkey=CDS;gene=ycf2;inference=similar to AA sequence:RefSeq:YP_008082869.1;product=hypothetical chloroplast protein;protein_id=AOG75950.1;transl_table=11
+KU215903.2	Genbank	gene	116890	123270	.	-	.	ID=gene-Q903CP_gene128;Name=ycf2;gbkey=Gene;gene=ycf2;gene_biotype=protein_coding;locus_tag=Q903CP_gene128
+KU215903.2	Genbank	gene	123452	123526	.	-	.	ID=gene-Q903CP_gene129;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA;locus_tag=Q903CP_gene129
+KU215903.2	Genbank	tRNA	123452	123526	.	-	.	ID=rna-Q903CP_gene129;Parent=gene-Q903CP_gene129;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+KU215903.2	Genbank	exon	123452	123526	.	-	.	ID=exon-Q903CP_gene129-1;Parent=rna-Q903CP_gene129;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+KU215903.2	Genbank	tRNA	123826	123899	.	+	.	ID=rna-Q903CP_gene130;Parent=gene-Q903CP_gene130;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+KU215903.2	Genbank	gene	123826	123899	.	+	.	ID=gene-Q903CP_gene130;Name=trnI-CAU;gbkey=Gene;gene=trnI-CAU;gene_biotype=tRNA;locus_tag=Q903CP_gene130
+KU215903.2	Genbank	exon	123826	123899	.	+	.	ID=exon-Q903CP_gene130-1;Parent=rna-Q903CP_gene130;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+###
