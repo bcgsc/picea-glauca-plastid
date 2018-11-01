@@ -74,8 +74,8 @@ Seq-submit ::= {
       },
       date std {
         year 2018,
-        month 10,
-        day 29
+        month 11,
+        day 1
       }
     },
     subtype new,
@@ -180,8 +180,8 @@ Seq-submit ::= {
         },
         create-date std {
           year 2018,
-          month 10,
-          day 29
+          month 11,
+          day 1
         }
       },
       seq-set {

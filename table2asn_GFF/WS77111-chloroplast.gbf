@@ -1,4 +1,4 @@
-LOCUS       WS77111cp             123421 bp    DNA     circular PLN 29-OCT-2018
+LOCUS       WS77111cp             123421 bp    DNA     circular PLN 01-NOV-2018
 DEFINITION  Picea glauca isolate WS77111 chloroplast, complete genome.
 ACCESSION   
 VERSION
@@ -17,7 +17,7 @@ REFERENCE   1  (bases 1 to 123421)
 REFERENCE   2  (bases 1 to 123421)
   AUTHORS   Coombe,L., Lin,D., Warren,R.L., Jackman,S.D. and Birol,I.
   TITLE     Direct Submission
-  JOURNAL   Submitted (29-OCT-2018) Bioinformatics, BC Cancer Genome Sciences
+  JOURNAL   Submitted (01-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
             Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
 COMMENT     Bankit Comment: ALT EMAIL:rwarren@bcgsc.ca
             Bankit Comment: Submission Title:None.
