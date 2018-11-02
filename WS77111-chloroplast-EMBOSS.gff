@@ -23,7 +23,7 @@ WS77111cp	manual	exon	6453	6524	.	-	.	Parent=tRNA2;gene=trnQ-UUG
 WS77111cp	GeSeq	gene	6881	7060	.	+	.	ID=gene6;Name=psbK;note=blatX_hit psbK_NC_032367.1%3B position 1 - 180%3B coverage 100.00%25%3B match 100.00%25;gene=psbK
 WS77111cp	manual	mRNA	6881	7060	.	+	.	ID=mRNA4;Parent=gene6;gene=psbK
 WS77111cp	manual	exon	6881	7060	.	+	.	Parent=mRNA4;gene=psbK
-WS77111cp	GeSeq	CDS	6881	7060	.	+	0	Parent=mRNA4;Name=CDS-psbK;translation=MPVMLNIFLDDAFIYSNNIFFGKLPEAYAISDPIVDVMPIIPVLSFLLAFVWQAAVSFR;product=photosystem II protein K
+WS77111cp	GeSeq	CDS	6881	7060	.	+	0	Parent=mRNA4;Name=CDS-psbK;translation=MPVMLNIFLDDAFIYSNNIFFGKLPEAYAISDPIVDVMPIIPVLSFLLAFVWQAAVSFR;product=photosystem II protein K;gene=psbK
 WS77111cp	GeSeq	gene	7549	7659	.	+	.	ID=gene7;Name=psbI;note=blatX_hit psbI_NC_032367.1%3B position 1 - 111%3B coverage 100.00%25%3B match 100.00%25;gene=psbI
 WS77111cp	manual	mRNA	7549	7659	.	+	.	ID=mRNA5;Parent=gene7;gene=psbI
 WS77111cp	GeSeq	CDS	7549	7659	.	+	0	Parent=mRNA5;Name=CDS-psbI;translation=MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE;product=photosystem II protein I;gene=psbI
