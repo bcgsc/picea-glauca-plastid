@@ -1,43 +1,49 @@
-LOCUS       Picea_glauca            123421 bp    DNA     circular     28-SEP-2018
-DEFINITION  Picea_glauca chloroplast
-ACCESSION   Picea_glauca
-SOURCE      chloroplast Picea_glauca
-  ORGANISM  Picea_glauca
-            Picea_glauca;
+LOCUS       WS77111cp             123421 bp    DNA     circular PLN 02-NOV-2018
+DEFINITION  Picea glauca isolate WS77111 chloroplast, complete genome.
+ACCESSION   
+VERSION
+DBLINK      BioProject: PRJNA242552
+            BioSample: SAMN02736787
+KEYWORDS    .
+SOURCE      chloroplast Picea glauca (white spruce)
+  ORGANISM  Picea glauca
+            cellular organisms; Eukaryota; Viridiplantae; Streptophyta;
+            Streptophytina; Embryophyta; Tracheophyta; Euphyllophyta;
+            Spermatophyta; Acrogymnospermae; Pinidae; Pinales; Pinaceae; Picea.
 REFERENCE   1  (bases 1 to 123421)
-  AUTHORS   Tillich,M., Lehwark,P., Pellizzer,T., Ulbricht-Jones, E.S.,
-            Fischer, A., Bock, R. and Greiner,S.
-  TITLE     GeSeq - versatile and accurate annotation of organelle genomes
-  JOURNAL   Nucleic Acids Res. 45 (W1), W6-W11 (2017)
-   PUBMED   28486635
-COMMENT     GeSeq Version 1.64
-            Job           WS77111-chloroplast-no-ARAGORN-tRNAscan
-            Subjob
-            Picea_glauca_chloroplast-Picea-glauca-genotype-WS77111-complete-chlo
-            roplast-genome
-            Creator       anonymous
-            Program       blat
-                          blatxcutoff=25                 blatncutoff=85
-                          annotate_ir=true               shortmatches=false
-                          mpimpchlororefset=false
-                          ncbirefs=NC_028594.1, NC_032367.1, NC_029374.1,
-                          NC_016069.1, NC_021456.1, NC_032366.1, NC_011152.3
-            Program       HMMER disabled
-            Program       ARAGORN v1.2.38 disabled
-            Program       ARWEN v1.2.3 disabled
-            Program       tRNAscan-SE v1.3.1 disabled
-            Program       tRNAscan-SE v2.0 disabled
-            Program       RNA Editing disabled
-            Submitted     28 Sep 2018 16:28:45 GMT
-            Started       28 Sep 2018 16:28:49 GMT
-            Finished      28 Sep 2018 16:28:51 GMT
+  AUTHORS   Coombe,L., Lin,D., Warren,R.L., Jackman,S.D. and Birol,I.
+  TITLE     Unpublished
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 123421)
+  AUTHORS   Coombe,L., Lin,D., Warren,R.L., Jackman,S.D. and Birol,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
+            Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
+COMMENT     Bankit Comment: ALT EMAIL:rwarren@bcgsc.ca
+            Bankit Comment: Submission Title:None.
 FEATURES             Location/Qualifiers
+     source          1..123421
+                     /db_xref="taxon:3330"
+                     /organelle="plastid:chloroplast"
+                     /organism="Picea glauca"
+                     /mol_type="genomic DNA"
+                     /isolate="WS77111"
      gene            complement(1..1062)
                      /gene="psbA"
+                     /locus_tag="WS77111cp_000001"
                      /note="blatX_hit psbA_NC_028594.1; position 1 - 1062;
                      coverage 100.00%; match 100.00%"
-     cds             complement(1..1062)
+     mrna            complement(1..1062)
+                     /product="photosystem II protein D1"
                      /gene="psbA"
+                     /locus_tag="WS77111cp_000001"
+     cds             complement(1..1062)
+                     /product="photosystem II protein D1"
+                     /transl_table="11"
+                     /gene="psbA"
+                     /locus_tag="WS77111cp_000001"
+                     /protein_id="WS77111cp:cds.mRNA1"
+                     /codon_start="1"
                      /translation="MTAIIERRESANLWGRFCDWITSTENRLYIGWFGVLMIPTLLTA
                      TSVFIIAFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASV
                      DEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAASAVFLI
@@ -45,27 +51,31 @@ FEATURES             Location/Qualifiers
                      VTSSLIRETTENQSANAGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLA
                      AWPVAGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHER
                      NAHNFPLDLAAVESISIGG"
-     gene            complement(1534..4117)
-                     /gene="&quot;trnK-UUU&#65533;&#65533;&#65533;"
+     gene            complement(1534..4115)
+                     /gene="trnK-UUU"
+                     /locus_tag="WS77111cp_000002"
                      /note="blatN_hit trnK-UUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
-     trna            complement(join(1534..1568,4081..4117))
-                     /gene="trnK-UUU*"
-     exon            complement(1534..1568)
-                     /gene="trnK-UUU*"
-                     /number=2
-     intron          complement(1569..4080)
-                     /gene="trnK-UUU*"
-                     /number=1
-     exon            complement(4081..4117)
-                     /gene="trnK-UUU*"
-                     /number=1
+     trna            complement(join(1534..1568,4081..4115))
+                     /product="tRNA-Lys"
+                     /gene="trnK-UUU"
+                     /locus_tag="WS77111cp_000002"
      gene            complement(1750..3297)
                      /gene="matK"
+                     /locus_tag="WS77111cp_000003"
                      /note="blatX_hit matK_NC_028594.1; position 1 - 1548;
                      coverage 100.00%; match 99.94%"
-     cds             complement(1750..3297)
+     mrna            complement(1750..3297)
+                     /product="maturase K"
                      /gene="matK"
+                     /locus_tag="WS77111cp_000003"
+     cds             complement(1750..3297)
+                     /product="maturase K"
+                     /transl_table="11"
+                     /gene="matK"
+                     /locus_tag="WS77111cp_000003"
+                     /protein_id="WS77111cp:cds.mRNA2"
+                     /codon_start="1"
                      /translation="MDEFHRYGKEDSSWQQCFLYPLFFQEDLYAISHDHYLDGSSSSE
                      PMENLSSNDQFSFLTVKRLIGQIRQQNHSIVLFVNCDPNPLVDRKKSSYSESVLEGLT
                      LVLEVPFSIRSKYSVEGMNEWKSFRSIHSIFPFLEDKFPHSNYVSDTRIPYSIHPEIL
@@ -78,10 +88,20 @@ FEATURES             Location/Qualifiers
                      IENLFDQ"
      gene            complement(4707..6248)
                      /gene="chlB"
+                     /locus_tag="WS77111cp_000004"
                      /note="blatX_hit chlB_NC_028594.1; position 1 - 1542;
                      coverage 100.00%; match 100.00%"
-     cds             complement(4707..6248)
+     mrna            complement(4707..6248)
+                     /product="photochlorophyllide reductase subunit B"
                      /gene="chlB"
+                     /locus_tag="WS77111cp_000004"
+     cds             complement(4707..6248)
+                     /product="photochlorophyllide reductase subunit B"
+                     /transl_table="11"
+                     /gene="chlB"
+                     /locus_tag="WS77111cp_000004"
+                     /protein_id="WS77111cp:cds.mRNA3"
+                     /codon_start="1"
                      /translation="MKLAHWMYAGPAHIGTLRVASSFKNVHAIMHAPLGDDYFNVMRS
                      MLERERNFTPATASIVDRHVLARGSRKRVVDNILRKDKEEGPDLIILTPTCTSSILQE
                      DLKNFVDRASIISDCNVIFADVDHYQVNEIQAADRTLEQVVRYYLEKSYRQETLDQFV
@@ -94,162 +114,324 @@ FEATURES             Location/Qualifiers
                      KEALS"
      gene            complement(6453..6524)
                      /gene="trnQ-UUG"
+                     /locus_tag="WS77111cp_000005"
                      /note="blatN_hit trnQ-UUG_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      trna            complement(6453..6524)
+                     /product="tRNA-Gln"
                      /gene="trnQ-UUG"
+                     /locus_tag="WS77111cp_000005"
      gene            6881..7060
                      /gene="psbK"
+                     /locus_tag="WS77111cp_000006"
                      /note="blatX_hit psbK_NC_032367.1; position 1 - 180;
                      coverage 100.00%; match 100.00%"
-     cds             6881..7060
+     mrna            6881..7060
+                     /product="photosystem II protein K"
                      /gene="psbK"
+                     /locus_tag="WS77111cp_000006"
+     cds             6881..7060
+                     /product="photosystem II protein K"
+                     /transl_table="11"
+                     /gene="psbK"
+                     /locus_tag="WS77111cp_000006"
+                     /protein_id="WS77111cp:cds.mRNA4"
+                     /codon_start="1"
                      /translation="MPVMLNIFLDDAFIYSNNIFFGKLPEAYAISDPIVDVMPIIPVL
                      SFLLAFVWQAAVSFR"
      gene            7549..7659
                      /gene="psbI"
+                     /locus_tag="WS77111cp_000007"
                      /note="blatX_hit psbI_NC_032367.1; position 1 - 111;
                      coverage 100.00%; match 100.00%"
-     cds             7549..7659
+     mrna            7549..7659
+                     /product="photosystem II protein I"
                      /gene="psbI"
+                     /locus_tag="WS77111cp_000007"
+     cds             7549..7659
+                     /product="photosystem II protein I"
+                     /transl_table="11"
+                     /gene="psbI"
+                     /locus_tag="WS77111cp_000007"
+                     /protein_id="WS77111cp:cds.mRNA5"
+                     /codon_start="1"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
      gene            complement(7736..7823)
                      /gene="trnS-GCU"
+                     /locus_tag="WS77111cp_000008"
                      /note="blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
                      coverage 100.00%; match 100.00%"
      trna            complement(7736..7823)
+                     /product="tRNA-Ser"
                      /gene="trnS-GCU"
+                     /locus_tag="WS77111cp_000008"
      gene            8289..8390
                      /gene="ycf12"
+                     /locus_tag="WS77111cp_000009"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
                      coverage 100.00%; match 100.00%"
-     cds             8289..8390
+     mrna            8289..8390
+                     /product="photosystem II reaction center protein ycf12"
                      /gene="ycf12"
+                     /locus_tag="WS77111cp_000009"
+     cds             8289..8390
+                     /product="photosystem II reaction center protein ycf12"
+                     /transl_table="11"
+                     /gene="ycf12"
+                     /locus_tag="WS77111cp_000009"
+                     /protein_id="WS77111cp:cds.mRNA6"
+                     /codon_start="1"
                      /translation="MNLEVIAQLTVLTLTVVSGPLVIVLLAVRKGNL"
      gene            8810..9400
                      /gene="clpP"
+                     /locus_tag="WS77111cp_000010"
                      /note="blatX_hit clpP_NC_032367.1; position 1 - 591;
                      coverage 100.00%; match 100.00%"
-     cds             8810..9400
+     mrna            8810..9400
+                     /product="ATP-dependent Clp protease proteolytic subunit"
                      /gene="clpP"
+                     /locus_tag="WS77111cp_000010"
+     cds             8810..9400
+                     /product="ATP-dependent Clp protease proteolytic subunit"
+                     /transl_table="11"
+                     /gene="clpP"
+                     /locus_tag="WS77111cp_000010"
+                     /protein_id="WS77111cp:cds.mRNA7"
+                     /codon_start="1"
                      /translation="MPVGVPKVPFRAPGDEDANWVDLYNRLYRERLLFLAQDINHEIA
                      NQLMGLMVYLSAEDANKDMFSFLNCPGGSVIPGVGLFDIMQIIVPDVHTICMGIAASM
                      GSFILIGGEITKRIALPHARVMIHQPASSYYDGPAADFHTESKHVTMLRDYITKCYIE
                      RTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
      gene            join(9568..9681,112596..113395)
-                     /gene="rps12*"
+                     /gene="rps12"
+                     /locus_tag="WS77111cp_000011"
                      /note="blatX_hit rps12_NC_032367.1; position 1 - 372;
                      coverage 100.00%; match 99.73%"
-     cds             join(9568..9681,112596..113395)
-                     /gene="rps12*"
-     exon            9568..9681
-                     /gene="rps12*"
-                     /number=1
-     exon            112596..112828
-                     /gene="rps12*"
-                     /number=2
-     intron          112829..113370
-                     /gene="rps12*"
-                     /number=2
-     exon            113371..113395
-                     /gene="rps12*"
-     cds             113371..113395
-                     /gene="rps12*"
-                     /number=3
+     mrna            join(9568..9681,112596..112827,113370..113395)
+                     /product="ribosomal protein S12"
+                     /gene="rps12"
+                     /locus_tag="WS77111cp_000011"
+     cds             join(9568..9681,112596..112827,113370..113395)
+                     /product="ribosomal protein S12"
+                     /transl_table="11"
+                     /gene="rps12"
+                     /locus_tag="WS77111cp_000011"
+                     /protein_id="WS77111cp:cds.mRNA8"
+                     /trans_splicing
+                     /codon_start="1"
+                     /translation="MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVYTITPKK
+                     PNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTL
+                     DAAEVKDRQQGRSKYGVKKPK"
      gene            10391..10750
                      /gene="rpl20"
+                     /locus_tag="WS77111cp_000012"
                      /note="blatX_hit rpl20_NC_032367.1; position 1 - 360;
                      coverage 100.00%; match 100.00%"
-     cds             10391..10750
+     mrna            10391..10750
+                     /product="ribosomal protein L20"
                      /gene="rpl20"
+                     /locus_tag="WS77111cp_000012"
+     cds             10391..10750
+                     /product="ribosomal protein L20"
+                     /transl_table="11"
+                     /gene="rpl20"
+                     /locus_tag="WS77111cp_000012"
+                     /protein_id="WS77111cp:cds.mRNA9"
+                     /codon_start="1"
                      /translation="MTRVKRGYIARKRRKKILAFVSGSRGAHSKLFRTANQRKARALV
                      SAHRDRGKRKRDLRRLWITRINAAARANGVSYNRFIQYLYKRQLLPNRKTLAQIAVLD
                      SNCFSTILKNLSCDEIG"
      gene            complement(11010..11291)
                      /gene="rps18"
+                     /locus_tag="WS77111cp_000013"
                      /note="blatX_hit rps18_NC_032367.1; position 1 - 282;
                      coverage 100.00%; match 100.00%"
-     cds             complement(11010..11291)
+     mrna            complement(11010..11291)
+                     /product="ribosomal protein S18"
                      /gene="rps18"
+                     /locus_tag="WS77111cp_000013"
+     cds             complement(11010..11291)
+                     /product="ribosomal protein S18"
+                     /transl_table="11"
+                     /gene="rps18"
+                     /locus_tag="WS77111cp_000013"
+                     /protein_id="WS77111cp:cds.mRNA10"
+                     /codon_start="1"
                      /translation="MKQTMDKPKRYFRRHLTPIRRHLTPIRRHLSPIRSGDRIDYKNM
                      SLISRFISEQGKILSGRVNRLTSKQQRLITNAIKRARIPSLLPFLYNEN"
      gene            complement(11415..11621)
                      /gene="rpl33"
+                     /locus_tag="WS77111cp_000014"
                      /note="blatX_hit rpl33_NC_028594.1; position 1 - 207;
                      coverage 100.00%; match 100.00%"
-     cds             complement(11415..11621)
+     mrna            complement(11415..11621)
+                     /product="ribosomal protein L33"
                      /gene="rpl33"
+                     /locus_tag="WS77111cp_000014"
+     cds             complement(11415..11621)
+                     /product="ribosomal protein L33"
+                     /transl_table="11"
+                     /gene="rpl33"
+                     /locus_tag="WS77111cp_000014"
+                     /protein_id="WS77111cp:cds.mRNA11"
+                     /codon_start="1"
                      /translation="MAKSGDVRVTITLECTSCTQDSVYKRFPGISRYTTRKNRRNTPI
                      RLESNKFCPYCYKHTIHGEIKKRD"
      gene            complement(11939..12067)
                      /gene="psaJ"
+                     /locus_tag="WS77111cp_000015"
                      /note="blatX_hit psaJ_NC_032367.1; position 1 - 129;
                      coverage 100.00%; match 100.00%"
-     cds             complement(11939..12067)
+     mrna            complement(11939..12067)
+                     /product="photosystem I subunit IX"
                      /gene="psaJ"
+                     /locus_tag="WS77111cp_000015"
+     cds             complement(11939..12067)
+                     /product="photosystem I subunit IX"
+                     /transl_table="11"
+                     /gene="psaJ"
+                     /locus_tag="WS77111cp_000015"
+                     /protein_id="WS77111cp:cds.mRNA12"
+                     /codon_start="1"
                      /translation="MQDLKTYLSTAPVLAISSFIFLAGLLIEINRFFPDALTFAFF"
      gene            12365..12438
                      /gene="trnP-UGG"
+                     /locus_tag="WS77111cp_000016"
                      /note="blatN_hit trnP-UGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            12365..12438
+                     /product="tRNA-Pro"
                      /gene="trnP-UGG"
+                     /locus_tag="WS77111cp_000016"
      gene            12606..12679
                      /gene="trnW-CCA"
+                     /locus_tag="WS77111cp_000017"
                      /note="blatN_hit trnW-CCA_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            12606..12679
+                     /product="tRNA-Trp"
                      /gene="trnW-CCA"
+                     /locus_tag="WS77111cp_000017"
      gene            complement(12802..12915)
                      /gene="petG"
+                     /locus_tag="WS77111cp_000018"
                      /note="blatX_hit petG_NC_032367.1; position 1 - 114;
                      coverage 100.00%; match 100.00%"
-     cds             complement(12802..12915)
+     mrna            complement(12802..12915)
+                     /product="cytochrome b6/f complex subunit V"
                      /gene="petG"
+                     /locus_tag="WS77111cp_000018"
+     cds             complement(12802..12915)
+                     /product="cytochrome b6/f complex subunit V"
+                     /transl_table="11"
+                     /gene="petG"
+                     /locus_tag="WS77111cp_000018"
+                     /protein_id="WS77111cp:cds.mRNA13"
+                     /codon_start="1"
                      /translation="MIEALPSGIVLGLIPITLAGLSVTAYSQYRRGDQLDI"
      gene            complement(13020..13208)
                      /gene="petL"
+                     /locus_tag="WS77111cp_000019"
                      /note="blatX_hit petL_NC_028594.1; position 1 - 189;
                      coverage 100.00%; match 100.00%"
-     cds             complement(13020..13208)
+     mrna            complement(13020..13208)
+                     /product="cytochrome b/f complex 3.5 kDa subunit"
                      /gene="petL"
+                     /locus_tag="WS77111cp_000019"
+     cds             complement(13020..13208)
+                     /product="cytochrome b/f complex 3.5 kDa subunit"
+                     /transl_table="11"
+                     /gene="petL"
+                     /locus_tag="WS77111cp_000019"
+                     /protein_id="WS77111cp:cds.mRNA14"
+                     /codon_start="1"
                      /translation="MKICINHISFSPSTPTITIISYFGFLLASIIFTLVLFISSSKIQ
                      LIRNEGRGNPLSSLYQFQ"
      gene            14440..14691
                      /gene="psbE"
+                     /locus_tag="WS77111cp_000020"
                      /note="blatX_hit psbE_NC_028594.1; position 1 - 252;
                      coverage 100.00%; match 100.00%"
-     cds             14440..14691
+     mrna            14440..14691
+                     /product="cytochrome b559 alpha chain"
                      /gene="psbE"
+                     /locus_tag="WS77111cp_000020"
+     cds             14440..14691
+                     /product="cytochrome b559 alpha chain"
+                     /transl_table="11"
+                     /gene="psbE"
+                     /locus_tag="WS77111cp_000020"
+                     /protein_id="WS77111cp:cds.mRNA15"
+                     /codon_start="1"
                      /translation="MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAY
                      DVFGSPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
      gene            14701..14820
                      /gene="psbF"
+                     /locus_tag="WS77111cp_000021"
                      /note="blatX_hit psbF_NC_028594.1; position 1 - 120;
                      coverage 100.00%; match 100.00%"
-     cds             14701..14820
+     mrna            14701..14820
+                     /product="photosystem II cytochrome b559 beta subunit"
                      /gene="psbF"
+                     /locus_tag="WS77111cp_000021"
+     cds             14701..14820
+                     /product="photosystem II cytochrome b559 beta subunit"
+                     /transl_table="11"
+                     /gene="psbF"
+                     /locus_tag="WS77111cp_000021"
+                     /protein_id="WS77111cp:cds.mRNA16"
+                     /codon_start="1"
                      /translation="MTIDRTYPIFTVRWLAIHGLAVPTVFFSGSISAMQFIQR"
      gene            14854..14970
                      /gene="psbL"
+                     /locus_tag="WS77111cp_000022"
                      /note="blatX_hit psbL_NC_028594.1; position 1 - 117;
                      coverage 100.00%; match 100.00%"
-     cds             14854..14970
+     mrna            14854..14970
+                     /product="photosystem II protein L"
                      /gene="psbL"
+                     /locus_tag="WS77111cp_000022"
+     cds             14854..14970
+                     /product="photosystem II protein L"
+                     /transl_table="11"
+                     /gene="psbL"
+                     /locus_tag="WS77111cp_000022"
+                     /protein_id="WS77111cp:cds.mRNA17"
+                     /codon_start="1"
                      /translation="MTQLNPNNQNVELNRTSLYWGLLLIFVLAVLFSNYLFN"
      gene            15089..15211
                      /gene="psbJ"
+                     /locus_tag="WS77111cp_000023"
                      /note="blatX_hit psbJ_NC_032367.1; position 1 - 123;
                      coverage 100.00%; match 100.00%"
-     cds             15089..15211
+     mrna            15089..15211
+                     /product="photosystem II protein J"
                      /gene="psbJ"
+                     /locus_tag="WS77111cp_000023"
+     cds             15089..15211
+                     /product="photosystem II protein J"
+                     /transl_table="11"
+                     /gene="psbJ"
+                     /locus_tag="WS77111cp_000023"
+                     /protein_id="WS77111cp:cds.mRNA18"
+                     /codon_start="1"
                      /translation="MADTTGRIPLWLIGTVTGIIVIGLLGIFFYGSYSGSGSSL"
      gene            complement(16211..17206)
                      /gene="petA"
+                     /locus_tag="WS77111cp_000024"
                      /note="blatX_hit petA_NC_028594.1; position 1 - 996;
                      coverage 100.00%; match 100.00%"
-     cds             complement(16211..17206)
+     mrna            complement(16211..17206)
+                     /product="cytochrome f"
                      /gene="petA"
+                     /locus_tag="WS77111cp_000024"
+     cds             complement(16211..17206)
+                     /product="cytochrome f"
+                     /transl_table="11"
+                     /gene="petA"
+                     /locus_tag="WS77111cp_000024"
+                     /protein_id="WS77111cp:cds.mRNA19"
+                     /codon_start="1"
                      /translation="MQNRNTYDLKKKMTRLISVLVMIHIITRTSISNAYPIFAQQGYE
                      NPREATGRIVCANCHLAKKPVDIEVPQSVLPNTVFEAVVKIPYDTQMKQVLANGKKGA
                      LNVGAVLILPEGFELAPPDRISPEIRQKMGNLYFQNYRPNQKNIIVIGPVPGQKYSEL
@@ -258,10 +440,20 @@ FEATURES             Location/Qualifiers
                      IVLQDPLRVKGLLLFLASVILAQIFLVLKKKQFEKVQLAEMNLQVHRFPNMKLTD"
      gene            complement(17432..18217)
                      /gene="cemA"
+                     /locus_tag="WS77111cp_000025"
                      /note="blatX_hit cemA_NC_028594.1; position 1 - 786;
                      coverage 100.00%; match 100.00%"
-     cds             complement(17432..18217)
+     mrna            complement(17432..18217)
+                     /product="chloroplast envelope membrane protein"
                      /gene="cemA"
+                     /locus_tag="WS77111cp_000025"
+     cds             complement(17432..18217)
+                     /product="chloroplast envelope membrane protein"
+                     /transl_table="11"
+                     /gene="cemA"
+                     /locus_tag="WS77111cp_000025"
+                     /protein_id="WS77111cp:cds.mRNA20"
+                     /codon_start="1"
                      /translation="MDPIPHSITRTLSRFRTELTSESGSLAIHELEVAEYKASASLRY
                      LACLVVLPWVIPISLRKGLEPWVTNWWNTGQSQKIFDYLQEENVLGRFEKIEELFLLE
                      RMVEDSSGTDSKDLRIEIHKETIQLVEMYNEDCIKIISHLLTNLIGFAFISAYLILGK
@@ -269,27 +461,57 @@ FEATURES             Location/Qualifiers
                      ERIISGLVSTFPVILDTILKYWIFRRFNRISPSLVVIYHSMNE"
      gene            complement(19071..19625)
                      /gene="ycf4"
+                     /locus_tag="WS77111cp_000026"
                      /note="blatX_hit ycf4_NC_028594.1; position 1 - 555;
                      coverage 100.00%; match 100.00%"
-     cds             complement(19071..19625)
+     mrna            complement(19071..19625)
+                     /product="photosystem I assembly protein Ycf4"
                      /gene="ycf4"
+                     /locus_tag="WS77111cp_000026"
+     cds             complement(19071..19625)
+                     /product="photosystem I assembly protein Ycf4"
+                     /transl_table="11"
+                     /gene="ycf4"
+                     /locus_tag="WS77111cp_000026"
+                     /protein_id="WS77111cp:cds.mRNA21"
+                     /codon_start="1"
                      /translation="MNNRSKWLWIEPITGSRKRSNFFWACILFLGSLGFFLVGISSYF
                      GENLIPLLSSQEILFVPQGIVMCFYGIAGLFISSYLWCTILFDVGSGYNKFDKRKGIV
                      CLFRWGFPGKNRRIFPRFLMKDIQMIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDN
                      LNLREIEQKAAESARFLRVSIEGF"
      gene            complement(20192..20302)
                      /gene="psaI"
+                     /locus_tag="WS77111cp_000027"
                      /note="blatX_hit psaI_NC_032367.1; position 1 - 111;
                      coverage 100.00%; match 100.00%"
-     cds             complement(20192..20302)
+     mrna            complement(20192..20302)
+                     /product="photosystem I subunit VIII"
                      /gene="psaI"
+                     /locus_tag="WS77111cp_000027"
+     cds             complement(20192..20302)
+                     /product="photosystem I subunit VIII"
+                     /transl_table="11"
+                     /gene="psaI"
+                     /locus_tag="WS77111cp_000027"
+                     /protein_id="WS77111cp:cds.mRNA22"
+                     /codon_start="1"
                      /translation="MIIPNLPSFFVPLVGLLLPAITMVLFHLYIQNDDIF"
      gene            complement(20840..21820)
                      /gene="accD"
+                     /locus_tag="WS77111cp_000028"
                      /note="blatX_hit accD_NC_028594.1; position 1 - 981;
                      coverage 100.00%; match 100.00%"
-     cds             complement(20840..21820)
+     mrna            complement(20840..21820)
+                     /product="acetyl-CoA carboxylase beta subunit"
                      /gene="accD"
+                     /locus_tag="WS77111cp_000028"
+     cds             complement(20840..21820)
+                     /product="acetyl-CoA carboxylase beta subunit"
+                     /transl_table="11"
+                     /gene="accD"
+                     /locus_tag="WS77111cp_000028"
+                     /protein_id="WS77111cp:cds.mRNA23"
+                     /codon_start="1"
                      /translation="MSIREWFEDRRKITGLLKNSVERDSKDVNEMERNKNLSIDYVKI
                      NRLWVQCDNCESLLYIRFLRENKSVCEECGYYLQMNSSDRIELPIDRGTRHPMDEDMY
                      TLDVLQFHSENEPAHSDPLHSEDESYKDHITFCQIETGLTDAIQTGIGQLNGLPIALG
@@ -298,16 +520,31 @@ FEATURES             Location/Qualifiers
                      QKVIEDFQVTEHLFGHGLFDLIVPRNLLKGVLSELFQLYSLPRKEKKMNV"
      gene            complement(22076..22149)
                      /gene="trnR-CCG"
+                     /locus_tag="WS77111cp_000029"
                      /note="blatN_hit trnR-CCG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            complement(22076..22149)
+                     /product="tRNA-Arg"
                      /gene="trnR-CCG"
+                     /locus_tag="WS77111cp_000029"
      gene            complement(22469..23896)
                      /gene="rbcL"
+                     /locus_tag="WS77111cp_000030"
                      /note="blatX_hit rbcL_NC_028594.1; position 1 - 1428;
                      coverage 100.00%; match 100.00%"
-     cds             complement(22469..23896)
+     mrna            complement(22469..23896)
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
                      /gene="rbcL"
+                     /locus_tag="WS77111cp_000030"
+     cds             complement(22469..23896)
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /transl_table="11"
+                     /gene="rbcL"
+                     /locus_tag="WS77111cp_000030"
+                     /protein_id="WS77111cp:cds.mRNA24"
+                     /codon_start="1"
                      /translation="MSPKTETKASVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTP
                      QPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEETQFIAYVA
                      YPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERD
@@ -319,10 +556,20 @@ FEATURES             Location/Qualifiers
                      WSPELAAACEIWKEIKFEFEAIDTI"
      gene            24605..26083
                      /gene="atpB"
+                     /locus_tag="WS77111cp_000031"
                      /note="blatX_hit atpB_NC_028594.1; position 1 - 1479;
                      coverage 100.00%; match 100.00%"
-     cds             24605..26083
+     mrna            24605..26083
+                     /product="ATP synthase CF1 beta chain"
                      /gene="atpB"
+                     /locus_tag="WS77111cp_000031"
+     cds             24605..26083
+                     /product="ATP synthase CF1 beta chain"
+                     /transl_table="11"
+                     /gene="atpB"
+                     /locus_tag="WS77111cp_000031"
+                     /protein_id="WS77111cp:cds.mRNA25"
+                     /codon_start="1"
                      /translation="MRTNPLVLGVSALVEKNVGRIAQIIGPVLDVSFPPGNMPNIYNS
                      LIVKGQGTAGQEIQVTCEVQQLLGNHKVRAVAMSATDGLTRGMRVIDTGAPLSVPVGG
                      ATLGRIFNVLGEPVDNLGPVDARITSPIHRSAPAFTELDTKLSIFETGIKVVDLLAPY
@@ -334,109 +581,188 @@ FEATURES             Location/Qualifiers
                      ETIRGFQMILSGELDGITEQSFYLVGNIDEATAKAMNSKTES"
      gene            26092..26505
                      /gene="atpE"
+                     /locus_tag="WS77111cp_000032"
                      /note="blatX_hit atpE_NC_028594.1; position 1 - 414;
                      coverage 100.00%; match 100.00%"
-     cds             26092..26505
+     mrna            26092..26505
+                     /product="ATP synthase CF1 epsilon chain"
                      /gene="atpE"
+                     /locus_tag="WS77111cp_000032"
+     cds             26092..26505
+                     /product="ATP synthase CF1 epsilon chain"
+                     /transl_table="11"
+                     /gene="atpE"
+                     /locus_tag="WS77111cp_000032"
+                     /protein_id="WS77111cp:cds.mRNA26"
+                     /codon_start="1"
                      /translation="MTLNLRVLSPNRVIWDSEVQEIILSTNSGQIGVLPNHASLVAAV
                      DIGVMKIRLNGQWSTMALMGGFAKIDNDRITVLVNNAERDVDIDLKEAQETFKVAKAD
                      LARAEGKRQAIEADVAPKRARTRLEAISASPPVSN"
      gene            complement(26614..26686)
                      /gene="trnM-CAU"
+                     /locus_tag="WS77111cp_000033"
                      /note="blatN_hit trnM-CAU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      trna            complement(26614..26686)
+                     /product="tRNA-Met"
                      /gene="trnM-CAU"
+                     /locus_tag="WS77111cp_000033"
      gene            26876..27494
-                     /gene="trnV-UAC*"
+                     /gene="trnV-UAC"
+                     /locus_tag="WS77111cp_000034"
                      /note="blatN_hit trnV-UAC_NC_032367.1; position 1 - 76;
                      coverage 100.00%; match 100.00%"
      trna            join(26876..26914,27458..27494)
-                     /gene="trnV-UAC*"
-     exon            26876..26914
-                     /gene="trnV-UAC*"
-                     /number=1
-     intron          26915..27457
-                     /gene="trnV-UAC*"
-                     /number=1
-     exon            27458..27494
-                     /gene="trnV-UAC*"
-                     /number=2
+                     /product="tRNA-Tyr"
+                     /gene="trnV-UAC"
+                     /locus_tag="WS77111cp_000034"
      gene            29784..29858
                      /gene="trnH-GUG"
+                     /locus_tag="WS77111cp_000035"
                      /note="blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
                      coverage 100.00%; match 98.67%; match 98.67%"
      trna            29784..29858
+                     /product="tRNA-His"
                      /gene="trnH-GUG"
+                     /locus_tag="WS77111cp_000035"
      gene            complement(29982..30053)
                      /gene="trnT-GGU"
+                     /locus_tag="WS77111cp_000036"
                      /note="blatN_hit trnT-GGU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      trna            complement(29982..30053)
+                     /product="tRNA-Thr"
                      /gene="trnT-GGU"
+                     /locus_tag="WS77111cp_000036"
      gene            31275..31364
                      /gene="psaM"
+                     /locus_tag="WS77111cp_000037"
                      /note="blatX_hit psaM_NC_032367.1; position 1 - 90;
                      coverage 100.00%; match 100.00%"
-     cds             31275..31364
+     mrna            31275..31364
+                     /product="photosystem I protein M"
                      /gene="psaM"
+                     /locus_tag="WS77111cp_000037"
+     cds             31275..31364
+                     /product="photosystem I protein M"
+                     /transl_table="11"
+                     /gene="psaM"
+                     /locus_tag="WS77111cp_000037"
+                     /protein_id="WS77111cp:cds.mRNA27"
+                     /codon_start="1"
+                     /translation="MIEVQFFIAFVLAFATINLAIKLGKALYD"
      gene            31580..31667
                      /gene="trnS-GCU"
+                     /locus_tag="WS77111cp_000038"
                      /note="blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
                      coverage 100.00%; match 100.00%"
      trna            31580..31667
+                     /product="tRNA-Ser"
                      /gene="trnS-GCU"
+                     /locus_tag="WS77111cp_000038"
      gene            complement(31744..31854)
                      /gene="psbI"
+                     /locus_tag="WS77111cp_000039"
                      /note="blatX_hit psbI_NC_032367.1; position 1 - 111;
                      coverage 100.00%; match 100.00%"
-     cds             complement(31744..31854)
+     mrna            complement(31744..31854)
+                     /product="photosystem II protein I"
                      /gene="psbI"
+                     /locus_tag="WS77111cp_000039"
+     cds             complement(31744..31854)
+                     /product="photosystem II protein I"
+                     /transl_table="11"
+                     /gene="psbI"
+                     /locus_tag="WS77111cp_000039"
+                     /protein_id="WS77111cp:cds.mRNA28"
+                     /codon_start="1"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
      gene            32157..32229
                      /gene="trnE-UUC"
+                     /locus_tag="WS77111cp_000040"
                      /note="blatN_hit trnE-UUC_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      trna            32157..32229
+                     /product="tRNA-Glu"
                      /gene="trnE-UUC"
+                     /locus_tag="WS77111cp_000040"
      gene            32302..32385
                      /gene="trnY-GUA"
+                     /locus_tag="WS77111cp_000041"
                      /note="blatN_hit trnY-GUA_NC_032367.1; position 1 - 84;
                      coverage 100.00%; match 100.00%"
      trna            32302..32385
+                     /product="tRNA-Tyr"
                      /gene="trnY-GUA"
+                     /locus_tag="WS77111cp_000041"
      gene            32645..32718
                      /gene="trnD-GUC"
+                     /locus_tag="WS77111cp_000042"
                      /note="blatN_hit trnD-GUC_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            32645..32718
+                     /product="tRNA-Asp"
                      /gene="trnD-GUC"
+                     /locus_tag="WS77111cp_000042"
      gene            33632..33745
                      /gene="psbM"
+                     /locus_tag="WS77111cp_000043"
                      /note="blatX_hit psbM_NC_032367.1; position 1 - 114;
                      coverage 100.00%; match 100.00%"
-     cds             33632..33745
+     mrna            33632..33745
+                     /product="photosystem II M protein"
                      /gene="psbM"
+                     /locus_tag="WS77111cp_000043"
+     cds             33632..33745
+                     /product="photosystem II M protein"
+                     /transl_table="11"
+                     /gene="psbM"
+                     /locus_tag="WS77111cp_000043"
+                     /protein_id="WS77111cp:cds.mRNA29"
+                     /codon_start="1"
                      /translation="MEVNTLAFIAVLLFLAISTAFLFIPYVKTASASSGNN"
      gene            complement(34638..34727)
                      /gene="petN"
+                     /locus_tag="WS77111cp_000044"
                      /note="blatX_hit petN_NC_032367.1; position 1 - 90;
                      coverage 100.00%; match 100.00%"
-     cds             complement(34638..34727)
+     mrna            complement(34638..34727)
+                     /product="cytochrome b6/f complex subunit VIII"
                      /gene="petN"
+                     /locus_tag="WS77111cp_000044"
+     cds             complement(34638..34727)
+                     /product="cytochrome b6/f complex subunit VIII"
+                     /transl_table="11"
+                     /gene="petN"
+                     /locus_tag="WS77111cp_000044"
+                     /protein_id="WS77111cp:cds.mRNA30"
+                     /codon_start="1"
                      /translation="MDIVGITWAALMVVFTFSLSLVVWGRSGL"
      gene            complement(35048..35118)
                      /gene="trnC-GCA"
+                     /locus_tag="WS77111cp_000045"
                      /note="blatN_hit trnC-GCA_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      trna            complement(35048..35118)
+                     /product="tRNA-Cys"
                      /gene="trnC-GCA"
+                     /locus_tag="WS77111cp_000045"
      gene            35542..38772
                      /gene="rpoB"
+                     /locus_tag="WS77111cp_000046"
                      /note="blatX_hit rpoB_NC_028594.1; position 1 - 3231;
                      coverage 100.00%; match 100.00%"
-     cds             35542..38772
+     mrna            35542..38772
+                     /product="RNA polymerase beta subunit"
                      /gene="rpoB"
+                     /locus_tag="WS77111cp_000046"
+     cds             35542..38772
+                     /product="RNA polymerase beta subunit"
+                     /transl_table="11"
+                     /gene="rpoB"
+                     /locus_tag="WS77111cp_000046"
+                     /protein_id="WS77111cp:cds.mRNA31"
+                     /codon_start="1"
                      /translation="MRLDENEGAFTIPEFGKIQFEGFCRFIDQGLMEELHNFPKIEDT
                      DKEIESRLFGNEYELAEPFIKERDAVYQSLTYYSELYVPARSIRRNSSKIQKQTVFLG
                      NIPLMNSHGTFVVNGIYRIVVNQILISPGIYYRSELDHNRINYIYTGTLISDWGRRSK
@@ -457,11 +783,21 @@ FEATURES             Location/Qualifiers
                      ARVTQQPLRGKSKRGGQRIGEMEVWALEGFGVAYILQEMLTLKSDHIRTRNEVLGAII
                      TGGPIPKPDTAPESFRLLIRELRSLALELNHAIISEKDFQIDREEV"
      gene            38795..41567
-                     /gene="rpoC1*"
+                     /gene="rpoC1"
+                     /locus_tag="WS77111cp_000047"
                      /note="blatX_hit rpoC1_NC_028594.1; position 1 - 2091;
                      coverage 100.00%; match 100.00%"
+     mrna            join(38795..39224,39907..41567)
+                     /product="RNA polymerase beta subunit-1"
+                     /gene="rpoC1"
+                     /locus_tag="WS77111cp_000047"
      cds             join(38795..39224,39907..41567)
-                     /gene="rpoC1*"
+                     /product="RNA polymerase beta subunit-1"
+                     /transl_table="11"
+                     /gene="rpoC1"
+                     /locus_tag="WS77111cp_000047"
+                     /protein_id="WS77111cp:cds.mRNA32"
+                     /codon_start="1"
                      /translation="MIDQNKHQQLRIGLASPEQICAWSEKILPNGEIVGQVTKPYTLH
                      YETNKPERDGSFCERIFGPIKSRVCSCGNSPGIGNEKIDSKFCTQCGVEFVDSRIRRY
                      RMGYIKLACPVAHIWYLKRLPSYIANLLAKTRKELEGPVYCDLFIARPIANKPTLLRS
@@ -475,21 +811,22 @@ FEATURES             Location/Qualifiers
                      GNRYHPYHSEKKSFSCKKPSFYSYDDVLRAYRQKRIDLYSPLWLRWGEVDLRIITSVN
                      QEAPIEVQYESLGTFHEIHEHYRIRKGRMGEILNIYIRTTVGRTRFNREMEEAIQGFA
                      RSEHPKKSLPALRI"
-     exon            38795..39224
-                     /gene="rpoC1*"
-                     /number=1
-     intron          39225..39906
-                     /gene="rpoC1*"
-                     /number=1
-     exon            39907..41567
-                     /gene="rpoC1*"
-                     /number=2
      gene            41661..45317
                      /gene="rpoC2"
+                     /locus_tag="WS77111cp_000048"
                      /note="blatX_hit rpoC2_NC_028594.1; position 1 - 3657;
                      coverage 100.00%; match 100.00%"
-     cds             41661..45317
+     mrna            41661..45317
+                     /product="RNA polymerase beta subunit-2"
                      /gene="rpoC2"
+                     /locus_tag="WS77111cp_000048"
+     cds             41661..45317
+                     /product="RNA polymerase beta subunit-2"
+                     /transl_table="11"
+                     /gene="rpoC2"
+                     /locus_tag="WS77111cp_000048"
+                     /protein_id="WS77111cp:cds.mRNA33"
+                     /codon_start="1"
                      /translation="MKIWRFFLMKERTRLPFDNLPFYNKVMDKTAIKKLISRLIDHFG
                      MTYTSHILDQLKTSGFQQATDTAISLGIDDLLTAPSKAWLVQDAEQQGSVSEKQNHYG
                      NVHAVEKLRQSIEIWYATSEYLRKEMNPNFSMTDPLNPVHVMSFSGARGSTSQVHQLV
@@ -514,10 +851,20 @@ FEATURES             Location/Qualifiers
                      IQENSHNILKQPFK"
      gene            45520..46224
                      /gene="rps2"
+                     /locus_tag="WS77111cp_000049"
                      /note="blatX_hit rps2_NC_028594.1; position 1 - 705;
                      coverage 100.00%; match 100.00%"
-     cds             45520..46224
+     mrna            45520..46224
+                     /product="ribosomal protein S2"
                      /gene="rps2"
+                     /locus_tag="WS77111cp_000049"
+     cds             45520..46224
+                     /product="ribosomal protein S2"
+                     /transl_table="11"
+                     /gene="rps2"
+                     /locus_tag="WS77111cp_000049"
+                     /protein_id="WS77111cp:cds.mRNA34"
+                     /codon_start="1"
                      /translation="MSKRYWNMDLEEMMEARVHLGHKTRKWNPKMAPYIFTERKDTHI
                      LNLAKTARSLSEACDLAFDIAGRGKQFLIVGTKYQAADLVASAATEARCHYVNRKWLG
                      GMLTNWSTTETRPQKFKDLKKEQDTGRFNRPPKKEAAMLKRQLDQLQKYLGGIRYMTS
@@ -525,10 +872,20 @@ FEATURES             Location/Qualifiers
                      NRSTSAICEGRSLRSL"
      gene            46517..47263
                      /gene="atpI"
+                     /locus_tag="WS77111cp_000050"
                      /note="blatX_hit atpI_NC_032367.1; position 1 - 747;
                      coverage 100.00%; match 100.00%"
-     cds             46517..47263
+     mrna            46517..47263
+                     /product="ATP synthase CF0 A chain"
                      /gene="atpI"
+                     /locus_tag="WS77111cp_000050"
+     cds             46517..47263
+                     /product="ATP synthase CF0 A chain"
+                     /transl_table="11"
+                     /gene="atpI"
+                     /locus_tag="WS77111cp_000050"
+                     /protein_id="WS77111cp:cds.mRNA35"
+                     /codon_start="1"
                      /translation="MDIVRSPISTLNHIYEISGVEVGQHFYWQIGGFQVHAQVLITSW
                      VVIAVLLGSATIAVRDPQTIPTGGQNFVEYILEFFRDLTRTQIGEEEYGPWVPFIGTL
                      FLFIFVSNWSGALLPWGIIKLPHGELAAPTNDINTTVALALLTSVAYFYAGLAKKGLG
@@ -536,37 +893,58 @@ FEATURES             Location/Qualifiers
                      FLGLFTSGIQALIFATLAAAYIGESMEGHH"
      gene            47953..48198
                      /gene="atpH"
+                     /locus_tag="WS77111cp_000051"
                      /note="blatX_hit atpH_NC_032367.1; position 1 - 246;
                      coverage 100.00%; match 100.00%"
-     cds             47953..48198
+     mrna            47953..48198
+                     /product="ATP synthase CF0 subunit III"
                      /gene="atpH"
+                     /locus_tag="WS77111cp_000051"
+     cds             47953..48198
+                     /product="ATP synthase CF0 subunit III"
+                     /transl_table="11"
+                     /gene="atpH"
+                     /locus_tag="WS77111cp_000051"
+                     /protein_id="WS77111cp:cds.mRNA36"
+                     /codon_start="1"
                      /translation="MDPLISAASVIAAGLSVGLASIGPGVGQGTAAGQAVEGIARQPE
                      AEGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
      gene            48529..49848
-                     /gene="atpF*"
+                     /gene="atpF"
+                     /locus_tag="WS77111cp_000052"
                      /note="blatX_hit atpF_NC_028594.1; position 1 - 555;
                      coverage 100.00%; match 100.00%"
+     mrna            join(48529..48672,49438..49848)
+                     /product="ATP synthase CF0 subunit I"
+                     /gene="atpF"
+                     /locus_tag="WS77111cp_000052"
      cds             join(48529..48672,49438..49848)
-                     /gene="atpF*"
+                     /product="ATP synthase CF0 subunit I"
+                     /transl_table="11"
+                     /gene="atpF"
+                     /locus_tag="WS77111cp_000052"
+                     /protein_id="WS77111cp:cds.mRNA37"
+                     /codon_start="1"
                      /translation="MKNVIDPFISLSYWPSAGGFGSNTNILETNIINPSLVLSVLIYF
                      GKGVLSNLLDNRKQKILNTIRNSEELCKGAIDQLEKARARLREVEMIAGEIRVNGDFQ
                      IEREKEDLINAASENLEQLEDPKNETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRL
                      NTELHLRTIDHNIGLLRTMMNTSD"
-     exon            48529..48672
-                     /gene="atpF*"
-                     /number=1
-     intron          48673..49437
-                     /gene="atpF*"
-                     /number=1
-     exon            49438..49848
-                     /gene="atpF*"
-                     /number=2
      gene            49892..51415
                      /gene="atpA"
+                     /locus_tag="WS77111cp_000053"
                      /note="blatX_hit atpA_NC_032367.1; position 1 - 1524;
                      coverage 100.00%; match 100.00%"
-     cds             49892..51415
+     mrna            49892..51415
+                     /product="ATP synthase CF1 alpha chain"
                      /gene="atpA"
+                     /locus_tag="WS77111cp_000053"
+     cds             49892..51415
+                     /product="ATP synthase CF1 alpha chain"
+                     /transl_table="11"
+                     /gene="atpA"
+                     /locus_tag="WS77111cp_000053"
+                     /protein_id="WS77111cp:cds.mRNA38"
+                     /codon_start="1"
                      /translation="MGNIRLDEISSIIRKQIEQYNNEVRVGNLGTVLQVGDGIARIHG
                      LDEVMAGELVEFGDGTIGIALNLGSDNVGAVLMGDGLMIQEGSSVRATGKIAQIPVSD
                      AYLGRVVNALAQPIDGKGQISASEFRLIESPAPGIISRRSVYEPLQTGLIAIDSMIPI
@@ -578,38 +956,55 @@ FEATURES             Location/Qualifiers
                      IAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
      gene            complement(51515..51584)
                      /gene="trnR-UCU"
+                     /locus_tag="WS77111cp_000054"
                      /note="blatN_hit trnR-UCU_NC_032367.1; position 1 - 70;
                      coverage 100.00%; match 100.00%"
      trna            complement(51515..51584)
+                     /product="tRNA-Arg"
                      /gene="trnR-UCU"
+                     /locus_tag="WS77111cp_000054"
      gene            complement(51804..52644)
-                     /gene="trnG-GCC*"
+                     /gene="trnG-GCC"
+                     /locus_tag="WS77111cp_000055"
                      /note="blatN_hit trnG-GCC_NC_032367.1; position 1 - 59;
                      coverage 100.00%; match 100.00%"
      trna            complement(join(51804..51840,52623..52644))
-                     /gene="trnG-GCC*"
-     exon            complement(51804..51840)
-                     /gene="trnG-GCC*"
-                     /number=2
-     intron          complement(51841..52622)
-                     /gene="trnG-GCC*"
-                     /number=1
-     exon            complement(52623..52644)
-                     /gene="trnG-GCC*"
-                     /number=1
+                     /product="tRNA-Ser"
+                     /gene="trnG-GCC"
+                     /locus_tag="WS77111cp_000055"
      gene            complement(52830..52931)
                      /gene="ycf12"
+                     /locus_tag="WS77111cp_000056"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
                      coverage 100.00%; match 100.00%"
-     cds             complement(52830..52931)
+     mrna            complement(52830..52931)
+                     /product="photosystem II reaction center protein ycf12"
                      /gene="ycf12"
+                     /locus_tag="WS77111cp_000056"
+     cds             complement(52830..52931)
+                     /product="photosystem II reaction center protein ycf12"
+                     /transl_table="11"
+                     /gene="ycf12"
+                     /locus_tag="WS77111cp_000056"
+                     /protein_id="WS77111cp:cds.mRNA39"
+                     /codon_start="1"
                      /translation="MNLEVIAQLTVLTLTVVSGPLVIVLLAVRKGNL"
      gene            53691..55217
                      /gene="psbB"
+                     /locus_tag="WS77111cp_000057"
                      /note="blatX_hit psbB_NC_028594.1; position 1 - 1527;
                      coverage 100.00%; match 100.00%"
-     cds             53691..55217
+     mrna            53691..55217
+                     /product="photosystem II CP47 chlorophyll apoprotein"
                      /gene="psbB"
+                     /locus_tag="WS77111cp_000057"
+     cds             53691..55217
+                     /product="photosystem II CP47 chlorophyll apoprotein"
+                     /transl_table="11"
+                     /gene="psbB"
+                     /locus_tag="WS77111cp_000057"
+                     /protein_id="WS77111cp:cds.mRNA40"
+                     /codon_start="1"
                      /translation="MGLPWYRVHTVVLNDPGRLISVHIMHTALVAGWAGSMTLYELAV
                      FDPSDPVLDPMWRQGMFVIPFMTRLGIKDSWTGWNITGETVINPGIWSYEGVAGAHIM
                      FSGLCFLAAIWHWVYWDLEIFCDERTGKLCLDLPKVFGIHLFLSGVACFGFGAFHVTG
@@ -622,70 +1017,112 @@ FEATURES             Location/Qualifiers
                      "
      gene            55292..55399
                      /gene="psbT"
+                     /locus_tag="WS77111cp_000058"
                      /note="blatX_hit psbT_NC_029374.1; position 1 - 108;
                      coverage 100.00%; match 100.00%"
-     cds             55292..55399
+     mrna            55292..55399
+                     /product="photosystem II protein T"
                      /gene="psbT"
+                     /locus_tag="WS77111cp_000058"
+     cds             55292..55399
+                     /product="photosystem II protein T"
+                     /transl_table="11"
+                     /gene="psbT"
+                     /locus_tag="WS77111cp_000058"
+                     /protein_id="WS77111cp:cds.mRNA41"
+                     /codon_start="1"
                      /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKIPNKGGK"
      gene            complement(55481..55612)
                      /gene="psbN"
+                     /locus_tag="WS77111cp_000059"
                      /note="blatX_hit psbN_NC_032367.1; position 1 - 132;
                      coverage 100.00%; match 100.00%"
-     cds             complement(55481..55612)
+     mrna            complement(55481..55612)
+                     /product="photosystem II protein N"
                      /gene="psbN"
+                     /locus_tag="WS77111cp_000059"
+     cds             complement(55481..55612)
+                     /product="photosystem II protein N"
+                     /transl_table="11"
+                     /gene="psbN"
+                     /locus_tag="WS77111cp_000059"
+                     /protein_id="WS77111cp:cds.mRNA42"
+                     /codon_start="1"
                      /translation="METATLVTISISCLLVSFTGYALYTAFGQPSEQLRDPFEDHED"
      gene            55692..55919
                      /gene="psbH"
+                     /locus_tag="WS77111cp_000060"
                      /note="blatX_hit psbH_NC_028594.1; position 1 - 228;
                      coverage 100.00%; match 100.00%"
-     cds             55692..55919
+     mrna            55692..55919
+                     /product="photosystem II 10 kDa phosphoprotein"
                      /gene="psbH"
+                     /locus_tag="WS77111cp_000060"
+     cds             55692..55919
+                     /product="photosystem II 10 kDa phosphoprotein"
+                     /transl_table="11"
+                     /gene="psbH"
+                     /locus_tag="WS77111cp_000060"
+                     /protein_id="WS77111cp:cds.mRNA43"
+                     /codon_start="1"
                      /translation="MATQTIDDTSKTTPRATGVGTSLKPLNSEYGKVAPGWGTTPLMG
                      LTMALFAVFLSIILEIYNSSVLLDGIPVSWG"
-     gene            56868..57511
+     gene            56074..57511
                      /gene="petB"
+                     /locus_tag="WS77111cp_000061"
                      /note="blatX_hit petB_NC_028594.1; position 5 - 648;
                      coverage 99.38%; match 99.23%"
-     exon            56868..56873
-                     /gene="&#65533;&#65533;&#65533;petB&#65533;&#65533;&#65533
-                     ;*"
-     cds             56868..56873
-                     /gene="&#65533;&#65533;&#65533;petB&#65533;&#65533;&#65533
-                     ;*"
-     intron          56874..57225
-                     /gene="&#65533;&#65533;&#65533;petB&#65533;&#65533;&#65533
-                     ;*"
-     exon            57226..57511
-                     /gene="&#65533;&#65533;&#65533;petB&#65533;&#65533;&#65533
-                     ;*"
-     cds             57226..57511
-                     /gene="&#65533;&#65533;&#65533;petB&#65533;&#65533;&#65533
-                     ;*"
-     gene            58428..58960
+     mrna            join(56074..56079,56870..57511)
+                     /product="cytochrome b6"
+                     /gene="petB"
+                     /locus_tag="WS77111cp_000061"
+     cds             join(56074..56079,56870..57511)
+                     /product="cytochrome b6"
+                     /transl_table="11"
+                     /gene="petB"
+                     /locus_tag="WS77111cp_000061"
+                     /protein_id="WS77111cp:cds.mRNA44"
+                     /codon_start="1"
+                     /translation="MGKVYDRFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTSF
+                     LVQVATGSAMTFYYRPTVTEAFASVQYLMTEVNFGWLIRSIHRWSASMMVLMMILHVF
+                     RVYLTGGFKKPRELTWVTGVILGVLTVSFGVTGYSLPWDQIGYWAVKIVTGVPEAIPV
+                     IGSPLVELLRGSVSVGQSTLTRFYSLHTFILPLLTAVFMPMHFLMIRKQGIPGPL"
+     gene            57721..58960
                      /gene="petD"
+                     /locus_tag="WS77111cp_000062"
                      /note="blatX_hit petD_NC_028594.1; position 5 - 537;
                      coverage 99.26%; match 98.88%"
-     cds             58428..58435
-                     /gene="&#65533;&#65533;&#65533;petD&#65533;&#65533;&#65533
-                     ;*"
-     exon            58428..58435
-                     /gene="&#65533;&#65533;&#65533;petD&#65533;&#65533;&#65533
-                     ;*"
-     intron          58436..58735
-                     /gene="&#65533;&#65533;&#65533;petD&#65533;&#65533;&#65533
-                     ;*"
-     cds             58736..58960
-                     /gene="&#65533;&#65533;&#65533;petD&#65533;&#65533;&#65533
-                     ;*"
-     exon            58736..58960
-                     /gene="&#65533;&#65533;&#65533;petD&#65533;&#65533;&#65533
-                     ;*"
+     mrna            join(57721..57728,58432..58960)
+                     /product="cytochrome b6/f complex subunit IV"
+                     /gene="petD"
+                     /locus_tag="WS77111cp_000062"
+     cds             join(57721..57728,58432..58960)
+                     /product="cytochrome b6/f complex subunit IV"
+                     /transl_table="11"
+                     /gene="petD"
+                     /locus_tag="WS77111cp_000062"
+                     /protein_id="WS77111cp:cds.mRNA45"
+                     /codon_start="1"
+                     /translation="MGVTKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLSYIFPVVI
+                     LGTIACTVGLAVLEPSMIGEPANPFATPLEILPEWYLFPVFQILRTVPNKLLGVLLMA
+                     SVPAGSLTVPFLENVNQFQNPFRRPVATTVSLIGTAVALWLGIGAALPIDESLTLGLF
+                     QFDPTVEYKNLSIFYSYI"
      gene            complement(59069..60079)
                      /gene="rpoA"
+                     /locus_tag="WS77111cp_000063"
                      /note="blatX_hit rpoA_NC_032367.1; position 1 - 1011;
                      coverage 100.00%; match 100.00%"
-     cds             complement(59069..60079)
+     mrna            complement(59069..60079)
+                     /product="RNA polymerase alpha subunit"
                      /gene="rpoA"
+                     /locus_tag="WS77111cp_000063"
+     cds             complement(59069..60079)
+                     /product="RNA polymerase alpha subunit"
+                     /transl_table="11"
+                     /gene="rpoA"
+                     /locus_tag="WS77111cp_000063"
+                     /protein_id="WS77111cp:cds.mRNA46"
+                     /codon_start="1"
                      /translation="MIRDEISVSIQTLRWKCIESRAYSERLHYGRFALSPLRKGRADT
                      IGIAMRRVLLGEVEGTCITHVKLENIKHEYSAIIGIEESVHDILMNLKEIVLRSDSYG
                      IRGASICIVGPRNVTAQDIILPPSVKIIDTTQHIARLTKSITSDIRLQIEKNRGYIIH
@@ -695,70 +1132,131 @@ FEATURES             Location/Qualifiers
                      RN"
      gene            complement(60139..60531)
                      /gene="rps11"
+                     /locus_tag="WS77111cp_000064"
                      /note="blatX_hit rps11_NC_032367.1; position 1 - 393;
                      coverage 100.00%; match 100.00%"
-     cds             complement(60139..60531)
+     mrna            complement(60139..60531)
+                     /product="ribosomal protein S11"
                      /gene="rps11"
+                     /locus_tag="WS77111cp_000064"
+     cds             complement(60139..60531)
+                     /product="ribosomal protein S11"
+                     /transl_table="11"
+                     /gene="rps11"
+                     /locus_tag="WS77111cp_000064"
+                     /protein_id="WS77111cp:cds.mRNA47"
+                     /codon_start="1"
                      /translation="MSKTKRRIGSRRNENRVLKGVIYVQASFNNTIVTVTDVRGQVLC
                      WSSAGACGFKGTRRGTPFAAQTAAENVIRTLMDRGMERVEVMISGPGRGRDTALRTIR
                      RSGILLSFVRDVTPMPHNGCRPPKKRRV"
      gene            complement(60614..60727)
                      /gene="rpl36"
+                     /locus_tag="WS77111cp_000065"
                      /note="blatX_hit rpl36_NC_028594.1; position 1 - 114;
                      coverage 100.00%; match 100.00%"
-     cds             complement(60614..60727)
+     mrna            complement(60614..60727)
+                     /product="ribosomal protein L36"
                      /gene="rpl36"
+                     /locus_tag="WS77111cp_000065"
+     cds             complement(60614..60727)
+                     /product="ribosomal protein L36"
+                     /transl_table="11"
+                     /gene="rpl36"
+                     /locus_tag="WS77111cp_000065"
+                     /protein_id="WS77111cp:cds.mRNA48"
+                     /codon_start="1"
                      /translation="MKIRASIRRICGKCRPIRRRKRVMIICSNPRHKQKQG"
      gene            complement(60830..61066)
                      /gene="infA"
+                     /locus_tag="WS77111cp_000066"
                      /note="blatX_hit infA_NC_032367.1; position 1 - 237;
                      coverage 100.00%; match 100.00%"
-     cds             complement(60830..61066)
+     mrna            complement(60830..61066)
+                     /product="translation initiation factor 1"
                      /gene="infA"
+                     /locus_tag="WS77111cp_000066"
+     cds             complement(60830..61066)
+                     /product="translation initiation factor 1"
+                     /transl_table="11"
+                     /gene="infA"
+                     /locus_tag="WS77111cp_000066"
+                     /protein_id="WS77111cp:cds.mRNA49"
+                     /codon_start="1"
                      /translation="MNKQNLIHAEGLVTESLPNGMFRVLTDNGCQILTHISGRIRRNS
                      VRILPGDRVKVELSAYDLTKGRIIYRLSNKSSNN"
      gene            complement(61204..61602)
                      /gene="rps8"
+                     /locus_tag="WS77111cp_000067"
                      /note="blatX_hit rps8_NC_028594.1; position 1 - 399;
                      coverage 100.00%; match 100.00%"
-     cds             complement(61204..61602)
+     mrna            complement(61204..61602)
+                     /product="ribosomal protein S8"
                      /gene="rps8"
+                     /locus_tag="WS77111cp_000067"
+     cds             complement(61204..61602)
+                     /product="ribosomal protein S8"
+                     /transl_table="11"
+                     /gene="rps8"
+                     /locus_tag="WS77111cp_000067"
+                     /protein_id="WS77111cp:cds.mRNA50"
+                     /codon_start="1"
                      /translation="MGNDTIANLITSIRNADMVEKRTVRVTATNITKNIGRILLREGF
                      IEDVREHQEGQKSFFISTLKYRRRKKRTYMTTSKRTSKSGLRIYSNYREIPKVLGGMG
                      IVILSTSQGILTDREARQKKIGGEILCYVW"
      gene            complement(61748..62116)
                      /gene="rpl14"
+                     /locus_tag="WS77111cp_000068"
                      /note="blatX_hit rpl14_NC_032367.1; position 1 - 369;
                      coverage 100.00%; match 100.00%"
-     cds             complement(61748..62116)
+     mrna            complement(61748..62116)
+                     /product="ribosomal protein L14"
                      /gene="rpl14"
+                     /locus_tag="WS77111cp_000068"
+     cds             complement(61748..62116)
+                     /product="ribosomal protein L14"
+                     /transl_table="11"
+                     /gene="rpl14"
+                     /locus_tag="WS77111cp_000068"
+                     /protein_id="WS77111cp:cds.mRNA51"
+                     /codon_start="1"
                      /translation="MIQSQTYLNIADNSGARKIMCIRVLGASNRKCAHIGDVIIAIIK
                      EAVPNMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPV
                      AQELRQLNFTKIVSLAPEVL"
-     gene            complement(62233..62632)
+     gene            complement(62233..63504)
                      /gene="rpl16"
+                     /locus_tag="WS77111cp_000069"
                      /note="blatX_hit rpl16_NC_032367.1; position 6 - 405;
                      coverage 98.77%; match 98.27%"
-     cds             complement(62233..62355)
+     mrna            complement(join(62233..62628,63496..63504))
+                     /product="ribosomal protein L16"
                      /gene="rpl16"
-     exon            complement(62233..62355)
-                     /gene="&#65533;&#65533;&#65533;rpl16&#65533;&#65533;&#6553
-                     3;*"
-     intron          complement(62355..62623)
-                     /gene="&#65533;&#65533;&#65533;rpl16&#65533;&#65533;&#6553
-                     3;*"
-     cds             complement(62624..62632)
-                     /gene="&#65533;&#65533;&#65533;rpl16&#65533;&#65533;&#6553
-                     3;*"
-     exon            complement(62624..62632)
-                     /gene="&#65533;&#65533;&#65533;rpl16&#65533;&#65533;&#6553
-                     3;*"
+                     /locus_tag="WS77111cp_000069"
+     cds             complement(join(62233..62628,63496..63504))
+                     /product="ribosomal protein L16"
+                     /transl_table="11"
+                     /gene="rpl16"
+                     /locus_tag="WS77111cp_000069"
+                     /protein_id="WS77111cp:cds.mRNA52"
+                     /codon_start="1"
+                     /translation="MLSPKRTKFRKQHRGRMKGVSYRGNRICFGRFALQALEPAWITS
+                     GQIEAGRRTITRYARRGGKIWVRIFPDKPITMRPAETRMGSGKGSPEYWVSVIRPGRI
+                     LYEMGGVSETVARAAARIAAYKMPIRTQFVTT"
      gene            complement(63598..64254)
                      /gene="rps3"
+                     /locus_tag="WS77111cp_000070"
                      /note="blatX_hit rps3_NC_028594.1; position 1 - 657;
                      coverage 100.00%; match 100.00%"
-     cds             complement(63598..64254)
+     mrna            complement(63598..64254)
+                     /product="ribosomal protein S3"
                      /gene="rps3"
+                     /locus_tag="WS77111cp_000070"
+     cds             complement(63598..64254)
+                     /product="ribosomal protein S3"
+                     /transl_table="11"
+                     /gene="rps3"
+                     /locus_tag="WS77111cp_000070"
+                     /protein_id="WS77111cp:cds.mRNA53"
+                     /codon_start="1"
                      /translation="MAQKINPLGFRLGVTQNDRSHWFAQQRNYSKDLREDQKIRTCIE
                      NYVRTHIKSSSNYGGIARVEISRKIDLIQVKIYIGFPNLLLIEGRGFQGIEKLKNDVL
                      NMLDSVDRKLHIAIEKVAKPYRKPNILAEYIALQLEKRVPFRKTMKKAIELAEREEVE
@@ -766,130 +1264,182 @@ FEATURES             Location/Qualifiers
                      "
      gene            complement(64239..64667)
                      /gene="rpl22"
+                     /locus_tag="WS77111cp_000071"
                      /note="blatX_hit rpl22_NC_029374.1; position 1 - 429;
                      coverage 100.00%; match 100.00%"
-     cds             complement(64239..64667)
+     mrna            complement(64239..64667)
+                     /product="ribosomal protein L22"
                      /gene="rpl22"
+                     /locus_tag="WS77111cp_000071"
+     cds             complement(64239..64667)
+                     /product="ribosomal protein L22"
+                     /transl_table="11"
+                     /gene="rpl22"
+                     /locus_tag="WS77111cp_000071"
+                     /protein_id="WS77111cp:cds.mRNA54"
+                     /codon_start="1"
                      /translation="MESMGNNSPGPEIRALARNIRMSAHKARRVINQIRGCSYGQALM
                      ILELMPYGACYPISQLIHSAAANANHNMGLNKANLLVSRVEVNEGAVFKRVQPRAQGR
                      GYPIQKPTCHITIVLEEISRSNDPIMSIESRKRGYVWRRK"
      gene            complement(64698..64976)
                      /gene="rps19"
+                     /locus_tag="WS77111cp_000072"
                      /note="blatX_hit rps19_NC_028594.1; position 1 - 279;
                      coverage 100.00%; match 100.00%"
-     cds             complement(64698..64976)
+     mrna            complement(64698..64976)
+                     /product="ribosomal protein S19"
                      /gene="rps19"
+                     /locus_tag="WS77111cp_000072"
+     cds             complement(64698..64976)
+                     /product="ribosomal protein S19"
+                     /transl_table="11"
+                     /gene="rps19"
+                     /locus_tag="WS77111cp_000072"
+                     /protein_id="WS77111cp:cds.mRNA55"
+                     /codon_start="1"
                      /translation="MARSLKKNPFVANHSLRKIKNLNIKEEKKIIVTWSRASVIVPAM
                      IGHTIAVHNGREHLPIYVTDRMVDHKLGEFAPTLLFQGHARNDKKSRR"
      gene            complement(65029..66536)
-                     /gene="rpl2*"
+                     /gene="rpl2"
+                     /locus_tag="WS77111cp_000073"
                      /note="blatX_hit rpl2_NC_032367.1; position 1 - 834;
                      coverage 100.00%; match 100.00%"
-     cds             complement(join(65029..65460,66135..66536))
-                     /gene="rpl2*"
+     mrna            complement(join(65029..65459,66137..66536))
+                     /product="ribosomal protein L2"
+                     /gene="rpl2"
+                     /locus_tag="WS77111cp_000073"
+     cds             complement(join(65029..65459,66137..66536))
+                     /product="ribosomal protein L2"
+                     /transl_table="11"
+                     /gene="rpl2"
+                     /locus_tag="WS77111cp_000073"
+                     /protein_id="WS77111cp:cds.mRNA56"
+                     /codon_start="1"
                      /translation="MAIRSYRILTPDTRNRSVSGFDGRVQLDPQKKLTSGQHHCGKGR
                      NGRGIITARHRGGGHKRLYRQIDFRRDKEHISGKIVTIEYDPNRSAYICKVHYKNGDK
-                     MYILHPRGVMIGDTILSGPKAPISIGNALPLSTNMPLGTAIHNIEITLGKGGQLARAA
-                     GAVAELIAKEDRSATLRLPSGEVRLISENCSATIGQVGNITANNRSFGKAGAKRWLGK
-                     RSEVRGVAMNPVDHPHGGGEGRTPIGRKKPVTPWGYSALGKKSRKRNRYSDASILRRR
-                     E"
-     exon            complement(65029..65460)
-                     /gene="rpl2*"
-                     /number=2
-     intron          complement(65461..66134)
-                     /gene="rpl2*"
-                     /number=1
-     exon            complement(66135..66536)
-                     /gene="rpl2*"
-                     /number=1
+                     MYILHPRGVMIGDTILSGPKAPISIGNALPLTNMPLGTAIHNIEITLGKGGQLARAAG
+                     AVAELIAKEDRSATLRLPSGEVRLISENCSATIGQVGNITANNRSFGKAGAKRWLGKR
+                     SEVRGVAMNPVDHPHGGGEGRTPIGRKKPVTPWGYSALGKKSRKRNRYSDASILRRRE
+                     "
      gene            complement(66564..66839)
                      /gene="rpl23"
+                     /locus_tag="WS77111cp_000074"
                      /note="blatX_hit rpl23_NC_028594.1; position 1 - 276;
                      coverage 100.00%; match 100.00%"
-     cds             complement(66564..66839)
+     mrna            complement(66564..66839)
+                     /product="ribosomal protein L23"
                      /gene="rpl23"
+                     /locus_tag="WS77111cp_000074"
+     cds             complement(66564..66839)
+                     /product="ribosomal protein L23"
+                     /transl_table="11"
+                     /gene="rpl23"
+                     /locus_tag="WS77111cp_000074"
+                     /protein_id="WS77111cp:cds.mRNA57"
+                     /codon_start="1"
                      /translation="MDEVKYPVLTEKSIRLLERNQYTFNVDSQLNKTKMKIWIEHFFD
                      VKVIAMNSYRLPEKGGKRGSMIGHPIRCKRMIITLKPSDSIPLFSEQ"
      gene            complement(67175..67248)
                      /gene="trnI-CAU"
+                     /locus_tag="WS77111cp_000075"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            complement(67175..67248)
+                     /product="tRNA-Met"
                      /gene="trnI-CAU"
+                     /locus_tag="WS77111cp_000075"
      gene            complement(69090..69162)
                      /gene="trnF-GAA"
+                     /locus_tag="WS77111cp_000076"
                      /note="blatN_hit trnF-GAA_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      trna            complement(69090..69162)
+                     /product="tRNA-Phe"
                      /gene="trnF-GAA"
+                     /locus_tag="WS77111cp_000076"
      gene            complement(69543..70115)
-                     /gene="trnL-UAA*"
+                     /gene="trnL-UAA"
+                     /locus_tag="WS77111cp_000077"
                      /note="blatN_hit trnL-UAA_NC_032367.1; position 1 - 85;
                      coverage 100.00%; match 100.00%"
      trna            complement(join(69543..69592,70081..70115))
-                     /gene="trnL-UAA*"
-     exon            complement(69543..69592)
-                     /gene="trnL-UAA*"
-                     /number=2
-     intron          complement(69593..70080)
-                     /gene="trnL-UAA*"
-                     /number=1
-     exon            complement(70081..70115)
-                     /gene="trnL-UAA*"
-                     /number=1
+                     /product="tRNA-Leu"
+                     /gene="trnL-UAA"
+                     /locus_tag="WS77111cp_000077"
      gene            70531..70603
                      /gene="trnT-UGU"
+                     /locus_tag="WS77111cp_000078"
                      /note="blatN_hit trnT-UGU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      trna            70531..70603
+                     /product="tRNA-Thr"
                      /gene="trnT-UGU"
+                     /locus_tag="WS77111cp_000078"
      gene            70861..71466
                      /gene="rps4"
+                     /locus_tag="WS77111cp_000079"
                      /note="blatX_hit rps4_NC_032367.1; position 1 - 606;
                      coverage 100.00%; match 100.00%"
-     cds             70861..71466
+     mrna            70861..71466
+                     /product="ribosomal protein S4"
                      /gene="rps4"
+                     /locus_tag="WS77111cp_000079"
+     cds             70861..71466
+                     /product="ribosomal protein S4"
+                     /transl_table="11"
+                     /gene="rps4"
+                     /locus_tag="WS77111cp_000079"
+                     /protein_id="WS77111cp:cds.mRNA58"
+                     /codon_start="1"
                      /translation="MSRYRGPRLKIIRRLKTLPGLTSKRPKNRKDSMNRSSSRKISQY
                      RIRPEEKQKLRFHYGLTERQLLKYVRIARRAKGSTGQVLLQLLEMRSDNIIFQLGMAP
                      TIPGARQLVNHGHIRVNDHMVDIPSYPCKPQDVITIRDQQRLRDIIRKNLDLFQRDKL
                      PNHLTFHSLQYKGFINQIIDSKWISLKINELLVVEYYSRQA"
      gene            71767..71853
                      /gene="trnS-GGA"
+                     /locus_tag="WS77111cp_000080"
                      /note="blatN_hit trnS-GGA_NC_032367.1; position 1 - 87;
                      coverage 100.00%; match 100.00%"
      trna            71767..71853
+                     /product="tRNA-Ser"
                      /gene="trnS-GGA"
+                     /locus_tag="WS77111cp_000080"
      gene            72576..74512
-                     /gene="ycf3*"
+                     /gene="ycf3"
+                     /locus_tag="WS77111cp_000081"
                      /note="blatX_hit ycf3_NC_032367.1; position 1 - 513;
                      coverage 100.00%; match 100.00%"
+     mrna            join(72576..72706,73420..73645,74357..74512)
+                     /product="photosystem I assembly protein Ycf3"
+                     /gene="ycf3"
+                     /locus_tag="WS77111cp_000081"
      cds             join(72576..72706,73420..73645,74357..74512)
-                     /gene="ycf3*"
+                     /product="photosystem I assembly protein Ycf3"
+                     /transl_table="11"
+                     /gene="ycf3"
+                     /locus_tag="WS77111cp_000081"
+                     /protein_id="WS77111cp:cds.mRNA59"
+                     /codon_start="1"
                      /translation="MPRSQRNDNFIDKTFTIVADILLRIIPMAPEEKEAFTYYRDGVM
                      SAQSEGEYAEALQNYYEAMRLETDPYDRSYILYNIGLVHTSNGEHTKALEYYFQALER
                      NPSLPQALNNTALICHYRGEQAIRQGDPETAEAWFDQAAEYWEQAIALAPGNYIEAQN
                      WLKITGRFGE"
-     exon            72576..72706
-                     /gene="ycf3*"
-                     /number=1
-     intron          72707..73419
-                     /gene="ycf3*"
-                     /number=1
-     exon            73420..73645
-                     /gene="ycf3*"
-                     /number=2
-     intron          73646..74356
-                     /gene="ycf3*"
-                     /number=2
-     exon            74357..74512
-                     /gene="ycf3*"
-                     /number=3
      gene            75131..77383
                      /gene="psaA"
+                     /locus_tag="WS77111cp_000082"
                      /note="blatX_hit psaA_NC_029374.1; position 1 - 2253;
                      coverage 100.00%; match 100.00%"
-     cds             75131..77383
+     mrna            75131..77383
+                     /product="photosystem I P700 apoprotein A1"
                      /gene="psaA"
+                     /locus_tag="WS77111cp_000082"
+     cds             75131..77383
+                     /product="photosystem I P700 apoprotein A1"
+                     /transl_table="11"
+                     /gene="psaA"
+                     /locus_tag="WS77111cp_000082"
+                     /protein_id="WS77111cp:cds.mRNA60"
+                     /codon_start="1"
                      /translation="MIIRSPEPEVKVVVERDPVKTSFEKWAKPGHFSKTLAKGPDTTT
                      WIWNLHADAHDFDSHTDDLEDISRKVFSAHFGQLAIIFIWLSGMYFHGARFSNYEAWL
                      GDPTHIKPSAQVVWPIVGQEILNGDVGGGFRGIQITSGFFQLWRASGITSELQLYCTA
@@ -906,10 +1456,20 @@ FEATURES             Location/Qualifiers
                      FFLARIIAVG"
      gene            77409..79613
                      /gene="psaB"
+                     /locus_tag="WS77111cp_000083"
                      /note="blatX_hit psaB_NC_032367.1; position 1 - 2205;
                      coverage 100.00%; match 99.91%"
-     cds             77409..79613
+     mrna            77409..79613
+                     /product="photosystem I P700 apoprotein A2"
                      /gene="psaB"
+                     /locus_tag="WS77111cp_000083"
+     cds             77409..79613
+                     /product="photosystem I P700 apoprotein A2"
+                     /transl_table="11"
+                     /gene="psaB"
+                     /locus_tag="WS77111cp_000083"
+                     /protein_id="WS77111cp:cds.mRNA61"
+                     /codon_start="1"
                      /translation="MASRFPKFSQGLAQDPTTRRIWFGIATAHDFESHDDITEERLYH
                      KIFASHFGQLAIIFLWTSGNLFHVAWQGNFEAWVRDPLHVRPIAHAIWDPHFGQPAIE
                      AFTRGGAPGPVNIAYSGVYQWWYTIGLRTNEDLYAGALFLLFVSAIFLIAGRLHLQPK
@@ -925,44 +1485,83 @@ FEATURES             Location/Qualifiers
                      ERTPLANLVRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
      gene            79763..80062
                      /gene="rps14"
+                     /locus_tag="WS77111cp_000084"
                      /note="blatX_hit rps14_NC_032367.1; position 1 - 300;
                      coverage 100.00%; match 100.00%"
-     cds             79763..80062
+     mrna            79763..80062
+                     /product="ribosomal protein S14"
                      /gene="rps14"
+                     /locus_tag="WS77111cp_000084"
+     cds             79763..80062
+                     /product="ribosomal protein S14"
+                     /transl_table="11"
+                     /gene="rps14"
+                     /locus_tag="WS77111cp_000084"
+                     /protein_id="WS77111cp:cds.mRNA62"
+                     /codon_start="1"
                      /translation="MARKSLIQREKKRQALERKYHLIRQSLEEESKVSSLDDKWEIHR
                      KLQSSPRNSAPTRLHRRCSSTGRPRANYRDFGLSGHILREMAHACLLPGITKSSW"
      gene            80198..80271
                      /gene="trnfM-CAU"
+                     /locus_tag="WS77111cp_000085"
                      /note="blatN_hit trnfM-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            80198..80271
+                     /product="tRNA-Met"
                      /gene="trnfM-CAU"
+                     /locus_tag="WS77111cp_000085"
      gene            complement(80408..80478)
                      /gene="trnG-UCC"
+                     /locus_tag="WS77111cp_000086"
                      /note="blatN_hit trnG-UCC_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      trna            complement(80408..80478)
+                     /product="tRNA-Gly"
                      /gene="trnG-UCC"
-     gene            complement(80711..80899)
+                     /locus_tag="WS77111cp_000086"
+     gene            complement(80597..80899)
                      /gene="psbZ"
+                     /locus_tag="WS77111cp_000087"
                      /note="blatX_hit psbZ_NC_021456.1; position 1 - 189;
                      coverage 100.00%; match 100.00%"
-     cds             complement(80711..80899)
+     mrna            complement(80597..80899)
+                     /product="photosystem II protein Z"
                      /gene="psbZ"
+                     /locus_tag="WS77111cp_000087"
+     cds             complement(80597..80899)
+                     /product="photosystem II protein Z"
+                     /transl_table="11"
+                     /gene="psbZ"
+                     /locus_tag="WS77111cp_000087"
+                     /protein_id="WS77111cp:cds.mRNA63"
+                     /codon_start="1"
                      /translation="MTIAFQSAVFALIAISFLLVIGVPVALASPDGWSSSKNVVFSGV
-                     SLWIGSVLFVGILNSFISQ"
+                     SLWIGSVLFVGILNSFISQICSRCFRLKLPPPLPEGFIALLKGLFLQVQGGGVFRN"
      gene            81189..81275
                      /gene="trnS-UGA"
+                     /locus_tag="WS77111cp_000088"
                      /note="blatN_hit trnS-UGA_NC_032367.1; position 1 - 87;
                      coverage 100.00%; match 100.00%"
      trna            81189..81275
+                     /product="tRNA-Ser"
                      /gene="trnS-UGA"
+                     /locus_tag="WS77111cp_000088"
      gene            complement(81469..82890)
                      /gene="psbC"
+                     /locus_tag="WS77111cp_000089"
                      /note="blatX_hit psbC_NC_032367.1; position 1 - 1422;
                      coverage 100.00%; match 100.00%"
-     cds             complement(81469..82890)
+     mrna            complement(81469..82890)
+                     /product="photosystem II 44 kDa protein"
                      /gene="psbC"
+                     /locus_tag="WS77111cp_000089"
+     cds             complement(81469..82890)
+                     /product="photosystem II 44 kDa protein"
+                     /transl_table="11"
+                     /gene="psbC"
+                     /locus_tag="WS77111cp_000089"
+                     /protein_id="WS77111cp:cds.mRNA64"
+                     /codon_start="1"
                      /translation="MKTLYSLRRSYPVETLFNGTIALAGRDQETTGFAWWAGNARLIN
                      LSGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVPEKPMYEQGLILLPHLATLGWGVGPG
                      GEIVDTFPYFVSGVLHLISSAVLGFGGIYHALIGPETLEESFPFFGYVWKDRNKMTTI
@@ -974,10 +1573,20 @@ FEATURES             Location/Qualifiers
                      AAAGFEKGIDRDFEPVLSMTPLN"
      gene            complement(82838..83899)
                      /gene="psbD"
+                     /locus_tag="WS77111cp_000090"
                      /note="blatX_hit psbD_NC_028594.1; position 1 - 1062;
                      coverage 100.00%; match 100.00%"
-     cds             complement(82838..83899)
+     mrna            complement(82838..83899)
+                     /product="photosystem II protein D2"
                      /gene="psbD"
+                     /locus_tag="WS77111cp_000090"
+     cds             complement(82838..83899)
+                     /product="photosystem II protein D2"
+                     /transl_table="11"
+                     /gene="psbD"
+                     /locus_tag="WS77111cp_000090"
+                     /protein_id="WS77111cp:cds.mRNA65"
+                     /codon_start="1"
                      /translation="MTVALGKSSKEEKTLFDTVDDWLRRDRFVFVGWSGLLLFPCAYF
                      ALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDF
                      TRWCQLGGLWTFVALHGAFGLIGFMLRQFELARSVQLRPYNAIAFSAPIAVFVPVFLI
@@ -987,83 +1596,104 @@ FEATURES             Location/Qualifiers
                      QPHENLIFPEEVLPRGNAL"
      gene            complement(85205..85275)
                      /gene="trnT-GGU"
+                     /locus_tag="WS77111cp_000091"
                      /note="blatN_hit trnT-GGU_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      trna            complement(85205..85275)
+                     /product="tRNA-Thr"
                      /gene="trnT-GGU"
+                     /locus_tag="WS77111cp_000091"
      gene            85602..87092
                      /gene="rrn16"
+                     /locus_tag="WS77111cp_000092"
                      /note="blatN_hit rrn16_NC_032367.1; position 1 - 1491;
                      coverage 100.00%; match 100.00%"
      rrna            85602..87092
+                     /product="16S ribosomal RNA"
                      /gene="rrn16"
+                     /locus_tag="WS77111cp_000092"
      gene            87475..88519
-                     /gene="trnI-GAU*"
+                     /gene="trnI-GAU"
+                     /locus_tag="WS77111cp_000093"
                      /note="blatN_hit trnI-GAU_NC_032367.1; position 1 - 77;
                      coverage 100.00%; match 100.00%"
      trna            join(87475..87516,88485..88519)
-                     /gene="trnI-GAU*"
-     exon            87475..87516
-                     /gene="trnI-GAU*"
-                     /number=1
-     intron          87517..88484
-                     /gene="trnI-GAU*"
-                     /number=1
-     exon            88485..88519
-                     /gene="trnI-GAU*"
-                     /number=2
+                     /product="tRNA-Glu"
+                     /gene="trnI-GAU"
+                     /locus_tag="WS77111cp_000093"
      gene            88592..89448
-                     /gene="trnA-UGC*"
+                     /gene="trnA-UGC"
+                     /locus_tag="WS77111cp_000094"
                      /note="blatN_hit trnA-UGC_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      trna            join(88592..88629,89414..89448)
-                     /gene="trnA-UGC*"
-     exon            88592..88629
-                     /gene="trnA-UGC*"
-                     /number=1
-     intron          88630..89413
-                     /gene="trnA-UGC*"
-                     /number=1
-     exon            89414..89448
-                     /gene="trnA-UGC*"
-                     /number=2
+                     /product="tRNA-Ala"
+                     /gene="trnA-UGC"
+                     /locus_tag="WS77111cp_000094"
      gene            89596..92402
                      /gene="rrn23"
+                     /locus_tag="WS77111cp_000095"
                      /note="blatN_hit rrn23_NC_028594.1; position 1 - 2807;
                      coverage 100.00%; match 100.00%"
      rrna            89596..92402
+                     /product="23S ribosomal RNA"
                      /gene="rrn23"
+                     /locus_tag="WS77111cp_000095"
      gene            92506..92608
                      /gene="rrn4.5"
+                     /locus_tag="WS77111cp_000096"
                      /note="blatN_hit rrn4.5_NC_032367.1; position 1 - 103;
                      coverage 100.00%; match 100.00%"
      rrna            92506..92608
+                     /product="4.5S ribosomal RNA"
                      /gene="rrn4.5"
+                     /locus_tag="WS77111cp_000096"
      gene            92855..92975
                      /gene="rrn5"
+                     /locus_tag="WS77111cp_000097"
                      /note="blatN_hit rrn5_NC_032367.1; position 1 - 121;
                      coverage 100.00%; match 100.00%"
      rrna            92855..92975
+                     /product="5S ribosomal RNA"
                      /gene="rrn5"
+                     /locus_tag="WS77111cp_000097"
      gene            93184..93257
                      /gene="trnR-ACG"
+                     /locus_tag="WS77111cp_000098"
                      /note="blatN_hit trnR-ACG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            93184..93257
+                     /product="tRNA-Arg"
                      /gene="trnR-ACG"
+                     /locus_tag="WS77111cp_000098"
      gene            complement(93993..94064)
                      /gene="trnN-GUU"
+                     /locus_tag="WS77111cp_000099"
                      /note="blatN_hit trnN-GUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 98.61%"
      trna            complement(93993..94064)
+                     /product="tRNA-Asn"
                      /gene="trnN-GUU"
+                     /locus_tag="WS77111cp_000099"
      gene            94350..95225
                      /gene="chlL"
+                     /locus_tag="WS77111cp_000100"
                      /note="blatX_hit chlL_NC_029374.1; position 1 - 876;
                      coverage 100.00%; match 100.00%"
-     cds             94350..95225
+     mrna            94350..95225
+                     /product="protochlorophyllide reductase ATP-binding
+                     subunit"
                      /gene="chlL"
-                     /translation="VKIAVYGKGGIGKSTTSCNISVALARRGQKVLQIGCDPKHDSTF
+                     /locus_tag="WS77111cp_000100"
+     cds             94350..95225
+                     /product="protochlorophyllide reductase ATP-binding
+                     subunit"
+                     /transl_table="11"
+                     /gene="chlL"
+                     /locus_tag="WS77111cp_000100"
+                     /protein_id="WS77111cp:cds.mRNA66"
+                     /codon_start="1"
+                     /translation="MKIAVYGKGGIGKSTTSCNISVALARRGQKVLQIGCDPKHDSTF
                      TLTGFLIPTIIDTLQSKDYHYEDIWPEDVIHKGYGGVDCVEAGGPPAGAGCGGYVVGE
                      TVKLLKELNAFYEYDIILFDVLGDVVCGGFAAPLNYADYCVIITDNGFDALFAANRIT
                      ASIREKARTHPLRLAGLVGNRTSRRDLINKYVEACPMPVIEVLPIIEDIRVSRVKGKT
@@ -1071,10 +1701,20 @@ FEATURES             Location/Qualifiers
                      QKKKNQENLLGFTRI"
      gene            95330..96736
                      /gene="chlN"
+                     /locus_tag="WS77111cp_000101"
                      /note="blatX_hit chlN_NC_028594.1; position 1 - 1407;
                      coverage 100.00%; match 100.00%"
-     cds             95330..96736
+     mrna            95330..96736
+                     /product="photochlorophyllide reductase subunit N"
                      /gene="chlN"
+                     /locus_tag="WS77111cp_000101"
+     cds             95330..96736
+                     /product="photochlorophyllide reductase subunit N"
+                     /transl_table="11"
+                     /gene="chlN"
+                     /locus_tag="WS77111cp_000101"
+                     /protein_id="WS77111cp:cds.mRNA67"
+                     /codon_start="1"
                      /translation="MSAKIDETITFECETGNYHTFCPISCVSWLYQKIEDSFFLVVGT
                      KTCGYFLQNALGVMIFAEPRYAMAELEEGDISAHLNDYEELKTLCIRIRKDRDPSVII
                      WIGTCTTEIIKMDLEGMAPKLEYEIGIPILVARANGLDYAFTQGEDTVLAVMAHRCPE
@@ -1086,10 +1726,20 @@ FEATURES             Location/Qualifiers
                      DRTTLVRKNNEFYTSTPR"
      gene            97714..102957
                      /gene="ycf1"
+                     /locus_tag="WS77111cp_000102"
                      /note="blatX_hit ycf1_NC_028594.1; position 1 - 5271;
                      coverage 99.49%; match 99.49%"
-     cds             97714..102957
+     mrna            97714..102957
+                     /product="Ycf1"
                      /gene="ycf1"
+                     /locus_tag="WS77111cp_000102"
+     cds             97714..102957
+                     /product="Ycf1"
+                     /transl_table="11"
+                     /gene="ycf1"
+                     /locus_tag="WS77111cp_000102"
+                     /protein_id="WS77111cp:cds.mRNA68"
+                     /codon_start="1"
                      /translation="MARDEDDRSVTMVRDEDDRSVVMTRDEDDSFVAMVRDEDDRSVA
                      MARDKDVAMAIDENENESSVAMAIDENDSFAAMAIDPKKLKGLPKEEPLSWFKQPWPI
                      MLFDHNRAYRPIRYIGNSPFTRLGPVRTEVSQYFFGTYSSDGKQRISFTFLPSVLVLG
@@ -1123,26 +1773,56 @@ FEATURES             Location/Qualifiers
                      NTNDGSRSAMLRIRMYPLTFN"
      gene            103294..103560
                      /gene="rps15"
+                     /locus_tag="WS77111cp_000103"
                      /note="blatX_hit rps15_NC_032367.1; position 1 - 267;
                      coverage 100.00%; match 100.00%"
-     cds             103294..103560
+     mrna            103294..103560
+                     /product="ribosomal protein S15"
                      /gene="rps15"
+                     /locus_tag="WS77111cp_000103"
+     cds             103294..103560
+                     /product="ribosomal protein S15"
+                     /transl_table="11"
+                     /gene="rps15"
+                     /locus_tag="WS77111cp_000103"
+                     /protein_id="WS77111cp:cds.mRNA69"
+                     /codon_start="1"
                      /translation="MIKNLSISSSLIPNKQRGSVESQVFYLTNRVLRLTQHLQLHGRD
                      YSSQRGLWKILGKRKQLLIYLSKRDKLRYDDLIGQLGIRGLKTR"
      gene            104923..105168
                      /gene="psaC"
+                     /locus_tag="WS77111cp_000104"
                      /note="blatX_hit psaC_NC_032367.1; position 1 - 246;
                      coverage 100.00%; match 100.00%"
-     cds             104923..105168
+     mrna            104923..105168
+                     /product="photosystem I subunit VII"
                      /gene="psaC"
+                     /locus_tag="WS77111cp_000104"
+     cds             104923..105168
+                     /product="photosystem I subunit VII"
+                     /transl_table="11"
+                     /gene="psaC"
+                     /locus_tag="WS77111cp_000104"
+                     /protein_id="WS77111cp:cds.mRNA70"
+                     /codon_start="1"
                      /translation="MAHSVKIYDTCIGCTQCVRACPTDVLEMIPWEGCKAKQIASAPR
                      TEDCAGCKRCESACPTDFLSVRVYLWHETTRSMGLAY"
      gene            complement(107115..108077)
                      /gene="ccsA"
+                     /locus_tag="WS77111cp_000105"
                      /note="blatX_hit ccsA_NC_028594.1; position 1 - 963;
                      coverage 100.00%; match 100.00%"
-     cds             complement(107115..108077)
+     mrna            complement(107115..108077)
+                     /product="cytochrome c biogenesis protein"
                      /gene="ccsA"
+                     /locus_tag="WS77111cp_000105"
+     cds             complement(107115..108077)
+                     /product="cytochrome c biogenesis protein"
+                     /transl_table="11"
+                     /gene="ccsA"
+                     /locus_tag="WS77111cp_000105"
+                     /protein_id="WS77111cp:cds.mRNA71"
+                     /codon_start="1"
                      /translation="MIFITLEHILAHISFSLILVVTLIYWGTLVYRIEGLSSSGGKGM
                      IVTFLCTTGLLITRWLYSGHLPLSNLYESFMFLSWSSSVLHIVLEVRNRDDRWLGAIT
                      APSAMLTHGFATLGLPEEMQRSGMLVPALQSHWSMMHVSMILFSYATLLCGSLASIAL
@@ -1151,51 +1831,93 @@ FEATURES             Location/Qualifiers
                      RMNKGWQGEEPAIVASLGFSIVWIRYLGVDLLGIGLHSYGWLEP"
      gene            complement(108216..108293)
                      /gene="trnL-UAG"
+                     /locus_tag="WS77111cp_000106"
                      /note="blatN_hit trnL-UAG_NC_032367.1; position 1 - 78;
                      coverage 100.00%; match 100.00%"
      trna            complement(108216..108293)
+                     /product="tRNA-Leu"
                      /gene="trnL-UAG"
+                     /locus_tag="WS77111cp_000106"
      gene            108450..108523
                      /gene="trnP-GGG"
+                     /locus_tag="WS77111cp_000107"
                      /note="blatN_hit trnP-GGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            108450..108523
+                     /product="tRNA-Pro"
                      /gene="trnP-GGG"
+                     /locus_tag="WS77111cp_000107"
      gene            complement(109625..109837)
                      /gene="rpl32"
+                     /locus_tag="WS77111cp_000108"
                      /note="blatX_hit rpl32_NC_032367.1; position 1 - 213;
                      coverage 100.00%; match 100.00%"
-     cds             complement(109625..109837)
+     mrna            complement(109625..109837)
+                     /product="ribosomal protein L32"
                      /gene="rpl32"
+                     /locus_tag="WS77111cp_000108"
+     cds             complement(109625..109837)
+                     /product="ribosomal protein L32"
+                     /transl_table="11"
+                     /gene="rpl32"
+                     /locus_tag="WS77111cp_000108"
+                     /protein_id="WS77111cp:cds.mRNA72"
+                     /codon_start="1"
                      /translation="MAVPKKRTSRSKKKIRKNVRKGKAYRAAIKAFSLAKSISTGHSK
                      SFYCIANDDSSGSSESKLTSIDLDDP"
      gene            complement(110965..111036)
                      /gene="trnV-GAC"
+                     /locus_tag="WS77111cp_000109"
                      /note="blatN_hit trnV-GAC_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      trna            complement(110965..111036)
+                     /product="tRNA-Val"
                      /gene="trnV-GAC"
+                     /locus_tag="WS77111cp_000109"
      gene            113444..113911
                      /gene="rps7"
+                     /locus_tag="WS77111cp_000110"
                      /note="blatX_hit rps7_NC_028594.1; position 1 - 468;
                      coverage 100.00%; match 100.00%"
-     cds             113444..113911
+     mrna            113444..113911
+                     /product="ribosomal protein S7"
                      /gene="rps7"
+                     /locus_tag="WS77111cp_000110"
+     cds             113444..113911
+                     /product="ribosomal protein S7"
+                     /transl_table="11"
+                     /gene="rps7"
+                     /locus_tag="WS77111cp_000110"
+                     /protein_id="WS77111cp:cds.mRNA73"
+                     /codon_start="1"
                      /translation="MSRRSTAEKKTAKSDPIYHNRLVNMVVNRILKNGKKSLAYRILY
                      RAIKNIQQKTEKNPLSVLRQAIRRVTPNVTVKARRVGGSTYRVPIEIRSTQGKVLAIR
                      WLLGASRKRPGRNMNFKLSHELMDAARGNGNAIRKKEETHRMAEANRAFAHFR"
      gene            115487..115567
                      /gene="trnL-CAA"
+                     /locus_tag="WS77111cp_000111"
                      /note="blatN_hit trnL-CAA_NC_032367.1; position 1 - 81;
                      coverage 100.00%; match 100.00%"
      trna            115487..115567
+                     /product="tRNA-Leu"
                      /gene="trnL-CAA"
+                     /locus_tag="WS77111cp_000111"
      gene            complement(116257..122637)
                      /gene="ycf2"
+                     /locus_tag="WS77111cp_000112"
                      /note="blatX_hit ycf2_NC_028594.1; position 1 - 6381;
                      coverage 100.00%; match 99.97%"
-     cds             complement(116257..122637)
+     mrna            complement(116257..122637)
+                     /product="Ycf2"
                      /gene="ycf2"
+                     /locus_tag="WS77111cp_000112"
+     cds             complement(116257..122637)
+                     /product="Ycf2"
+                     /transl_table="11"
+                     /gene="ycf2"
+                     /locus_tag="WS77111cp_000112"
+                     /protein_id="WS77111cp:cds.mRNA74"
+                     /codon_start="1"
                      /translation="MKKRRSWIVKLEEIKSYQFLYNPWTESNLVRFLIQILSHRERLI
                      KLFDLRILSTLLLRDLRKSNPYFLVKGIVVLTLSVLTYHFNYKSSMIDRKNFYLMKLF
                      PIHINVMELGNETSEEYLKPFTQNWLILPHLFLSFQLKRSYNQSIEHSDPINFNSEYD
@@ -1235,16 +1957,26 @@ FEATURES             Location/Qualifiers
                      SYQYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
      gene            complement(122819..122893)
                      /gene="trnH-GUG"
+                     /locus_tag="WS77111cp_000113"
                      /note="blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
                      coverage 100.00%; match 100.00%"
      trna            complement(122819..122893)
+                     /product="tRNA-His"
                      /gene="trnH-GUG"
+                     /locus_tag="WS77111cp_000113"
      gene            123198..123271
                      /gene="trnI-CAU"
+                     /locus_tag="WS77111cp_000114"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      trna            123198..123271
+                     /product="tRNA-Met"
                      /gene="trnI-CAU"
+                     /locus_tag="WS77111cp_000114"
+     trna            123198..123271
+                     /product="tRNA-Met"
+                     /gene="trnI-CAU"
+                     /locus_tag="WS77111cp_000114"
 ORIGIN     
         1 TTATCCACCT ATTGAAATAG ATTCAACAGC AGCTAGATCC AGAGGAAAGT TATGAGCATT
        61 ACGTTCGTGC ATAACTTCCA TACCTAGGTT AGCACGATTA ATGATATCGG CCCAAGTGTT

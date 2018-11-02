@@ -75,7 +75,7 @@ Seq-submit ::= {
       date std {
         year 2018,
         month 11,
-        day 1
+        day 2
       }
     },
     subtype new,
@@ -181,7 +181,7 @@ Seq-submit ::= {
         create-date std {
           year 2018,
           month 11,
-          day 1
+          day 2
         }
       },
       seq-set {
@@ -1017,6 +1017,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 1,
                   data gene {
+                    locus "psbA",
                     locus-tag "WS77111cp_000001"
                   },
                   comment "blatX_hit psbA_NC_028594.1; position 1 - 1062;
@@ -1060,6 +1061,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 4,
                   data gene {
+                    locus "trnK-UUU",
                     locus-tag "WS77111cp_000002"
                   },
                   comment "blatN_hit trnK-UUU_NC_032367.1; position 1 - 72;
@@ -1097,6 +1099,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 6,
                   data gene {
+                    locus "matK",
                     locus-tag "WS77111cp_000003"
                   },
                   comment "blatX_hit matK_NC_028594.1; position 1 - 1548;
@@ -1140,6 +1143,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 9,
                   data gene {
+                    locus "chlB",
                     locus-tag "WS77111cp_000004"
                   },
                   comment "blatX_hit chlB_NC_028594.1; position 1 - 1542;
@@ -1183,6 +1187,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 12,
                   data gene {
+                    locus "trnQ-UUG",
                     locus-tag "WS77111cp_000005"
                   },
                   comment "blatN_hit trnQ-UUG_NC_032367.1; position 1 - 72;
@@ -1212,6 +1217,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 14,
                   data gene {
+                    locus "psbK",
                     locus-tag "WS77111cp_000006"
                   },
                   comment "blatX_hit psbK_NC_032367.1; position 1 - 180;
@@ -1255,6 +1261,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 17,
                   data gene {
+                    locus "psbI",
                     locus-tag "WS77111cp_000007"
                   },
                   comment "blatX_hit psbI_NC_032367.1; position 1 - 111;
@@ -1298,6 +1305,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 20,
                   data gene {
+                    locus "trnS-GCU",
                     locus-tag "WS77111cp_000008"
                   },
                   comment "blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
@@ -1327,6 +1335,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 22,
                   data gene {
+                    locus "ycf12",
                     locus-tag "WS77111cp_000009"
                   },
                   comment "blatX_hit ycf12_NC_032367.1; position 1 - 102;
@@ -1370,6 +1379,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 25,
                   data gene {
+                    locus "clpP",
                     locus-tag "WS77111cp_000010"
                   },
                   comment "blatX_hit clpP_NC_032367.1; position 1 - 591;
@@ -1413,6 +1423,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 28,
                   data gene {
+                    locus "rps12",
                     locus-tag "WS77111cp_000011"
                   },
                   except TRUE,
@@ -1480,6 +1491,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 31,
                   data gene {
+                    locus "rpl20",
                     locus-tag "WS77111cp_000012"
                   },
                   comment "blatX_hit rpl20_NC_032367.1; position 1 - 360;
@@ -1523,6 +1535,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 34,
                   data gene {
+                    locus "rps18",
                     locus-tag "WS77111cp_000013"
                   },
                   comment "blatX_hit rps18_NC_032367.1; position 1 - 282;
@@ -1566,6 +1579,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 37,
                   data gene {
+                    locus "rpl33",
                     locus-tag "WS77111cp_000014"
                   },
                   comment "blatX_hit rpl33_NC_028594.1; position 1 - 207;
@@ -1609,6 +1623,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 40,
                   data gene {
+                    locus "psaJ",
                     locus-tag "WS77111cp_000015"
                   },
                   comment "blatX_hit psaJ_NC_032367.1; position 1 - 129;
@@ -1652,6 +1667,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 43,
                   data gene {
+                    locus "trnP-UGG",
                     locus-tag "WS77111cp_000016"
                   },
                   comment "blatN_hit trnP-UGG_NC_032367.1; position 1 - 74;
@@ -1681,6 +1697,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 45,
                   data gene {
+                    locus "trnW-CCA",
                     locus-tag "WS77111cp_000017"
                   },
                   comment "blatN_hit trnW-CCA_NC_032367.1; position 1 - 74;
@@ -1710,6 +1727,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 47,
                   data gene {
+                    locus "petG",
                     locus-tag "WS77111cp_000018"
                   },
                   comment "blatX_hit petG_NC_032367.1; position 1 - 114;
@@ -1753,6 +1771,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 50,
                   data gene {
+                    locus "petL",
                     locus-tag "WS77111cp_000019"
                   },
                   comment "blatX_hit petL_NC_028594.1; position 1 - 189;
@@ -1796,6 +1815,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 53,
                   data gene {
+                    locus "psbE",
                     locus-tag "WS77111cp_000020"
                   },
                   comment "blatX_hit psbE_NC_028594.1; position 1 - 252;
@@ -1839,6 +1859,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 56,
                   data gene {
+                    locus "psbF",
                     locus-tag "WS77111cp_000021"
                   },
                   comment "blatX_hit psbF_NC_028594.1; position 1 - 120;
@@ -1882,6 +1903,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 59,
                   data gene {
+                    locus "psbL",
                     locus-tag "WS77111cp_000022"
                   },
                   comment "blatX_hit psbL_NC_028594.1; position 1 - 117;
@@ -1925,6 +1947,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 62,
                   data gene {
+                    locus "psbJ",
                     locus-tag "WS77111cp_000023"
                   },
                   comment "blatX_hit psbJ_NC_032367.1; position 1 - 123;
@@ -1968,6 +1991,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 65,
                   data gene {
+                    locus "petA",
                     locus-tag "WS77111cp_000024"
                   },
                   comment "blatX_hit petA_NC_028594.1; position 1 - 996;
@@ -2011,6 +2035,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 68,
                   data gene {
+                    locus "cemA",
                     locus-tag "WS77111cp_000025"
                   },
                   comment "blatX_hit cemA_NC_028594.1; position 1 - 786;
@@ -2054,6 +2079,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 71,
                   data gene {
+                    locus "ycf4",
                     locus-tag "WS77111cp_000026"
                   },
                   comment "blatX_hit ycf4_NC_028594.1; position 1 - 555;
@@ -2097,6 +2123,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 74,
                   data gene {
+                    locus "psaI",
                     locus-tag "WS77111cp_000027"
                   },
                   comment "blatX_hit psaI_NC_032367.1; position 1 - 111;
@@ -2140,6 +2167,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 77,
                   data gene {
+                    locus "accD",
                     locus-tag "WS77111cp_000028"
                   },
                   comment "blatX_hit accD_NC_028594.1; position 1 - 981;
@@ -2183,6 +2211,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 80,
                   data gene {
+                    locus "trnR-CCG",
                     locus-tag "WS77111cp_000029"
                   },
                   comment "blatN_hit trnR-CCG_NC_032367.1; position 1 - 74;
@@ -2212,6 +2241,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 82,
                   data gene {
+                    locus "rbcL",
                     locus-tag "WS77111cp_000030"
                   },
                   comment "blatX_hit rbcL_NC_028594.1; position 1 - 1428;
@@ -2256,6 +2286,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 85,
                   data gene {
+                    locus "atpB",
                     locus-tag "WS77111cp_000031"
                   },
                   comment "blatX_hit atpB_NC_028594.1; position 1 - 1479;
@@ -2299,6 +2330,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 88,
                   data gene {
+                    locus "atpE",
                     locus-tag "WS77111cp_000032"
                   },
                   comment "blatX_hit atpE_NC_028594.1; position 1 - 414;
@@ -2342,6 +2374,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 91,
                   data gene {
+                    locus "trnM-CAU",
                     locus-tag "WS77111cp_000033"
                   },
                   comment "blatN_hit trnM-CAU_NC_032367.1; position 1 - 73;
@@ -2371,6 +2404,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 93,
                   data gene {
+                    locus "trnV-UAC",
                     locus-tag "WS77111cp_000034"
                   },
                   comment "blatN_hit trnV-UAC_NC_032367.1; position 1 - 76;
@@ -2408,6 +2442,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 95,
                   data gene {
+                    locus "trnH-GUG",
                     locus-tag "WS77111cp_000035"
                   },
                   comment "blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
@@ -2437,6 +2472,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 97,
                   data gene {
+                    locus "trnT-GGU",
                     locus-tag "WS77111cp_000036"
                   },
                   comment "blatN_hit trnT-GGU_NC_032367.1; position 1 - 72;
@@ -2466,6 +2502,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 99,
                   data gene {
+                    locus "psaM",
                     locus-tag "WS77111cp_000037"
                   },
                   comment "blatX_hit psaM_NC_032367.1; position 1 - 90;
@@ -2509,6 +2546,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 102,
                   data gene {
+                    locus "trnS-GCU",
                     locus-tag "WS77111cp_000038"
                   },
                   comment "blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
@@ -2538,6 +2576,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 104,
                   data gene {
+                    locus "psbI",
                     locus-tag "WS77111cp_000039"
                   },
                   comment "blatX_hit psbI_NC_032367.1; position 1 - 111;
@@ -2581,6 +2620,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 107,
                   data gene {
+                    locus "trnE-UUC",
                     locus-tag "WS77111cp_000040"
                   },
                   comment "blatN_hit trnE-UUC_NC_032367.1; position 1 - 73;
@@ -2610,6 +2650,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 109,
                   data gene {
+                    locus "trnY-GUA",
                     locus-tag "WS77111cp_000041"
                   },
                   comment "blatN_hit trnY-GUA_NC_032367.1; position 1 - 84;
@@ -2639,6 +2680,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 111,
                   data gene {
+                    locus "trnD-GUC",
                     locus-tag "WS77111cp_000042"
                   },
                   comment "blatN_hit trnD-GUC_NC_032367.1; position 1 - 74;
@@ -2668,6 +2710,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 113,
                   data gene {
+                    locus "psbM",
                     locus-tag "WS77111cp_000043"
                   },
                   comment "blatX_hit psbM_NC_032367.1; position 1 - 114;
@@ -2711,6 +2754,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 116,
                   data gene {
+                    locus "petN",
                     locus-tag "WS77111cp_000044"
                   },
                   comment "blatX_hit petN_NC_032367.1; position 1 - 90;
@@ -2754,6 +2798,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 119,
                   data gene {
+                    locus "trnC-GCA",
                     locus-tag "WS77111cp_000045"
                   },
                   comment "blatN_hit trnC-GCA_NC_032367.1; position 1 - 71;
@@ -2783,6 +2828,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 121,
                   data gene {
+                    locus "rpoB",
                     locus-tag "WS77111cp_000046"
                   },
                   comment "blatX_hit rpoB_NC_028594.1; position 1 - 3231;
@@ -2826,6 +2872,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 124,
                   data gene {
+                    locus "rpoC1",
                     locus-tag "WS77111cp_000047"
                   },
                   comment "blatX_hit rpoC1_NC_028594.1; position 1 - 2091;
@@ -2877,6 +2924,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 127,
                   data gene {
+                    locus "rpoC2",
                     locus-tag "WS77111cp_000048"
                   },
                   comment "blatX_hit rpoC2_NC_028594.1; position 1 - 3657;
@@ -2920,6 +2968,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 130,
                   data gene {
+                    locus "rps2",
                     locus-tag "WS77111cp_000049"
                   },
                   comment "blatX_hit rps2_NC_028594.1; position 1 - 705;
@@ -2963,6 +3012,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 133,
                   data gene {
+                    locus "atpI",
                     locus-tag "WS77111cp_000050"
                   },
                   comment "blatX_hit atpI_NC_032367.1; position 1 - 747;
@@ -3006,6 +3056,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 136,
                   data gene {
+                    locus "atpH",
                     locus-tag "WS77111cp_000051"
                   },
                   comment "blatX_hit atpH_NC_032367.1; position 1 - 246;
@@ -3049,6 +3100,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 139,
                   data gene {
+                    locus "atpF",
                     locus-tag "WS77111cp_000052"
                   },
                   comment "blatX_hit atpF_NC_028594.1; position 1 - 555;
@@ -3100,6 +3152,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 142,
                   data gene {
+                    locus "atpA",
                     locus-tag "WS77111cp_000053"
                   },
                   comment "blatX_hit atpA_NC_032367.1; position 1 - 1524;
@@ -3143,6 +3196,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 145,
                   data gene {
+                    locus "trnR-UCU",
                     locus-tag "WS77111cp_000054"
                   },
                   comment "blatN_hit trnR-UCU_NC_032367.1; position 1 - 70;
@@ -3172,6 +3226,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 147,
                   data gene {
+                    locus "trnG-GCC",
                     locus-tag "WS77111cp_000055"
                   },
                   comment "blatN_hit trnG-GCC_NC_032367.1; position 1 - 59;
@@ -3209,6 +3264,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 149,
                   data gene {
+                    locus "ycf12",
                     locus-tag "WS77111cp_000056"
                   },
                   comment "blatX_hit ycf12_NC_032367.1; position 1 - 102;
@@ -3252,6 +3308,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 152,
                   data gene {
+                    locus "psbB",
                     locus-tag "WS77111cp_000057"
                   },
                   comment "blatX_hit psbB_NC_028594.1; position 1 - 1527;
@@ -3295,6 +3352,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 155,
                   data gene {
+                    locus "psbT",
                     locus-tag "WS77111cp_000058"
                   },
                   comment "blatX_hit psbT_NC_029374.1; position 1 - 108;
@@ -3338,6 +3396,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 158,
                   data gene {
+                    locus "psbN",
                     locus-tag "WS77111cp_000059"
                   },
                   comment "blatX_hit psbN_NC_032367.1; position 1 - 132;
@@ -3381,6 +3440,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 161,
                   data gene {
+                    locus "psbH",
                     locus-tag "WS77111cp_000060"
                   },
                   comment "blatX_hit psbH_NC_028594.1; position 1 - 228;
@@ -3424,6 +3484,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 164,
                   data gene {
+                    locus "petB",
                     locus-tag "WS77111cp_000061"
                   },
                   comment "blatX_hit petB_NC_028594.1; position 5 - 648;
@@ -3475,6 +3536,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 167,
                   data gene {
+                    locus "petD",
                     locus-tag "WS77111cp_000062"
                   },
                   comment "blatX_hit petD_NC_028594.1; position 5 - 537;
@@ -3526,6 +3588,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 170,
                   data gene {
+                    locus "rpoA",
                     locus-tag "WS77111cp_000063"
                   },
                   comment "blatX_hit rpoA_NC_032367.1; position 1 - 1011;
@@ -3569,6 +3632,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 173,
                   data gene {
+                    locus "rps11",
                     locus-tag "WS77111cp_000064"
                   },
                   comment "blatX_hit rps11_NC_032367.1; position 1 - 393;
@@ -3612,6 +3676,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 176,
                   data gene {
+                    locus "rpl36",
                     locus-tag "WS77111cp_000065"
                   },
                   comment "blatX_hit rpl36_NC_028594.1; position 1 - 114;
@@ -3655,6 +3720,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 179,
                   data gene {
+                    locus "infA",
                     locus-tag "WS77111cp_000066"
                   },
                   comment "blatX_hit infA_NC_032367.1; position 1 - 237;
@@ -3698,6 +3764,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 182,
                   data gene {
+                    locus "rps8",
                     locus-tag "WS77111cp_000067"
                   },
                   comment "blatX_hit rps8_NC_028594.1; position 1 - 399;
@@ -3741,6 +3808,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 185,
                   data gene {
+                    locus "rpl14",
                     locus-tag "WS77111cp_000068"
                   },
                   comment "blatX_hit rpl14_NC_032367.1; position 1 - 369;
@@ -3784,6 +3852,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 188,
                   data gene {
+                    locus "rpl16",
                     locus-tag "WS77111cp_000069"
                   },
                   comment "blatX_hit rpl16_NC_032367.1; position 6 - 405;
@@ -3835,6 +3904,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 191,
                   data gene {
+                    locus "rps3",
                     locus-tag "WS77111cp_000070"
                   },
                   comment "blatX_hit rps3_NC_028594.1; position 1 - 657;
@@ -3878,6 +3948,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 194,
                   data gene {
+                    locus "rpl22",
                     locus-tag "WS77111cp_000071"
                   },
                   comment "blatX_hit rpl22_NC_029374.1; position 1 - 429;
@@ -3921,6 +3992,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 197,
                   data gene {
+                    locus "rps19",
                     locus-tag "WS77111cp_000072"
                   },
                   comment "blatX_hit rps19_NC_028594.1; position 1 - 279;
@@ -3964,6 +4036,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 200,
                   data gene {
+                    locus "rpl2",
                     locus-tag "WS77111cp_000073"
                   },
                   comment "blatX_hit rpl2_NC_032367.1; position 1 - 834;
@@ -4015,6 +4088,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 203,
                   data gene {
+                    locus "rpl23",
                     locus-tag "WS77111cp_000074"
                   },
                   comment "blatX_hit rpl23_NC_028594.1; position 1 - 276;
@@ -4058,6 +4132,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 206,
                   data gene {
+                    locus "trnI-CAU",
                     locus-tag "WS77111cp_000075"
                   },
                   comment "blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
@@ -4087,6 +4162,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 208,
                   data gene {
+                    locus "trnF-GAA",
                     locus-tag "WS77111cp_000076"
                   },
                   comment "blatN_hit trnF-GAA_NC_032367.1; position 1 - 73;
@@ -4116,6 +4192,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 210,
                   data gene {
+                    locus "trnL-UAA",
                     locus-tag "WS77111cp_000077"
                   },
                   comment "blatN_hit trnL-UAA_NC_032367.1; position 1 - 85;
@@ -4153,6 +4230,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 212,
                   data gene {
+                    locus "trnT-UGU",
                     locus-tag "WS77111cp_000078"
                   },
                   comment "blatN_hit trnT-UGU_NC_032367.1; position 1 - 73;
@@ -4182,6 +4260,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 214,
                   data gene {
+                    locus "rps4",
                     locus-tag "WS77111cp_000079"
                   },
                   comment "blatX_hit rps4_NC_032367.1; position 1 - 606;
@@ -4225,6 +4304,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 217,
                   data gene {
+                    locus "trnS-GGA",
                     locus-tag "WS77111cp_000080"
                   },
                   comment "blatN_hit trnS-GGA_NC_032367.1; position 1 - 87;
@@ -4254,6 +4334,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 219,
                   data gene {
+                    locus "ycf3",
                     locus-tag "WS77111cp_000081"
                   },
                   comment "blatX_hit ycf3_NC_032367.1; position 1 - 513;
@@ -4311,6 +4392,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 222,
                   data gene {
+                    locus "psaA",
                     locus-tag "WS77111cp_000082"
                   },
                   comment "blatX_hit psaA_NC_029374.1; position 1 - 2253;
@@ -4354,6 +4436,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 225,
                   data gene {
+                    locus "psaB",
                     locus-tag "WS77111cp_000083"
                   },
                   comment "blatX_hit psaB_NC_032367.1; position 1 - 2205;
@@ -4397,6 +4480,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 228,
                   data gene {
+                    locus "rps14",
                     locus-tag "WS77111cp_000084"
                   },
                   comment "blatX_hit rps14_NC_032367.1; position 1 - 300;
@@ -4440,6 +4524,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 231,
                   data gene {
+                    locus "trnfM-CAU",
                     locus-tag "WS77111cp_000085"
                   },
                   comment "blatN_hit trnfM-CAU_NC_032367.1; position 1 - 74;
@@ -4469,6 +4554,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 233,
                   data gene {
+                    locus "trnG-UCC",
                     locus-tag "WS77111cp_000086"
                   },
                   comment "blatN_hit trnG-UCC_NC_032367.1; position 1 - 71;
@@ -4498,6 +4584,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 235,
                   data gene {
+                    locus "psbZ",
                     locus-tag "WS77111cp_000087"
                   },
                   comment "blatX_hit psbZ_NC_021456.1; position 1 - 189;
@@ -4541,6 +4628,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 238,
                   data gene {
+                    locus "trnS-UGA",
                     locus-tag "WS77111cp_000088"
                   },
                   comment "blatN_hit trnS-UGA_NC_032367.1; position 1 - 87;
@@ -4570,6 +4658,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 240,
                   data gene {
+                    locus "psbC",
                     locus-tag "WS77111cp_000089"
                   },
                   comment "blatX_hit psbC_NC_032367.1; position 1 - 1422;
@@ -4613,6 +4702,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 243,
                   data gene {
+                    locus "psbD",
                     locus-tag "WS77111cp_000090"
                   },
                   comment "blatX_hit psbD_NC_028594.1; position 1 - 1062;
@@ -4656,6 +4746,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 246,
                   data gene {
+                    locus "trnT-GGU",
                     locus-tag "WS77111cp_000091"
                   },
                   comment "blatN_hit trnT-GGU_NC_032367.1; position 1 - 71;
@@ -4685,6 +4776,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 248,
                   data gene {
+                    locus "rrn16",
                     locus-tag "WS77111cp_000092"
                   },
                   comment "blatN_hit rrn16_NC_032367.1; position 1 - 1491;
@@ -4712,6 +4804,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 250,
                   data gene {
+                    locus "trnI-GAU",
                     locus-tag "WS77111cp_000093"
                   },
                   comment "blatN_hit trnI-GAU_NC_032367.1; position 1 - 77;
@@ -4749,6 +4842,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 252,
                   data gene {
+                    locus "trnA-UGC",
                     locus-tag "WS77111cp_000094"
                   },
                   comment "blatN_hit trnA-UGC_NC_032367.1; position 1 - 73;
@@ -4786,6 +4880,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 254,
                   data gene {
+                    locus "rrn23",
                     locus-tag "WS77111cp_000095"
                   },
                   comment "blatN_hit rrn23_NC_028594.1; position 1 - 2807;
@@ -4813,6 +4908,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 256,
                   data gene {
+                    locus "rrn4.5",
                     locus-tag "WS77111cp_000096"
                   },
                   comment "blatN_hit rrn4.5_NC_032367.1; position 1 - 103;
@@ -4840,6 +4936,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 258,
                   data gene {
+                    locus "rrn5",
                     locus-tag "WS77111cp_000097"
                   },
                   comment "blatN_hit rrn5_NC_032367.1; position 1 - 121;
@@ -4867,6 +4964,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 260,
                   data gene {
+                    locus "trnR-ACG",
                     locus-tag "WS77111cp_000098"
                   },
                   comment "blatN_hit trnR-ACG_NC_032367.1; position 1 - 74;
@@ -4896,6 +4994,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 262,
                   data gene {
+                    locus "trnN-GUU",
                     locus-tag "WS77111cp_000099"
                   },
                   comment "blatN_hit trnN-GUU_NC_032367.1; position 1 - 72;
@@ -4925,6 +5024,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 264,
                   data gene {
+                    locus "chlL",
                     locus-tag "WS77111cp_000100"
                   },
                   comment "blatX_hit chlL_NC_029374.1; position 1 - 876;
@@ -4962,6 +5062,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 267,
                   data gene {
+                    locus "chlN",
                     locus-tag "WS77111cp_000101"
                   },
                   comment "blatX_hit chlN_NC_028594.1; position 1 - 1407;
@@ -5005,6 +5106,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 270,
                   data gene {
+                    locus "ycf1",
                     locus-tag "WS77111cp_000102"
                   },
                   comment "blatX_hit ycf1_NC_028594.1; position 1 - 5271;
@@ -5048,6 +5150,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 273,
                   data gene {
+                    locus "rps15",
                     locus-tag "WS77111cp_000103"
                   },
                   comment "blatX_hit rps15_NC_032367.1; position 1 - 267;
@@ -5091,6 +5194,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 276,
                   data gene {
+                    locus "psaC",
                     locus-tag "WS77111cp_000104"
                   },
                   comment "blatX_hit psaC_NC_032367.1; position 1 - 246;
@@ -5134,6 +5238,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 279,
                   data gene {
+                    locus "ccsA",
                     locus-tag "WS77111cp_000105"
                   },
                   comment "blatX_hit ccsA_NC_028594.1; position 1 - 963;
@@ -5177,6 +5282,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 282,
                   data gene {
+                    locus "trnL-UAG",
                     locus-tag "WS77111cp_000106"
                   },
                   comment "blatN_hit trnL-UAG_NC_032367.1; position 1 - 78;
@@ -5206,6 +5312,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 284,
                   data gene {
+                    locus "trnP-GGG",
                     locus-tag "WS77111cp_000107"
                   },
                   comment "blatN_hit trnP-GGG_NC_032367.1; position 1 - 74;
@@ -5235,6 +5342,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 286,
                   data gene {
+                    locus "rpl32",
                     locus-tag "WS77111cp_000108"
                   },
                   comment "blatX_hit rpl32_NC_032367.1; position 1 - 213;
@@ -5278,6 +5386,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 289,
                   data gene {
+                    locus "trnV-GAC",
                     locus-tag "WS77111cp_000109"
                   },
                   comment "blatN_hit trnV-GAC_NC_032367.1; position 1 - 72;
@@ -5307,6 +5416,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 291,
                   data gene {
+                    locus "rps7",
                     locus-tag "WS77111cp_000110"
                   },
                   comment "blatX_hit rps7_NC_028594.1; position 1 - 468;
@@ -5350,6 +5460,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 294,
                   data gene {
+                    locus "trnL-CAA",
                     locus-tag "WS77111cp_000111"
                   },
                   comment "blatN_hit trnL-CAA_NC_032367.1; position 1 - 81;
@@ -5379,6 +5490,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 296,
                   data gene {
+                    locus "ycf2",
                     locus-tag "WS77111cp_000112"
                   },
                   comment "blatX_hit ycf2_NC_028594.1; position 1 - 6381;
@@ -5422,6 +5534,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 299,
                   data gene {
+                    locus "trnH-GUG",
                     locus-tag "WS77111cp_000113"
                   },
                   comment "blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
@@ -5451,6 +5564,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                 {
                   id local id 301,
                   data gene {
+                    locus "trnI-CAU",
                     locus-tag "WS77111cp_000114"
                   },
                   comment "blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
