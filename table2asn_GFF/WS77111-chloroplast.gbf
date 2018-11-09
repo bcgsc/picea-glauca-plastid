@@ -1,4 +1,4 @@
-LOCUS       WS77111cp             123421 bp    DNA     circular PLN 08-NOV-2018
+LOCUS       WS77111cp             123421 bp    DNA     circular PLN 09-NOV-2018
 DEFINITION  Picea glauca isolate WS77111 chloroplast, complete genome.
 ACCESSION   
 VERSION
@@ -12,15 +12,21 @@ SOURCE      chloroplast Picea glauca (white spruce)
             Spermatophyta; Acrogymnospermae; Pinidae; Pinales; Pinaceae; Picea.
 REFERENCE   1  (bases 1 to 123421)
   AUTHORS   Coombe,L., Lin,D., Warren,R.L., Jackman,S.D. and Birol,I.
-  TITLE     Unpublished
+  TITLE     Picea glauca isolate WS77111 chloroplast, complete genome
   JOURNAL   Unpublished
 REFERENCE   2  (bases 1 to 123421)
   AUTHORS   Coombe,L., Lin,D., Warren,R.L., Jackman,S.D. and Birol,I.
   TITLE     Direct Submission
-  JOURNAL   Submitted (08-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
+  JOURNAL   Submitted (09-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
             Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
 COMMENT     Bankit Comment: ALT EMAIL:rwarren@bcgsc.ca
             Bankit Comment: Submission Title:None.
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: ABySS v. 2.1.0; LINKS v. 1.8.5
+            Genome Coverage       :: 43x
+            Sequencing Technology :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+
 FEATURES             Location/Qualifiers
      source          1..123421
                      /organism="Picea glauca"

@@ -75,7 +75,7 @@ Seq-submit ::= {
       date std {
         year 2018,
         month 11,
-        day 8
+        day 9
       }
     },
     subtype new,
@@ -155,7 +155,7 @@ Seq-submit ::= {
                   }
                 }
               },
-              title "Unpublished"
+              title "Picea glauca isolate WS77111 chloroplast, complete genome"
             }
           }
         },
@@ -181,7 +181,7 @@ Seq-submit ::= {
         create-date std {
           year 2018,
           month 11,
-          day 8
+          day 9
         }
       },
       seq-set {
@@ -210,6 +210,37 @@ Seq-submit ::= {
                   label str "AdditionalComment",
                   data str "Submission Title:None"
                 }
+              }
+            },
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "ABySS v. 2.1.0; LINKS v. 1.8.5” } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str “43x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina HiSeq" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" }
               }
             }
           },

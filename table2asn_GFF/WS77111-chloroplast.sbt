@@ -147,7 +147,7 @@ Seqdesc ::= pub {
           }
         }
       },
-      title "Unpublished"
+      title "Picea glauca isolate WS77111 chloroplast, complete genome"
     }
   }
 }
