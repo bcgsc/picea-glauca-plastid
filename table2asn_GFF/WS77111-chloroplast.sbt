@@ -170,21 +170,3 @@ Seqdesc ::= user {
     }
   }
 }
-Seqdesc ::= user {
-  type str "Submission",
-  data {
-    {
-      label str "AdditionalComment",
-      data str "ALT EMAIL:rwarren@bcgsc.ca"
-    }
-  }
-}
-Seqdesc ::= user {
-  type str "Submission",
-  data {
-    {
-      label str "AdditionalComment",
-      data str "Submission Title:None"
-    }
-  }
-}

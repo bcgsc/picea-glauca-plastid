@@ -214,24 +214,6 @@ Seq-submit ::= {
             molinfo {
               biomol genomic,
               completeness complete
-            },
-            user {
-              type str "Submission",
-              data {
-                {
-                  label str "AdditionalComment",
-                  data str "ALT EMAIL:rwarren@bcgsc.ca"
-                }
-              }
-            },
-            user {
-              type str "Submission",
-              data {
-                {
-                  label str "AdditionalComment",
-                  data str "Submission Title:None"
-                }
-              }
             }
           },
           inst {
@@ -1039,7 +1021,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 1,
                   data gene {
                     locus "psbA",
-                    locus-tag "WS77111cp_000001"
+                    locus-tag "DB47CP_000001"
                   },
                   comment "blatX_hit psbA_NC_028594.1; position 1 - 1062;
  coverage 100.00%; match 100.00%",
@@ -1083,7 +1065,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 4,
                   data gene {
                     locus "trnK-UUU",
-                    locus-tag "WS77111cp_000002"
+                    locus-tag "DB47CP_000002"
                   },
                   comment "blatN_hit trnK-UUU_NC_032367.1; position 1 - 72;
  coverage 100.00%; match 100.00%",
@@ -1121,7 +1103,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 6,
                   data gene {
                     locus "matK",
-                    locus-tag "WS77111cp_000003"
+                    locus-tag "DB47CP_000003"
                   },
                   comment "blatX_hit matK_NC_028594.1; position 1 - 1548;
  coverage 100.00%; match 99.94%",
@@ -1165,7 +1147,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 9,
                   data gene {
                     locus "chlB",
-                    locus-tag "WS77111cp_000004"
+                    locus-tag "DB47CP_000004"
                   },
                   comment "blatX_hit chlB_NC_028594.1; position 1 - 1542;
  coverage 100.00%; match 100.00%",
@@ -1209,7 +1191,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 12,
                   data gene {
                     locus "trnQ-UUG",
-                    locus-tag "WS77111cp_000005"
+                    locus-tag "DB47CP_000005"
                   },
                   comment "blatN_hit trnQ-UUG_NC_032367.1; position 1 - 72;
  coverage 100.00%; match 100.00%",
@@ -1239,7 +1221,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 14,
                   data gene {
                     locus "psbK",
-                    locus-tag "WS77111cp_000006"
+                    locus-tag "DB47CP_000006"
                   },
                   comment "blatX_hit psbK_NC_032367.1; position 1 - 180;
  coverage 100.00%; match 100.00%",
@@ -1283,7 +1265,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 17,
                   data gene {
                     locus "psbI",
-                    locus-tag "WS77111cp_000007"
+                    locus-tag "DB47CP_000007"
                   },
                   comment "blatX_hit psbI_NC_032367.1; position 1 - 111;
  coverage 100.00%; match 100.00%",
@@ -1327,7 +1309,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 20,
                   data gene {
                     locus "trnS-GCU",
-                    locus-tag "WS77111cp_000008"
+                    locus-tag "DB47CP_000008"
                   },
                   comment "blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
  coverage 100.00%; match 100.00%",
@@ -1357,7 +1339,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 22,
                   data gene {
                     locus "ycf12",
-                    locus-tag "WS77111cp_000009"
+                    locus-tag "DB47CP_000009"
                   },
                   comment "blatX_hit ycf12_NC_032367.1; position 1 - 102;
  coverage 100.00%; match 100.00%",
@@ -1401,7 +1383,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 25,
                   data gene {
                     locus "clpP",
-                    locus-tag "WS77111cp_000010"
+                    locus-tag "DB47CP_000010"
                   },
                   comment "blatX_hit clpP_NC_032367.1; position 1 - 591;
  coverage 100.00%; match 100.00%",
@@ -1445,7 +1427,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 28,
                   data gene {
                     locus "rps12",
-                    locus-tag "WS77111cp_000011"
+                    locus-tag "DB47CP_000011"
                   },
                   except TRUE,
                   comment "blatX_hit rps12_NC_032367.1; position 1 - 372;
@@ -1513,7 +1495,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 31,
                   data gene {
                     locus "rpl20",
-                    locus-tag "WS77111cp_000012"
+                    locus-tag "DB47CP_000012"
                   },
                   comment "blatX_hit rpl20_NC_032367.1; position 1 - 360;
  coverage 100.00%; match 100.00%",
@@ -1557,7 +1539,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 34,
                   data gene {
                     locus "rps18",
-                    locus-tag "WS77111cp_000013"
+                    locus-tag "DB47CP_000013"
                   },
                   comment "blatX_hit rps18_NC_032367.1; position 1 - 282;
  coverage 100.00%; match 100.00%",
@@ -1601,7 +1583,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 37,
                   data gene {
                     locus "rpl33",
-                    locus-tag "WS77111cp_000014"
+                    locus-tag "DB47CP_000014"
                   },
                   comment "blatX_hit rpl33_NC_028594.1; position 1 - 207;
  coverage 100.00%; match 100.00%",
@@ -1645,7 +1627,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 40,
                   data gene {
                     locus "psaJ",
-                    locus-tag "WS77111cp_000015"
+                    locus-tag "DB47CP_000015"
                   },
                   comment "blatX_hit psaJ_NC_032367.1; position 1 - 129;
  coverage 100.00%; match 100.00%",
@@ -1689,7 +1671,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 43,
                   data gene {
                     locus "trnP-UGG",
-                    locus-tag "WS77111cp_000016"
+                    locus-tag "DB47CP_000016"
                   },
                   comment "blatN_hit trnP-UGG_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -1719,7 +1701,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 45,
                   data gene {
                     locus "trnW-CCA",
-                    locus-tag "WS77111cp_000017"
+                    locus-tag "DB47CP_000017"
                   },
                   comment "blatN_hit trnW-CCA_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -1749,7 +1731,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 47,
                   data gene {
                     locus "petG",
-                    locus-tag "WS77111cp_000018"
+                    locus-tag "DB47CP_000018"
                   },
                   comment "blatX_hit petG_NC_032367.1; position 1 - 114;
  coverage 100.00%; match 100.00%",
@@ -1793,7 +1775,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 50,
                   data gene {
                     locus "petL",
-                    locus-tag "WS77111cp_000019"
+                    locus-tag "DB47CP_000019"
                   },
                   comment "blatX_hit petL_NC_028594.1; position 1 - 189;
  coverage 100.00%; match 100.00%",
@@ -1837,7 +1819,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 53,
                   data gene {
                     locus "psbE",
-                    locus-tag "WS77111cp_000020"
+                    locus-tag "DB47CP_000020"
                   },
                   comment "blatX_hit psbE_NC_028594.1; position 1 - 252;
  coverage 100.00%; match 100.00%",
@@ -1881,7 +1863,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 56,
                   data gene {
                     locus "psbF",
-                    locus-tag "WS77111cp_000021"
+                    locus-tag "DB47CP_000021"
                   },
                   comment "blatX_hit psbF_NC_028594.1; position 1 - 120;
  coverage 100.00%; match 100.00%",
@@ -1925,7 +1907,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 59,
                   data gene {
                     locus "psbL",
-                    locus-tag "WS77111cp_000022"
+                    locus-tag "DB47CP_000022"
                   },
                   comment "blatX_hit psbL_NC_028594.1; position 1 - 117;
  coverage 100.00%; match 100.00%",
@@ -1969,7 +1951,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 62,
                   data gene {
                     locus "psbJ",
-                    locus-tag "WS77111cp_000023"
+                    locus-tag "DB47CP_000023"
                   },
                   comment "blatX_hit psbJ_NC_032367.1; position 1 - 123;
  coverage 100.00%; match 100.00%",
@@ -2013,7 +1995,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 65,
                   data gene {
                     locus "petA",
-                    locus-tag "WS77111cp_000024"
+                    locus-tag "DB47CP_000024"
                   },
                   comment "blatX_hit petA_NC_028594.1; position 1 - 996;
  coverage 100.00%; match 100.00%",
@@ -2057,7 +2039,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 68,
                   data gene {
                     locus "cemA",
-                    locus-tag "WS77111cp_000025"
+                    locus-tag "DB47CP_000025"
                   },
                   comment "blatX_hit cemA_NC_028594.1; position 1 - 786;
  coverage 100.00%; match 100.00%",
@@ -2101,7 +2083,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 71,
                   data gene {
                     locus "ycf4",
-                    locus-tag "WS77111cp_000026"
+                    locus-tag "DB47CP_000026"
                   },
                   comment "blatX_hit ycf4_NC_028594.1; position 1 - 555;
  coverage 100.00%; match 100.00%",
@@ -2145,7 +2127,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 74,
                   data gene {
                     locus "psaI",
-                    locus-tag "WS77111cp_000027"
+                    locus-tag "DB47CP_000027"
                   },
                   comment "blatX_hit psaI_NC_032367.1; position 1 - 111;
  coverage 100.00%; match 100.00%",
@@ -2189,7 +2171,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 77,
                   data gene {
                     locus "accD",
-                    locus-tag "WS77111cp_000028"
+                    locus-tag "DB47CP_000028"
                   },
                   comment "blatX_hit accD_NC_028594.1; position 1 - 981;
  coverage 100.00%; match 100.00%",
@@ -2233,7 +2215,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 80,
                   data gene {
                     locus "trnR-CCG",
-                    locus-tag "WS77111cp_000029"
+                    locus-tag "DB47CP_000029"
                   },
                   comment "blatN_hit trnR-CCG_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -2263,7 +2245,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 82,
                   data gene {
                     locus "rbcL",
-                    locus-tag "WS77111cp_000030"
+                    locus-tag "DB47CP_000030"
                   },
                   comment "blatX_hit rbcL_NC_028594.1; position 1 - 1428;
  coverage 100.00%; match 100.00%",
@@ -2308,7 +2290,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 85,
                   data gene {
                     locus "atpB",
-                    locus-tag "WS77111cp_000031"
+                    locus-tag "DB47CP_000031"
                   },
                   comment "blatX_hit atpB_NC_028594.1; position 1 - 1479;
  coverage 100.00%; match 100.00%",
@@ -2352,7 +2334,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 88,
                   data gene {
                     locus "atpE",
-                    locus-tag "WS77111cp_000032"
+                    locus-tag "DB47CP_000032"
                   },
                   comment "blatX_hit atpE_NC_028594.1; position 1 - 414;
  coverage 100.00%; match 100.00%",
@@ -2396,7 +2378,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 91,
                   data gene {
                     locus "trnM-CAU",
-                    locus-tag "WS77111cp_000033"
+                    locus-tag "DB47CP_000033"
                   },
                   comment "blatN_hit trnM-CAU_NC_032367.1; position 1 - 73;
  coverage 100.00%; match 100.00%",
@@ -2426,7 +2408,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 93,
                   data gene {
                     locus "trnV-UAC",
-                    locus-tag "WS77111cp_000034"
+                    locus-tag "DB47CP_000034"
                   },
                   comment "blatN_hit trnV-UAC_NC_032367.1; position 1 - 76;
  coverage 100.00%; match 100.00%",
@@ -2464,7 +2446,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 95,
                   data gene {
                     locus "trnH-GUG",
-                    locus-tag "WS77111cp_000035"
+                    locus-tag "DB47CP_000035"
                   },
                   comment "blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
  coverage 100.00%; match 98.67%; match 98.67%",
@@ -2494,7 +2476,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 97,
                   data gene {
                     locus "trnT-GGU",
-                    locus-tag "WS77111cp_000036"
+                    locus-tag "DB47CP_000036"
                   },
                   comment "blatN_hit trnT-GGU_NC_032367.1; position 1 - 72;
  coverage 100.00%; match 100.00%",
@@ -2524,7 +2506,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 99,
                   data gene {
                     locus "psaM",
-                    locus-tag "WS77111cp_000037"
+                    locus-tag "DB47CP_000037"
                   },
                   comment "blatX_hit psaM_NC_032367.1; position 1 - 90;
  coverage 100.00%; match 100.00%",
@@ -2568,7 +2550,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 102,
                   data gene {
                     locus "trnS-GCU",
-                    locus-tag "WS77111cp_000038"
+                    locus-tag "DB47CP_000038"
                   },
                   comment "blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
  coverage 100.00%; match 100.00%",
@@ -2598,7 +2580,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 104,
                   data gene {
                     locus "psbI",
-                    locus-tag "WS77111cp_000039"
+                    locus-tag "DB47CP_000039"
                   },
                   comment "blatX_hit psbI_NC_032367.1; position 1 - 111;
  coverage 100.00%; match 100.00%",
@@ -2642,7 +2624,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 107,
                   data gene {
                     locus "trnE-UUC",
-                    locus-tag "WS77111cp_000040"
+                    locus-tag "DB47CP_000040"
                   },
                   comment "blatN_hit trnE-UUC_NC_032367.1; position 1 - 73;
  coverage 100.00%; match 100.00%",
@@ -2672,7 +2654,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 109,
                   data gene {
                     locus "trnY-GUA",
-                    locus-tag "WS77111cp_000041"
+                    locus-tag "DB47CP_000041"
                   },
                   comment "blatN_hit trnY-GUA_NC_032367.1; position 1 - 84;
  coverage 100.00%; match 100.00%",
@@ -2702,7 +2684,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 111,
                   data gene {
                     locus "trnD-GUC",
-                    locus-tag "WS77111cp_000042"
+                    locus-tag "DB47CP_000042"
                   },
                   comment "blatN_hit trnD-GUC_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -2732,7 +2714,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 113,
                   data gene {
                     locus "psbM",
-                    locus-tag "WS77111cp_000043"
+                    locus-tag "DB47CP_000043"
                   },
                   comment "blatX_hit psbM_NC_032367.1; position 1 - 114;
  coverage 100.00%; match 100.00%",
@@ -2776,7 +2758,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 116,
                   data gene {
                     locus "petN",
-                    locus-tag "WS77111cp_000044"
+                    locus-tag "DB47CP_000044"
                   },
                   comment "blatX_hit petN_NC_032367.1; position 1 - 90;
  coverage 100.00%; match 100.00%",
@@ -2820,7 +2802,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 119,
                   data gene {
                     locus "trnC-GCA",
-                    locus-tag "WS77111cp_000045"
+                    locus-tag "DB47CP_000045"
                   },
                   comment "blatN_hit trnC-GCA_NC_032367.1; position 1 - 71;
  coverage 100.00%; match 100.00%",
@@ -2850,7 +2832,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 121,
                   data gene {
                     locus "rpoB",
-                    locus-tag "WS77111cp_000046"
+                    locus-tag "DB47CP_000046"
                   },
                   comment "blatX_hit rpoB_NC_028594.1; position 1 - 3231;
  coverage 100.00%; match 100.00%",
@@ -2894,7 +2876,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 124,
                   data gene {
                     locus "rpoC1",
-                    locus-tag "WS77111cp_000047"
+                    locus-tag "DB47CP_000047"
                   },
                   comment "blatX_hit rpoC1_NC_028594.1; position 1 - 2091;
  coverage 100.00%; match 100.00%",
@@ -2946,7 +2928,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 127,
                   data gene {
                     locus "rpoC2",
-                    locus-tag "WS77111cp_000048"
+                    locus-tag "DB47CP_000048"
                   },
                   comment "blatX_hit rpoC2_NC_028594.1; position 1 - 3657;
  coverage 100.00%; match 100.00%",
@@ -2990,7 +2972,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 130,
                   data gene {
                     locus "rps2",
-                    locus-tag "WS77111cp_000049"
+                    locus-tag "DB47CP_000049"
                   },
                   comment "blatX_hit rps2_NC_028594.1; position 1 - 705;
  coverage 100.00%; match 100.00%",
@@ -3034,7 +3016,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 133,
                   data gene {
                     locus "atpI",
-                    locus-tag "WS77111cp_000050"
+                    locus-tag "DB47CP_000050"
                   },
                   comment "blatX_hit atpI_NC_032367.1; position 1 - 747;
  coverage 100.00%; match 100.00%",
@@ -3078,7 +3060,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 136,
                   data gene {
                     locus "atpH",
-                    locus-tag "WS77111cp_000051"
+                    locus-tag "DB47CP_000051"
                   },
                   comment "blatX_hit atpH_NC_032367.1; position 1 - 246;
  coverage 100.00%; match 100.00%",
@@ -3122,7 +3104,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 139,
                   data gene {
                     locus "atpF",
-                    locus-tag "WS77111cp_000052"
+                    locus-tag "DB47CP_000052"
                   },
                   comment "blatX_hit atpF_NC_028594.1; position 1 - 555;
  coverage 100.00%; match 100.00%",
@@ -3174,7 +3156,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 142,
                   data gene {
                     locus "atpA",
-                    locus-tag "WS77111cp_000053"
+                    locus-tag "DB47CP_000053"
                   },
                   comment "blatX_hit atpA_NC_032367.1; position 1 - 1524;
  coverage 100.00%; match 100.00%",
@@ -3218,7 +3200,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 145,
                   data gene {
                     locus "trnR-UCU",
-                    locus-tag "WS77111cp_000054"
+                    locus-tag "DB47CP_000054"
                   },
                   comment "blatN_hit trnR-UCU_NC_032367.1; position 1 - 70;
  coverage 100.00%; match 100.00%",
@@ -3248,7 +3230,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 147,
                   data gene {
                     locus "trnG-GCC",
-                    locus-tag "WS77111cp_000055"
+                    locus-tag "DB47CP_000055"
                   },
                   comment "blatN_hit trnG-GCC_NC_032367.1; position 1 - 59;
  coverage 100.00%; match 100.00%",
@@ -3286,7 +3268,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 149,
                   data gene {
                     locus "ycf12",
-                    locus-tag "WS77111cp_000056"
+                    locus-tag "DB47CP_000056"
                   },
                   comment "blatX_hit ycf12_NC_032367.1; position 1 - 102;
  coverage 100.00%; match 100.00%",
@@ -3330,7 +3312,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 152,
                   data gene {
                     locus "psbB",
-                    locus-tag "WS77111cp_000057"
+                    locus-tag "DB47CP_000057"
                   },
                   comment "blatX_hit psbB_NC_028594.1; position 1 - 1527;
  coverage 100.00%; match 100.00%",
@@ -3374,7 +3356,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 155,
                   data gene {
                     locus "psbT",
-                    locus-tag "WS77111cp_000058"
+                    locus-tag "DB47CP_000058"
                   },
                   comment "blatX_hit psbT_NC_029374.1; position 1 - 108;
  coverage 100.00%; match 100.00%",
@@ -3418,7 +3400,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 158,
                   data gene {
                     locus "psbN",
-                    locus-tag "WS77111cp_000059"
+                    locus-tag "DB47CP_000059"
                   },
                   comment "blatX_hit psbN_NC_032367.1; position 1 - 132;
  coverage 100.00%; match 100.00%",
@@ -3462,7 +3444,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 161,
                   data gene {
                     locus "psbH",
-                    locus-tag "WS77111cp_000060"
+                    locus-tag "DB47CP_000060"
                   },
                   comment "blatX_hit psbH_NC_028594.1; position 1 - 228;
  coverage 100.00%; match 100.00%",
@@ -3506,7 +3488,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 164,
                   data gene {
                     locus "petB",
-                    locus-tag "WS77111cp_000061"
+                    locus-tag "DB47CP_000061"
                   },
                   comment "blatX_hit petB_NC_028594.1; position 5 - 648;
  coverage 99.38%; match 99.23%",
@@ -3558,7 +3540,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 167,
                   data gene {
                     locus "petD",
-                    locus-tag "WS77111cp_000062"
+                    locus-tag "DB47CP_000062"
                   },
                   comment "blatX_hit petD_NC_028594.1; position 5 - 537;
  coverage 99.26%; match 98.88%",
@@ -3610,7 +3592,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 170,
                   data gene {
                     locus "rpoA",
-                    locus-tag "WS77111cp_000063"
+                    locus-tag "DB47CP_000063"
                   },
                   comment "blatX_hit rpoA_NC_032367.1; position 1 - 1011;
  coverage 100.00%; match 100.00%",
@@ -3654,7 +3636,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 173,
                   data gene {
                     locus "rps11",
-                    locus-tag "WS77111cp_000064"
+                    locus-tag "DB47CP_000064"
                   },
                   comment "blatX_hit rps11_NC_032367.1; position 1 - 393;
  coverage 100.00%; match 100.00%",
@@ -3698,7 +3680,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 176,
                   data gene {
                     locus "rpl36",
-                    locus-tag "WS77111cp_000065"
+                    locus-tag "DB47CP_000065"
                   },
                   comment "blatX_hit rpl36_NC_028594.1; position 1 - 114;
  coverage 100.00%; match 100.00%",
@@ -3742,7 +3724,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 179,
                   data gene {
                     locus "infA",
-                    locus-tag "WS77111cp_000066"
+                    locus-tag "DB47CP_000066"
                   },
                   comment "blatX_hit infA_NC_032367.1; position 1 - 237;
  coverage 100.00%; match 100.00%",
@@ -3786,7 +3768,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 182,
                   data gene {
                     locus "rps8",
-                    locus-tag "WS77111cp_000067"
+                    locus-tag "DB47CP_000067"
                   },
                   comment "blatX_hit rps8_NC_028594.1; position 1 - 399;
  coverage 100.00%; match 100.00%",
@@ -3830,7 +3812,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 185,
                   data gene {
                     locus "rpl14",
-                    locus-tag "WS77111cp_000068"
+                    locus-tag "DB47CP_000068"
                   },
                   comment "blatX_hit rpl14_NC_032367.1; position 1 - 369;
  coverage 100.00%; match 100.00%",
@@ -3874,7 +3856,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 188,
                   data gene {
                     locus "rpl16",
-                    locus-tag "WS77111cp_000069"
+                    locus-tag "DB47CP_000069"
                   },
                   comment "blatX_hit rpl16_NC_032367.1; position 6 - 405;
  coverage 98.77%; match 98.27%",
@@ -3926,7 +3908,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 191,
                   data gene {
                     locus "rps3",
-                    locus-tag "WS77111cp_000070"
+                    locus-tag "DB47CP_000070"
                   },
                   comment "blatX_hit rps3_NC_028594.1; position 1 - 657;
  coverage 100.00%; match 100.00%",
@@ -3970,7 +3952,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 194,
                   data gene {
                     locus "rpl22",
-                    locus-tag "WS77111cp_000071"
+                    locus-tag "DB47CP_000071"
                   },
                   comment "blatX_hit rpl22_NC_029374.1; position 1 - 429;
  coverage 100.00%; match 100.00%",
@@ -4014,7 +3996,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 197,
                   data gene {
                     locus "rps19",
-                    locus-tag "WS77111cp_000072"
+                    locus-tag "DB47CP_000072"
                   },
                   comment "blatX_hit rps19_NC_028594.1; position 1 - 279;
  coverage 100.00%; match 100.00%",
@@ -4058,7 +4040,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 200,
                   data gene {
                     locus "rpl2",
-                    locus-tag "WS77111cp_000073"
+                    locus-tag "DB47CP_000073"
                   },
                   comment "blatX_hit rpl2_NC_032367.1; position 1 - 834;
  coverage 100.00%; match 100.00%",
@@ -4110,7 +4092,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 203,
                   data gene {
                     locus "rpl23",
-                    locus-tag "WS77111cp_000074"
+                    locus-tag "DB47CP_000074"
                   },
                   comment "blatX_hit rpl23_NC_028594.1; position 1 - 276;
  coverage 100.00%; match 100.00%",
@@ -4154,7 +4136,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 206,
                   data gene {
                     locus "trnI-CAU",
-                    locus-tag "WS77111cp_000075"
+                    locus-tag "DB47CP_000075"
                   },
                   comment "blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -4184,7 +4166,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 208,
                   data gene {
                     locus "trnF-GAA",
-                    locus-tag "WS77111cp_000076"
+                    locus-tag "DB47CP_000076"
                   },
                   comment "blatN_hit trnF-GAA_NC_032367.1; position 1 - 73;
  coverage 100.00%; match 100.00%",
@@ -4214,7 +4196,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 210,
                   data gene {
                     locus "trnL-UAA",
-                    locus-tag "WS77111cp_000077"
+                    locus-tag "DB47CP_000077"
                   },
                   comment "blatN_hit trnL-UAA_NC_032367.1; position 1 - 85;
  coverage 100.00%; match 100.00%",
@@ -4252,7 +4234,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 212,
                   data gene {
                     locus "trnT-UGU",
-                    locus-tag "WS77111cp_000078"
+                    locus-tag "DB47CP_000078"
                   },
                   comment "blatN_hit trnT-UGU_NC_032367.1; position 1 - 73;
  coverage 100.00%; match 100.00%",
@@ -4282,7 +4264,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 214,
                   data gene {
                     locus "rps4",
-                    locus-tag "WS77111cp_000079"
+                    locus-tag "DB47CP_000079"
                   },
                   comment "blatX_hit rps4_NC_032367.1; position 1 - 606;
  coverage 100.00%; match 100.00%",
@@ -4326,7 +4308,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 217,
                   data gene {
                     locus "trnS-GGA",
-                    locus-tag "WS77111cp_000080"
+                    locus-tag "DB47CP_000080"
                   },
                   comment "blatN_hit trnS-GGA_NC_032367.1; position 1 - 87;
  coverage 100.00%; match 100.00%",
@@ -4356,7 +4338,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 219,
                   data gene {
                     locus "ycf3",
-                    locus-tag "WS77111cp_000081"
+                    locus-tag "DB47CP_000081"
                   },
                   comment "blatX_hit ycf3_NC_032367.1; position 1 - 513;
  coverage 100.00%; match 100.00%",
@@ -4414,7 +4396,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 222,
                   data gene {
                     locus "psaA",
-                    locus-tag "WS77111cp_000082"
+                    locus-tag "DB47CP_000082"
                   },
                   comment "blatX_hit psaA_NC_029374.1; position 1 - 2253;
  coverage 100.00%; match 100.00%",
@@ -4458,7 +4440,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 225,
                   data gene {
                     locus "psaB",
-                    locus-tag "WS77111cp_000083"
+                    locus-tag "DB47CP_000083"
                   },
                   comment "blatX_hit psaB_NC_032367.1; position 1 - 2205;
  coverage 100.00%; match 99.91%",
@@ -4502,7 +4484,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 228,
                   data gene {
                     locus "rps14",
-                    locus-tag "WS77111cp_000084"
+                    locus-tag "DB47CP_000084"
                   },
                   comment "blatX_hit rps14_NC_032367.1; position 1 - 300;
  coverage 100.00%; match 100.00%",
@@ -4546,7 +4528,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 231,
                   data gene {
                     locus "trnfM-CAU",
-                    locus-tag "WS77111cp_000085"
+                    locus-tag "DB47CP_000085"
                   },
                   comment "blatN_hit trnfM-CAU_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -4576,7 +4558,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 233,
                   data gene {
                     locus "trnG-UCC",
-                    locus-tag "WS77111cp_000086"
+                    locus-tag "DB47CP_000086"
                   },
                   comment "blatN_hit trnG-UCC_NC_032367.1; position 1 - 71;
  coverage 100.00%; match 100.00%",
@@ -4606,7 +4588,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 235,
                   data gene {
                     locus "psbZ",
-                    locus-tag "WS77111cp_000087"
+                    locus-tag "DB47CP_000087"
                   },
                   comment "blatX_hit psbZ_NC_021456.1; position 1 - 189;
  coverage 100.00%; match 100.00%",
@@ -4650,7 +4632,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 238,
                   data gene {
                     locus "trnS-UGA",
-                    locus-tag "WS77111cp_000088"
+                    locus-tag "DB47CP_000088"
                   },
                   comment "blatN_hit trnS-UGA_NC_032367.1; position 1 - 87;
  coverage 100.00%; match 100.00%",
@@ -4680,7 +4662,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 240,
                   data gene {
                     locus "psbC",
-                    locus-tag "WS77111cp_000089"
+                    locus-tag "DB47CP_000089"
                   },
                   comment "blatX_hit psbC_NC_032367.1; position 1 - 1422;
  coverage 100.00%; match 100.00%",
@@ -4724,7 +4706,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 243,
                   data gene {
                     locus "psbD",
-                    locus-tag "WS77111cp_000090"
+                    locus-tag "DB47CP_000090"
                   },
                   comment "blatX_hit psbD_NC_028594.1; position 1 - 1062;
  coverage 100.00%; match 100.00%",
@@ -4768,7 +4750,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 246,
                   data gene {
                     locus "trnT-GGU",
-                    locus-tag "WS77111cp_000091"
+                    locus-tag "DB47CP_000091"
                   },
                   comment "blatN_hit trnT-GGU_NC_032367.1; position 1 - 71;
  coverage 100.00%; match 100.00%",
@@ -4798,7 +4780,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 248,
                   data gene {
                     locus "rrn16",
-                    locus-tag "WS77111cp_000092"
+                    locus-tag "DB47CP_000092"
                   },
                   comment "blatN_hit rrn16_NC_032367.1; position 1 - 1491;
  coverage 100.00%; match 100.00%",
@@ -4826,7 +4808,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 250,
                   data gene {
                     locus "trnI-GAU",
-                    locus-tag "WS77111cp_000093"
+                    locus-tag "DB47CP_000093"
                   },
                   comment "blatN_hit trnI-GAU_NC_032367.1; position 1 - 77;
  coverage 100.00%; match 100.00%",
@@ -4864,7 +4846,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 252,
                   data gene {
                     locus "trnA-UGC",
-                    locus-tag "WS77111cp_000094"
+                    locus-tag "DB47CP_000094"
                   },
                   comment "blatN_hit trnA-UGC_NC_032367.1; position 1 - 73;
  coverage 100.00%; match 100.00%",
@@ -4902,7 +4884,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 254,
                   data gene {
                     locus "rrn23",
-                    locus-tag "WS77111cp_000095"
+                    locus-tag "DB47CP_000095"
                   },
                   comment "blatN_hit rrn23_NC_028594.1; position 1 - 2807;
  coverage 100.00%; match 100.00%",
@@ -4930,7 +4912,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 256,
                   data gene {
                     locus "rrn4.5",
-                    locus-tag "WS77111cp_000096"
+                    locus-tag "DB47CP_000096"
                   },
                   comment "blatN_hit rrn4.5_NC_032367.1; position 1 - 103;
  coverage 100.00%; match 100.00%",
@@ -4958,7 +4940,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 258,
                   data gene {
                     locus "rrn5",
-                    locus-tag "WS77111cp_000097"
+                    locus-tag "DB47CP_000097"
                   },
                   comment "blatN_hit rrn5_NC_032367.1; position 1 - 121;
  coverage 100.00%; match 100.00%",
@@ -4986,7 +4968,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 260,
                   data gene {
                     locus "trnR-ACG",
-                    locus-tag "WS77111cp_000098"
+                    locus-tag "DB47CP_000098"
                   },
                   comment "blatN_hit trnR-ACG_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -5016,7 +4998,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 262,
                   data gene {
                     locus "trnN-GUU",
-                    locus-tag "WS77111cp_000099"
+                    locus-tag "DB47CP_000099"
                   },
                   comment "blatN_hit trnN-GUU_NC_032367.1; position 1 - 72;
  coverage 100.00%; match 98.61%",
@@ -5046,7 +5028,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 264,
                   data gene {
                     locus "chlL",
-                    locus-tag "WS77111cp_000100"
+                    locus-tag "DB47CP_000100"
                   },
                   comment "blatX_hit chlL_NC_029374.1; position 1 - 876;
  coverage 100.00%; match 100.00%",
@@ -5084,7 +5066,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 267,
                   data gene {
                     locus "chlN",
-                    locus-tag "WS77111cp_000101"
+                    locus-tag "DB47CP_000101"
                   },
                   comment "blatX_hit chlN_NC_028594.1; position 1 - 1407;
  coverage 100.00%; match 100.00%",
@@ -5128,7 +5110,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 270,
                   data gene {
                     locus "ycf1",
-                    locus-tag "WS77111cp_000102"
+                    locus-tag "DB47CP_000102"
                   },
                   comment "blatX_hit ycf1_NC_028594.1; position 1 - 5271;
  coverage 99.49%; match 99.49%",
@@ -5172,7 +5154,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 273,
                   data gene {
                     locus "rps15",
-                    locus-tag "WS77111cp_000103"
+                    locus-tag "DB47CP_000103"
                   },
                   comment "blatX_hit rps15_NC_032367.1; position 1 - 267;
  coverage 100.00%; match 100.00%",
@@ -5216,7 +5198,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 276,
                   data gene {
                     locus "psaC",
-                    locus-tag "WS77111cp_000104"
+                    locus-tag "DB47CP_000104"
                   },
                   comment "blatX_hit psaC_NC_032367.1; position 1 - 246;
  coverage 100.00%; match 100.00%",
@@ -5260,7 +5242,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 279,
                   data gene {
                     locus "ccsA",
-                    locus-tag "WS77111cp_000105"
+                    locus-tag "DB47CP_000105"
                   },
                   comment "blatX_hit ccsA_NC_028594.1; position 1 - 963;
  coverage 100.00%; match 100.00%",
@@ -5304,7 +5286,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 282,
                   data gene {
                     locus "trnL-UAG",
-                    locus-tag "WS77111cp_000106"
+                    locus-tag "DB47CP_000106"
                   },
                   comment "blatN_hit trnL-UAG_NC_032367.1; position 1 - 78;
  coverage 100.00%; match 100.00%",
@@ -5334,7 +5316,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 284,
                   data gene {
                     locus "trnP-GGG",
-                    locus-tag "WS77111cp_000107"
+                    locus-tag "DB47CP_000107"
                   },
                   comment "blatN_hit trnP-GGG_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -5364,7 +5346,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 286,
                   data gene {
                     locus "rpl32",
-                    locus-tag "WS77111cp_000108"
+                    locus-tag "DB47CP_000108"
                   },
                   comment "blatX_hit rpl32_NC_032367.1; position 1 - 213;
  coverage 100.00%; match 100.00%",
@@ -5408,7 +5390,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 289,
                   data gene {
                     locus "trnV-GAC",
-                    locus-tag "WS77111cp_000109"
+                    locus-tag "DB47CP_000109"
                   },
                   comment "blatN_hit trnV-GAC_NC_032367.1; position 1 - 72;
  coverage 100.00%; match 100.00%",
@@ -5438,7 +5420,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 291,
                   data gene {
                     locus "rps7",
-                    locus-tag "WS77111cp_000110"
+                    locus-tag "DB47CP_000110"
                   },
                   comment "blatX_hit rps7_NC_028594.1; position 1 - 468;
  coverage 100.00%; match 100.00%",
@@ -5482,7 +5464,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 294,
                   data gene {
                     locus "trnL-CAA",
-                    locus-tag "WS77111cp_000111"
+                    locus-tag "DB47CP_000111"
                   },
                   comment "blatN_hit trnL-CAA_NC_032367.1; position 1 - 81;
  coverage 100.00%; match 100.00%",
@@ -5512,7 +5494,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 296,
                   data gene {
                     locus "ycf2",
-                    locus-tag "WS77111cp_000112"
+                    locus-tag "DB47CP_000112"
                   },
                   comment "blatX_hit ycf2_NC_028594.1; position 1 - 6381;
  coverage 100.00%; match 99.97%",
@@ -5556,7 +5538,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 299,
                   data gene {
                     locus "trnH-GUG",
-                    locus-tag "WS77111cp_000113"
+                    locus-tag "DB47CP_000113"
                   },
                   comment "blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
  coverage 100.00%; match 100.00%",
@@ -5586,7 +5568,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
                   id local id 301,
                   data gene {
                     locus "trnI-CAU",
-                    locus-tag "WS77111cp_000114"
+                    locus-tag "DB47CP_000114"
                   },
                   comment "blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
  coverage 100.00%; match 100.00%",
@@ -5619,7 +5601,7 @@ F8E37F3D24D4E9E0EBC0995074C3EB81D9ABD0F5E7A392881E44CD4F3F3A0EA0828E083049013F
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA1"
             }
           },
@@ -5653,7 +5635,7 @@ IWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLAAVESISIGG"
                     from 0,
                     to 352,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA1"
                     }
                   }
@@ -5665,7 +5647,7 @@ IWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLAAVESISIGG"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA2"
             }
           },
@@ -5701,7 +5683,7 @@ ACKHKSTIRVVRKELGPELFKKSFSKERELDSPPFSSKAAARSQRERIWHSDIPQINPLAHSWQKIQDLKIENLFDQ"
                     from 0,
                     to 514,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA2"
                     }
                   }
@@ -5713,7 +5695,7 @@ ACKHKSTIRVVRKELGPELFKKSFSKERELDSPPFSSKAAARSQRERIWHSDIPQINPLAHSWQKIQDLKIENLFDQ"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA3"
             }
           },
@@ -5750,7 +5732,7 @@ HLLEIFCGHDTKEITTKSLSTDMSPIWNPESRLELNKIPRFVRDEVKRNTEKFARRKGILNVTVEVMHAAKEALS"
                     from 0,
                     to 512,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA3"
                     }
                   }
@@ -5762,7 +5744,7 @@ HLLEIFCGHDTKEITTKSLSTDMSPIWNPESRLELNKIPRFVRDEVKRNTEKFARRKGILNVTVEVMHAAKEALS"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA4"
             }
           },
@@ -5793,7 +5775,7 @@ AFVWQAAVSFR"
                     from 0,
                     to 58,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA4"
                     }
                   }
@@ -5805,7 +5787,7 @@ AFVWQAAVSFR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA5"
             }
           },
@@ -5835,7 +5817,7 @@ AFVWQAAVSFR"
                     from 0,
                     to 35,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA5"
                     }
                   }
@@ -5847,7 +5829,7 @@ AFVWQAAVSFR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA6"
             }
           },
@@ -5878,7 +5860,7 @@ AFVWQAAVSFR"
                     from 0,
                     to 32,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA6"
                     }
                   }
@@ -5890,7 +5872,7 @@ AFVWQAAVSFR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA7"
             }
           },
@@ -5923,7 +5905,7 @@ QPASSYYDGPAADFHTESKHVTMLRDYITKCYIERTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
                     from 0,
                     to 195,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA7"
                     }
                   }
@@ -5935,7 +5917,7 @@ QPASSYYDGPAADFHTESKHVTMLRDYITKCYIERTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA8"
             }
           },
@@ -5966,7 +5948,7 @@ LRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAAEVKDRQQGRSKYGVKKPK"
                     from 0,
                     to 122,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA8"
                     }
                   }
@@ -5978,7 +5960,7 @@ LRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAAEVKDRQQGRSKYGVKKPK"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA9"
             }
           },
@@ -6009,7 +5991,7 @@ DRGKRKRDLRRLWITRINAAARANGVSYNRFIQYLYKRQLLPNRKTLAQIAVLDSNCFSTILKNLSCDEIG"
                     from 0,
                     to 118,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA9"
                     }
                   }
@@ -6021,7 +6003,7 @@ DRGKRKRDLRRLWITRINAAARANGVSYNRFIQYLYKRQLLPNRKTLAQIAVLDSNCFSTILKNLSCDEIG"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA10"
             }
           },
@@ -6052,7 +6034,7 @@ RFISEQGKILSGRVNRLTSKQQRLITNAIKRARIPSLLPFLYNEN"
                     from 0,
                     to 92,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA10"
                     }
                   }
@@ -6064,7 +6046,7 @@ RFISEQGKILSGRVNRLTSKQQRLITNAIKRARIPSLLPFLYNEN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA11"
             }
           },
@@ -6095,7 +6077,7 @@ NKFCPYCYKHTIHGEIKKRD"
                     from 0,
                     to 67,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA11"
                     }
                   }
@@ -6107,7 +6089,7 @@ NKFCPYCYKHTIHGEIKKRD"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA12"
             }
           },
@@ -6137,7 +6119,7 @@ NKFCPYCYKHTIHGEIKKRD"
                     from 0,
                     to 41,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA12"
                     }
                   }
@@ -6149,7 +6131,7 @@ NKFCPYCYKHTIHGEIKKRD"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA13"
             }
           },
@@ -6180,7 +6162,7 @@ NKFCPYCYKHTIHGEIKKRD"
                     from 0,
                     to 36,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA13"
                     }
                   }
@@ -6192,7 +6174,7 @@ NKFCPYCYKHTIHGEIKKRD"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA14"
             }
           },
@@ -6224,7 +6206,7 @@ EGRGNPLSSLYQFQ"
                     from 0,
                     to 61,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA14"
                     }
                   }
@@ -6236,7 +6218,7 @@ EGRGNPLSSLYQFQ"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA15"
             }
           },
@@ -6267,7 +6249,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
                     from 0,
                     to 82,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA15"
                     }
                   }
@@ -6279,7 +6261,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA16"
             }
           },
@@ -6310,7 +6292,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
                     from 0,
                     to 38,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA16"
                     }
                   }
@@ -6322,7 +6304,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA17"
             }
           },
@@ -6352,7 +6334,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
                     from 0,
                     to 37,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA17"
                     }
                   }
@@ -6364,7 +6346,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA18"
             }
           },
@@ -6394,7 +6376,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
                     from 0,
                     to 39,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA18"
                     }
                   }
@@ -6406,7 +6388,7 @@ SPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA19"
             }
           },
@@ -6440,7 +6422,7 @@ LRVKGLLLFLASVILAQIFLVLKKKQFEKVQLAEMNLQVHRFPNMKLTD"
                     from 0,
                     to 330,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA19"
                     }
                   }
@@ -6452,7 +6434,7 @@ LRVKGLLLFLASVILAQIFLVLKKKQFEKVQLAEMNLQVHRFPNMKLTD"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA20"
             }
           },
@@ -6486,7 +6468,7 @@ MIDSISENFGFAHNERIISGLVSTFPVILDTILKYWIFRRFNRISPSLVVIYHSMNE"
                     from 0,
                     to 260,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA20"
                     }
                   }
@@ -6498,7 +6480,7 @@ MIDSISENFGFAHNERIISGLVSTFPVILDTILKYWIFRRFNRISPSLVVIYHSMNE"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA21"
             }
           },
@@ -6531,7 +6513,7 @@ MIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDNLNLREIEQKAAESARFLRVSIEGF"
                     from 0,
                     to 183,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA21"
                     }
                   }
@@ -6543,7 +6525,7 @@ MIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDNLNLREIEQKAAESARFLRVSIEGF"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA22"
             }
           },
@@ -6573,7 +6555,7 @@ MIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDNLNLREIEQKAAESARFLRVSIEGF"
                     from 0,
                     to 35,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA22"
                     }
                   }
@@ -6585,7 +6567,7 @@ MIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDNLNLREIEQKAAESARFLRVSIEGF"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA23"
             }
           },
@@ -6620,7 +6602,7 @@ FQVTEHLFGHGLFDLIVPRNLLKGVLSELFQLYSLPRKEKKMNV"
                     from 0,
                     to 325,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA23"
                     }
                   }
@@ -6632,7 +6614,7 @@ FQVTEHLFGHGLFDLIVPRNLLKGVLSELFQLYSLPRKEKKMNV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA24"
             }
           },
@@ -6670,7 +6652,7 @@ REGNEVIREASKWSPELAAACEIWKEIKFEFEAIDTI"
                     from 0,
                     to 474,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA24"
                     }
                   }
@@ -6682,7 +6664,7 @@ REGNEVIREASKWSPELAAACEIWKEIKFEFEAIDTI"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA25"
             }
           },
@@ -6718,7 +6700,7 @@ FTGFPGKYVGLMETIRGFQMILSGELDGITEQSFYLVGNIDEATAKAMNSKTES"
                     from 0,
                     to 491,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA25"
                     }
                   }
@@ -6730,7 +6712,7 @@ FTGFPGKYVGLMETIRGFQMILSGELDGITEQSFYLVGNIDEATAKAMNSKTES"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA26"
             }
           },
@@ -6762,7 +6744,7 @@ EAISASPPVSN"
                     from 0,
                     to 136,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA26"
                     }
                   }
@@ -6774,7 +6756,7 @@ EAISASPPVSN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA27"
             }
           },
@@ -6804,7 +6786,7 @@ EAISASPPVSN"
                     from 0,
                     to 28,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA27"
                     }
                   }
@@ -6816,7 +6798,7 @@ EAISASPPVSN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA28"
             }
           },
@@ -6846,7 +6828,7 @@ EAISASPPVSN"
                     from 0,
                     to 35,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA28"
                     }
                   }
@@ -6858,7 +6840,7 @@ EAISASPPVSN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA29"
             }
           },
@@ -6888,7 +6870,7 @@ EAISASPPVSN"
                     from 0,
                     to 36,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA29"
                     }
                   }
@@ -6900,7 +6882,7 @@ EAISASPPVSN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA30"
             }
           },
@@ -6931,7 +6913,7 @@ EAISASPPVSN"
                     from 0,
                     to 28,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA30"
                     }
                   }
@@ -6943,7 +6925,7 @@ EAISASPPVSN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA31"
             }
           },
@@ -6987,7 +6969,7 @@ IISEKDFQIDREEV"
                     from 0,
                     to 1075,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA31"
                     }
                   }
@@ -6999,7 +6981,7 @@ IISEKDFQIDREEV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA32"
             }
           },
@@ -7038,7 +7020,7 @@ EMEEAIQGFARSEHPKKSLPALRI"
                     from 0,
                     to 695,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA32"
                     }
                   }
@@ -7050,7 +7032,7 @@ EMEEAIQGFARSEHPKKSLPALRI"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA33"
             }
           },
@@ -7095,7 +7077,7 @@ GRIDWLKGLKENVILGGIIPAGTGQHIHRSGKRNGMDPRMGNRNLFSKKVKDIFFHYHKVSFFSIQENSHNILKQPFK"
                     from 0,
                     to 1217,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA33"
                     }
                   }
@@ -7107,7 +7089,7 @@ GRIDWLKGLKENVILGGIIPAGTGQHIHRSGKRNGMDPRMGNRNLFSKKVKDIFFHYHKVSFFSIQENSHNILKQPFK"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA34"
             }
           },
@@ -7140,7 +7122,7 @@ PANDDGIASIQLILNRSTSAICEGRSLRSL"
                     from 0,
                     to 233,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA34"
                     }
                   }
@@ -7152,7 +7134,7 @@ PANDDGIASIQLILNRSTSAICEGRSLRSL"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA35"
             }
           },
@@ -7185,7 +7167,7 @@ PVSPVPSVVPIPVMFLGLFTSGIQALIFATLAAAYIGESMEGHH"
                     from 0,
                     to 247,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA35"
                     }
                   }
@@ -7197,7 +7179,7 @@ PVSPVPSVVPIPVMFLGLFTSGIQALIFATLAAAYIGESMEGHH"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA36"
             }
           },
@@ -7228,7 +7210,7 @@ IRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
                     from 0,
                     to 80,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA36"
                     }
                   }
@@ -7240,7 +7222,7 @@ IRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA37"
             }
           },
@@ -7272,7 +7254,7 @@ ETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRLNTELHLRTIDHNIGLLRTMMNTSD"
                     from 0,
                     to 183,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA37"
                     }
                   }
@@ -7284,7 +7266,7 @@ ETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRLNTELHLRTIDHNIGLLRTMMNTSD"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA38"
             }
           },
@@ -7320,7 +7302,7 @@ YTGTNGYLDILEIAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
                     from 0,
                     to 506,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA38"
                     }
                   }
@@ -7332,7 +7314,7 @@ YTGTNGYLDILEIAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA39"
             }
           },
@@ -7363,7 +7345,7 @@ YTGTNGYLDILEIAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
                     from 0,
                     to 32,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA39"
                     }
                   }
@@ -7375,7 +7357,7 @@ YTGTNGYLDILEIAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA40"
             }
           },
@@ -7412,7 +7394,7 @@ SDGVFRSSPRGWFTFGHATFALLFFSGHIWHGARTLFRDVFAGIDPDLDARIEFGAFQKLGDPTTKRQVV"
                     from 0,
                     to 507,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA40"
                     }
                   }
@@ -7424,7 +7406,7 @@ SDGVFRSSPRGWFTFGHATFALLFFSGHIWHGARTLFRDVFAGIDPDLDARIEFGAFQKLGDPTTKRQVV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA41"
             }
           },
@@ -7454,7 +7436,7 @@ SDGVFRSSPRGWFTFGHATFALLFFSGHIWHGARTLFRDVFAGIDPDLDARIEFGAFQKLGDPTTKRQVV"
                     from 0,
                     to 34,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA41"
                     }
                   }
@@ -7466,7 +7448,7 @@ SDGVFRSSPRGWFTFGHATFALLFFSGHIWHGARTLFRDVFAGIDPDLDARIEFGAFQKLGDPTTKRQVV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA42"
             }
           },
@@ -7496,7 +7478,7 @@ SDGVFRSSPRGWFTFGHATFALLFFSGHIWHGARTLFRDVFAGIDPDLDARIEFGAFQKLGDPTTKRQVV"
                     from 0,
                     to 42,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA42"
                     }
                   }
@@ -7508,7 +7490,7 @@ SDGVFRSSPRGWFTFGHATFALLFFSGHIWHGARTLFRDVFAGIDPDLDARIEFGAFQKLGDPTTKRQVV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA43"
             }
           },
@@ -7540,7 +7522,7 @@ LFAVFLSIILEIYNSSVLLDGIPVSWG"
                     from 0,
                     to 74,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA43"
                     }
                   }
@@ -7552,7 +7534,7 @@ LFAVFLSIILEIYNSSVLLDGIPVSWG"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA44"
             }
           },
@@ -7585,7 +7567,7 @@ MIRKQGIPGPL"
                     from 0,
                     to 214,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA44"
                     }
                   }
@@ -7597,7 +7579,7 @@ MIRKQGIPGPL"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA45"
             }
           },
@@ -7630,7 +7612,7 @@ PVATTVSLIGTAVALWLGIGAALPIDESLTLGLFQFDPTVEYKNLSIFYSYI"
                     from 0,
                     to 177,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA45"
                     }
                   }
@@ -7642,7 +7624,7 @@ PVATTVSLIGTAVALWLGIGAALPIDESLTLGLFQFDPTVEYKNLSIFYSYI"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA46"
             }
           },
@@ -7676,7 +7658,7 @@ RVYNCLRRANIHTLSDLLNYSREDLMRIERFGKESVEQVFEILRKRFAIDPPRN"
                     from 0,
                     to 335,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA46"
                     }
                   }
@@ -7688,7 +7670,7 @@ RVYNCLRRANIHTLSDLLNYSREDLMRIERFGKESVEQVFEILRKRFAIDPPRN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA47"
             }
           },
@@ -7720,7 +7702,7 @@ KRRV"
                     from 0,
                     to 129,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA47"
                     }
                   }
@@ -7732,7 +7714,7 @@ KRRV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA48"
             }
           },
@@ -7762,7 +7744,7 @@ KRRV"
                     from 0,
                     to 36,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA48"
                     }
                   }
@@ -7774,7 +7756,7 @@ KRRV"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA49"
             }
           },
@@ -7805,7 +7787,7 @@ PGDRVKVELSAYDLTKGRIIYRLSNKSSNN"
                     from 0,
                     to 77,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA49"
                     }
                   }
@@ -7817,7 +7799,7 @@ PGDRVKVELSAYDLTKGRIIYRLSNKSSNN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA50"
             }
           },
@@ -7849,7 +7831,7 @@ ILCYVW"
                     from 0,
                     to 131,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA50"
                     }
                   }
@@ -7861,7 +7843,7 @@ ILCYVW"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA51"
             }
           },
@@ -7892,7 +7874,7 @@ NMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPVAQELRQLNFTKIVSLAPEVL"
                     from 0,
                     to 121,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA51"
                     }
                   }
@@ -7904,7 +7886,7 @@ NMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPVAQELRQLNFTKIVSLAPEVL"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA52"
             }
           },
@@ -7936,7 +7918,7 @@ IRTQFVTT"
                     from 0,
                     to 133,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA52"
                     }
                   }
@@ -7948,7 +7930,7 @@ IRTQFVTT"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA53"
             }
           },
@@ -7981,7 +7963,7 @@ IYGVLGIKIWILEE"
                     from 0,
                     to 217,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA53"
                     }
                   }
@@ -7993,7 +7975,7 @@ IYGVLGIKIWILEE"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA54"
             }
           },
@@ -8025,7 +8007,7 @@ IMSIESRKRGYVWRRK"
                     from 0,
                     to 141,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA54"
                     }
                   }
@@ -8037,7 +8019,7 @@ IMSIESRKRGYVWRRK"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA55"
             }
           },
@@ -8068,7 +8050,7 @@ IAVHNGREHLPIYVTDRMVDHKLGEFAPTLLFQGHARNDKKSRR"
                     from 0,
                     to 91,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA55"
                     }
                   }
@@ -8080,7 +8062,7 @@ IAVHNGREHLPIYVTDRMVDHKLGEFAPTLLFQGHARNDKKSRR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA56"
             }
           },
@@ -8113,7 +8095,7 @@ SFGKAGAKRWLGKRSEVRGVAMNPVDHPHGGGEGRTPIGRKKPVTPWGYSALGKKSRKRNRYSDASILRRRE"
                     from 0,
                     to 275,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA56"
                     }
                   }
@@ -8125,7 +8107,7 @@ SFGKAGAKRWLGKRSEVRGVAMNPVDHPHGGGEGRTPIGRKKPVTPWGYSALGKKSRKRNRYSDASILRRRE"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA57"
             }
           },
@@ -8156,7 +8138,7 @@ AMNSYRLPEKGGKRGSMIGHPIRCKRMIITLKPSDSIPLFSEQ"
                     from 0,
                     to 90,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA57"
                     }
                   }
@@ -8168,7 +8150,7 @@ AMNSYRLPEKGGKRGSMIGHPIRCKRMIITLKPSDSIPLFSEQ"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA58"
             }
           },
@@ -8200,7 +8182,7 @@ SYPCKPQDVITIRDQQRLRDIIRKNLDLFQRDKLPNHLTFHSLQYKGFINQIIDSKWISLKINELLVVEYYSRQA"
                     from 0,
                     to 200,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA58"
                     }
                   }
@@ -8212,7 +8194,7 @@ SYPCKPQDVITIRDQQRLRDIIRKNLDLFQRDKLPNHLTFHSLQYKGFINQIIDSKWISLKINELLVVEYYSRQA"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA59"
             }
           },
@@ -8245,7 +8227,7 @@ QGDPETAEAWFDQAAEYWEQAIALAPGNYIEAQNWLKITGRFGE"
                     from 0,
                     to 169,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA59"
                     }
                   }
@@ -8257,7 +8239,7 @@ QGDPETAEAWFDQAAEYWEQAIALAPGNYIEAQNWLKITGRFGE"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA60"
             }
           },
@@ -8297,7 +8279,7 @@ GAHFIWAFSLMFLFSGRGYWQELIESIVWAHNKLKVAPAIQPRALSIVQGRAVGVAHYLLGGIVTTWAFFLARIIAVG"
                     from 0,
                     to 749,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA60"
                     }
                   }
@@ -8309,7 +8291,7 @@ GAHFIWAFSLMFLFSGRGYWQELIESIVWAHNKLKVAPAIQPRALSIVQGRAVGVAHYLLGGIVTTWAFFLARIIAVG"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA61"
             }
           },
@@ -8349,7 +8331,7 @@ ELIETLAWAHERTPLANLVRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
                     from 0,
                     to 733,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA61"
                     }
                   }
@@ -8361,7 +8343,7 @@ ELIETLAWAHERTPLANLVRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA62"
             }
           },
@@ -8392,7 +8374,7 @@ SPRNSAPTRLHRRCSSTGRPRANYRDFGLSGHILREMAHACLLPGITKSSW"
                     from 0,
                     to 98,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA62"
                     }
                   }
@@ -8404,7 +8386,7 @@ SPRNSAPTRLHRRCSSTGRPRANYRDFGLSGHILREMAHACLLPGITKSSW"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA63"
             }
           },
@@ -8435,7 +8417,7 @@ GSVLFVGILNSFISQICSRCFRLKLPPPLPEGFIALLKGLFLQVQGGGVFRN"
                     from 0,
                     to 99,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA63"
                     }
                   }
@@ -8447,7 +8429,7 @@ GSVLFVGILNSFISQICSRCFRLKLPPPLPEGFIALLKGLFLQVQGGGVFRN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA64"
             }
           },
@@ -8483,7 +8465,7 @@ VGHLWHAGRARAAAAGFEKGIDRDFEPVLSMTPLN"
                     from 0,
                     to 472,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA64"
                     }
                   }
@@ -8495,7 +8477,7 @@ VGHLWHAGRARAAAAGFEKGIDRDFEPVLSMTPLN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA65"
             }
           },
@@ -8529,7 +8511,7 @@ SAIGVVGLALNLRAYDFVSQEIRAAEDPESETFYTKNILLNEGIRAWMAAQDQPHENLIFPEEVLPRGNAL"
                     from 0,
                     to 352,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA65"
                     }
                   }
@@ -8541,7 +8523,7 @@ SAIGVVGLALNLRAYDFVSQEIRAAEDPESETFYTKNILLNEGIRAWMAAQDQPHENLIFPEEVLPRGNAL"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA66"
             }
           },
@@ -8576,7 +8558,7 @@ ENLLGFTRI"
                     from 0,
                     to 290,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA66"
                     }
                   }
@@ -8588,7 +8570,7 @@ ENLLGFTRI"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA67"
             }
           },
@@ -8625,7 +8607,7 @@ RPLRRNENLDNLDRTTLVRKNNEFYTSTPR"
                     from 0,
                     to 467,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA67"
                     }
                   }
@@ -8637,7 +8619,7 @@ RPLRRNENLDNLDRTTLVRKNNEFYTSTPR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA68"
             }
           },
@@ -8689,7 +8671,7 @@ DEELMERDQHLSVDTTQIIKRFLWPSYRLEDLICMNRYWFNTNDGSRSAMLRIRMYPLTFN"
                     from 0,
                     to 1746,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA68"
                     }
                   }
@@ -8701,7 +8683,7 @@ DEELMERDQHLSVDTTQIIKRFLWPSYRLEDLICMNRYWFNTNDGSRSAMLRIRMYPLTFN"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA69"
             }
           },
@@ -8732,7 +8714,7 @@ RGLWKILGKRKQLLIYLSKRDKLRYDDLIGQLGIRGLKTR"
                     from 0,
                     to 87,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA69"
                     }
                   }
@@ -8744,7 +8726,7 @@ RGLWKILGKRKQLLIYLSKRDKLRYDDLIGQLGIRGLKTR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA70"
             }
           },
@@ -8775,7 +8757,7 @@ AGCKRCESACPTDFLSVRVYLWHETTRSMGLAY"
                     from 0,
                     to 80,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA70"
                     }
                   }
@@ -8787,7 +8769,7 @@ AGCKRCESACPTDFLSVRVYLWHETTRSMGLAY"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA71"
             }
           },
@@ -8821,7 +8803,7 @@ QGEEPAIVASLGFSIVWIRYLGVDLLGIGLHSYGWLEP"
                     from 0,
                     to 319,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA71"
                     }
                   }
@@ -8833,7 +8815,7 @@ QGEEPAIVASLGFSIVWIRYLGVDLLGIGLHSYGWLEP"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA72"
             }
           },
@@ -8864,7 +8846,7 @@ IANDDSSGSSESKLTSIDLDDP"
                     from 0,
                     to 69,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA72"
                     }
                   }
@@ -8876,7 +8858,7 @@ IANDDSSGSSESKLTSIDLDDP"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA73"
             }
           },
@@ -8908,7 +8890,7 @@ AARGNGNAIRKKEETHRMAEANRAFAHFR"
                     from 0,
                     to 154,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA73"
                     }
                   }
@@ -8920,7 +8902,7 @@ AARGNGNAIRKKEETHRMAEANRAFAHFR"
         seq {
           id {
             general {
-              db "WS77111cp",
+              db "DB47CP",
               tag str "cds.mRNA74"
             }
           },
@@ -8977,7 +8959,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                     from 0,
                     to 2125,
                     id general {
-                      db "WS77111cp",
+                      db "DB47CP",
                       tag str "cds.mRNA74"
                     }
                   }
@@ -8999,7 +8981,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA1"
               },
               location int {
@@ -9026,7 +9008,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA2"
               },
               location int {
@@ -9053,7 +9035,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA3"
               },
               location int {
@@ -9080,7 +9062,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA4"
               },
               location int {
@@ -9107,7 +9089,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA5"
               },
               location int {
@@ -9134,7 +9116,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA6"
               },
               location int {
@@ -9161,7 +9143,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA7"
               },
               location int {
@@ -9189,7 +9171,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
               },
               except TRUE,
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA8"
               },
               location mix {
@@ -9231,7 +9213,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA9"
               },
               location int {
@@ -9258,7 +9240,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA10"
               },
               location int {
@@ -9285,7 +9267,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA11"
               },
               location int {
@@ -9312,7 +9294,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA12"
               },
               location int {
@@ -9339,7 +9321,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA13"
               },
               location int {
@@ -9366,7 +9348,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA14"
               },
               location int {
@@ -9393,7 +9375,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA15"
               },
               location int {
@@ -9420,7 +9402,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA16"
               },
               location int {
@@ -9447,7 +9429,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA17"
               },
               location int {
@@ -9474,7 +9456,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA18"
               },
               location int {
@@ -9501,7 +9483,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA19"
               },
               location int {
@@ -9528,7 +9510,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA20"
               },
               location int {
@@ -9555,7 +9537,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA21"
               },
               location int {
@@ -9582,7 +9564,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA22"
               },
               location int {
@@ -9609,7 +9591,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA23"
               },
               location int {
@@ -9636,7 +9618,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA24"
               },
               location int {
@@ -9663,7 +9645,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA25"
               },
               location int {
@@ -9690,7 +9672,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA26"
               },
               location int {
@@ -9717,7 +9699,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA27"
               },
               location int {
@@ -9744,7 +9726,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA28"
               },
               location int {
@@ -9771,7 +9753,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA29"
               },
               location int {
@@ -9798,7 +9780,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA30"
               },
               location int {
@@ -9825,7 +9807,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA31"
               },
               location int {
@@ -9852,7 +9834,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA32"
               },
               location mix {
@@ -9887,7 +9869,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA33"
               },
               location int {
@@ -9914,7 +9896,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA34"
               },
               location int {
@@ -9941,7 +9923,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA35"
               },
               location int {
@@ -9968,7 +9950,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA36"
               },
               location int {
@@ -9995,7 +9977,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA37"
               },
               location mix {
@@ -10030,7 +10012,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA38"
               },
               location int {
@@ -10057,7 +10039,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA39"
               },
               location int {
@@ -10084,7 +10066,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA40"
               },
               location int {
@@ -10111,7 +10093,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA41"
               },
               location int {
@@ -10138,7 +10120,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA42"
               },
               location int {
@@ -10165,7 +10147,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA43"
               },
               location int {
@@ -10192,7 +10174,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA44"
               },
               location mix {
@@ -10227,7 +10209,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA45"
               },
               location mix {
@@ -10262,7 +10244,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA46"
               },
               location int {
@@ -10289,7 +10271,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA47"
               },
               location int {
@@ -10316,7 +10298,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA48"
               },
               location int {
@@ -10343,7 +10325,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA49"
               },
               location int {
@@ -10370,7 +10352,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA50"
               },
               location int {
@@ -10397,7 +10379,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA51"
               },
               location int {
@@ -10424,7 +10406,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA52"
               },
               location mix {
@@ -10459,7 +10441,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA53"
               },
               location int {
@@ -10486,7 +10468,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA54"
               },
               location int {
@@ -10513,7 +10495,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA55"
               },
               location int {
@@ -10540,7 +10522,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA56"
               },
               location mix {
@@ -10575,7 +10557,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA57"
               },
               location int {
@@ -10602,7 +10584,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA58"
               },
               location int {
@@ -10629,7 +10611,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA59"
               },
               location mix {
@@ -10670,7 +10652,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA60"
               },
               location int {
@@ -10697,7 +10679,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA61"
               },
               location int {
@@ -10724,7 +10706,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA62"
               },
               location int {
@@ -10751,7 +10733,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA63"
               },
               location int {
@@ -10778,7 +10760,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA64"
               },
               location int {
@@ -10805,7 +10787,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA65"
               },
               location int {
@@ -10832,7 +10814,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA66"
               },
               location int {
@@ -10859,7 +10841,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA67"
               },
               location int {
@@ -10886,7 +10868,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA68"
               },
               location int {
@@ -10913,7 +10895,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA69"
               },
               location int {
@@ -10940,7 +10922,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA70"
               },
               location int {
@@ -10967,7 +10949,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA71"
               },
               location int {
@@ -10994,7 +10976,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA72"
               },
               location int {
@@ -11021,7 +11003,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA73"
               },
               location int {
@@ -11048,7 +11030,7 @@ QYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFHISRDNL"
                 }
               },
               product whole general {
-                db "WS77111cp",
+                db "DB47CP",
                 tag str "cds.mRNA74"
               },
               location int {

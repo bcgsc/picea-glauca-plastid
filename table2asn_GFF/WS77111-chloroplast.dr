@@ -33,8 +33,8 @@ FEATURE_COUNT: tRNA: 36 present
 SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
 SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
 SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
-WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A1	lcl|WS77111cp:75131-77383	WS77111cp_000082
-WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A2	lcl|WS77111cp:77409-79613	WS77111cp_000083
+WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A1	lcl|WS77111cp:75131-77383	DB47CP_000082
+WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A2	lcl|WS77111cp:77409-79613	DB47CP_000083
 INCONSISTENT_STRUCTURED_COMMENTS: Structured Comment Report (all present, all same)
 INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Assembly Method (all present, all same)
 INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Assembly Method value 'ABySS v. 2.1.0; LINKS v. 1.8.5'
