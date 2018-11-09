@@ -14,12 +14,13 @@ FEATURE_COUNT: tRNA: 36 present
 SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
 	May contain database identifier more appropriate in note; remove from product name
 		2 features contains three or more numbers together that may be identifiers more appropriate in note
+INCONSISTENT_STRUCTURED_COMMENTS: Structured Comment Report (all present, all same)
 ALL_SEQS_CIRCULAR: All (1) sequences are circular
 
 Detailed Report
 
 COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
-../WS77111-chloroplast.fa:WS77111cp (length 123421)
+WS77111-chloroplast.fa:WS77111cp (length 123421)
 SOURCE_QUALS: isolate (all present, all unique)
 SOURCE_QUALS: taxname (all present, all unique)
 SOURCE_QUALS: taxid (all present, all unique)
@@ -32,6 +33,16 @@ FEATURE_COUNT: tRNA: 36 present
 SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
 SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
 SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
-../WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A1	lcl|WS77111cp:75131-77383	WS77111cp_000082
-../WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A2	lcl|WS77111cp:77409-79613	WS77111cp_000083
+WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A1	lcl|WS77111cp:75131-77383	WS77111cp_000082
+WS77111-chloroplast.fa:CDS	photosystem I P700 apoprotein A2	lcl|WS77111cp:77409-79613	WS77111cp_000083
+INCONSISTENT_STRUCTURED_COMMENTS: Structured Comment Report (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Assembly Method (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Assembly Method value 'ABySS v. 2.1.0; LINKS v. 1.8.5'
+WS77111-chloroplast.fa:WS77111cp:StructuredComment
+INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Genome Coverage (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Genome Coverage value '43x'
+WS77111-chloroplast.fa:WS77111cp:StructuredComment
+INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Sequencing Technology (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Sequencing Technology value 'Illumina HiSeq'
+WS77111-chloroplast.fa:WS77111cp:StructuredComment
 ALL_SEQS_CIRCULAR: All (1) sequences are circular

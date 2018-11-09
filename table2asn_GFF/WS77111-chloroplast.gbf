@@ -20,13 +20,13 @@ REFERENCE   2  (bases 1 to 123421)
   JOURNAL   Submitted (09-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
             Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
 COMMENT     Bankit Comment: ALT EMAIL:rwarren@bcgsc.ca
-            Bankit Comment: Submission Title:None.
+            Bankit Comment: Submission Title:None
+            
             ##Genome-Assembly-Data-START##
             Assembly Method       :: ABySS v. 2.1.0; LINKS v. 1.8.5
             Genome Coverage       :: 43x
             Sequencing Technology :: Illumina HiSeq
-            ##Genome-Assembly-Data-END##
-
+            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..123421
                      /organism="Picea glauca"
