@@ -27,6 +27,7 @@ WS77111cp	GeSeq	CDS	6881	7060	.	+	0	Parent=mRNA4;Name=CDS-psbK;translation=MPVML
 WS77111cp	GeSeq	gene	7549	7659	.	+	.	ID=gene7;Name=psbI;note=blatX_hit psbI_NC_032367.1%3B position 1 - 111%3B coverage 100.00%25%3B match 100.00%25;gene=psbI
 WS77111cp	manual	mRNA	7549	7659	.	+	.	ID=mRNA5;Parent=gene7;gene=psbI
 WS77111cp	GeSeq	CDS	7549	7659	.	+	0	Parent=mRNA5;Name=CDS-psbI;translation=MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE;product=photosystem II protein I;gene=psbI
+WS77111cp	manual	exon	7549	7659	.	+	.	Parent=mRNA5;gene=psbI
 WS77111cp	GeSeq	gene	7736	7823	.	-	.	ID=gene8;Name=trnS-GCU;note=blatN_hit trnS-GCU_NC_032367.1%3B position 1 - 88%3B coverage 100.00%25%3B match 100.00%25;gene=trnS-GCU
 WS77111cp	GeSeq	tRNA	7736	7823	.	-	.	ID=tRNA3;Parent=gene8;product=tRNA-Ser;gene=trnS-GCU
 WS77111cp	manual	exon	7736	7823	.	-	.	Parent=tRNA3;gene=trnS-GCU
@@ -303,7 +304,7 @@ WS77111cp	manual	CDS	65029	65459	.	-	2	Parent=mRNA56;Name=CDS-rpl2;product=ribos
 WS77111cp	GeSeq	exon	65029	65459	.	-	.	Parent=mRNA56;gene=rpl2
 WS77111cp	GeSeq	intron	65460	66136	.	-	.	Parent=mRNA56;gene=rpl2
 WS77111cp	GeSeq	exon	66137	66536	.	-	.	Parent=mRNA56;gene=rpl2
-WS77111cp	manual	CDS	66137	66536	.	-	0	Parent=mRNA56;gene=rpl2
+WS77111cp	manual	CDS	66137	66536	.	-	0	Parent=mRNA56;gene=rpl2;Name=CDS-rpl2;product=ribosomal protein L2
 WS77111cp	GeSeq	gene	66564	66839	.	-	.	ID=gene75;Name=rpl23;note=blatX_hit rpl23_NC_028594.1%3B position 1 - 276%3B coverage 100.00%25%3B match 100.00%25;gene=rpl23
 WS77111cp	manual	mRNA	66564	66839	.	-	.	ID=mRNA57;Parent=gene75;gene=rpl23
 WS77111cp	manual	exon	66564	66839	.	-	.	Parent=mRNA57;gene=rpl23
