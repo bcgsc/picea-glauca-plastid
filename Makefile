@@ -4,7 +4,7 @@
 %.coords: %.delta
 	show-coords -r $< > $@
 %.repeats: %.fa
-	repeat-match -n $< > $@
+	repeat-match -n 200 $< > $@
 
 
 # Using minidot
