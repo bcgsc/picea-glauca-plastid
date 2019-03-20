@@ -1,0 +1,8 @@
+Argument "false\n" isn't numeric in division (/) at ../lib/GeneMap/Plastome.pm line 651.
+Use of uninitialized value $IRA_end in division (/) at ../lib/GeneMap/Plastome.pm line 652.
+Use of uninitialized value $IRB_start in division (/) at ../lib/GeneMap/Plastome.pm line 653.
+Use of uninitialized value $IRB_end in division (/) at ../lib/GeneMap/Plastome.pm line 654.
+Use of uninitialized value $maxColor in print at ./ogdraw line 238.
+Use of uninitialized value $transcript_legend in numeric eq (==) at ../lib/GeneMap/Plastome.pm line 1987.
+
+calculating GC content graph...
