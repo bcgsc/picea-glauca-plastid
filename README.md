@@ -1,5 +1,5 @@
-# Plastid genome of White spruce (*Picea glauca*)
-:evergreen_tree: Annotation of the plastid genome of white spruce (*Picea glauca*)
+# Plastid genome of White spruce (*Picea glauca*), genotype WS77111
+:evergreen_tree: Annotation of the plastid genome of white spruce (*Picea glauca*), genotype WS77111
 [https://www.ncbi.nlm.nih.gov/nuccore/MK174379](https://www.ncbi.nlm.nih.gov/nuccore/MK174379)
 
 ![WS77111 chloroplast genome](https://github.com/bcgsc/picea-glauca-plastid/blob/master/ogdraw/ogdraw-WS77111-chloroplast-outfile-preview.png)
