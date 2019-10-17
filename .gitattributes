@@ -1,1 +1,2 @@
-*.R linguist-vendored
+alignments/final-blasts.R linguist-vendored
+minimap2/minidot-master/R/minidot.R linguist-vendored
